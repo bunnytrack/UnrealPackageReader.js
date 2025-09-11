@@ -965,31 +965,31 @@ $(function() {
 				}
 			}
 
-            const lights = package.getObjectsByType("Light");
+			const lights = package.getObjectsByType("Light");
 
-            if (lights.length > 0) {
-                const spriteMap      = new THREE.TextureLoader().load("icons/s_light.png");
-                const spriteMaterial = new THREE.SpriteMaterial({map: spriteMap});
+			if (lights.length > 0) {
+				const spriteMap      = new THREE.TextureLoader().load("icons/s_light.png");
+				const spriteMaterial = new THREE.SpriteMaterial({map: spriteMap});
 
-                for (const light of lights) {
-                    const props = package.getObjectProperties(light, light.object_flags);
+				for (const light of lights) {
+					const props = package.getObjectProperties(light, light.object_flags);
 
-                    const propObj = {};
-                    props.forEach(p => propObj[p.name.toLowerCase()] = p.value);
+					const propObj = {};
+					props.forEach(p => propObj[p.name.toLowerCase()] = p.value);
 
-                    const sprite = new THREE.Sprite(spriteMaterial);
+					const sprite = new THREE.Sprite(spriteMaterial);
 
-                    const drawScale = propObj.drawscale || 1;
+					const drawScale = propObj.drawscale || 1;
 
-                    sprite.scale.set(32 * drawScale, 32 * drawScale, 32 * drawScale);
+					sprite.scale.set(32 * drawScale, 32 * drawScale, 32 * drawScale);
 
-                    sprite.position.x = propObj.location.x;
-                    sprite.position.y = propObj.location.z;
-                    sprite.position.z = propObj.location.y;
+					sprite.position.x = propObj.location.x;
+					sprite.position.y = propObj.location.z;
+					sprite.position.z = propObj.location.y;
 
-                    scene.add(sprite);
-                }
-            }
+					scene.add(sprite);
+				}
+			}
 
 			camera.position.x = 0;
 			camera.position.y = 1024;
