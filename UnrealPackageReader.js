@@ -1,11 +1,11 @@
-window.UTReader = function(arrayBuffer) {
+window.UnrealPackageReader = function(arrayBuffer) {
 	/**
 	 * Globally accessible DataView object of this file
 	 */
 	this.dataView = new DataView(arrayBuffer);
 
 	/**
-	 * Reference to UTReader object; used to access global variables and functions
+	 * Reference to UnrealPackageReader object; used to access global variables and functions
 	 */
 	const reader = this;
 
