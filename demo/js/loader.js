@@ -646,16 +646,12 @@ $(function () {
         tableData.push([
           sound.name,
           sound.packageName || "—",
-          readableFileSize(sound.size),
+          sound.size,
           sound.format.toUpperCase(),
           sound.channels ?? "—",
-          sound.sample_rate !== undefined
-            ? `${sound.sample_rate / 1000} kHz`
-            : "—",
-          sound.bit_depth !== undefined ? `${sound.bit_depth}-bit` : "—",
-          sound.byte_rate !== undefined
-            ? `${(Math.round(sound.byte_rate) * 8) / 1000} kb/s`
-            : "—",
+          sound.sample_rate ?? "—",
+          sound.bit_depth ?? "—",
+          sound.byte_rate ?? "—",
           `
             <div class="audio-wrapper">
               <audio preload="none" controls></audio>
@@ -674,12 +670,24 @@ $(function () {
         columns: [
           null,
           null,
+          {
+            render: function (data, type, row, meta) {
+              if (type === "display") {
+                return readableFileSize(data);
+              }
+              return data;
+            },
+          },
           null,
           null,
-          null,
-          null,
-          null,
-          null,
+          { render: formatColumn((data) => `${data / 1000} kHz`, "—") },
+          { render: formatColumn((data) => `${data}-bit`, "—") },
+          {
+            render: formatColumn(
+              (data) => `${(Math.round(data) * 8) / 1000} kb/s`,
+              "—",
+            ),
+          },
           {
             orderable: false,
           },
@@ -2288,7 +2296,7 @@ $(function () {
             object.className || "MyLevel",
             object.parentObjectName || "—",
             object.packageName || "—",
-            `0x${object.serial_offset.toString(16).toUpperCase()}`,
+            object.serial_offset,
             object.serial_size,
           ]);
         }
@@ -2320,12 +2328,11 @@ $(function () {
             ) {
               cell.classList.add("mono");
             },
+            render: formatColumn(
+              (data) => `0x${data.toString(16).toUpperCase()}`,
+            ),
           },
-          {
-            render: function (data, type, row, meta) {
-              return readableFileSize(data);
-            },
-          },
+          { render: formatColumn((data) => readableFileSize(data)) },
         ],
       });
     }
@@ -2763,6 +2770,15 @@ $(function () {
   Array.prototype.naturalSort = function () {
     return this.sort((a, b) => (a.toLowerCase() < b.toLowerCase() ? -1 : 1));
   };
+
+  function formatColumn(formatter, placeholder = null) {
+    return function (data, type, row, meta) {
+      if (type !== "display" || data === placeholder) {
+        return data;
+      }
+      return formatter(data);
+    };
+  }
 
   function getSortedKeys(object) {
     return Object.keys(object).naturalSort();
