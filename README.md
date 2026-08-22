@@ -1,4 +1,4 @@
-# UTPackage.js
+# UnrealPackageReader.js
 
 A JavaScript plugin for reading [Unreal Tournament](https://en.wikipedia.org/wiki/Unreal_Tournament) package data. This has been successfully tested with a few other Unreal Engine 1 games including Deus Ex, Rune, Harry Potter and the Philosopher's Stone/Chamber of Secrets, Clive Barker's Undying, Nerf Arena Blast, and The Wheel of Time.
 
@@ -7,7 +7,7 @@ This plugin is largely based on the following package-readers:
 * [PHP UPackage](https://ut99.org/viewtopic.php?t=4796) by Feralidragon
 * [Unreal Tournament Package Tool](https://www.acordero.org/projects/unreal-tournament-package-tool/) by Antonio Cordero Balcázar
 
-The main difference between UTPackage.js and the above readers (besides the programming language) is that this is web-oriented, providing textures as [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) objects and brush geometry in a format suitable for use with [three.js](https://threejs.org/), for example.
+The main difference between UnrealPackageReader.js and the above readers (besides the programming language) is that this is web-oriented, providing textures as [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) objects and brush geometry in a format suitable for use with [three.js](https://threejs.org/), for example.
 
 ## Demo
 Visit https://bunnytrack.net/package-explorer/ and drag a UT package (map, texture, sound, etc.) to see what the plugin is capable of:
@@ -19,24 +19,24 @@ Visit https://bunnytrack.net/package-explorer/ and drag a UT package (map, textu
 ---
 
 ## Usage
-Create an instance of UTReader by passing an `ArrayBuffer` as the only argument:
+Create an instance of UnrealPackageReader by passing an `ArrayBuffer` as the only argument:
 
 ```js
-const reader = new UTReader(arrayBuffer);
+const reader = new UnrealPackageReader(arrayBuffer);
 ```
 
 **Example with HTML**
 ```html
 <input type="file" id="file-input" />
 
-<script src="./UTReader.js"></script>
+<script src="UnrealPackageReader.js"></script>
 <script>
     document.getElementById("file-input").addEventListener("input", function() {
         for (const file of this.files) {
             const fileReader = new FileReader();
 
             fileReader.onload = function() {
-                const reader  = new UTReader(this.result);
+                const reader  = new UnrealPackageReader(this.result);
                 const package = reader.readPackage();
 
                 // Get package version
@@ -64,6 +64,10 @@ const reader = new UTReader(arrayBuffer);
 ---
 
 ## Methods
+
+> [!WARNING]
+> Unfortunately everything from this point on is very out of date. This project was written many years ago in plain JavaScript, with no JSDoc annotations or anything to help with typing at all. Sorry about that. One day, I might rewrite this in TypeScript.
+
 The most useful methods have been documented here, although there are several more available in the source (most of which are in use on the demo page linked above).
 
 ### `getLevelSummary(allProperties = false : Bool)` returns *Object*
