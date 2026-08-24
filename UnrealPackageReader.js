@@ -229,7 +229,10 @@ var UnrealPackageReader = function (arrayBuffer) {
 
       const properties = (this.#properties = []);
 
-      if (!this.hasData) return properties;
+      if (!this.hasData) {
+        this.#propertiesEndOffset = reader.offset;
+        return properties;
+      }
 
       reader.seek(this.serial_offset);
 
@@ -237,6 +240,11 @@ var UnrealPackageReader = function (arrayBuffer) {
       if (this.hasFlag(reader.objectFlags.RF_HasStack)) {
         // Not actually a property but include it anyway for completeness
         properties.push(new StateFrame());
+      }
+
+      if (this.class_index === 0) {
+        this.#propertiesEndOffset = reader.offset;
+        return properties;
       }
 
       // The first byte of property block is a name table index
