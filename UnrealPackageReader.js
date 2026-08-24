@@ -59,37 +59,62 @@ var UnrealPackageReader = function (arrayBuffer) {
   const BigInt64 = () => readBytes(reader.dataView.getBigInt64, 8);
   const BigUint64 = () => readBytes(reader.dataView.getBigUint64, 8);
 
+  /**
+   * A compact index is a variable-length signed integer spanning 1-5 bytes:
+   *
+   *   byte 1     bit 8 = sign, bit 7 = continuation, bits 1-6 = value
+   *   bytes 2-5  bit 8 = continuation, bits 1-7 = value
+   *
+   * 6 + 7 + 7 + 7 bits leaves only 5 bits for the fifth byte, making 32 in
+   * total - the most a compact index can hold. The fifth byte is therefore
+   * terminal, and a conforming encoder can never set its continuation bit,
+   * because the value that bit would continue has already used every bit
+   * available to it.
+   *
+   * The engine ignores that bit rather than checking it. Ignoring it only
+   * bounds the damage instead of reporting it though: if the bit is set then
+   * the bytes are rubbish, and everything read after them is meaningless
+   * whatever we do here - so this throws instead.
+   */
+  const MAX_COMPACT_INDEX_BYTES = 5;
+
   const CompactIndex = () => {
-    let value = Uint8();
+    const firstByte = Uint8();
 
-    // Bit 8 = if set, result will be a negative number
-    const isNegative = value & 0b10000000;
+    const isNegative = firstByte & 0b10000000;
+    let hasMoreBytes = firstByte & 0b01000000;
+    let value = firstByte & 0b00111111;
 
-    // Bit 7 = if set, value continues into next byte
-    let readNextByte = value & 0b01000000;
+    let bytesRead = 1;
+    let shift = 6;
 
-    // Bits 1-6 = actual value
-    value = value & 0b00111111;
-
-    for (
-      let byteNum = 2, shiftAmt = 6;
-      readNextByte;
-      byteNum++, shiftAmt += 7
-    ) {
+    while (hasMoreBytes && bytesRead < MAX_COMPACT_INDEX_BYTES) {
       const byte = Uint8();
+      bytesRead++;
 
-      // Bit 8 is now the continuation flag, so read bits 1-7 for the value.
-      // If the value spans 5 bytes, then only read bits 1-5 of the final byte
-      // to make up a total of 32 bits (the most a compact index can store).
-      const valueBitMask = byteNum < 5 ? 0b01111111 : 0b00011111;
+      const isFinalByte = bytesRead === MAX_COMPACT_INDEX_BYTES;
+      const valueBits = isFinalByte ? 0b00011111 : 0b01111111;
 
-      // JavaScript converts to signed integers when shifting left,
-      // so use zero-fill right shift to convert back to unsigned.
-      value = (((byte & valueBitMask) << shiftAmt) | value) >>> 0;
-      readNextByte = byte & 0b10000000;
+      value = ((byte & valueBits) << shift) | value;
+      shift += 7;
+
+      hasMoreBytes = byte & 0b10000000;
+
+      if (isFinalByte && hasMoreBytes) {
+        const hex = byte.toString(16).padStart(2, "0");
+
+        throw new Error(
+          `Invalid compact index at offset ${reader.offset - 1}: ` +
+            `byte ${bytesRead} (0x${hex}) sets the continuation bit, but a ` +
+            `compact index holds at most ${MAX_COMPACT_INDEX_BYTES} bytes`,
+        );
+      }
     }
 
-    return isNegative ? -value : value;
+    // Match the engine's signed 32-bit INT: `| 0` re-wraps a negation that
+    // leaves int32 range, and turns JavaScript's -0 into the 0 a C++ int
+    // negation gives.
+    return (isNegative ? -value : value) | 0;
   };
 
   // Return a name from the name table from a given index,
@@ -1906,7 +1931,9 @@ var UnrealPackageReader = function (arrayBuffer) {
     header.signature = Uint32();
 
     if (header.signature !== SIGNATURE_UT) {
-      throw `Invalid package signature: 0x${header.signature.toString(16).padStart(8, 0)}`;
+      throw new Error(
+        `Invalid package signature: 0x${header.signature.toString(16).padStart(8, "0")}`,
+      );
     }
 
     header.version = Uint16();
