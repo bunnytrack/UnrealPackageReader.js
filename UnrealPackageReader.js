@@ -634,7 +634,7 @@ var UnrealPackageReader = function (arrayBuffer) {
       this.x = Float32();
       this.y = Float32();
       this.z = Float32();
-      this.sheer_rate = Uint32();
+      this.sheer_rate = Float32();
       this.sheer_axis = Uint8();
     }
   }
@@ -642,7 +642,7 @@ var UnrealPackageReader = function (arrayBuffer) {
   class PointRegion {
     constructor() {
       this.zone = CompactIndex();
-      this.i_leaf = Uint32();
+      this.i_leaf = Int32();
       this.zone_number = Uint8();
     }
   }
@@ -686,9 +686,9 @@ var UnrealPackageReader = function (arrayBuffer) {
       this.i_plane = CompactIndex();
       this.i_collision_bound = CompactIndex();
       this.i_render_bound = CompactIndex();
-      this.i_zone = TArray(CompactIndex, 2);
+      this.i_zone = TArray(Uint8, 2);
       this.vertices = Uint8();
-      this.i_leaf = TArray(Uint32, 2);
+      this.i_leaf = TArray(Int32, 2);
     }
   }
 
@@ -724,9 +724,9 @@ var UnrealPackageReader = function (arrayBuffer) {
       let y = ((xyz >> 11) & 0x7ff) / 8;
       let z = ((xyz >> 22) & 0x3ff) / 4;
 
-      if (x > 128) x -= 256;
-      if (y > 128) y -= 256;
-      if (z > 128) z -= 256;
+      if (x >= 128) x -= 256;
+      if (y >= 128) y -= 256;
+      if (z >= 128) z -= 256;
 
       // Deus Ex
       /*const xyz = Number(BigUint64());
@@ -774,7 +774,7 @@ var UnrealPackageReader = function (arrayBuffer) {
 
   class MeshAnimNotify {
     constructor() {
-      this.time = Uint32();
+      this.time = Float32();
       this.function_name = Name();
     }
   }
@@ -943,11 +943,8 @@ var UnrealPackageReader = function (arrayBuffer) {
       this.item_name = CompactIndex();
       this.link = CompactIndex();
       this.brush_poly = CompactIndex();
-      this.pan_u = Uint16();
-      this.pan_v = Uint16();
-
-      if (this.pan_u > 0x8000) this.pan_u |= 0xffff0000;
-      if (this.pan_v > 0x8000) this.pan_v |= 0xffff0000;
+      this.pan_u = Int16();
+      this.pan_v = Int16();
     }
   }
 
