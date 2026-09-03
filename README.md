@@ -64,10 +64,10 @@ utPackage.getTextureObjects(); // one export table entry per texture
 ## API documentation
 
 The full API reference is generated from the source and published at
-[bunnytrack.github.io/UnrealPackageReader.js](https://bunnytrack.github.io/UnrealPackageReader.js/).
+[bunnytrack.github.io/unreal-package-reader](https://bunnytrack.github.io/unreal-package-reader/).
 
 What you're most likely after is the
-[`UnrealPackageReader` class](https://bunnytrack.github.io/UnrealPackageReader.js/classes/reader.UnrealPackageReader.html)
+[`UnrealPackageReader` class](https://bunnytrack.github.io/unreal-package-reader/classes/reader.UnrealPackageReader.html)
 page, where you'll find the methods for fetching objects, textures, sounds,
 brushes, dependencies and level summaries.
 
