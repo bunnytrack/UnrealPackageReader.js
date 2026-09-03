@@ -1,0 +1,294 @@
+package  ut99-436/system/SpaceMarine40K.u
+bytes    526679
+sha256   9ad11daaa6790041820931507145ec2b1d124884065f0d6c1046cd62e38448c6
+
+[header]
+  signature           0x9e2a83c1
+  version             69
+  licensee_version    0
+  package_flags       0x00000001
+  name_count          161
+  name_offset         64
+  export_count        50
+  export_offset       525853
+  import_count        44
+  import_offset       525473
+  guid                5FB95CD04322BB301B16C1882B19DEFE
+  generation_count    1
+  generation[0]       exports=50 names=161
+
+[classes] 11
+  byteproperty            2
+  function                3
+  lodmesh                 1
+  objectproperty          2
+  package                 2
+  palette                 1
+  skeletalmesh            1
+  sound                   16
+  strproperty             14
+  textbuffer              3
+  texture                 2
+
+[names] 161
+      0  0x04070410  None
+      1  0x00070010  WAV
+      2  0x00070010  SetSkinElement
+      3  0x00070010  Deaths
+      4  0x00070010  GetItemName
+      5  0x00070010  InternalTime
+      6  0x04070010  Core
+      7  0x00070010  Botpack
+      8  0x00070010  SpaceMarine40K
+      9  0x04070010  Engine
+     10  0x04070010  Die
+     11  0x04070410  Color
+     12  0x00070010  Footstep1
+     13  0x00070010  TeamSkin2
+     14  0x00070010  DefaultPackage
+     15  0x04070010  System
+     16  0x00070010  HitSound4
+     17  0x00070010  SkeletalChars
+     18  0x00070010  StatusBelt
+     19  0x00070010  USize
+     20  0x00070010  VSize
+     21  0x00070010  Palette
+     22  0x00070010  StatusDoll
+     23  0x00070010  FaceSkin
+     24  0x00070010  Mesh
+     25  0x00070010  Footstep3
+     26  0x00070010  Footstep2
+     27  0x00070010  drown
+     28  0x00070010  breathagain
+     29  0x00070010  HitSound3
+     30  0x00070010  HitSound2
+     31  0x00070010  Land
+     32  0x00070010  VBits
+     33  0x00070010  VClamp
+     34  0x00070010  UClamp
+     35  0x00070010  UBits
+     36  0x00070010  MipZero
+     37  0x00070010  LandGrunt
+     38  0x00070010  SetMultiSkin
+     39  0x00070010  MenuName
+     40  0x00070010  SelectionMesh
+     41  0x00070010  SpecialMesh
+     42  0x00070010  HitSound1
+     43  0x00070010  DefaultSkinName
+     44  0x00070010  JumpSound
+     45  0x04070010  All
+     46  0x00070010  Marine40KBot
+     47  0x00070010  Dummy07
+     48  0x00070010  Bip01 L Foot
+     49  0x00070010  Bip01 R Finger01
+     50  0x00070010  Bip01 L Calf
+     51  0x00070010  Dummy03
+     52  0x00070010  Dummy05
+     53  0x00070010  Bip01 Spine
+     54  0x00070010  Bip01 R Foot
+     55  0x00070010  Bip01 L Finger0
+     56  0x00070010  Bip01 R Toe0
+     57  0x00070010  Dummy09
+     58  0x00070010  Bip01
+     59  0x00070010  Bip01 L Toe0
+     60  0x00070010  Breath2
+     61  0x00070010  ForceMeshToExist
+     62  0x00070010  Bip01 L UpperArm
+     63  0x00070010  Bip01 Head
+     64  0x00070010  Dummy02
+     65  0x00070010  Bone_R_shoulder
+     66  0x00070010  Bip01 R Forearm
+     67  0x00070010  Bip01 R Calf
+     68  0x00070010  Breath1
+     69  0x00070010  SelectMarine40K
+     70  0x00070010  Bip01 Pelvis
+     71  0x00070010  Bip01 L Finger12
+     72  0x00070010  Breath3
+     73  0x00070010  Bip01 L Finger1
+     74  0x00070010  Bip01 R Finger02
+     75  0x00070010  Marine40K
+     76  0x04070010  User
+     77  0x00070010  Bip01 R Thigh
+     78  0x00070010  Bip01 R Clavicle
+     79  0x00070010  Bip01 R Finger1
+     80  0x00070010  Dummy08
+     81  0x00070010  Bip01 R Finger0
+     82  0x00070010  Dummy01
+     83  0x00070010  Dummy04
+     84  0x00070010  Bip01 R Hand
+     85  0x00070010  Dummy06
+     86  0x00070010  Bip01 Spine2
+     87  0x00070010  Bip01 Spine1
+     88  0x00070010  Bip01 Neck
+     89  0x00070010  Bip01 L Finger11
+     90  0x00070010  Bip01 R UpperArm
+     91  0x00070010  Bip01 R Finger11
+     92  0x00070010  Bip01 L Finger01
+     93  0x00070010  Bip01 L Thigh
+     94  0x00070010  Bone_L_shoulder
+     95  0x00070010  Bip01 L Finger02
+     96  0x00070010  Bip01 L Forearm
+     97  0x00070010  Bip01 R Finger12
+     98  0x00070010  Bip01 L Hand
+     99  0x00070010  Bip01 Neck1
+    100  0x00070010  Bip01 L Clavicle
+    101  0x00070010  Animation
+    102  0x00070010  Icons
+    103  0x00070010  Pawn
+    104  0x00070010  Actor
+    105  0x00070010  FaceItem
+    106  0x04070010  Texture
+    107  0x00070010  SkinPackage
+    108  0x04070010  IntProperty
+    109  0x00070010  FacePackage
+    110  0x00070010  SelectionDude
+    111  0x00070010  SkeletalMesh
+    112  0x00070010  FixedSkin
+    113  0x04070010  Sound
+    114  0x00070010  TournamentPlayer
+    115  0x00070010  LodMesh
+    116  0x04070010  ObjectProperty
+    117  0x00070010  ScriptText
+    118  0x00070010  PlayerReplicationInfo
+    119  0x00070010  DynamicLoadObject
+    120  0x04070010  StrProperty
+    121  0x04070010  TextBuffer
+    122  0x00070010  FaceName
+    123  0x00070010  SkinName
+    124  0x00070010  SkinItem
+    125  0x04070010  Object
+    126  0x00070010  TalkTexture
+    127  0x00070010  MeshName
+    128  0x00070010  Palette1
+    129  0x00070010  SkinActor
+    130  0x00070010  Bot
+    131  0x04070410  Function
+    132  0x00070010  TeamNum
+    133  0x00070010  SkeletalBot
+    134  0x00070010  SkeletalPlayer
+    135  0x00070010  SoldierAnim
+    136  0x04070010  ByteProperty
+    137  0x04070410  Class
+    138  0x04070410  Package
+    139  0x00070010  TeamSkin1
+    140  0x00070010  SpaceMarine
+    141  0x00070010  Marine
+    142  0x00070010  SMDeath1
+    143  0x00070010  SMDeath2
+    144  0x00070010  SMDeath3
+    145  0x00070010  SMDeath4
+    146  0x00070010  SMDrown
+    147  0x00070010  SMFall
+    148  0x00070010  SMGasp
+    149  0x00070010  SMJump
+    150  0x00070010  SMLand
+    151  0x00070010  SMHit1
+    152  0x00070010  SMHit2
+    153  0x00070010  SMHit3
+    154  0x00070010  SMHit4
+    155  0x00070010  SMStep1
+    156  0x00070010  SMStep2
+    157  0x00070010  SMStep3
+    158  0x00070010  Marine40KDoll
+    159  0x00070010  Marine40KBelt
+    160  0x00070010  SelectionMarine
+
+[imports] 44
+    idx  class             classpkg      package             name
+     -1  Package           Core          -                   Engine
+     -2  Package           Core          -                   Botpack
+     -3  Package           Core          -                   Core
+     -4  Class             Core          Botpack             Bot
+     -5  Class             Core          Botpack             TournamentPlayer
+     -6  Class             Core          Engine              Pawn
+     -7  Class             Core          Engine              Sound
+     -8  Class             Core          Core                StrProperty
+     -9  Class             Core          Engine              PlayerReplicationInfo
+    -10  Class             Core          Engine              Actor
+    -11  Class             Core          Engine              Texture
+    -12  Class             Core          Core                Object
+    -13  ObjectProperty    Core          Pawn                PlayerReplicationInfo
+    -14  ObjectProperty    Core          PlayerReplicationInfo TalkTexture
+    -15  IntProperty       Core          TournamentPlayer    TeamSkin1
+    -16  IntProperty       Core          TournamentPlayer    TeamSkin2
+    -17  Package           Core          -                   SkeletalChars
+    -18  IntProperty       Core          Bot                 TeamSkin2
+    -19  IntProperty       Core          Bot                 TeamSkin1
+    -20  Function          Core          Object              DynamicLoadObject
+    -21  Class             Core          Core                Function
+    -22  IntProperty       Core          Bot                 FixedSkin
+    -23  Class             Core          Core                Class
+    -24  Class             Core          Core                TextBuffer
+    -25  IntProperty       Core          TournamentPlayer    FixedSkin
+    -26  Class             Core          Core                Package
+    -27  Class             Core          Core                ObjectProperty
+    -28  ObjectProperty    Core          Actor               Mesh
+    -29  Class             Core          Core                ByteProperty
+    -30  StrProperty       Core          TournamentPlayer    DefaultPackage
+    -31  StrProperty       Core          Bot                 DefaultSkinName
+    -32  IntProperty       Core          Bot                 FaceSkin
+    -33  StrProperty       Core          Bot                 DefaultPackage
+    -34  IntProperty       Core          TournamentPlayer    FaceSkin
+    -35  StrProperty       Core          TournamentPlayer    DefaultSkinName
+    -36  Class             Core          Botpack             SelectionDude
+    -37  Class             Core          SkeletalChars       SkeletalBot
+    -38  Class             Core          SkeletalChars       SkeletalPlayer
+    -39  Class             Core          Engine              SkeletalMesh
+    -40  Class             Core          Engine              Palette
+    -41  Function          Core          Bot                 SetMultiSkin
+    -42  Function          Core          TournamentPlayer    SetMultiSkin
+    -43  Class             Core          Engine              LodMesh
+    -44  Animation         Engine        SkeletalChars       SoldierAnim
+
+[exports] 50
+    idx  class             package             name                        flags       serial            props  parse
+      1  StrProperty       SetMultiSkin        SkinName                    0x00070004  2594+12           0      3bca49ce518b0f13
+      2  ObjectProperty    SetMultiSkin        SkinActor                   0x00070004  2606+13           0      3bca49ce518b0f13
+      3  StrProperty       SetMultiSkin        SkinName                    0x00070004  2619+12           0      3bca49ce518b0f13
+      4  ObjectProperty    SetMultiSkin        SkinActor                   0x00070004  2631+13           0      3bca49ce518b0f13
+      5  StrProperty       SetMultiSkin        FaceName                    0x00070004  2644+12           0      3bca49ce518b0f13
+      6  StrProperty       SetMultiSkin        FaceName                    0x00070004  2656+12           0      3bca49ce518b0f13
+      7  StrProperty       SetMultiSkin        SkinPackage                 0x00070004  2668+12           0      3bca49ce518b0f13
+      8  StrProperty       SetMultiSkin        SkinPackage                 0x00070004  2680+12           0      3bca49ce518b0f13
+      9  ByteProperty      SetMultiSkin        TeamNum                     0x00070004  2692+13           0      3bca49ce518b0f13
+     10  StrProperty       SetMultiSkin        FaceItem                    0x00070004  2705+12           0      3bca49ce518b0f13
+     11  StrProperty       SetMultiSkin        SkinItem                    0x00070004  2717+12           0      3bca49ce518b0f13
+     12  StrProperty       SetMultiSkin        FacePackage                 0x00070004  2729+12           0      3bca49ce518b0f13
+     13  ByteProperty      SetMultiSkin        TeamNum                     0x00070004  2741+13           0      3bca49ce518b0f13
+     14  StrProperty       SetMultiSkin        SkinItem                    0x00070004  2754+12           0      3bca49ce518b0f13
+     15  StrProperty       SetMultiSkin        FaceItem                    0x00070004  2766+12           0      3bca49ce518b0f13
+     16  StrProperty       SetMultiSkin        FacePackage                 0x00070004  2778+12           0      3bca49ce518b0f13
+     17  Sound             Marine              SMDeath3                    0x000f0004  2790+28901        0      10d52ea1967f7135
+     18  Sound             Marine              SMDeath4                    0x000f0004  31691+44755       0      1002262bcf81d0be
+     19  Sound             Marine              SMDeath1                    0x000f0004  76446+22541       0      fef6c395a580400f
+     20  Sound             Marine              SMHit3                      0x000f0004  98987+13269       0      60b6477e157e03fd
+     21  Sound             Marine              SMFall                      0x000f0004  112256+17945      0      a39785837f33f1f0
+     22  Sound             Marine              SMDrown                     0x000f0004  130201+44375      0      f93966bcf894e50a
+     23  Sound             Marine              SMHit2                      0x000f0004  174576+14473      0      f34492cbfa6bc36f
+     24  Sound             Marine              SMJump                      0x000f0004  189049+6896       0      0f04ba967be5bd97
+     25  Sound             Marine              SMGasp                      0x000f0004  195945+49629      0      378eb25f82364bfc
+     26  -                 -                   Marine40K                   0x000f0004  245574+386        0      3bca49ce518b0f13
+     27  Sound             Marine              SMDeath2                    0x000f0004  245960+24945      0      89b98b2f4af053e6
+     28  Texture           Icons               Marine40KDoll               0x000f0004  270905+65608      10     d1f72e8c556e79ac
+     29  Palette           Icons               Palette1                    0x00070004  336513+1027       0      eda69b1af9eb87a3
+     30  Texture           Icons               Marine40KBelt               0x000f0004  337540+32840      10     d9da1ac70e299e14
+     31  Sound             Marine              SMStep3                     0x000f0004  370380+8433       0      0aef74a6a3f17758
+     32  SkeletalMesh      -                   SpaceMarine                 0x000f0004  378813+44194      0      0a004ceba48f6f1f
+     33  Sound             Marine              SMStep2                     0x000f0004  423007+8433       0      e29193533c0d9c97
+     34  StrProperty       SetMultiSkin        MeshName                    0x00070004  431440+12         0      3bca49ce518b0f13
+     35  Sound             Marine              SMLand                      0x000f0004  431452+6300       0      0e6b703b4d19e42a
+     36  Sound             Marine              SMHit1                      0x000f0004  437752+13309      0      a106bfdd3f3be2ee
+     37  Sound             Marine              SMStep1                     0x000f0004  451061+8433       0      4b7810330d97cc72
+     38  StrProperty       SetMultiSkin        MeshName                    0x00070004  459494+12         0      3bca49ce518b0f13
+     39  -                 -                   SelectMarine40K             0x000f0004  459506+87         0      3bca49ce518b0f13
+     40  TextBuffer        Marine40KBot        ScriptText                  0x00340000  459593+2769       0      1bf0b307198c1bb7
+     41  -                 -                   Marine40KBot                0x000f0004  462362+384        0      3bca49ce518b0f13
+     42  TextBuffer        Marine40K           ScriptText                  0x00340000  462746+4368       0      a8ebddcf536d7d8a
+     43  Function          Marine40KBot        SetMultiSkin                0x00070004  467114+495        0      3bca49ce518b0f13
+     44  TextBuffer        SelectMarine40K     ScriptText                  0x00340000  467609+884        0      65c726c6e73d9259
+     45  Function          Marine40K           SetMultiSkin                0x00070004  468493+495        0      3bca49ce518b0f13
+     46  Function          Marine40KBot        ForceMeshToExist            0x00070004  468988+32         0      3bca49ce518b0f13
+     47  Package           -                   Marine                      0x00070004  469020+1          0      3bca49ce518b0f13
+     48  Package           -                   Icons                       0x00070004  469021+1          0      3bca49ce518b0f13
+     49  LodMesh           -                   SelectionMarine             0x000f0004  469022+39292      0      c5d14a7cc9d4d425
+     50  Sound             Marine              SMHit4                      0x000f0004  508314+17159      0      c19b912f192e128b

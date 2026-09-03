@@ -1,0 +1,50 @@
+package  hp2/sounds/Adv7SlythComRoom.uax
+bytes    128799
+sha256   4b7fc5da265349db8a4eec1bfa40c11d13f76d8bc9c6e94789fe89ded327e869
+
+[header]
+  signature           0x9e2a83c1
+  version             79
+  licensee_version    0
+  package_flags       0x00000001
+  name_count          14
+  name_offset         64
+  export_count        5
+  export_offset       128716
+  import_count        2
+  import_offset       128702
+  guid                F4EF737A4E967EDCE9A7AE9D521D0945
+  generation_count    1
+  generation[0]       exports=5 names=14
+
+[classes] 1
+  sound                   5
+
+[names] 14
+      0  0x04070410  None
+      1  0x00070010  XA
+      2  0x00070010  wav
+      3  0x00070010  HAR_foot_wood3
+      4  0x04070410  Class
+      5  0x04070010  Sound
+      6  0x04070010  Engine
+      7  0x04070010  Core
+      8  0x04070410  Package
+      9  0x00070010  Adv7SlythComRoom
+     10  0x00070010  Adv7_walls_rotate1
+     11  0x00070010  Adv7_walls_rotate2
+     12  0x00070010  Adv7_walls_stop
+     13  0x00070010  slytherin_turning_room
+
+[imports] 2
+    idx  class             classpkg      package             name
+     -1  Class             Core          Engine              Sound
+     -2  Package           Core          -                   Engine
+
+[exports] 5
+    idx  class             package             name                        flags       serial            props  parse
+      1  Sound             -                   Adv7_walls_rotate2          0x000f0004  287+15933         0      8d6e274fd18c0f06
+      2  Sound             -                   Adv7_walls_stop             0x000f0004  16220+13353       0      535b23d6b4494b78
+      3  Sound             -                   HAR_foot_wood3              0x000f0004  29573+5958        0      c093e7dfa3162abe
+      4  Sound             -                   slytherin_turning_room      0x000f0004  35531+79023       0      88b1648dabb76448
+      5  Sound             -                   Adv7_walls_rotate1          0x000f0004  114554+14148      0      b05867704d740c79

@@ -1,0 +1,528 @@
+package  ut99-221/maps/Entry.unr
+bytes    77758
+sha256   7bc3819f30c45adf9da13f7a4f0f6fc6bb5481e8d32505365b7ce7f015573b96
+
+[header]
+  signature           0x9e2a83c1
+  version             60
+  licensee_version    0
+  package_flags       0x00000000
+  name_count          265
+  name_offset         60
+  export_count        199
+  export_offset       74524
+  import_count        24
+  import_offset       74326
+  heritage_count      1
+  heritage_offset     44
+
+[classes] 13
+  brush                   22
+  bspnodes                23
+  bspsurfs                23
+  camera                  4
+  level                   1
+  levelinfo               1
+  light                   8
+  model                   23
+  playerstart             1
+  polys                   23
+  textbuffer              1
+  vectors                 46
+  verts                   23
+
+[names] 265
+      0  0x04070410  None
+      1  0x00070010  OUTSIDE
+      2  0x04070410  Vector
+      3  0x00070010  PointRegion
+      4  0x00070010  Brush
+      5  0x00040010  Scale
+      6  0x00070010  XLevel
+      7  0x00070010  Region
+      8  0x00070010  Level
+      9  0x04070010  Tag
+     10  0x00070010  Location
+     11  0x00070010  Outer
+     12  0x00040010  MainScale
+     13  0x00040010  PostScale
+     14  0x00040010  CsgOper
+     15  0x04070410  Rotator
+     16  0x00070010  Rotation
+     17  0x00070010  OldLocation
+     18  0x00070010  Base
+     19  0x00070010  LightSaturation
+     20  0x00070010  LightHue
+     21  0x00070010  LightBrightness
+     22  0x00070010  Light
+     23  0x00070010  LightRadius
+     24  0x00070010  Top
+     25  0x00040010  HeadRegion
+     26  0x00040010  Player
+     27  0x00040010  ShowFlags
+     28  0x00040010  FootRegion
+     29  0x00040010  RendMap
+     30  0x00040010  ColLocation
+     31  0x00070010  2DLoftSIDE
+     32  0x00040010  bHiddenEd
+     33  0x00070010  PlayerStart
+     34  0x00040010  ViewRotation
+     35  0x00070010  LevelInfo
+     36  0x00070010  2DLoftEND
+     37  0x00040010  PolyFlags
+     38  0x00070010  TimeSeconds
+     39  0x00040010  Standard4V
+     40  0x00040010  Standard3V
+     41  0x00040010  PrePivot
+     42  0x00040010  Standard2V
+     43  0x00070010  2DLoftTOP
+     44  0x00070010  DefaultGameType
+     45  0x00040010  Standard1V
+     46  0x04070010  Texture
+     47  0x00070010  Polys
+     48  0x00070010  BspNodes
+     49  0x00070010  BspSurfs
+     50  0x00070010  Camera
+     51  0x00070010  Vectors
+     52  0x04070410  Class
+     53  0x00070010  EntryGameInfo
+     54  0x00070010  MyLevel
+     55  0x00070010  LevelInfo0
+     56  0x00070010  Brush0
+     57  0x00070010  Verts
+     58  0x00070010  Model
+     59  0x00070010  ConsoleBack
+     60  0x00070010  Wall
+     61  0x04070410  Package
+     62  0x04070010  TextBuffer
+     63  0x04070010  UnrealI
+     64  0x04070010  Engine
+     65  0x00070010  Brush8
+     66  0x04070010  Core
+     67  0x00070010  Model9
+     68  0x00070010  Brush10
+     69  0x00070010  PlayrShp
+     70  0x00070010  PANELS4
+     71  0x00070010  Brush1
+     72  0x00070010  Model2
+     73  0x00070010  Brush2
+     74  0x00070010  Model3
+     75  0x00070010  Brush3
+     76  0x00070010  Model4
+     77  0x00070010  LIGHTX
+     78  0x00070010  Brush4
+     79  0x00070010  Model5
+     80  0x00070010  Brush5
+     81  0x00070010  Model6
+     82  0x00070010  Brush6
+     83  0x00070010  Model7
+     84  0x00070010  Border
+     85  0x00070010  Brush9
+     86  0x00070010  Model11
+     87  0x00070010  Light0
+     88  0x00070010  Light1
+     89  0x00070010  Light2
+     90  0x00070010  Brush11
+     91  0x00070010  Model12
+     92  0x00070010  Brush12
+     93  0x00070010  Model13
+     94  0x00070010  Brush13
+     95  0x00070010  Model14
+     96  0x00070010  Brush14
+     97  0x00070010  Model15
+     98  0x00070010  Brush15
+     99  0x00070010  Model16
+    100  0x00070010  Brush16
+    101  0x00070010  Model17
+    102  0x00070010  Brush17
+    103  0x00070010  Model18
+    104  0x00070010  Light3
+    105  0x00070010  PlayerStart0
+    106  0x00070010  Brush18
+    107  0x00070010  Model19
+    108  0x00070010  Brush19
+    109  0x00070010  Model20
+    110  0x00070010  Brush20
+    111  0x00070010  Model21
+    112  0x00070010  Model10
+    113  0x00070010  Brush21
+    114  0x00070010  Model22
+    115  0x00070010  Model23
+    116  0x00070010  Brush22
+    117  0x00070010  Light4
+    118  0x00070010  Light5
+    119  0x00070010  Light6
+    120  0x00070010  Light7
+    121  0x00070010  Model8
+    122  0x00070010  BspNodes9
+    123  0x00070010  BspSurfs9
+    124  0x00070010  Verts9
+    125  0x00070010  Vectors18
+    126  0x00070010  Vectors19
+    127  0x00070010  Polys3
+    128  0x00070010  BspNodes26
+    129  0x00070010  BspSurfs26
+    130  0x00070010  Verts26
+    131  0x00070010  Vectors52
+    132  0x00070010  Vectors53
+    133  0x00070010  Polys12
+    134  0x00070010  BspNodes27
+    135  0x00070010  BspSurfs27
+    136  0x00070010  Verts27
+    137  0x00070010  Vectors54
+    138  0x00070010  Vectors55
+    139  0x00070010  Polys14
+    140  0x00070010  BspNodes28
+    141  0x00070010  BspSurfs28
+    142  0x00070010  Verts28
+    143  0x00070010  Vectors56
+    144  0x00070010  Vectors57
+    145  0x00070010  Polys18
+    146  0x00070010  BspNodes29
+    147  0x00070010  BspSurfs29
+    148  0x00070010  Verts29
+    149  0x00070010  Vectors58
+    150  0x00070010  Vectors59
+    151  0x00070010  Polys22
+    152  0x00070010  BspNodes30
+    153  0x00070010  BspSurfs30
+    154  0x00070010  Verts30
+    155  0x00070010  Vectors60
+    156  0x00070010  Vectors61
+    157  0x00070010  Polys26
+    158  0x00070010  BspNodes31
+    159  0x00070010  BspSurfs31
+    160  0x00070010  Verts31
+    161  0x00070010  Vectors62
+    162  0x00070010  Vectors63
+    163  0x00070010  Polys30
+    164  0x00070010  BspNodes32
+    165  0x00070010  BspSurfs32
+    166  0x00070010  Verts32
+    167  0x00070010  Vectors64
+    168  0x00070010  Vectors65
+    169  0x00070010  Polys34
+    170  0x00070010  BspNodes33
+    171  0x00070010  BspSurfs33
+    172  0x00070010  Verts33
+    173  0x00070010  Vectors66
+    174  0x00070010  Vectors67
+    175  0x00070010  Polys38
+    176  0x00070010  BspNodes34
+    177  0x00070010  BspSurfs34
+    178  0x00070010  Verts34
+    179  0x00070010  Vectors68
+    180  0x00070010  Vectors69
+    181  0x00070010  Polys42
+    182  0x00070010  BspNodes35
+    183  0x00070010  BspSurfs35
+    184  0x00070010  Verts35
+    185  0x00070010  Vectors70
+    186  0x00070010  Vectors71
+    187  0x00070010  Polys45
+    188  0x00070010  BspNodes36
+    189  0x00070010  BspSurfs36
+    190  0x00070010  Verts36
+    191  0x00070010  Vectors72
+    192  0x00070010  Vectors73
+    193  0x00070010  Polys47
+    194  0x00070010  BspNodes37
+    195  0x00070010  BspSurfs37
+    196  0x00070010  Verts37
+    197  0x00070010  Vectors74
+    198  0x00070010  Vectors75
+    199  0x00070010  Polys49
+    200  0x00070010  BspNodes38
+    201  0x00070010  BspSurfs38
+    202  0x00070010  Verts38
+    203  0x00070010  Vectors76
+    204  0x00070010  Vectors77
+    205  0x00070010  Polys51
+    206  0x00070010  BspNodes39
+    207  0x00070010  BspSurfs39
+    208  0x00070010  Verts39
+    209  0x00070010  Vectors78
+    210  0x00070010  Vectors79
+    211  0x00070010  Polys53
+    212  0x00070010  BspNodes40
+    213  0x00070010  BspSurfs40
+    214  0x00070010  Verts40
+    215  0x00070010  Vectors80
+    216  0x00070010  Vectors81
+    217  0x00070010  Polys55
+    218  0x00070010  BspNodes41
+    219  0x00070010  BspSurfs41
+    220  0x00070010  Verts41
+    221  0x00070010  Vectors82
+    222  0x00070010  Vectors83
+    223  0x00070010  Polys57
+    224  0x00070010  BspNodes42
+    225  0x00070010  BspSurfs42
+    226  0x00070010  Verts42
+    227  0x00070010  Vectors84
+    228  0x00070010  Vectors85
+    229  0x00070010  Polys59
+    230  0x00070010  BspNodes43
+    231  0x00070010  BspSurfs43
+    232  0x00070010  Verts43
+    233  0x00070010  Vectors86
+    234  0x00070010  Vectors87
+    235  0x00070010  Polys61
+    236  0x00070010  BspNodes44
+    237  0x00070010  BspSurfs44
+    238  0x00070010  Verts44
+    239  0x00070010  Vectors88
+    240  0x00070010  Vectors89
+    241  0x00070010  Polys63
+    242  0x00070010  TextBuffer0
+    243  0x00070010  BspNodes45
+    244  0x00070010  BspSurfs45
+    245  0x00070010  Verts45
+    246  0x00070010  Vectors90
+    247  0x00070010  Vectors91
+    248  0x00070010  Polys65
+    249  0x00070010  BspNodes46
+    250  0x00070010  BspSurfs46
+    251  0x00070010  Verts46
+    252  0x00070010  Vectors92
+    253  0x00070010  Vectors93
+    254  0x00070010  Polys67
+    255  0x00070010  BspNodes47
+    256  0x00070010  BspSurfs47
+    257  0x00070010  Verts47
+    258  0x00070010  Vectors94
+    259  0x00070010  Vectors95
+    260  0x00070010  Polys69
+    261  0x00070010  Camera18
+    262  0x00070010  Camera19
+    263  0x00070010  Camera20
+    264  0x00070010  Camera21
+
+[imports] 24
+    idx  class             classpkg      package             name
+     -1  Package           Core          -                   Engine
+     -2  Texture           Engine        Engine              ConsoleBack
+     -3  Texture           Engine        Engine              Border
+     -4  Class             Core          Engine              Brush
+     -5  Package           Core          -                   PlayrShp
+     -6  Package           Core          PlayrShp            Wall
+     -7  Texture           Engine        Wall                PANELS4
+     -8  Class             Core          Engine              Vectors
+     -9  Class             Core          Engine              Light
+    -10  Class             Core          Engine              BspSurfs
+    -11  Class             Core          Engine              Model
+    -12  Class             Core          Engine              BspNodes
+    -13  Class             Core          Engine              Polys
+    -14  Class             Core          Engine              Verts
+    -15  Class             Core          Engine              Camera
+    -16  Package           Core          PlayrShp            Light
+    -17  Texture           Engine        Light               LIGHTX
+    -18  Class             Core          Engine              PlayerStart
+    -19  Class             Core          Engine              LevelInfo
+    -20  Package           Core          -                   UnrealI
+    -21  Class             Core          Core                TextBuffer
+    -22  Class             Core          Engine              Level
+    -23  Class             Core          UnrealI             EntryGameInfo
+    -24  Package           Core          -                   Core
+
+[exports] 199
+    idx  class             package             name                        flags       serial            props  parse
+      1  Light             -                   Light1                      0x02070001  3521+77           11     65d84bc7f7437e3c
+      2  Light             -                   Light0                      0x02070001  3598+77           11     b5d34196b4e35643
+      3  Light             -                   Light2                      0x02070001  3675+77           11     5edc23223398c1cf
+      4  LevelInfo         -                   LevelInfo0                  0x02070001  3752+44           7      962b02974be5dcdb
+      5  Light             -                   Light3                      0x02070001  3796+77           11     680bf27bf6abb913
+      6  Level             -                   MyLevel                     0x00070001  3873+111          0      3c995539f90b416c
+      7  Light             -                   Light4                      0x02070001  3984+77           11     9cbba24c9763571d
+      8  Light             -                   Light6                      0x02070001  4061+77           11     4de0eb2be04eac9d
+      9  Brush             -                   Brush22                     0x02340001  4138+114          11     fac68979332c2af5
+     10  Light             -                   Light7                      0x02070001  4252+77           11     5472381c0dc55560
+     11  Light             -                   Light5                      0x02070001  4329+77           11     95dab4d2aff009bb
+     12  Brush             -                   Brush1                      0x02340001  4406+83           9      d307e83f9c277148
+     13  Brush             -                   Brush14                     0x02340001  4489+114          11     1734ce4b44c17eed
+     14  Brush             -                   Brush13                     0x02340001  4603+114          11     a6e51734a2f2885b
+     15  Brush             -                   Brush15                     0x02340001  4717+114          11     875235cd2b9b4a87
+     16  Brush             -                   Brush3                      0x02340001  4831+98           10     0a36b28577d34515
+     17  Brush             -                   Brush17                     0x02340001  4929+114          11     d4ab5b5a8a9eb9d8
+     18  Brush             -                   Brush10                     0x02340001  5043+135          13     cd223627bfffce86
+     19  Brush             -                   Brush16                     0x02340001  5178+114          11     0b7d90b31a7ae1a1
+     20  Brush             -                   Brush5                      0x02340001  5292+99           10     634f806e45d04216
+     21  Brush             -                   Brush4                      0x02340001  5391+99           10     a18d4366821a9d79
+     22  Brush             -                   Brush2                      0x02340001  5490+98           10     d660102d4df4196a
+     23  Brush             -                   Brush12                     0x02340001  5588+114          11     60714ac2dd6190ff
+     24  Brush             -                   Brush11                     0x02340001  5702+114          11     e421bf35d81338b0
+     25  Brush             -                   Brush19                     0x02340001  5816+114          11     8e9d0df0aa282493
+     26  Brush             -                   Brush6                      0x02340001  5930+114          11     510b596fa8996f47
+     27  Brush             -                   Brush20                     0x02340001  6044+114          11     c115ca5862a2cb77
+     28  Brush             -                   Brush18                     0x02340001  6158+114          11     0e0f614dce15594a
+     29  Brush             -                   Brush21                     0x02340001  6272+114          11     4bd0a9747b04f2ca
+     30  Brush             -                   Brush8                      0x02340001  6386+114          11     04db460ccc378941
+     31  Brush             -                   Brush9                      0x02340001  6500+114          11     98bf26e5ff8b2ccb
+     32  Brush             -                   Brush0                      0x02340001  6614+110          10     5728d4b3d0ecef33
+     33  Verts             -                   Verts9                      0x00070001  6724+11959        0      3bca49ce518b0f13
+     34  Vectors           -                   Vectors18                   0x00070001  18683+1329        0      3bca49ce518b0f13
+     35  Vectors           -                   Vectors19                   0x00070001  20012+4245        0      3bca49ce518b0f13
+     36  PlayerStart       -                   PlayerStart0                0x02070001  24257+80          8      d40b887160771743
+     37  Model             -                   Brush                       0x00340001  24337+60          0      47ce690e4f7913a4
+     38  BspNodes          -                   BspNodes9                   0x00070001  24397+11900       0      3bca49ce518b0f13
+     39  BspSurfs          -                   BspSurfs9                   0x00070001  36297+2071        0      3bca49ce518b0f13
+     40  Polys             -                   Polys3                      0x00070001  38368+9           0      b6294486088517bb
+     41  Model             -                   Model8                      0x00070001  38377+14178       0      c2e5e02ae376bed6
+     42  BspNodes          -                   BspNodes26                  0x00070001  52555+10          0      3bca49ce518b0f13
+     43  BspSurfs          -                   BspSurfs26                  0x00070001  52565+9           0      3bca49ce518b0f13
+     44  Verts             -                   Verts26                     0x00070001  52574+10          0      3bca49ce518b0f13
+     45  Vectors           -                   Vectors52                   0x00070001  52584+9           0      3bca49ce518b0f13
+     46  Vectors           -                   Vectors53                   0x00070001  52593+9           0      3bca49ce518b0f13
+     47  Polys             -                   Polys12                     0x00070000  52602+669         0      6924e00e92e95835
+     48  Model             -                   Model2                      0x00340001  53271+60          0      19bfe1055f14f77c
+     49  BspNodes          -                   BspNodes27                  0x00070001  53331+10          0      3bca49ce518b0f13
+     50  BspSurfs          -                   BspSurfs27                  0x00070001  53341+9           0      3bca49ce518b0f13
+     51  Verts             -                   Verts27                     0x00070001  53350+10          0      3bca49ce518b0f13
+     52  Vectors           -                   Vectors54                   0x00070001  53360+9           0      3bca49ce518b0f13
+     53  Vectors           -                   Vectors55                   0x00070001  53369+9           0      3bca49ce518b0f13
+     54  Polys             -                   Polys14                     0x00070000  53378+669         0      e1a790148bca566a
+     55  Model             -                   Model3                      0x00340001  54047+60          0      b5a0a4071a0ba901
+     56  BspNodes          -                   BspNodes28                  0x00070001  54107+10          0      3bca49ce518b0f13
+     57  BspSurfs          -                   BspSurfs28                  0x00070001  54117+9           0      3bca49ce518b0f13
+     58  Verts             -                   Verts28                     0x00070001  54126+10          0      3bca49ce518b0f13
+     59  Vectors           -                   Vectors56                   0x00070001  54136+9           0      3bca49ce518b0f13
+     60  Vectors           -                   Vectors57                   0x00070001  54145+9           0      3bca49ce518b0f13
+     61  Polys             -                   Polys18                     0x00070000  54154+669         0      57875ebff62adae7
+     62  Model             -                   Model4                      0x00340001  54823+65          0      e31315d39b82129b
+     63  BspNodes          -                   BspNodes29                  0x00070001  54888+10          0      3bca49ce518b0f13
+     64  BspSurfs          -                   BspSurfs29                  0x00070001  54898+9           0      3bca49ce518b0f13
+     65  Verts             -                   Verts29                     0x00070001  54907+10          0      3bca49ce518b0f13
+     66  Vectors           -                   Vectors58                   0x00070001  54917+9           0      3bca49ce518b0f13
+     67  Vectors           -                   Vectors59                   0x00070001  54926+9           0      3bca49ce518b0f13
+     68  Polys             -                   Polys22                     0x00070000  54935+669         0      f3f1b516750a21ed
+     69  Model             -                   Model5                      0x00340001  55604+66          0      dcc13ac6c62679e2
+     70  BspNodes          -                   BspNodes30                  0x00070001  55670+10          0      3bca49ce518b0f13
+     71  BspSurfs          -                   BspSurfs30                  0x00070001  55680+9           0      3bca49ce518b0f13
+     72  Verts             -                   Verts30                     0x00070001  55689+10          0      3bca49ce518b0f13
+     73  Vectors           -                   Vectors60                   0x00070001  55699+9           0      3bca49ce518b0f13
+     74  Vectors           -                   Vectors61                   0x00070001  55708+9           0      3bca49ce518b0f13
+     75  Polys             -                   Polys26                     0x00070000  55717+669         0      425d6ed77d484d5a
+     76  Model             -                   Model6                      0x00340001  56386+66          0      62497c3676cd2472
+     77  BspNodes          -                   BspNodes31                  0x00070001  56452+10          0      3bca49ce518b0f13
+     78  BspSurfs          -                   BspSurfs31                  0x00070001  56462+9           0      3bca49ce518b0f13
+     79  Verts             -                   Verts31                     0x00070001  56471+10          0      3bca49ce518b0f13
+     80  Vectors           -                   Vectors62                   0x00070001  56481+9           0      3bca49ce518b0f13
+     81  Vectors           -                   Vectors63                   0x00070001  56490+9           0      3bca49ce518b0f13
+     82  Polys             -                   Polys30                     0x00070000  56499+669         0      425d6ed77d484d5a
+     83  Model             -                   Model7                      0x00340001  57168+66          0      6c9c0f9c8208972f
+     84  BspNodes          -                   BspNodes32                  0x00070001  57234+10          0      3bca49ce518b0f13
+     85  BspSurfs          -                   BspSurfs32                  0x00070001  57244+9           0      3bca49ce518b0f13
+     86  Verts             -                   Verts32                     0x00070001  57253+10          0      3bca49ce518b0f13
+     87  Vectors           -                   Vectors64                   0x00070001  57263+9           0      3bca49ce518b0f13
+     88  Vectors           -                   Vectors65                   0x00070001  57272+9           0      3bca49ce518b0f13
+     89  Polys             -                   Polys34                     0x00070000  57281+669         0      35f67085e9bacfbc
+     90  Model             -                   Model9                      0x00340001  57950+66          0      abe53bc6514576aa
+     91  BspNodes          -                   BspNodes33                  0x00070001  58016+10          0      3bca49ce518b0f13
+     92  BspSurfs          -                   BspSurfs33                  0x00070001  58026+9           0      3bca49ce518b0f13
+     93  Verts             -                   Verts33                     0x00070001  58035+10          0      3bca49ce518b0f13
+     94  Vectors           -                   Vectors66                   0x00070001  58045+9           0      3bca49ce518b0f13
+     95  Vectors           -                   Vectors67                   0x00070001  58054+9           0      3bca49ce518b0f13
+     96  Polys             -                   Polys38                     0x00070000  58063+669         0      56730bfd8035f3d7
+     97  Model             -                   Model10                     0x00340001  58732+66          0      4c260d1cde7e3496
+     98  BspNodes          -                   BspNodes34                  0x00070001  58798+10          0      3bca49ce518b0f13
+     99  BspSurfs          -                   BspSurfs34                  0x00070001  58808+9           0      3bca49ce518b0f13
+    100  Verts             -                   Verts34                     0x00070001  58817+10          0      3bca49ce518b0f13
+    101  Vectors           -                   Vectors68                   0x00070001  58827+9           0      3bca49ce518b0f13
+    102  Vectors           -                   Vectors69                   0x00070001  58836+9           0      3bca49ce518b0f13
+    103  Polys             -                   Polys42                     0x00070000  58845+669         0      cdc1066d22a66606
+    104  Model             -                   Model11                     0x00340001  59514+66          0      9841f8eb20dca4e3
+    105  BspNodes          -                   BspNodes35                  0x00070001  59580+10          0      3bca49ce518b0f13
+    106  BspSurfs          -                   BspSurfs35                  0x00070001  59590+9           0      3bca49ce518b0f13
+    107  Verts             -                   Verts35                     0x00070001  59599+10          0      3bca49ce518b0f13
+    108  Vectors           -                   Vectors70                   0x00070001  59609+9           0      3bca49ce518b0f13
+    109  Vectors           -                   Vectors71                   0x00070001  59618+9           0      3bca49ce518b0f13
+    110  Polys             -                   Polys45                     0x00070000  59627+669         0      75acdccf8ee89033
+    111  Model             -                   Model12                     0x00340001  60296+66          0      61ece67f37284525
+    112  BspNodes          -                   BspNodes36                  0x00070001  60362+10          0      3bca49ce518b0f13
+    113  BspSurfs          -                   BspSurfs36                  0x00070001  60372+9           0      3bca49ce518b0f13
+    114  Verts             -                   Verts36                     0x00070001  60381+10          0      3bca49ce518b0f13
+    115  Vectors           -                   Vectors72                   0x00070001  60391+9           0      3bca49ce518b0f13
+    116  Vectors           -                   Vectors73                   0x00070001  60400+9           0      3bca49ce518b0f13
+    117  Polys             -                   Polys47                     0x00070000  60409+669         0      ba754bf73557a61b
+    118  Model             -                   Model13                     0x00340001  61078+66          0      655caa59f8829960
+    119  BspNodes          -                   BspNodes37                  0x00070001  61144+10          0      3bca49ce518b0f13
+    120  BspSurfs          -                   BspSurfs37                  0x00070001  61154+9           0      3bca49ce518b0f13
+    121  Verts             -                   Verts37                     0x00070001  61163+10          0      3bca49ce518b0f13
+    122  Vectors           -                   Vectors74                   0x00070001  61173+9           0      3bca49ce518b0f13
+    123  Vectors           -                   Vectors75                   0x00070001  61182+9           0      3bca49ce518b0f13
+    124  Polys             -                   Polys49                     0x00070000  61191+669         0      ba754bf73557a61b
+    125  Model             -                   Model14                     0x00340001  61860+66          0      d44653d79ef7f465
+    126  BspNodes          -                   BspNodes38                  0x00070001  61926+10          0      3bca49ce518b0f13
+    127  BspSurfs          -                   BspSurfs38                  0x00070001  61936+9           0      3bca49ce518b0f13
+    128  Verts             -                   Verts38                     0x00070001  61945+10          0      3bca49ce518b0f13
+    129  Vectors           -                   Vectors76                   0x00070001  61955+9           0      3bca49ce518b0f13
+    130  Vectors           -                   Vectors77                   0x00070001  61964+9           0      3bca49ce518b0f13
+    131  Polys             -                   Polys51                     0x00070000  61973+937         0      09a0e4d117b864a8
+    132  Model             -                   Model15                     0x00340001  62910+66          0      5368756eab958174
+    133  BspNodes          -                   BspNodes39                  0x00070001  62976+10          0      3bca49ce518b0f13
+    134  BspSurfs          -                   BspSurfs39                  0x00070001  62986+9           0      3bca49ce518b0f13
+    135  Verts             -                   Verts39                     0x00070001  62995+10          0      3bca49ce518b0f13
+    136  Vectors           -                   Vectors78                   0x00070001  63005+9           0      3bca49ce518b0f13
+    137  Vectors           -                   Vectors79                   0x00070001  63014+9           0      3bca49ce518b0f13
+    138  Polys             -                   Polys53                     0x00070000  63023+937         0      02d1c11d29459417
+    139  Model             -                   Model16                     0x00340001  63960+66          0      1a2ce59d96bec54d
+    140  BspNodes          -                   BspNodes40                  0x00070001  64026+10          0      3bca49ce518b0f13
+    141  BspSurfs          -                   BspSurfs40                  0x00070001  64036+9           0      3bca49ce518b0f13
+    142  Verts             -                   Verts40                     0x00070001  64045+10          0      3bca49ce518b0f13
+    143  Vectors           -                   Vectors80                   0x00070001  64055+9           0      3bca49ce518b0f13
+    144  Vectors           -                   Vectors81                   0x00070001  64064+9           0      3bca49ce518b0f13
+    145  Polys             -                   Polys55                     0x00070000  64073+937         0      249e094414c58619
+    146  Model             -                   Model17                     0x00340001  65010+66          0      ae842703852d1943
+    147  BspNodes          -                   BspNodes41                  0x00070001  65076+10          0      3bca49ce518b0f13
+    148  BspSurfs          -                   BspSurfs41                  0x00070001  65086+9           0      3bca49ce518b0f13
+    149  Verts             -                   Verts41                     0x00070001  65095+10          0      3bca49ce518b0f13
+    150  Vectors           -                   Vectors82                   0x00070001  65105+9           0      3bca49ce518b0f13
+    151  Vectors           -                   Vectors83                   0x00070001  65114+9           0      3bca49ce518b0f13
+    152  Polys             -                   Polys57                     0x00070000  65123+937         0      2822278a5addb4a4
+    153  Model             -                   Model18                     0x00340001  66060+66          0      d2227169117d050c
+    154  BspNodes          -                   BspNodes42                  0x00070001  66126+10          0      3bca49ce518b0f13
+    155  BspSurfs          -                   BspSurfs42                  0x00070001  66136+9           0      3bca49ce518b0f13
+    156  Verts             -                   Verts42                     0x00070001  66145+10          0      3bca49ce518b0f13
+    157  Vectors           -                   Vectors84                   0x00070001  66155+9           0      3bca49ce518b0f13
+    158  Vectors           -                   Vectors85                   0x00070001  66164+9           0      3bca49ce518b0f13
+    159  Polys             -                   Polys59                     0x00070000  66173+937         0      c4ea5f71bf5f0290
+    160  Model             -                   Model19                     0x00340001  67110+66          0      1c03f89b708df0e4
+    161  BspNodes          -                   BspNodes43                  0x00070001  67176+10          0      3bca49ce518b0f13
+    162  BspSurfs          -                   BspSurfs43                  0x00070001  67186+9           0      3bca49ce518b0f13
+    163  Verts             -                   Verts43                     0x00070001  67195+10          0      3bca49ce518b0f13
+    164  Vectors           -                   Vectors86                   0x00070001  67205+9           0      3bca49ce518b0f13
+    165  Vectors           -                   Vectors87                   0x00070001  67214+9           0      3bca49ce518b0f13
+    166  Polys             -                   Polys61                     0x00070000  67223+669         0      be03bb0142bd9b98
+    167  Model             -                   Model20                     0x00340001  67892+66          0      31c7cab0d7d6a66a
+    168  BspNodes          -                   BspNodes44                  0x00070001  67958+10          0      3bca49ce518b0f13
+    169  BspSurfs          -                   BspSurfs44                  0x00070001  67968+9           0      3bca49ce518b0f13
+    170  Verts             -                   Verts44                     0x00070001  67977+10          0      3bca49ce518b0f13
+    171  Vectors           -                   Vectors88                   0x00070001  67987+9           0      3bca49ce518b0f13
+    172  Vectors           -                   Vectors89                   0x00070001  67996+9           0      3bca49ce518b0f13
+    173  Polys             -                   Polys63                     0x00070000  68005+669         0      be03bb0142bd9b98
+    174  Model             -                   Model21                     0x00340001  68674+66          0      912c39f100dde345
+    175  BspNodes          -                   BspNodes45                  0x00070001  68740+10          0      3bca49ce518b0f13
+    176  BspSurfs          -                   BspSurfs45                  0x00070001  68750+9           0      3bca49ce518b0f13
+    177  Verts             -                   Verts45                     0x00070001  68759+10          0      3bca49ce518b0f13
+    178  Vectors           -                   Vectors90                   0x00070001  68769+9           0      3bca49ce518b0f13
+    179  Vectors           -                   Vectors91                   0x00070001  68778+9           0      3bca49ce518b0f13
+    180  Polys             -                   Polys65                     0x00070000  68787+669         0      be03bb0142bd9b98
+    181  Model             -                   Model22                     0x00340001  69456+66          0      52f7bcba5cf8111a
+    182  BspNodes          -                   BspNodes46                  0x00070001  69522+10          0      3bca49ce518b0f13
+    183  BspSurfs          -                   BspSurfs46                  0x00070001  69532+9           0      3bca49ce518b0f13
+    184  Verts             -                   Verts46                     0x00070001  69541+10          0      3bca49ce518b0f13
+    185  Vectors           -                   Vectors92                   0x00070001  69551+9           0      3bca49ce518b0f13
+    186  Vectors           -                   Vectors93                   0x00070001  69560+9           0      3bca49ce518b0f13
+    187  Polys             -                   Polys67                     0x00070000  69569+535         0      4fca6a17c7e93fdd
+    188  Model             -                   Model23                     0x00340001  70104+66          0      9ac2494a2894a7f6
+    189  BspNodes          -                   BspNodes47                  0x00070001  70170+10          0      3bca49ce518b0f13
+    190  BspSurfs          -                   BspSurfs47                  0x00070001  70180+9           0      3bca49ce518b0f13
+    191  Verts             -                   Verts47                     0x00070001  70189+10          0      3bca49ce518b0f13
+    192  Vectors           -                   Vectors94                   0x00070001  70199+9           0      3bca49ce518b0f13
+    193  Vectors           -                   Vectors95                   0x00070001  70208+9           0      3bca49ce518b0f13
+    194  TextBuffer        -                   TextBuffer0                 0x00340000  70217+72          0      ed42aa34c12b237d
+    195  Polys             -                   Polys69                     0x00070000  70289+3571        0      a06f1a5165b48ba2
+    196  Camera            -                   Camera18                    0x02340000  73860+106         14     e5e596b894944895
+    197  Camera            -                   Camera19                    0x02340000  73966+106         14     3eb126b636c00639
+    198  Camera            -                   Camera20                    0x02340000  74072+148         16     5a4d34f6a1b26d40
+    199  Camera            -                   Camera21                    0x02340000  74220+106         14     0666dc6bccf9cb49

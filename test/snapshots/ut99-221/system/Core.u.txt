@@ -1,0 +1,772 @@
+package  ut99-221/system/Core.u
+bytes    32285
+sha256   852a8627ca7394c2f8d22e05c7dd6ca46190a2056ce3cbc12fbb9fd038400630
+
+[header]
+  signature           0x9e2a83c1
+  version             63
+  licensee_version    0
+  package_flags       0x00000001
+  name_count          243
+  name_offset         60
+  export_count        470
+  export_offset       25074
+  import_count        17
+  import_offset       24922
+  heritage_count      1
+  heritage_offset     44
+
+[classes] 15
+  boolproperty            43
+  byteproperty            26
+  classproperty           4
+  const                   8
+  enum                    1
+  floatproperty           93
+  function                116
+  intproperty             95
+  nameproperty            17
+  objectproperty          7
+  stringproperty          38
+  strproperty             1
+  struct                  9
+  structproperty          8
+  textbuffer              2
+
+[names] 243
+      0  0x04070410  None
+      1  0x00070010  ==
+      2  0x00070010  !=
+      3  0x04070410  Color
+      4  0x00070010  Coords
+      5  0x04070410  Rotator
+      6  0x00070010  Scale
+      7  0x04070410  Vector
+      8  0x00070010  ++
+      9  0x00070010  -
+     10  0x00070010  --
+     11  0x00070010  -=
+     12  0x00070010  /=
+     13  0x00070010  +=
+     14  0x00070010  *=
+     15  0x04070010  Object
+     16  0x00070010  >
+     17  0x00070010  <
+     18  0x00070010  >=
+     19  0x00070010  <=
+     20  0x00070010  ~=
+     21  0x00070010  *
+     22  0x04070010  System
+     23  0x00070010  /
+     24  0x04070410  Plane
+     25  0x04070010  Core
+     26  0x00070010  +
+     27  0x04070010  BeginState
+     28  0x04070410  Guid
+     29  0x04070010  EndState
+     30  0x04070010  Subsystem
+     31  0x00070010  >>
+     32  0x04070010  Log
+     33  0x00070010  ^
+     34  0x00070010  ResetConfig
+     35  0x00070010  &
+     36  0x00070010  DynamicLoadObject
+     37  0x00070010  GetEnum
+     38  0x00070010  SetPropertyText
+     39  0x00070010  GetPropertyText
+     40  0x00070010  Warn
+     41  0x00070010  LogStr
+     42  0x00070010  Localize
+     43  0x00070010  Chr
+     44  0x00070010  Caps
+     45  0x00070010  Asc
+     46  0x00070010  >>>
+     47  0x00070010  InStr
+     48  0x00070010  Mid
+     49  0x00070010  <<
+     50  0x00070010  $
+     51  0x00070010  Smerp
+     52  0x00070010  FClamp
+     53  0x00070010  FMax
+     54  0x00070010  Lerp
+     55  0x00070010  FRand
+     56  0x00070010  Square
+     57  0x00070010  FMin
+     58  0x00070010  Loge
+     59  0x00070010  Exp
+     60  0x00070010  Sqrt
+     61  0x00070010  SHEER_None
+     62  0x00070010  SHEER_XY
+     63  0x00070010  SHEER_XZ
+     64  0x00070010  SHEER_YX
+     65  0x00070010  SHEER_YZ
+     66  0x00070010  SHEER_ZX
+     67  0x00070010  SHEER_ZY
+     68  0x00070010  Len
+     69  0x00070010  Tan
+     70  0x00070010  Cos
+     71  0x00070010  BoundingBox
+     72  0x00070010  Min
+     73  0x00070010  Max
+     74  0x00070010  Atan
+     75  0x00070010  BoundingVolume
+     76  0x00070010  Sin
+     77  0x00070010  Left
+     78  0x00070010  ~
+     79  0x00070010  SaveConfig
+     80  0x00070010  !
+     81  0x00070010  |
+     82  0x00070010  Enable
+     83  0x00070010  ClassIsChildOf
+     84  0x00070010  Disable
+     85  0x00070010  IsInState
+     86  0x00070010  GotoState
+     87  0x00070010  &&
+     88  0x00070010  GetStateName
+     89  0x00070010  ^^
+     90  0x00070010  Clamp
+     91  0x00070010  ||
+     92  0x00070010  **
+     93  0x00070010  Abs
+     94  0x00070010  RandRange
+     95  0x00070010  Right
+     96  0x00070010  Rand
+     97  0x00070010  %
+     98  0x00070010  DivideEqual_ByteByte
+     99  0x00070010  AddEqual_ByteByte
+    100  0x00070010  SubtractEqual_ByteByte
+    101  0x04070410  Const
+    102  0x04070410  Enum
+    103  0x04070010  TextBuffer
+    104  0x00070010  AddAdd_Byte
+    105  0x04070410  Function
+    106  0x00070010  AddAdd_PreByte
+    107  0x00070010  MultiplyEqual_ByteByte
+    108  0x00070010  XorXor_BoolBool
+    109  0x00070010  OrOr_BoolBool
+    110  0x00070010  Multiply_IntInt
+    111  0x04070010  StructProperty
+    112  0x04070410  Struct
+    113  0x00070010  SubtractSubtract_PreByte
+    114  0x00070010  Add_IntInt
+    115  0x04070410  Name
+    116  0x00070010  Subtract_IntInt
+    117  0x00070010  SubtractSubtract_Byte
+    118  0x00070010  ESheerAxis
+    119  0x00070010  Roll
+    120  0x00070010  Complement_PreInt
+    121  0x00070010  G
+    122  0x00070010  AndAnd_BoolBool
+    123  0x00070010  Sphere
+    124  0x00070010  Pi
+    125  0x00070010  EqualEqual_BoolBool
+    126  0x00070010  RF_NotForEdit
+    127  0x00070010  B
+    128  0x04070010  BoolProperty
+    129  0x04070410  Class
+    130  0x04070410  Package
+    131  0x00070010  NotEqual_BoolBool
+    132  0x00070010  Not_PreBool
+    133  0x00070010  ReturnValue
+    134  0x04070010  StrProperty
+    135  0x00070010  RF_NotForServer
+    136  0x00070010  Subtract_PreInt
+    137  0x00070010  ObjectFlags
+    138  0x00070010  Divide_IntInt
+    139  0x00070010  MultiplyEqual_IntFloat
+    140  0x00070010  DivideEqual_IntFloat
+    141  0x00070010  AddEqual_IntInt
+    142  0x00070010  SubtractEqual_IntInt
+    143  0x00070010  AddAdd_PreInt
+    144  0x00070010  SubtractSubtract_PreInt
+    145  0x00070010  AddAdd_Int
+    146  0x00070010  SubtractSubtract_Int
+    147  0x04070010  ClassProperty
+    148  0x04070010  StringProperty
+    149  0x00070010  V
+    150  0x00070010  Subtract_PreFloat
+    151  0x00070010  MultiplyMultiply_FloatFloat
+    152  0x00070010  SheerRate
+    153  0x00070010  Multiply_FloatFloat
+    154  0x00070010  Divide_FloatFloat
+    155  0x00070010  Percent_FloatFloat
+    156  0x00070010  MaxInt
+    157  0x00070010  Add_FloatFloat
+    158  0x00070010  Subtract_FloatFloat
+    159  0x00070010  Less_FloatFloat
+    160  0x00070010  Greater_FloatFloat
+    161  0x00070010  LessEqual_FloatFloat
+    162  0x00070010  GreaterEqual_FloatFloat
+    163  0x00070010  EqualEqual_FloatFloat
+    164  0x00070010  ComplementEqual_FloatFloat
+    165  0x04070010  ByteProperty
+    166  0x00070010  NotEqual_FloatFloat
+    167  0x00070010  MultiplyEqual_FloatFloat
+    168  0x00070010  DivideEqual_FloatFloat
+    169  0x00070010  AddEqual_FloatFloat
+    170  0x00070010  SubtractEqual_FloatFloat
+    171  0x00070010  IsValid
+    172  0x00070010  W
+    173  0x04070010  NameProperty
+    174  0x00070010  R
+    175  0x00070010  SheerAxis
+    176  0x00070010  YAxis
+    177  0x04070410  Outer
+    178  0x00070010  ZAxis
+    179  0x04070010  Tag
+    180  0x00070010  XAxis
+    181  0x00070010  Origin
+    182  0x00070010  LessLess_IntInt
+    183  0x00070010  Yaw
+    184  0x00070010  Pitch
+    185  0x00070010  Alpha
+    186  0x00070010  GreaterGreater_IntInt
+    187  0x00070010  Concat_StringString
+    188  0x00070010  Y
+    189  0x00070010  Less_StringString
+    190  0x00070010  Greater_StringString
+    191  0x00070010  LessEqual_StringString
+    192  0x00070010  GreaterEqual_StringString
+    193  0x00070010  EqualEqual_StringString
+    194  0x00070010  NotEqual_StringString
+    195  0x00070010  ComplementEqual_StringString
+    196  0x00070010  Z
+    197  0x00070010  S
+    198  0x00070010  Less_IntInt
+    199  0x00070010  t
+    200  0x00070010  C
+    201  0x00070010  i
+    202  0x00070010  j
+    203  0x00070010  X
+    204  0x00070010  D
+    205  0x04070010  ObjectProperty
+    206  0x00070010  Greater_IntInt
+    207  0x00070010  A
+    208  0x00070010  EqualEqual_ObjectObject
+    209  0x00070010  NotEqual_ObjectObject
+    210  0x00070010  EqualEqual_NameName
+    211  0x00070010  NotEqual_NameName
+    212  0x04070010  FloatProperty
+    213  0x00070010  LessEqual_IntInt
+    214  0x00070010  GreaterEqual_IntInt
+    215  0x00070010  SectionName
+    216  0x00070010  KeyName
+    217  0x00070010  PackageName
+    218  0x04070010  IntProperty
+    219  0x00070010  NewState
+    220  0x00070010  Label
+    221  0x00070010  EqualEqual_IntInt
+    222  0x00070010  TestState
+    223  0x00070010  NotEqual_IntInt
+    224  0x00070010  And_IntInt
+    225  0x00070010  TestClass
+    226  0x00070010  ParentClass
+    227  0x00070010  RF_NotForClient
+    228  0x00070010  ProbeFunc
+    229  0x00070010  RF_Transient
+    230  0x00070010  RF_Public
+    231  0x00070010  PropName
+    232  0x00070010  RF_Transactional
+    233  0x00070010  PropValue
+    234  0x00070010  Xor_IntInt
+    235  0x00070010  E
+    236  0x00070010  ObjectInternal
+    237  0x00070010  ObjectName
+    238  0x00070010  ObjectClass
+    239  0x00070010  ScriptText
+    240  0x00070010  Or_IntInt
+    241  0x00070010  GreaterGreaterGreater_IntInt
+    242  0x00070010  ExecVtbl
+
+[imports] 17
+    idx  class             classpkg      package             name
+     -1  Package           Core          -                   Core
+     -2  Class             Core          Core                Function
+     -3  Class             Core          Core                IntProperty
+     -4  Class             Core          Core                FloatProperty
+     -5  Class             Core          Core                BoolProperty
+     -6  Class             Core          Core                StringProperty
+     -7  Class             Core          Core                ByteProperty
+     -8  Class             Core          Core                NameProperty
+     -9  Class             Core          Core                Struct
+    -10  Class             Core          Core                StructProperty
+    -11  Class             Core          Core                Const
+    -12  Class             Core          Core                ObjectProperty
+    -13  Class             Core          Core                Class
+    -14  Class             Core          Core                ClassProperty
+    -15  Class             Core          Core                TextBuffer
+    -16  Class             Core          Core                StrProperty
+    -17  Class             Core          Core                Enum
+
+[exports] 470
+    idx  class             package             name                        flags       serial            props  parse
+      1  -                 -                   Object                      0x040f0004  3570+76           0      3bca49ce518b0f13
+      2  Struct            Object              Vector                      0x00070004  3646+20           0      3bca49ce518b0f13
+      3  FloatProperty     RandRange           Min                         0x00070004  3666+13           0      3bca49ce518b0f13
+      4  FloatProperty     Percent_FloatFloat  B                           0x00070004  3679+13           0      3bca49ce518b0f13
+      5  FloatProperty     Divide_FloatFloat   B                           0x00070004  3692+13           0      3bca49ce518b0f13
+      6  ClassProperty     DynamicLoadObject   ObjectClass                 0x00070004  3705+15           0      3bca49ce518b0f13
+      7  FloatProperty     Divide_FloatFloat   A                           0x00070004  3720+12           0      3bca49ce518b0f13
+      8  StringProperty    DynamicLoadObject   ObjectName                  0x00070004  3732+16           0      3bca49ce518b0f13
+      9  IntProperty       GetEnum             i                           0x00070004  3748+13           0      3bca49ce518b0f13
+     10  StringProperty    SetPropertyText     PropValue                   0x00070004  3761+16           0      3bca49ce518b0f13
+     11  ObjectProperty    GetEnum             E                           0x00070004  3777+13           0      3bca49ce518b0f13
+     12  FloatProperty     Multiply_FloatFloat B                           0x00070004  3790+13           0      3bca49ce518b0f13
+     13  NameProperty      Disable             ProbeFunc                   0x00070004  3803+12           0      3bca49ce518b0f13
+     14  NameProperty      Enable              ProbeFunc                   0x00070004  3815+12           0      3bca49ce518b0f13
+     15  ClassProperty     ClassIsChildOf      ParentClass                 0x00070004  3827+15           0      3bca49ce518b0f13
+     16  FloatProperty     MultiplyMultiply_FloatFloat B                           0x00070004  3842+13           0      3bca49ce518b0f13
+     17  NameProperty      GotoState           Label                       0x00070004  3855+12           0      3bca49ce518b0f13
+     18  NameProperty      GotoState           NewState                    0x00070004  3867+12           0      3bca49ce518b0f13
+     19  NameProperty      Localize            PackageName                 0x00070004  3879+13           0      3bca49ce518b0f13
+     20  NameProperty      Localize            KeyName                     0x00070004  3892+12           0      3bca49ce518b0f13
+     21  NameProperty      Localize            SectionName                 0x00070004  3904+12           0      3bca49ce518b0f13
+     22  FloatProperty     MultiplyMultiply_FloatFloat A                           0x00070004  3916+12           0      3bca49ce518b0f13
+     23  NameProperty      LogStr              Tag                         0x00070004  3928+12           0      3bca49ce518b0f13
+     24  StringProperty    Warn                S                           0x00070004  3940+16           0      3bca49ce518b0f13
+     25  Struct            Object              Plane                       0x00070004  3956+19           0      3bca49ce518b0f13
+     26  NameProperty      Log                 Tag                         0x00070004  3975+12           0      3bca49ce518b0f13
+     27  StringProperty    Log                 S                           0x00070004  3987+16           0      3bca49ce518b0f13
+     28  StrProperty       LogStr              S                           0x00070004  4003+12           0      3bca49ce518b0f13
+     29  FloatProperty     Subtract_PreFloat   A                           0x00070004  4015+13           0      3bca49ce518b0f13
+     30  NameProperty      EqualEqual_NameName B                           0x00070004  4028+13           0      3bca49ce518b0f13
+     31  NameProperty      EqualEqual_NameName A                           0x00070004  4041+12           0      3bca49ce518b0f13
+     32  ObjectProperty    NotEqual_ObjectObject B                           0x00070004  4053+14           0      3bca49ce518b0f13
+     33  IntProperty       Clamp               B                           0x00070004  4067+13           0      3bca49ce518b0f13
+     34  StringProperty    Asc                 S                           0x00070004  4080+17           0      3bca49ce518b0f13
+     35  ObjectProperty    EqualEqual_ObjectObject A                           0x00070004  4097+14           0      3bca49ce518b0f13
+     36  IntProperty       Clamp               V                           0x00070004  4111+12           0      3bca49ce518b0f13
+     37  IntProperty       Clamp               A                           0x00070004  4123+12           0      3bca49ce518b0f13
+     38  StringProperty    Caps                S                           0x00070004  4135+17           0      3bca49ce518b0f13
+     39  Enum              Scale               ESheerAxis                  0x00070004  4152+16           0      3bca49ce518b0f13
+     40  IntProperty       Right               i                           0x00070004  4168+13           0      3bca49ce518b0f13
+     41  IntProperty       Left                i                           0x00070004  4181+13           0      3bca49ce518b0f13
+     42  StringProperty    Left                S                           0x00070004  4194+16           0      3bca49ce518b0f13
+     43  StringProperty    Right               S                           0x00070004  4210+16           0      3bca49ce518b0f13
+     44  IntProperty       Mid                 i                           0x00070004  4226+12           0      3bca49ce518b0f13
+     45  StringProperty    Mid                 S                           0x00070004  4238+16           0      3bca49ce518b0f13
+     46  Struct            Object              BoundingBox                 0x00070004  4254+21           0      3bca49ce518b0f13
+     47  IntProperty       Mid                 j                           0x00070004  4275+13           0      3bca49ce518b0f13
+     48  StringProperty    InStr               t                           0x00070004  4288+17           0      3bca49ce518b0f13
+     49  StringProperty    InStr               S                           0x00070004  4305+16           0      3bca49ce518b0f13
+     50  IntProperty       Max                 B                           0x00070004  4321+13           0      3bca49ce518b0f13
+     51  IntProperty       Max                 A                           0x00070004  4334+12           0      3bca49ce518b0f13
+     52  StringProperty    Len                 S                           0x00070004  4346+17           0      3bca49ce518b0f13
+     53  StringProperty    NotEqual_StringString B                           0x00070004  4363+17           0      3bca49ce518b0f13
+     54  StringProperty    NotEqual_StringString A                           0x00070004  4380+16           0      3bca49ce518b0f13
+     55  BoolProperty      Not_PreBool         A                           0x00070004  4396+13           0      3bca49ce518b0f13
+     56  StringProperty    ComplementEqual_StringString B                           0x00070004  4409+17           0      3bca49ce518b0f13
+     57  StringProperty    ComplementEqual_StringString A                           0x00070004  4426+16           0      3bca49ce518b0f13
+     58  BoolProperty      EqualEqual_BoolBool A                           0x00070004  4442+12           0      3bca49ce518b0f13
+     59  BoolProperty      EqualEqual_BoolBool B                           0x00070004  4454+13           0      3bca49ce518b0f13
+     60  IntProperty       Min                 B                           0x00070004  4467+13           0      3bca49ce518b0f13
+     61  StringProperty    LessEqual_StringString B                           0x00070004  4480+17           0      3bca49ce518b0f13
+     62  BoolProperty      NotEqual_BoolBool   A                           0x00070004  4497+12           0      3bca49ce518b0f13
+     63  BoolProperty      NotEqual_BoolBool   B                           0x00070004  4509+13           0      3bca49ce518b0f13
+     64  StringProperty    GreaterEqual_StringString B                           0x00070004  4522+17           0      3bca49ce518b0f13
+     65  StringProperty    Greater_StringString B                           0x00070004  4539+17           0      3bca49ce518b0f13
+     66  BoolProperty      AndAnd_BoolBool     A                           0x00070004  4556+13           0      3bca49ce518b0f13
+     67  BoolProperty      AndAnd_BoolBool     B                           0x00070004  4569+13           0      3bca49ce518b0f13
+     68  StringProperty    GreaterEqual_StringString A                           0x00070004  4582+17           0      3bca49ce518b0f13
+     69  StringProperty    LessEqual_StringString A                           0x00070004  4599+16           0      3bca49ce518b0f13
+     70  BoolProperty      XorXor_BoolBool     A                           0x00070004  4615+13           0      3bca49ce518b0f13
+     71  BoolProperty      XorXor_BoolBool     B                           0x00070004  4628+13           0      3bca49ce518b0f13
+     72  StringProperty    EqualEqual_StringString A                           0x00070004  4641+17           0      3bca49ce518b0f13
+     73  StringProperty    EqualEqual_StringString B                           0x00070004  4658+17           0      3bca49ce518b0f13
+     74  BoolProperty      OrOr_BoolBool       A                           0x00070004  4675+13           0      3bca49ce518b0f13
+     75  BoolProperty      OrOr_BoolBool       B                           0x00070004  4688+13           0      3bca49ce518b0f13
+     76  StringProperty    Greater_StringString A                           0x00070004  4701+17           0      3bca49ce518b0f13
+     77  FloatProperty     Smerp               B                           0x00070004  4718+13           0      3bca49ce518b0f13
+     78  ByteProperty      MultiplyEqual_ByteByte A                           0x00070004  4731+14           0      3bca49ce518b0f13
+     79  ByteProperty      MultiplyEqual_ByteByte B                           0x00070004  4745+14           0      3bca49ce518b0f13
+     80  StringProperty    Concat_StringString B                           0x00070004  4759+17           0      3bca49ce518b0f13
+     81  StringProperty    Concat_StringString A                           0x00070004  4776+17           0      3bca49ce518b0f13
+     82  ByteProperty      DivideEqual_ByteByte A                           0x00070004  4793+14           0      3bca49ce518b0f13
+     83  ByteProperty      DivideEqual_ByteByte B                           0x00070004  4807+14           0      3bca49ce518b0f13
+     84  StringProperty    Less_StringString   A                           0x00070004  4821+17           0      3bca49ce518b0f13
+     85  FloatProperty     Smerp               A                           0x00070004  4838+13           0      3bca49ce518b0f13
+     86  ByteProperty      AddEqual_ByteByte   A                           0x00070004  4851+14           0      3bca49ce518b0f13
+     87  ByteProperty      AddEqual_ByteByte   B                           0x00070004  4865+14           0      3bca49ce518b0f13
+     88  FloatProperty     Lerp                B                           0x00070004  4879+13           0      3bca49ce518b0f13
+     89  FloatProperty     Lerp                A                           0x00070004  4892+13           0      3bca49ce518b0f13
+     90  ByteProperty      SubtractEqual_ByteByte A                           0x00070004  4905+14           0      3bca49ce518b0f13
+     91  ByteProperty      SubtractEqual_ByteByte B                           0x00070004  4919+14           0      3bca49ce518b0f13
+     92  StringProperty    Less_StringString   B                           0x00070004  4933+17           0      3bca49ce518b0f13
+     93  FloatProperty     FClamp              B                           0x00070004  4950+13           0      3bca49ce518b0f13
+     94  ByteProperty      AddAdd_PreByte      A                           0x00070004  4963+14           0      3bca49ce518b0f13
+     95  FloatProperty     FClamp              A                           0x00070004  4977+13           0      3bca49ce518b0f13
+     96  FloatProperty     Lerp                Alpha                       0x00070004  4990+13           0      3bca49ce518b0f13
+     97  ByteProperty      SubtractSubtract_PreByte A                           0x00070004  5003+14           0      3bca49ce518b0f13
+     98  FloatProperty     FClamp              V                           0x00070004  5017+13           0      3bca49ce518b0f13
+     99  FloatProperty     FMax                B                           0x00070004  5030+13           0      3bca49ce518b0f13
+    100  ByteProperty      AddAdd_Byte         A                           0x00070004  5043+14           0      3bca49ce518b0f13
+    101  FloatProperty     FMax                A                           0x00070004  5057+13           0      3bca49ce518b0f13
+    102  IntProperty       Min                 A                           0x00070004  5070+12           0      3bca49ce518b0f13
+    103  ByteProperty      SubtractSubtract_Byte A                           0x00070004  5082+14           0      3bca49ce518b0f13
+    104  FloatProperty     Square              A                           0x00070004  5096+13           0      3bca49ce518b0f13
+    105  FloatProperty     Sqrt                A                           0x00070004  5109+13           0      3bca49ce518b0f13
+    106  IntProperty       Complement_PreInt   A                           0x00070004  5122+13           0      3bca49ce518b0f13
+    107  FloatProperty     SubtractEqual_FloatFloat B                           0x00070004  5135+13           0      3bca49ce518b0f13
+    108  FloatProperty     SubtractEqual_FloatFloat A                           0x00070004  5148+13           0      3bca49ce518b0f13
+    109  IntProperty       Subtract_PreInt     A                           0x00070004  5161+13           0      3bca49ce518b0f13
+    110  IntProperty       AddAdd_Int          A                           0x00070004  5174+13           0      3bca49ce518b0f13
+    111  FloatProperty     Abs                 A                           0x00070004  5187+13           0      3bca49ce518b0f13
+    112  IntProperty       Multiply_IntInt     A                           0x00070004  5200+13           0      3bca49ce518b0f13
+    113  IntProperty       Multiply_IntInt     B                           0x00070004  5213+13           0      3bca49ce518b0f13
+    114  FloatProperty     Sin                 A                           0x00070004  5226+13           0      3bca49ce518b0f13
+    115  IntProperty       SubtractSubtract_Int A                           0x00070004  5239+13           0      3bca49ce518b0f13
+    116  IntProperty       Divide_IntInt       A                           0x00070004  5252+13           0      3bca49ce518b0f13
+    117  IntProperty       Divide_IntInt       B                           0x00070004  5265+13           0      3bca49ce518b0f13
+    118  FloatProperty     Cos                 A                           0x00070004  5278+13           0      3bca49ce518b0f13
+    119  FloatProperty     Tan                 A                           0x00070004  5291+13           0      3bca49ce518b0f13
+    120  IntProperty       Add_IntInt          A                           0x00070004  5304+13           0      3bca49ce518b0f13
+    121  IntProperty       Add_IntInt          B                           0x00070004  5317+13           0      3bca49ce518b0f13
+    122  IntProperty       Rand                Max                         0x00070004  5330+13           0      3bca49ce518b0f13
+    123  FloatProperty     Atan                A                           0x00070004  5343+13           0      3bca49ce518b0f13
+    124  IntProperty       Subtract_IntInt     A                           0x00070004  5356+13           0      3bca49ce518b0f13
+    125  IntProperty       Subtract_IntInt     B                           0x00070004  5369+13           0      3bca49ce518b0f13
+    126  FloatProperty     Exp                 A                           0x00070004  5382+13           0      3bca49ce518b0f13
+    127  FloatProperty     Loge                A                           0x00070004  5395+13           0      3bca49ce518b0f13
+    128  IntProperty       LessLess_IntInt     A                           0x00070004  5408+13           0      3bca49ce518b0f13
+    129  IntProperty       LessLess_IntInt     B                           0x00070004  5421+13           0      3bca49ce518b0f13
+    130  IntProperty       SubtractSubtract_PreInt A                           0x00070004  5434+13           0      3bca49ce518b0f13
+    131  FloatProperty     GreaterEqual_FloatFloat B                           0x00070004  5447+13           0      3bca49ce518b0f13
+    132  IntProperty       GreaterGreater_IntInt A                           0x00070004  5460+13           0      3bca49ce518b0f13
+    133  IntProperty       GreaterGreater_IntInt B                           0x00070004  5473+13           0      3bca49ce518b0f13
+    134  FloatProperty     EqualEqual_FloatFloat B                           0x00070004  5486+13           0      3bca49ce518b0f13
+    135  FloatProperty     LessEqual_FloatFloat B                           0x00070004  5499+13           0      3bca49ce518b0f13
+    136  IntProperty       GreaterGreaterGreater_IntInt A                           0x00070004  5512+13           0      3bca49ce518b0f13
+    137  IntProperty       GreaterGreaterGreater_IntInt B                           0x00070004  5525+13           0      3bca49ce518b0f13
+    138  FloatProperty     EqualEqual_FloatFloat A                           0x00070004  5538+13           0      3bca49ce518b0f13
+    139  FloatProperty     GreaterEqual_FloatFloat A                           0x00070004  5551+13           0      3bca49ce518b0f13
+    140  IntProperty       Less_IntInt         A                           0x00070004  5564+13           0      3bca49ce518b0f13
+    141  IntProperty       Less_IntInt         B                           0x00070004  5577+13           0      3bca49ce518b0f13
+    142  FloatProperty     ComplementEqual_FloatFloat A                           0x00070004  5590+13           0      3bca49ce518b0f13
+    143  FloatProperty     ComplementEqual_FloatFloat B                           0x00070004  5603+13           0      3bca49ce518b0f13
+    144  IntProperty       Greater_IntInt      A                           0x00070004  5616+13           0      3bca49ce518b0f13
+    145  IntProperty       Greater_IntInt      B                           0x00070004  5629+13           0      3bca49ce518b0f13
+    146  FloatProperty     NotEqual_FloatFloat A                           0x00070004  5642+13           0      3bca49ce518b0f13
+    147  FloatProperty     NotEqual_FloatFloat B                           0x00070004  5655+13           0      3bca49ce518b0f13
+    148  IntProperty       LessEqual_IntInt    A                           0x00070004  5668+13           0      3bca49ce518b0f13
+    149  IntProperty       LessEqual_IntInt    B                           0x00070004  5681+13           0      3bca49ce518b0f13
+    150  FloatProperty     MultiplyEqual_FloatFloat A                           0x00070004  5694+13           0      3bca49ce518b0f13
+    151  FloatProperty     MultiplyEqual_FloatFloat B                           0x00070004  5707+13           0      3bca49ce518b0f13
+    152  IntProperty       GreaterEqual_IntInt A                           0x00070004  5720+13           0      3bca49ce518b0f13
+    153  IntProperty       GreaterEqual_IntInt B                           0x00070004  5733+13           0      3bca49ce518b0f13
+    154  FloatProperty     DivideEqual_FloatFloat A                           0x00070004  5746+13           0      3bca49ce518b0f13
+    155  FloatProperty     DivideEqual_FloatFloat B                           0x00070004  5759+13           0      3bca49ce518b0f13
+    156  IntProperty       EqualEqual_IntInt   A                           0x00070004  5772+13           0      3bca49ce518b0f13
+    157  IntProperty       EqualEqual_IntInt   B                           0x00070004  5785+13           0      3bca49ce518b0f13
+    158  FloatProperty     AddEqual_FloatFloat A                           0x00070004  5798+13           0      3bca49ce518b0f13
+    159  FloatProperty     AddEqual_FloatFloat B                           0x00070004  5811+13           0      3bca49ce518b0f13
+    160  IntProperty       NotEqual_IntInt     A                           0x00070004  5824+13           0      3bca49ce518b0f13
+    161  IntProperty       NotEqual_IntInt     B                           0x00070004  5837+13           0      3bca49ce518b0f13
+    162  FloatProperty     RandRange           ReturnValue                 0x00070004  5850+12           0      3bca49ce518b0f13
+    163  FloatProperty     RandRange           Max                         0x00070004  5862+13           0      3bca49ce518b0f13
+    164  IntProperty       And_IntInt          A                           0x00070004  5875+13           0      3bca49ce518b0f13
+    165  IntProperty       And_IntInt          B                           0x00070004  5888+13           0      3bca49ce518b0f13
+    166  FloatProperty     Add_FloatFloat      B                           0x00070004  5901+13           0      3bca49ce518b0f13
+    167  ClassProperty     ClassIsChildOf      TestClass                   0x00070004  5914+14           0      3bca49ce518b0f13
+    168  IntProperty       Xor_IntInt          A                           0x00070004  5928+13           0      3bca49ce518b0f13
+    169  IntProperty       Xor_IntInt          B                           0x00070004  5941+13           0      3bca49ce518b0f13
+    170  StringProperty    GetPropertyText     PropName                    0x00070004  5954+17           0      3bca49ce518b0f13
+    171  StringProperty    SetPropertyText     PropName                    0x00070004  5971+16           0      3bca49ce518b0f13
+    172  IntProperty       Or_IntInt           A                           0x00070004  5987+13           0      3bca49ce518b0f13
+    173  IntProperty       Or_IntInt           B                           0x00070004  6000+13           0      3bca49ce518b0f13
+    174  FloatProperty     Add_FloatFloat      A                           0x00070004  6013+13           0      3bca49ce518b0f13
+    175  FloatProperty     Percent_FloatFloat  A                           0x00070004  6026+12           0      3bca49ce518b0f13
+    176  IntProperty       MultiplyEqual_IntFloat A                           0x00070004  6038+13           0      3bca49ce518b0f13
+    177  FloatProperty     MultiplyEqual_IntFloat B                           0x00070004  6051+13           0      3bca49ce518b0f13
+    178  FloatProperty     Subtract_FloatFloat A                           0x00070004  6064+13           0      3bca49ce518b0f13
+    179  FloatProperty     Subtract_FloatFloat B                           0x00070004  6077+13           0      3bca49ce518b0f13
+    180  IntProperty       DivideEqual_IntFloat A                           0x00070004  6090+13           0      3bca49ce518b0f13
+    181  FloatProperty     DivideEqual_IntFloat B                           0x00070004  6103+13           0      3bca49ce518b0f13
+    182  FloatProperty     Less_FloatFloat     A                           0x00070004  6116+13           0      3bca49ce518b0f13
+    183  FloatProperty     Less_FloatFloat     B                           0x00070004  6129+13           0      3bca49ce518b0f13
+    184  IntProperty       AddEqual_IntInt     A                           0x00070004  6142+13           0      3bca49ce518b0f13
+    185  IntProperty       AddEqual_IntInt     B                           0x00070004  6155+13           0      3bca49ce518b0f13
+    186  FloatProperty     Greater_FloatFloat  A                           0x00070004  6168+13           0      3bca49ce518b0f13
+    187  FloatProperty     Greater_FloatFloat  B                           0x00070004  6181+13           0      3bca49ce518b0f13
+    188  IntProperty       SubtractEqual_IntInt A                           0x00070004  6194+13           0      3bca49ce518b0f13
+    189  IntProperty       SubtractEqual_IntInt B                           0x00070004  6207+13           0      3bca49ce518b0f13
+    190  NameProperty      NotEqual_NameName   B                           0x00070004  6220+13           0      3bca49ce518b0f13
+    191  NameProperty      NotEqual_NameName   A                           0x00070004  6233+13           0      3bca49ce518b0f13
+    192  IntProperty       AddAdd_PreInt       A                           0x00070004  6246+13           0      3bca49ce518b0f13
+    193  ObjectProperty    NotEqual_ObjectObject A                           0x00070004  6259+13           0      3bca49ce518b0f13
+    194  ObjectProperty    EqualEqual_ObjectObject B                           0x00070004  6272+14           0      3bca49ce518b0f13
+    195  FloatProperty     LessEqual_FloatFloat A                           0x00070004  6286+13           0      3bca49ce518b0f13
+    196  FloatProperty     FMin                A                           0x00070004  6299+13           0      3bca49ce518b0f13
+    197  FloatProperty     Multiply_FloatFloat A                           0x00070004  6312+12           0      3bca49ce518b0f13
+    198  FloatProperty     FMin                B                           0x00070004  6324+13           0      3bca49ce518b0f13
+    199  FloatProperty     Smerp               Alpha                       0x00070004  6337+13           0      3bca49ce518b0f13
+    200  NameProperty      IsInState           TestState                   0x00070004  6350+13           0      3bca49ce518b0f13
+    201  IntProperty       Chr                 i                           0x00070004  6363+13           0      3bca49ce518b0f13
+    202  IntProperty       MultiplyEqual_IntFloat ReturnValue                 0x00070004  6376+12           0      3bca49ce518b0f13
+    203  Function          Object              Or_IntInt                   0x00070004  6388+39           0      3bca49ce518b0f13
+    204  Function          Object              AddEqual_IntInt             0x00070004  6427+38           0      3bca49ce518b0f13
+    205  Function          Object              MultiplyEqual_IntFloat      0x00070004  6465+38           0      3bca49ce518b0f13
+    206  IntProperty       GreaterGreaterGreater_IntInt ReturnValue                 0x00070004  6503+12           0      3bca49ce518b0f13
+    207  IntProperty       Or_IntInt           ReturnValue                 0x00070004  6515+12           0      3bca49ce518b0f13
+    208  IntProperty       Xor_IntInt          ReturnValue                 0x00070004  6527+12           0      3bca49ce518b0f13
+    209  IntProperty       DivideEqual_IntFloat ReturnValue                 0x00070004  6539+12           0      3bca49ce518b0f13
+    210  Function          Object              DivideEqual_IntFloat        0x00070004  6551+38           0      3bca49ce518b0f13
+    211  Function          Object              SubtractSubtract_PreInt     0x00070004  6589+35           0      3bca49ce518b0f13
+    212  Function          Object              AddAdd_Byte                 0x00070004  6624+35           0      3bca49ce518b0f13
+    213  Function          Object              AddAdd_PreByte              0x00070004  6659+35           0      3bca49ce518b0f13
+    214  Struct            Object              BoundingVolume              0x00070004  6694+20           0      3bca49ce518b0f13
+    215  StructProperty    BoundingBox         Max                         0x00070004  6714+14           0      3bca49ce518b0f13
+    216  Struct            Object              Color                       0x00070004  6728+20           0      3bca49ce518b0f13
+    217  IntProperty       AddAdd_PreInt       ReturnValue                 0x00070004  6748+12           0      3bca49ce518b0f13
+    218  Struct            Object              Scale                       0x00070004  6760+19           0      3bca49ce518b0f13
+    219  Function          Object              AddAdd_PreInt               0x00070004  6779+35           0      3bca49ce518b0f13
+    220  Function          Object              SubtractEqual_IntInt        0x00070004  6814+38           0      3bca49ce518b0f13
+    221  StructProperty    Coords              XAxis                       0x00070004  6852+14           0      3bca49ce518b0f13
+    222  IntProperty       AddEqual_IntInt     ReturnValue                 0x00070004  6866+12           0      3bca49ce518b0f13
+    223  IntProperty       SubtractEqual_IntInt ReturnValue                 0x00070004  6878+12           0      3bca49ce518b0f13
+    224  IntProperty       Rotator             Yaw                         0x00070004  6890+13           0      3bca49ce518b0f13
+    225  FloatProperty     Plane               W                           0x00070004  6903+12           0      3bca49ce518b0f13
+    226  BoolProperty      NotEqual_IntInt     ReturnValue                 0x00070004  6915+12           0      3bca49ce518b0f13
+    227  Function          Object              Less_IntInt                 0x00070004  6927+38           0      3bca49ce518b0f13
+    228  BoolProperty      Less_IntInt         ReturnValue                 0x00070004  6965+12           0      3bca49ce518b0f13
+    229  Struct            Object              Guid                        0x00070004  6977+20           0      3bca49ce518b0f13
+    230  Function          Object              And_IntInt                  0x00070004  6997+38           0      3bca49ce518b0f13
+    231  Const             Object              RF_Transactional            0x00070000  7035+17           0      3bca49ce518b0f13
+    232  Function          Object              Xor_IntInt                  0x00070004  7052+38           0      3bca49ce518b0f13
+    233  IntProperty       Object              ObjectFlags                 0x00070004  7090+13           0      3bca49ce518b0f13
+    234  Function          Object              Percent_FloatFloat          0x00070004  7103+38           0      3bca49ce518b0f13
+    235  IntProperty       And_IntInt          ReturnValue                 0x00070004  7141+12           0      3bca49ce518b0f13
+    236  Function          Object              Greater_IntInt              0x00070004  7153+38           0      3bca49ce518b0f13
+    237  BoolProperty      Greater_IntInt      ReturnValue                 0x00070004  7191+12           0      3bca49ce518b0f13
+    238  IntProperty       Object              ObjectInternal              0x00070000  7203+13           0      3bca49ce518b0f13
+    239  Function          Object              LessEqual_IntInt            0x00070004  7216+38           0      3bca49ce518b0f13
+    240  BoolProperty      LessEqual_IntInt    ReturnValue                 0x00070004  7254+12           0      3bca49ce518b0f13
+    241  FloatProperty     Add_FloatFloat      ReturnValue                 0x00070004  7266+12           0      3bca49ce518b0f13
+    242  Function          Object              Subtract_FloatFloat         0x00070004  7278+38           0      3bca49ce518b0f13
+    243  Function          Object              GreaterEqual_IntInt         0x00070004  7316+38           0      3bca49ce518b0f13
+    244  BoolProperty      GreaterEqual_IntInt ReturnValue                 0x00070004  7354+12           0      3bca49ce518b0f13
+    245  FloatProperty     Subtract_FloatFloat ReturnValue                 0x00070004  7366+12           0      3bca49ce518b0f13
+    246  Function          Object              Less_FloatFloat             0x00070004  7378+38           0      3bca49ce518b0f13
+    247  Function          Object              EqualEqual_IntInt           0x00070004  7416+38           0      3bca49ce518b0f13
+    248  BoolProperty      EqualEqual_IntInt   ReturnValue                 0x00070004  7454+12           0      3bca49ce518b0f13
+    249  BoolProperty      Less_FloatFloat     ReturnValue                 0x00070004  7466+12           0      3bca49ce518b0f13
+    250  Function          Object              Greater_FloatFloat          0x00070004  7478+38           0      3bca49ce518b0f13
+    251  Function          Object              NotEqual_IntInt             0x00070004  7516+38           0      3bca49ce518b0f13
+    252  IntProperty       LessLess_IntInt     ReturnValue                 0x00070004  7554+12           0      3bca49ce518b0f13
+    253  BoolProperty      Greater_FloatFloat  ReturnValue                 0x00070004  7566+12           0      3bca49ce518b0f13
+    254  Function          Object              LessEqual_FloatFloat        0x00070004  7578+38           0      3bca49ce518b0f13
+    255  Function          Object              GreaterGreater_IntInt       0x00070004  7616+38           0      3bca49ce518b0f13
+    256  Function          Object              GreaterGreaterGreater_IntInt 0x00070004  7654+38           0      3bca49ce518b0f13
+    257  BoolProperty      LessEqual_FloatFloat ReturnValue                 0x00070004  7692+12           0      3bca49ce518b0f13
+    258  Function          Object              GreaterEqual_FloatFloat     0x00070004  7704+38           0      3bca49ce518b0f13
+    259  IntProperty       GreaterGreater_IntInt ReturnValue                 0x00070004  7742+12           0      3bca49ce518b0f13
+    260  IntProperty       SubtractSubtract_PreInt ReturnValue                 0x00070004  7754+12           0      3bca49ce518b0f13
+    261  BoolProperty      GreaterEqual_FloatFloat ReturnValue                 0x00070004  7766+12           0      3bca49ce518b0f13
+    262  Function          Object              EqualEqual_FloatFloat       0x00070004  7778+38           0      3bca49ce518b0f13
+    263  Function          Object              Subtract_PreInt             0x00070004  7816+35           0      3bca49ce518b0f13
+    264  IntProperty       Subtract_PreInt     ReturnValue                 0x00070004  7851+12           0      3bca49ce518b0f13
+    265  BoolProperty      EqualEqual_FloatFloat ReturnValue                 0x00070004  7863+12           0      3bca49ce518b0f13
+    266  Function          Object              ComplementEqual_FloatFloat  0x00070004  7875+38           0      3bca49ce518b0f13
+    267  Function          Object              Multiply_IntInt             0x00070004  7913+38           0      3bca49ce518b0f13
+    268  IntProperty       Multiply_IntInt     ReturnValue                 0x00070004  7951+12           0      3bca49ce518b0f13
+    269  BoolProperty      ComplementEqual_FloatFloat ReturnValue                 0x00070004  7963+12           0      3bca49ce518b0f13
+    270  Function          Object              NotEqual_FloatFloat         0x00070004  7975+38           0      3bca49ce518b0f13
+    271  Function          Object              Divide_IntInt               0x00070004  8013+38           0      3bca49ce518b0f13
+    272  IntProperty       Divide_IntInt       ReturnValue                 0x00070004  8051+12           0      3bca49ce518b0f13
+    273  BoolProperty      NotEqual_FloatFloat ReturnValue                 0x00070004  8063+12           0      3bca49ce518b0f13
+    274  Function          Object              MultiplyEqual_FloatFloat    0x00070004  8075+38           0      3bca49ce518b0f13
+    275  Function          Object              Add_IntInt                  0x00070004  8113+38           0      3bca49ce518b0f13
+    276  IntProperty       Add_IntInt          ReturnValue                 0x00070004  8151+12           0      3bca49ce518b0f13
+    277  FloatProperty     MultiplyEqual_FloatFloat ReturnValue                 0x00070004  8163+12           0      3bca49ce518b0f13
+    278  Function          Object              DivideEqual_FloatFloat      0x00070004  8175+38           0      3bca49ce518b0f13
+    279  Function          Object              Subtract_IntInt             0x00070004  8213+38           0      3bca49ce518b0f13
+    280  IntProperty       Subtract_IntInt     ReturnValue                 0x00070004  8251+12           0      3bca49ce518b0f13
+    281  FloatProperty     DivideEqual_FloatFloat ReturnValue                 0x00070004  8263+12           0      3bca49ce518b0f13
+    282  Function          Object              AddEqual_FloatFloat         0x00070004  8275+38           0      3bca49ce518b0f13
+    283  Function          Object              LessLess_IntInt             0x00070004  8313+38           0      3bca49ce518b0f13
+    284  IntProperty       Complement_PreInt   ReturnValue                 0x00070004  8351+12           0      3bca49ce518b0f13
+    285  FloatProperty     AddEqual_FloatFloat ReturnValue                 0x00070004  8363+12           0      3bca49ce518b0f13
+    286  Function          Object              SubtractEqual_FloatFloat    0x00070004  8375+38           0      3bca49ce518b0f13
+    287  Function          Object              AddAdd_Int                  0x00070004  8413+35           0      3bca49ce518b0f13
+    288  IntProperty       AddAdd_Int          ReturnValue                 0x00070004  8448+12           0      3bca49ce518b0f13
+    289  FloatProperty     SubtractEqual_FloatFloat ReturnValue                 0x00070004  8460+12           0      3bca49ce518b0f13
+    290  Function          Object              Abs                         0x00070004  8472+36           0      3bca49ce518b0f13
+    291  Function          Object              SubtractSubtract_Int        0x00070004  8508+35           0      3bca49ce518b0f13
+    292  FloatProperty     Abs                 ReturnValue                 0x00070004  8543+12           0      3bca49ce518b0f13
+    293  Function          Object              Sin                         0x00070004  8555+36           0      3bca49ce518b0f13
+    294  IntProperty       SubtractSubtract_Int ReturnValue                 0x00070004  8591+12           0      3bca49ce518b0f13
+    295  FloatProperty     Sin                 ReturnValue                 0x00070004  8603+12           0      3bca49ce518b0f13
+    296  Function          Object              Cos                         0x00070004  8615+36           0      3bca49ce518b0f13
+    297  Function          Object              Rand                        0x00070004  8651+36           0      3bca49ce518b0f13
+    298  FloatProperty     Cos                 ReturnValue                 0x00070004  8687+12           0      3bca49ce518b0f13
+    299  Function          Object              Tan                         0x00070004  8699+36           0      3bca49ce518b0f13
+    300  IntProperty       Rand                ReturnValue                 0x00070004  8735+12           0      3bca49ce518b0f13
+    301  FloatProperty     Tan                 ReturnValue                 0x00070004  8747+12           0      3bca49ce518b0f13
+    302  Function          Object              Atan                        0x00070004  8759+36           0      3bca49ce518b0f13
+    303  Function          Object              Min                         0x00070004  8795+38           0      3bca49ce518b0f13
+    304  FloatProperty     Atan                ReturnValue                 0x00070004  8833+12           0      3bca49ce518b0f13
+    305  Function          Object              Exp                         0x00070004  8845+35           0      3bca49ce518b0f13
+    306  Function          Object              Complement_PreInt           0x00070004  8880+36           0      3bca49ce518b0f13
+    307  FloatProperty     Exp                 ReturnValue                 0x00070004  8916+12           0      3bca49ce518b0f13
+    308  Function          Object              Loge                        0x00070004  8928+35           0      3bca49ce518b0f13
+    309  ByteProperty      SubtractSubtract_Byte ReturnValue                 0x00070004  8963+13           0      3bca49ce518b0f13
+    310  FloatProperty     Loge                ReturnValue                 0x00070004  8976+12           0      3bca49ce518b0f13
+    311  Function          Object              Sqrt                        0x00070004  8988+35           0      3bca49ce518b0f13
+    312  Function          Object              MultiplyEqual_ByteByte      0x00070004  9023+38           0      3bca49ce518b0f13
+    313  FloatProperty     Sqrt                ReturnValue                 0x00070004  9061+12           0      3bca49ce518b0f13
+    314  Function          Object              Square                      0x00070004  9073+35           0      3bca49ce518b0f13
+    315  Function          Object              SubtractSubtract_Byte       0x00070004  9108+35           0      3bca49ce518b0f13
+    316  FloatProperty     Square              ReturnValue                 0x00070004  9143+12           0      3bca49ce518b0f13
+    317  Function          Object              FRand                       0x00070004  9155+32           0      3bca49ce518b0f13
+    318  FloatProperty     FRand               ReturnValue                 0x00070004  9187+12           0      3bca49ce518b0f13
+    319  Function          Object              FMin                        0x00070004  9199+38           0      3bca49ce518b0f13
+    320  ByteProperty      AddAdd_Byte         ReturnValue                 0x00070004  9237+13           0      3bca49ce518b0f13
+    321  ByteProperty      SubtractSubtract_PreByte ReturnValue                 0x00070004  9250+13           0      3bca49ce518b0f13
+    322  FloatProperty     FMin                ReturnValue                 0x00070004  9263+12           0      3bca49ce518b0f13
+    323  Function          Object              FMax                        0x00070004  9275+38           0      3bca49ce518b0f13
+    324  Function          Object              SubtractSubtract_PreByte    0x00070004  9313+35           0      3bca49ce518b0f13
+    325  ByteProperty      AddAdd_PreByte      ReturnValue                 0x00070004  9348+13           0      3bca49ce518b0f13
+    326  FloatProperty     FMax                ReturnValue                 0x00070004  9361+12           0      3bca49ce518b0f13
+    327  Function          Object              FClamp                      0x00070004  9373+41           0      3bca49ce518b0f13
+    328  ByteProperty      SubtractEqual_ByteByte ReturnValue                 0x00070004  9414+13           0      3bca49ce518b0f13
+    329  Function          Object              SubtractEqual_ByteByte      0x00070004  9427+38           0      3bca49ce518b0f13
+    330  BoolProperty      OrOr_BoolBool       ReturnValue                 0x00070004  9465+12           0      3bca49ce518b0f13
+    331  FloatProperty     FClamp              ReturnValue                 0x00070004  9477+12           0      3bca49ce518b0f13
+    332  Function          Object              Lerp                        0x00070004  9489+41           0      3bca49ce518b0f13
+    333  ByteProperty      AddEqual_ByteByte   ReturnValue                 0x00070004  9530+13           0      3bca49ce518b0f13
+    334  Function          Object              AddEqual_ByteByte           0x00070004  9543+38           0      3bca49ce518b0f13
+    335  ByteProperty      DivideEqual_ByteByte ReturnValue                 0x00070004  9581+13           0      3bca49ce518b0f13
+    336  FloatProperty     Lerp                ReturnValue                 0x00070004  9594+12           0      3bca49ce518b0f13
+    337  Function          Object              Smerp                       0x00070004  9606+41           0      3bca49ce518b0f13
+    338  Function          Object              DivideEqual_ByteByte        0x00070004  9647+38           0      3bca49ce518b0f13
+    339  ByteProperty      MultiplyEqual_ByteByte ReturnValue                 0x00070004  9685+13           0      3bca49ce518b0f13
+    340  BoolProperty      AndAnd_BoolBool     ReturnValue                 0x00070004  9698+12           0      3bca49ce518b0f13
+    341  FloatProperty     Smerp               ReturnValue                 0x00070004  9710+12           0      3bca49ce518b0f13
+    342  Function          Object              Concat_StringString         0x00070004  9722+38           0      3bca49ce518b0f13
+    343  Function          Object              XorXor_BoolBool             0x00070004  9760+39           0      3bca49ce518b0f13
+    344  BoolProperty      XorXor_BoolBool     ReturnValue                 0x00070004  9799+12           0      3bca49ce518b0f13
+    345  StringProperty    Concat_StringString ReturnValue                 0x00070004  9811+16           0      3bca49ce518b0f13
+    346  Function          Object              Less_StringString           0x00070004  9827+38           0      3bca49ce518b0f13
+    347  Function          Object              OrOr_BoolBool               0x00070004  9865+39           0      3bca49ce518b0f13
+    348  BoolProperty      EqualEqual_BoolBool ReturnValue                 0x00070004  9904+12           0      3bca49ce518b0f13
+    349  BoolProperty      Less_StringString   ReturnValue                 0x00070004  9916+12           0      3bca49ce518b0f13
+    350  Function          Object              Greater_StringString        0x00070004  9928+38           0      3bca49ce518b0f13
+    351  Function          Object              NotEqual_BoolBool           0x00070004  9966+35           0      3bca49ce518b0f13
+    352  Function          Object              AndAnd_BoolBool             0x00070004  10001+39          0      3bca49ce518b0f13
+    353  BoolProperty      Greater_StringString ReturnValue                 0x00070004  10040+12          0      3bca49ce518b0f13
+    354  Function          Object              LessEqual_StringString      0x00070004  10052+37          0      3bca49ce518b0f13
+    355  BoolProperty      NotEqual_BoolBool   ReturnValue                 0x00070004  10089+12          0      3bca49ce518b0f13
+    356  IntProperty       Min                 ReturnValue                 0x00070004  10101+12          0      3bca49ce518b0f13
+    357  BoolProperty      LessEqual_StringString ReturnValue                 0x00070004  10113+12          0      3bca49ce518b0f13
+    358  Function          Object              GreaterEqual_StringString   0x00070004  10125+38          0      3bca49ce518b0f13
+    359  Function          Object              Not_PreBool                 0x00070004  10163+34          0      3bca49ce518b0f13
+    360  BoolProperty      Not_PreBool         ReturnValue                 0x00070004  10197+12          0      3bca49ce518b0f13
+    361  BoolProperty      GreaterEqual_StringString ReturnValue                 0x00070004  10209+12          0      3bca49ce518b0f13
+    362  Function          Object              EqualEqual_StringString     0x00070004  10221+38          0      3bca49ce518b0f13
+    363  Function          Object              EqualEqual_BoolBool         0x00070004  10259+35          0      3bca49ce518b0f13
+    364  StructProperty    BoundingVolume      Sphere                      0x00070004  10294+13          0      3bca49ce518b0f13
+    365  BoolProperty      EqualEqual_StringString ReturnValue                 0x00070004  10307+12          0      3bca49ce518b0f13
+    366  Function          Object              NotEqual_StringString       0x00070004  10319+35          0      3bca49ce518b0f13
+    367  Function          Object              Max                         0x00070004  10354+36          0      3bca49ce518b0f13
+    368  Const             Object              Pi                          0x00070000  10390+25          0      3bca49ce518b0f13
+    369  BoolProperty      NotEqual_StringString ReturnValue                 0x00070004  10415+12          0      3bca49ce518b0f13
+    370  Function          Object              ComplementEqual_StringString 0x00070004  10427+35          0      3bca49ce518b0f13
+    371  Const             Object              MaxInt                      0x00070000  10462+17          0      3bca49ce518b0f13
+    372  ByteProperty      BoundingBox         IsValid                     0x00070004  10479+13          0      3bca49ce518b0f13
+    373  BoolProperty      ComplementEqual_StringString ReturnValue                 0x00070004  10492+12          0      3bca49ce518b0f13
+    374  Function          Object              Len                         0x00070004  10504+34          0      3bca49ce518b0f13
+    375  StructProperty    BoundingBox         Min                         0x00070004  10538+14          0      3bca49ce518b0f13
+    376  IntProperty       Len                 ReturnValue                 0x00070004  10552+12          0      3bca49ce518b0f13
+    377  Function          Object              InStr                       0x00070004  10564+35          0      3bca49ce518b0f13
+    378  ByteProperty      Color               A                           0x00070004  10599+13          0      3bca49ce518b0f13
+    379  ByteProperty      Color               B                           0x00070004  10612+14          0      3bca49ce518b0f13
+    380  IntProperty       InStr               ReturnValue                 0x00070004  10626+12          0      3bca49ce518b0f13
+    381  Function          Object              Mid                         0x00070004  10638+37          0      3bca49ce518b0f13
+    382  IntProperty       Max                 ReturnValue                 0x00070004  10675+12          0      3bca49ce518b0f13
+    383  ByteProperty      Color               R                           0x00070004  10687+14          0      3bca49ce518b0f13
+    384  ByteProperty      Color               G                           0x00070004  10701+14          0      3bca49ce518b0f13
+    385  StringProperty    Mid                 ReturnValue                 0x00070004  10715+16          0      3bca49ce518b0f13
+    386  Function          Object              Left                        0x00070004  10731+36          0      3bca49ce518b0f13
+    387  Function          Object              Clamp                       0x00070004  10767+38          0      3bca49ce518b0f13
+    388  ByteProperty      Scale               SheerAxis                   0x00070004  10805+13          0      3bca49ce518b0f13
+    389  StringProperty    Left                ReturnValue                 0x00070004  10818+16          0      3bca49ce518b0f13
+    390  Function          Object              Right                       0x00070004  10834+36          0      3bca49ce518b0f13
+    391  FloatProperty     Scale               SheerRate                   0x00070004  10870+13          0      3bca49ce518b0f13
+    392  StructProperty    Scale               Scale                       0x00070004  10883+14          0      3bca49ce518b0f13
+    393  StringProperty    Right               ReturnValue                 0x00070004  10897+16          0      3bca49ce518b0f13
+    394  Function          Object              Caps                        0x00070004  10913+33          0      3bca49ce518b0f13
+    395  StructProperty    Coords              YAxis                       0x00070004  10946+14          0      3bca49ce518b0f13
+    396  StringProperty    Caps                ReturnValue                 0x00070004  10960+16          0      3bca49ce518b0f13
+    397  Function          Object              Chr                         0x00070004  10976+35          0      3bca49ce518b0f13
+    398  StructProperty    Coords              ZAxis                       0x00070004  11011+13          0      3bca49ce518b0f13
+    399  StringProperty    Chr                 ReturnValue                 0x00070004  11024+16          0      3bca49ce518b0f13
+    400  Function          Object              Asc                         0x00070004  11040+33          0      3bca49ce518b0f13
+    401  IntProperty       Clamp               ReturnValue                 0x00070004  11073+12          0      3bca49ce518b0f13
+    402  IntProperty       Asc                 ReturnValue                 0x00070004  11085+12          0      3bca49ce518b0f13
+    403  Function          Object              EqualEqual_ObjectObject     0x00070004  11097+36          0      3bca49ce518b0f13
+    404  Function          Object              Subtract_PreFloat           0x00070004  11133+33          0      3bca49ce518b0f13
+    405  StructProperty    Coords              Origin                      0x00070004  11166+14          0      3bca49ce518b0f13
+    406  BoolProperty      EqualEqual_ObjectObject ReturnValue                 0x00070004  11180+12          0      3bca49ce518b0f13
+    407  Function          Object              NotEqual_ObjectObject       0x00070004  11192+37          0      3bca49ce518b0f13
+    408  Struct            Object              Coords                      0x00070004  11229+20          0      3bca49ce518b0f13
+    409  IntProperty       Rotator             Roll                        0x00070004  11249+12          0      3bca49ce518b0f13
+    410  BoolProperty      NotEqual_ObjectObject ReturnValue                 0x00070004  11261+12          0      3bca49ce518b0f13
+    411  Function          Object              EqualEqual_NameName         0x00070004  11273+35          0      3bca49ce518b0f13
+    412  FloatProperty     Subtract_PreFloat   ReturnValue                 0x00070004  11308+12          0      3bca49ce518b0f13
+    413  Function          Object              MultiplyMultiply_FloatFloat 0x00070004  11320+36          0      3bca49ce518b0f13
+    414  BoolProperty      EqualEqual_NameName ReturnValue                 0x00070004  11356+12          0      3bca49ce518b0f13
+    415  Function          Object              NotEqual_NameName           0x00070004  11368+38          0      3bca49ce518b0f13
+    416  Struct            Object              Rotator                     0x00070004  11406+19          0      3bca49ce518b0f13
+    417  IntProperty       Rotator             Pitch                       0x00070004  11425+13          0      3bca49ce518b0f13
+    418  BoolProperty      NotEqual_NameName   ReturnValue                 0x00070004  11438+12          0      3bca49ce518b0f13
+    419  Function          Object              Log                         0x00070004  11450+35          0      3bca49ce518b0f13
+    420  FloatProperty     Vector              Y                           0x00070004  11485+13          0      3bca49ce518b0f13
+    421  FloatProperty     Vector              Z                           0x00070004  11498+12          0      3bca49ce518b0f13
+    422  Function          Object              LogStr                      0x00070004  11510+35          0      3bca49ce518b0f13
+    423  FloatProperty     Vector              X                           0x00070004  11545+13          0      3bca49ce518b0f13
+    424  TextBuffer        Subsystem           ScriptText                  0x00340000  11558+675         0      567f6cb4369a5a86
+    425  Function          Object              Warn                        0x00070004  12233+33          0      3bca49ce518b0f13
+    426  IntProperty       Guid                D                           0x00070004  12266+12          0      3bca49ce518b0f13
+    427  Function          Object              Localize                    0x00070004  12278+37          0      3bca49ce518b0f13
+    428  IntProperty       Guid                C                           0x00070004  12315+13          0      3bca49ce518b0f13
+    429  IntProperty       Guid                B                           0x00070004  12328+13          0      3bca49ce518b0f13
+    430  IntProperty       Guid                A                           0x00070004  12341+13          0      3bca49ce518b0f13
+    431  StringProperty    Localize            ReturnValue                 0x00070004  12354+16          0      3bca49ce518b0f13
+    432  Function          Object              GotoState                   0x00070004  12370+36          0      3bca49ce518b0f13
+    433  FloatProperty     MultiplyMultiply_FloatFloat ReturnValue                 0x00070004  12406+12          0      3bca49ce518b0f13
+    434  Function          Object              Multiply_FloatFloat         0x00070004  12418+37          0      3bca49ce518b0f13
+    435  Function          Object              IsInState                   0x00070004  12455+36          0      3bca49ce518b0f13
+    436  Const             Object              RF_NotForEdit               0x00070000  12491+17          0      3bca49ce518b0f13
+    437  BoolProperty      IsInState           ReturnValue                 0x00070004  12508+12          0      3bca49ce518b0f13
+    438  Function          Object              GetStateName                0x00070004  12520+33          0      3bca49ce518b0f13
+    439  NameProperty      GetStateName        ReturnValue                 0x00070004  12553+12          0      3bca49ce518b0f13
+    440  Function          Object              ClassIsChildOf              0x00070004  12565+38          0      3bca49ce518b0f13
+    441  Const             Object              RF_NotForServer             0x00070000  12603+17          0      3bca49ce518b0f13
+    442  Const             Object              RF_NotForClient             0x00070000  12620+17          0      3bca49ce518b0f13
+    443  BoolProperty      ClassIsChildOf      ReturnValue                 0x00070004  12637+12          0      3bca49ce518b0f13
+    444  Function          Object              Enable                      0x00070004  12649+34          0      3bca49ce518b0f13
+    445  FloatProperty     Multiply_FloatFloat ReturnValue                 0x00070004  12683+12          0      3bca49ce518b0f13
+    446  Function          Object              Disable                     0x00070004  12695+34          0      3bca49ce518b0f13
+    447  Function          Object              Divide_FloatFloat           0x00070004  12729+35          0      3bca49ce518b0f13
+    448  Function          Object              GetPropertyText             0x00070004  12764+35          0      3bca49ce518b0f13
+    449  Const             Object              RF_Transient                0x00070000  12799+17          0      3bca49ce518b0f13
+    450  StringProperty    GetPropertyText     ReturnValue                 0x00070004  12816+16          0      3bca49ce518b0f13
+    451  Function          Object              SetPropertyText             0x00070004  12832+37          0      3bca49ce518b0f13
+    452  Const             Object              RF_Public                   0x00070000  12869+17          0      3bca49ce518b0f13
+    453  ClassProperty     Object              Class                       0x00070004  12886+14          0      3bca49ce518b0f13
+    454  Function          Object              GetEnum                     0x00070004  12900+35          0      3bca49ce518b0f13
+    455  NameProperty      Object              Name                        0x00070004  12935+13          0      3bca49ce518b0f13
+    456  ObjectProperty    Object              Outer                       0x00070004  12948+14          0      3bca49ce518b0f13
+    457  NameProperty      GetEnum             ReturnValue                 0x00070004  12962+12          0      3bca49ce518b0f13
+    458  Function          Object              DynamicLoadObject           0x00070004  12974+35          0      3bca49ce518b0f13
+    459  FloatProperty     Divide_FloatFloat   ReturnValue                 0x00070004  13009+12          0      3bca49ce518b0f13
+    460  TextBuffer        Object              ScriptText                  0x00340000  13021+11557       0      a4a63eeb129ef75d
+    461  ObjectProperty    DynamicLoadObject   ReturnValue                 0x00070004  24578+13          0      3bca49ce518b0f13
+    462  Function          Object              SaveConfig                  0x00070004  24591+32          0      3bca49ce518b0f13
+    463  Function          Object              ResetConfig                 0x00070004  24623+31          0      3bca49ce518b0f13
+    464  Function          Object              BeginState                  0x00070004  24654+33          0      3bca49ce518b0f13
+    465  Function          Object              EndState                    0x00070004  24687+33          0      3bca49ce518b0f13
+    466  Function          Object              RandRange                   0x00070004  24720+54          0      3bca49ce518b0f13
+    467  -                 -                   Subsystem                   0x040f0004  24774+86          0      3bca49ce518b0f13
+    468  FloatProperty     Percent_FloatFloat  ReturnValue                 0x00070004  24860+12          0      3bca49ce518b0f13
+    469  Function          Object              Add_FloatFloat              0x00070004  24872+38          0      3bca49ce518b0f13
+    470  IntProperty       Subsystem           ExecVtbl                    0x00070000  24910+12          0      3bca49ce518b0f13

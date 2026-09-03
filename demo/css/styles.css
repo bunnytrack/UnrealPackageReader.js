@@ -7,8 +7,15 @@ body {
 body {
   color: white;
   background-color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
-    sans-serif, Apple Color Emoji, Segoe UI Emoji; /* robbed from GitHub */
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Helvetica,
+    Arial,
+    sans-serif,
+    Apple Color Emoji,
+    Segoe UI Emoji; /* robbed from GitHub */
   height: 100vh;
 }
 input,
@@ -220,7 +227,9 @@ body.dragging-file .file-input-wrapper {
 }
 #tab-scripts code {
   box-sizing: border-box;
-  font: normal 17px/1.5 Consolas, monospace;
+  font:
+    normal 17px/1.5 Consolas,
+    monospace;
   height: 100%;
   padding: 15px;
   white-space: pre-wrap;

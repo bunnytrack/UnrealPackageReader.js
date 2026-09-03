@@ -42,13 +42,19 @@ $(function () {
         const fileReader = new FileReader();
 
         fileReader.onload = function () {
-          $("body").addClass("file-loaded");
-
           const utReader = new UnrealPackageReader(this.result);
 
           // Assign globals for functions below.
-          utPackage = utReader.readPackage();
+          try {
+            utPackage = utReader.readPackage();
+          } catch (e) {
+            alert("Unable to load package due to invalid signature");
+            return;
+          }
+
           packageArrayBuffer = this.result;
+
+          $("body").addClass("file-loaded");
 
           // Used when switching to Textures tab (see populateTexturesTab function).
           utPackage.filename = filename;
@@ -608,7 +614,7 @@ $(function () {
           textBufferObject.objectName,
           textBufferObject.packageName || "—",
           textBufferObject.packageObject?.parentObjectName || "—",
-          readableFileSize(data.size),
+          data.size,
           data.size > 0 ? data.contents.trim() : "",
         ];
 
@@ -619,6 +625,12 @@ $(function () {
         data: tableData,
         pageLength: 50,
         lengthMenu: [25, 50, 75, 100, 250, 500],
+        columns: [
+          null,
+          null,
+          null,
+          { render: formatColumn((data) => readableFileSize(data)) },
+        ],
       });
 
       // Show first text buffer's contents by default.
@@ -670,14 +682,7 @@ $(function () {
         columns: [
           null,
           null,
-          {
-            render: function (data, type, row, meta) {
-              if (type === "display") {
-                return readableFileSize(data);
-              }
-              return data;
-            },
-          },
+          { render: formatColumn((data) => readableFileSize(data)) },
           null,
           null,
           { render: formatColumn((data) => `${data / 1000} kHz`, "—") },
@@ -1060,9 +1065,11 @@ $(function () {
 
           sprite.scale.set(32 * drawScale, 32 * drawScale, 32 * drawScale);
 
-          sprite.position.x = propObj.location.x;
-          sprite.position.y = propObj.location.z;
-          sprite.position.z = propObj.location.y;
+          const location = propObj.location || { x: 0, y: 0, z: 0 };
+
+          sprite.position.x = location.x;
+          sprite.position.y = location.z;
+          sprite.position.z = location.y;
 
           scene.add(sprite);
         }
@@ -1181,8 +1188,8 @@ $(function () {
 
     props.polyflags = utPackage.getPolyFlags(props.polyflags);
 
-    if (props.polyflags.includes("Semisolid")) return 0xdf959d;
-    if (props.polyflags.includes("NotSolid")) return 0x3fc020;
+    if (props.polyflags.includes("PF_Semisolid")) return 0xdf959d;
+    if (props.polyflags.includes("PF_NotSolid")) return 0x3fc020;
 
     if (props.csgoper !== undefined) {
       switch (utPackage.enumCsgOper[props.csgoper]) {
@@ -2409,7 +2416,7 @@ $(function () {
           i + 1,
           meshObject.objectName,
           utPackage.getObjectNameFromIndex(meshObject.class_index),
-          readableFileSize(meshObject.serial_size),
+          meshObject.serial_size,
           meshObject,
         ]);
       }
@@ -2418,6 +2425,12 @@ $(function () {
         data: meshTableData,
         pageLength: 25,
         lengthMenu: [25, 50, 75, 100, 250, 500],
+        columns: [
+          null,
+          null,
+          null,
+          { render: formatColumn((data) => readableFileSize(data)) },
+        ],
       });
 
       const hasMeshes = meshObjects.length > 0;

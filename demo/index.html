@@ -1,337 +1,428 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="description" content="Explore UT99 packages with JavaScript" />
-        <meta name="keywords" content="UT99, Package explorer, Package reader, threejs, 3d models, meshes, umx, unr" />
-        <link rel="icon" href="./icons/icon-map.png" />
-        <link rel="stylesheet" href="./js/dataTables/jquery.dataTables.min.css" />
-        <link rel="stylesheet" href="./css/jquery-ui.min.css" />
-        <link rel="stylesheet" href="./css/monokai-sublime.css" />
-        <link rel="stylesheet" href="./css/styles.css" />
-        <title>Unreal Package Explorer</title>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Explore UT99 packages with JavaScript" />
+    <meta
+      name="keywords"
+      content="UT99, Package explorer, Package reader, threejs, 3d models, meshes, umx, unr"
+    />
+    <link rel="icon" href="./icons/favicon.png" />
+    <link rel="stylesheet" href="./js/dataTables/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="./css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="./css/monokai-sublime.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Unreal Package Explorer</title>
+  </head>
 
-    <body>
-        <header>
-            <ul>
-                <li><h1>Unreal Package Explorer</h1></li>
-                <li>
-                    <a href="https://bunnytrack.net">
-                        <img src="./icons/bunnytrack-logo.nobg.png" alt="BunnyTrack.net logo" height="32" width="25" />
-                        BunnyTrack.net Website
-                    </a>
-                </li>
-                <li>
-                    <a href="https://discord.gg/ACppaYk">
-                        <img src="./icons/discord-icon.png" alt="Discord logo" height="25" width="25" />
-                        BunnyTrack.net Discord Channel
-                    </a>
-                </li>
-            </ul>
-        </header>
-        <main style="display: none;">
-            <div class="package-info-row">
-                <section class="screenshot" style="display: none;">
-                    <canvas width="384" height="384"></canvas>
-                </section>
+  <body>
+    <header>
+      <ul>
+        <li><h1>Unreal Package Explorer</h1></li>
+        <li>
+          <a href="https://bunnytrack.net">
+            <img
+              src="./icons/bunnytrack-logo.nobg.png"
+              alt="BunnyTrack.net logo"
+              height="32"
+              width="25"
+            />
+            BunnyTrack.net Website
+          </a>
+        </li>
+        <li>
+          <a href="https://discord.gg/ACppaYk">
+            <img
+              src="./icons/discord-icon.png"
+              alt="Discord logo"
+              height="25"
+              width="25"
+            />
+            BunnyTrack.net Discord Channel
+          </a>
+        </li>
+      </ul>
+    </header>
+    <main style="display: none">
+      <div class="package-info-row">
+        <section class="screenshot" style="display: none">
+          <canvas width="384" height="384"></canvas>
+        </section>
 
-                <section class="summary-table">
-                    <table>
-                        <tbody class="file-summary">
-                            <tr>
-                                <th>Name</th>
-                                <td class="file-name"></td>
-                            </tr>
-                            <tr>
-                                <th>Type</th>
-                                <td class="file-type"></td>
-                            </tr>
-                            <tr>
-                                <th>Size</th>
-                                <td class="file-size"></td>
-                            </tr>
-                            <tr>
-                                <th>GUID</th>
-                                <td class="file-guid mono"></td>
-                            </tr>
-                            <tr>
-                                <th>Version</th>
-                                <td class="file-version"></td>
-                            </tr>
-                        </tbody>
+        <section class="summary-table">
+          <table>
+            <tbody class="file-summary">
+              <tr>
+                <th>Name</th>
+                <td class="file-name"></td>
+              </tr>
+              <tr>
+                <th>Type</th>
+                <td class="file-type"></td>
+              </tr>
+              <tr>
+                <th>Size</th>
+                <td class="file-size"></td>
+              </tr>
+              <tr>
+                <th>GUID</th>
+                <td class="file-guid mono"></td>
+              </tr>
+              <tr>
+                <th>Version</th>
+                <td class="file-version"></td>
+              </tr>
+            </tbody>
 
-                        <tbody class="level-summary" style="display: none;">
-                            <tr>
-                                <th>Author</th>
-                                <td class="author"></td>
-                            </tr>
-                            <tr>
-                                <th>Title</th>
-                                <td class="title"></td>
-                            </tr>
-                            <tr>
-                                <th>Music</th>
-                                <td class="music"></td>
-                            </tr>
-                            <tr>
-                                <th>Player Count</th>
-                                <td class="ideal-player-count"></td>
-                            </tr>
-                            <tr>
-                                <th>Level Enter Text</th>
-                                <td class="level-enter-text"></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-            </div>
+            <tbody class="level-summary" style="display: none">
+              <tr>
+                <th>Author</th>
+                <td class="author"></td>
+              </tr>
+              <tr>
+                <th>Title</th>
+                <td class="title"></td>
+              </tr>
+              <tr>
+                <th>Music</th>
+                <td class="music"></td>
+              </tr>
+              <tr>
+                <th>Player Count</th>
+                <td class="ideal-player-count"></td>
+              </tr>
+              <tr>
+                <th>Level Enter Text</th>
+                <td class="level-enter-text"></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
 
-            <div class="package-tabs-wrapper tabs">
-                <ul>
-                    <li>
-                        <a href="#tab-dependencies" data-action="dependencies">Dependencies <span class="count"></span></a>
-                    </li>
-                    <li>
-                        <a href="#tab-textures" data-action="textures">Textures <span class="count"></span></a>
-                    </li>
-                    <li>
-                        <a href="#tab-sounds" data-action="sounds">Sounds <span class="count"></span></a>
-                    </li>
-                    <li>
-                        <a href="#tab-music" data-action="music">Music <span class="count"></span></a>
-                    </li>
-                    <li>
-                        <a href="#tab-scripts" data-action="scripts">Scripts/Text Buffers <span class="count"></span></a>
-                    </li>
-                    <li>
-                        <a href="#tab-models" data-action="models">Models</a>
-                    </li>
-                    <li>
-                        <a href="#tab-tables" data-action="package-tables">Import/Export Tables</a>
-                    </li>
-                    <li>
-                        <a href="#tab-about">About</a>
-                    </li>
-                </ul>
+      <div class="package-tabs-wrapper tabs">
+        <ul>
+          <li>
+            <a href="#tab-dependencies" data-action="dependencies"
+              >Dependencies <span class="count"></span
+            ></a>
+          </li>
+          <li>
+            <a href="#tab-textures" data-action="textures"
+              >Textures <span class="count"></span
+            ></a>
+          </li>
+          <li>
+            <a href="#tab-sounds" data-action="sounds"
+              >Sounds <span class="count"></span
+            ></a>
+          </li>
+          <li>
+            <a href="#tab-music" data-action="music"
+              >Music <span class="count"></span
+            ></a>
+          </li>
+          <li>
+            <a href="#tab-scripts" data-action="scripts"
+              >Scripts/Text Buffers <span class="count"></span
+            ></a>
+          </li>
+          <li>
+            <a href="#tab-models" data-action="models">Models</a>
+          </li>
+          <li>
+            <a href="#tab-tables" data-action="package-tables"
+              >Import/Export Tables</a
+            >
+          </li>
+          <li>
+            <a href="#tab-about">About</a>
+          </li>
+        </ul>
 
-                <div id="tab-dependencies"><div class="inner"></div></div>
-                <div id="tab-textures"><div class="inner"></div></div>
+        <div id="tab-dependencies"><div class="inner"></div></div>
+        <div id="tab-textures"><div class="inner"></div></div>
 
-                <div id="tab-sounds">
-                    <div class="inner">
-                        <table id="sounds-table" class="display cell-border">
-                            <thead>
-                                <tr>
-                                    <th>Name</th>
-                                    <th>Group</th>
-                                    <th>Size</th>
-                                    <th>Format</th>
-                                    <th>Channels</th>
-                                    <th>Sample Rate</th>
-                                    <th>Bit Depth</th>
-                                    <th>Bit Rate</th>
-                                    <th>Audio</th>
-                                </tr>
-                            </thead>
-                            <tbody></tbody>
-                        </table>
-                    </div>
-                </div>
-
-                <div id="tab-music"><div class="inner"></div></div>
-
-                <div id="tab-scripts" class="display cell-border">
-                    <div class="inner">
-                        <table id="script-table">
-                            <thead>
-                                <tr>
-                                    <th>Type</th>
-                                    <th>Package Name</th>
-                                    <th>Parent</th>
-                                    <th>Size</th>
-                                </tr>
-                            </thead>
-                            <tbody></tbody>
-                        </table>
-
-                        <pre class="code-wrapper"><code class="lang-java"></code></pre>
-                    </div>
-                </div>
-
-                <div id="tab-models" class="tabs">
-                    <div class="inner">
-                        <ul>
-                            <li>
-                                <a href="#tab-brushes" data-action="brushes">Brushes <span class="count"></span></a>
-                            </li>
-                            <li>
-                                <a href="#tab-meshes" data-action="meshes">Meshes <span class="count"></span></a>
-                            </li>
-                            <li>
-                                <a href="#tab-map-view" data-action="map-view">Map View</a>
-                            </li>
-                        </ul>
-
-                        <div id="tab-map-view">
-                            <div class="inner"></div>
-                        </div>
-
-                        <div id="tab-brushes">
-                            <div class="inner">
-                                <table id="brush-table">
-                                    <thead>
-                                        <tr>
-                                            <th>Name</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody></tbody>
-                                </table>
-
-                                <div id="brush-details" class="property-list"></div>
-                                <div id="model-details" class="property-list"></div>
-                                <div id="poly-details" class="property-list"></div>
-                                <div id="brush-viewer"></div>
-                            </div>
-                        </div>
-
-                        <div id="tab-meshes">
-                            <div class="inner">
-                                <div class="mesh-table-wrapper">
-                                    <h3>Meshes</h3>
-
-                                    <table id="mesh-table">
-                                        <thead>
-                                            <tr>
-                                                <th>#</th>
-                                                <th>Name</th>
-                                                <th>Class</th>
-                                                <th>Size</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody></tbody>
-                                    </table>
-                                </div>
-
-                                <div class="anim-sequences-wrapper">
-                                    <h3>Animation Sequences <span class="count"></span></h3>
-
-                                    <table id="anim-sequences-table">
-                                        <thead>
-                                            <tr>
-                                                <th>#</th>
-                                                <th>Name</th>
-                                                <th>Group</th>
-                                                <th>Start Frame</th>
-                                                <th>Total Frames</th>
-                                                <th>Rate</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody></tbody>
-                                    </table>
-                                </div>
-
-                                <div id="mesh-viewer">
-                                    <div class="canvas-wrapper"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="tab-tables">
-                    <div class="inner">
-                        <div class="table-wrapper">
-                            <h3>Import</h3>
-                            <table id="import-table" class="display cell-border">
-                                <thead>
-                                    <tr>
-                                        <th>#</th>
-                                        <th>Object Name</th>
-                                        <th>Package Name</th>
-                                        <th>Class Name</th>
-                                        <th>Class Package Name</th>
-                                    </tr>
-                                </thead>
-                                <tbody></tbody>
-                            </table>
-                        </div>
-
-                        <div class="table-wrapper">
-                            <h3>Export</h3>
-                            <table id="export-table" class="display cell-border">
-                                <thead>
-                                    <tr>
-                                        <th>#</th>
-                                        <th>Object Name</th>
-                                        <th>Class</th>
-                                        <th>Parent</th>
-                                        <th>Package</th>
-                                        <th>File Offset</th>
-                                        <th>Size</th>
-                                    </tr>
-                                </thead>
-                                <tbody></tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="tab-about">
-                    <div class="inner">
-                        <p>This page has been made to demonstrate the features of <a href="https://github.com/bunnytrack/UnrealPackageReader.js/" target="_blank">UnrealPackageReader.js</a>, a file reader written in JavaScript which can read data from Unreal Tournament packages (as well as several other Unreal Engine 1 games).</p>
-
-                        <p>This page would not have been possible without the following FOSS projects:</p>
-
-                        <ul>
-                            <li>
-                                <p><a href="https://datatables.net/" target="_blank">DataTables</a> - displays various tables (Sounds, Scripts, Import/Export Objects, etc.)</p>
-                            </li>
-                            <li>
-                                <p><a href="https://threejs.org/" target="_blank">three.js</a> - renders meshes, brushes, and map previews</p>
-                            </li>
-                            <li>
-                                <p><a href="https://github.com/wothke/libxmp-4.4.1/" target="_blank">WebXmp</a> - tracker music file playback</p>
-                            </li>
-                            <li>
-                                <p><a href="https://github.com/phoboslab/jsmpeg/" target="_blank">JSMpeg</a> - MP2 audio playback</p>
-                            </li>
-                            <li>
-                                <p><a href="https://github.com/vgmstream/vgmstream/" target="_blank">vgmstream</a> - XA audio decoding algorithm</p>
-                            </li>
-                            <li>
-                                <p><a href="https://highlightjs.org/" target="_blank">highlight.js</a> - syntax highlighting for Scripts tab</p>
-                            </li>
-                            <li>
-                                <p><a href="https://jquery.com/" target="_blank">jQuery</a> - misc. page functionality</p>
-                            </li>
-                        </ul>
-
-                        <p>My GitHub: <a href="https://github.com/sapphire-bt" target="_blank">https://github.com/sapphire-bt</a></p>
-                        <p>BunnyTrack.net GitHub: <a href="https://github.com/bunnytrack" target="_blank">https://github.com/bunnytrack</a></p>
-
-                        <hr />
-
-                        <p class="smaller">Made by Sapphire &#x2764;&#xfe0f;</p>
-                        <p class="smaller"><em>Last updated: 19th August 2026</em></p>
-                    </div>
-                </div>
-            </div>
-        </main>
-
-        <div class="file-input-wrapper">
-            <div class="inner">
-                <p>Drag file anywhere to begin</p>
-            </div>
-
-            <input type="file" id="file-input" accept=".u,.uax,.umod,.umx,.unr,.utx,.uxx,.uz,.tmp" />
+        <div id="tab-sounds">
+          <div class="inner">
+            <table id="sounds-table" class="display cell-border">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Group</th>
+                  <th>Size</th>
+                  <th>Format</th>
+                  <th>Channels</th>
+                  <th>Sample Rate</th>
+                  <th>Bit Depth</th>
+                  <th>Bit Rate</th>
+                  <th>Audio</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
         </div>
 
-        <script src="../UnrealPackageReader.js"></script>
-        <script src="./js/highlight.pack.js"></script>
-        <script src="./js/jquery-3.4.1.min.js"></script>
-        <script src="./js/jquery-ui.min.js"></script>
-        <script src="./js/dataTables/datatables.min.js"></script>
-        <script src="./js/loader.js"></script>
-    </body>
+        <div id="tab-music"><div class="inner"></div></div>
+
+        <div id="tab-scripts" class="display cell-border">
+          <div class="inner">
+            <table id="script-table">
+              <thead>
+                <tr>
+                  <th>Type</th>
+                  <th>Package Name</th>
+                  <th>Parent</th>
+                  <th>Size</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+
+            <pre class="code-wrapper"><code class="lang-java"></code></pre>
+          </div>
+        </div>
+
+        <div id="tab-models" class="tabs">
+          <div class="inner">
+            <ul>
+              <li>
+                <a href="#tab-brushes" data-action="brushes"
+                  >Brushes <span class="count"></span
+                ></a>
+              </li>
+              <li>
+                <a href="#tab-meshes" data-action="meshes"
+                  >Meshes <span class="count"></span
+                ></a>
+              </li>
+              <li>
+                <a href="#tab-map-view" data-action="map-view">Map View</a>
+              </li>
+            </ul>
+
+            <div id="tab-map-view">
+              <div class="inner"></div>
+            </div>
+
+            <div id="tab-brushes">
+              <div class="inner">
+                <table id="brush-table">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+
+                <div id="brush-details" class="property-list"></div>
+                <div id="model-details" class="property-list"></div>
+                <div id="poly-details" class="property-list"></div>
+                <div id="brush-viewer"></div>
+              </div>
+            </div>
+
+            <div id="tab-meshes">
+              <div class="inner">
+                <div class="mesh-table-wrapper">
+                  <h3>Meshes</h3>
+
+                  <table id="mesh-table">
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Class</th>
+                        <th>Size</th>
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                  </table>
+                </div>
+
+                <div class="anim-sequences-wrapper">
+                  <h3>Animation Sequences <span class="count"></span></h3>
+
+                  <table id="anim-sequences-table">
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Group</th>
+                        <th>Start Frame</th>
+                        <th>Total Frames</th>
+                        <th>Rate</th>
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                  </table>
+                </div>
+
+                <div id="mesh-viewer">
+                  <div class="canvas-wrapper"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="tab-tables">
+          <div class="inner">
+            <div class="table-wrapper">
+              <h3>Import</h3>
+              <table id="import-table" class="display cell-border">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Object Name</th>
+                    <th>Package Name</th>
+                    <th>Class Name</th>
+                    <th>Class Package Name</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+
+            <div class="table-wrapper">
+              <h3>Export</h3>
+              <table id="export-table" class="display cell-border">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Object Name</th>
+                    <th>Class</th>
+                    <th>Parent</th>
+                    <th>Package</th>
+                    <th>File Offset</th>
+                    <th>Size</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div id="tab-about">
+          <div class="inner">
+            <p>
+              This page has been made to demonstrate the features of
+              <a
+                href="https://github.com/bunnytrack/UnrealPackageReader.js/"
+                target="_blank"
+                >UnrealPackageReader.js</a
+              >, a file reader written in JavaScript which can read data from
+              Unreal Tournament packages (as well as several other Unreal Engine
+              1 games).
+            </p>
+
+            <p>
+              This page would not have been possible without the following FOSS
+              projects:
+            </p>
+
+            <ul>
+              <li>
+                <p>
+                  <a href="https://datatables.net/" target="_blank"
+                    >DataTables</a
+                  >
+                  - displays various tables (Sounds, Scripts, Import/Export
+                  Objects, etc.)
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="https://threejs.org/" target="_blank">three.js</a> -
+                  renders meshes, brushes, and map previews
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a
+                    href="https://github.com/wothke/libxmp-4.4.1/"
+                    target="_blank"
+                    >WebXmp</a
+                  >
+                  - tracker music file playback
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="https://github.com/phoboslab/jsmpeg/" target="_blank"
+                    >JSMpeg</a
+                  >
+                  - MP2 audio playback
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a
+                    href="https://github.com/vgmstream/vgmstream/"
+                    target="_blank"
+                    >vgmstream</a
+                  >
+                  - XA audio decoding algorithm
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="https://highlightjs.org/" target="_blank"
+                    >highlight.js</a
+                  >
+                  - syntax highlighting for Scripts tab
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="https://jquery.com/" target="_blank">jQuery</a> -
+                  misc. page functionality
+                </p>
+              </li>
+            </ul>
+
+            <p>
+              My GitHub:
+              <a href="https://github.com/sapphire-bt" target="_blank"
+                >https://github.com/sapphire-bt</a
+              >
+            </p>
+            <p>
+              BunnyTrack.net GitHub:
+              <a href="https://github.com/bunnytrack" target="_blank"
+                >https://github.com/bunnytrack</a
+              >
+            </p>
+
+            <hr />
+
+            <p class="smaller">Made by Sapphire &#x2764;&#xfe0f;</p>
+            <p class="smaller"><em>Last updated: 19th August 2026</em></p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="file-input-wrapper">
+      <div class="inner">
+        <p>Drag file anywhere to begin</p>
+      </div>
+
+      <input
+        type="file"
+        id="file-input"
+        accept=".u,.uax,.umod,.umx,.unr,.utx,.uxx,.uz,.tmp"
+      />
+    </div>
+
+    <script src="../dist/UnrealPackageReader.js"></script>
+    <script src="./js/highlight.pack.js"></script>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/dataTables/datatables.min.js"></script>
+    <script src="./js/loader.js"></script>
+  </body>
 </html>

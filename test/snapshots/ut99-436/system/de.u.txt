@@ -1,0 +1,777 @@
+package  ut99-436/system/de.u
+bytes    72169
+sha256   335e2298c977e4a513d2d1bc76007e0c1a17bdeff5b1a54bee13cd814168d616
+
+[header]
+  signature           0x9e2a83c1
+  version             69
+  licensee_version    0
+  package_flags       0x00000001
+  name_count          210
+  name_offset         64
+  export_count        424
+  export_offset       65547
+  import_count        102
+  import_offset       64647
+  guid                FB1EB2314D8BF569AE12C6BF1A08A2F7
+  generation_count    1
+  generation[0]       exports=424 names=210
+
+[classes] 13
+  boolproperty            3
+  byteproperty            3
+  floatproperty           17
+  function                50
+  intproperty             60
+  nameproperty            30
+  objectproperty          68
+  package                 1
+  palette                 2
+  state                   20
+  structproperty          134
+  textbuffer              16
+  texture                 4
+
+[names] 210
+      0  0x04070410  None
+      1  0x00070010  TakeDamage
+      2  0x00070010  TakingDamage
+      3  0x04070010  Engine
+      4  0x04070010  Core
+      5  0x00070010  de
+      6  0x04070010  System
+      7  0x00070010  TraceShot
+      8  0x00070010  RespawnTime
+      9  0x00070010  Botpack
+     10  0x00070010  bProjTarget
+     11  0x00070010  ReplaceWith
+     12  0x00070010  Sleeping
+     13  0x00070010  SetRespawn
+     14  0x04070010  Begin
+     15  0x00070010  TraceFire
+     16  0x00070010  shot
+     17  0x00070010  ProcessTraceHit
+     18  0x00070010  ParentAmmo
+     19  0x00070010  InternalTime
+     20  0x04070410  Color
+     21  0x00070010  VClamp
+     22  0x00070010  VSize
+     23  0x00070010  Carcass
+     24  0x00070010  bMasked
+     25  0x00070010  MipZero
+     26  0x00070010  Palette
+     27  0x00070010  VBits
+     28  0x00070010  UClamp
+     29  0x00070010  USize
+     30  0x00070010  AdjustHitLocation
+     31  0x00070010  UBits
+     32  0x00070010  VBioAmmo
+     33  0x00070010  VMiniAmmo
+     34  0x00070010  VRifleShell
+     35  0x00070010  VRocketPack
+     36  0x00070010  VFlakAmmo
+     37  0x00070010  VBulletBox
+     38  0x00070010  VBladeHopper
+     39  0x00070010  VPAmmo
+     40  0x00070010  VEClip
+     41  0x00070010  VShockCore
+     42  0x00070010  MaxColor
+     43  0x00070010  ScoreKill
+     44  0x00070010  PostRender
+     45  0x00070010  AlwaysKeep
+     46  0x00070010  SetSymbol
+     47  0x04070010  Texture
+     48  0x00070010  Ammo
+     49  0x04070010  Tick
+     50  0x04070010  RemoteRole
+     51  0x00070010  SpawnNotification
+     52  0x00070010  mMaxDischarges
+     53  0x00070010  mMaxScale
+     54  0x00070010  TeamBeacon
+     55  0x00070010  TBMutator
+     56  0x00070010  VolatileAmmo
+     57  0x00070010  sliced
+     58  0x00070010  VolatileWeapon
+     59  0x00070010  TBNotify
+     60  0x00070010  IdentitySymbol
+     61  0x00070010  RifleShell
+     62  0x00070010  RocketPack
+     63  0x00070010  BulletBox
+     64  0x00070010  Miniammo
+     65  0x00070010  ShockCore
+     66  0x00070010  ActorClass
+     67  0x00070010  jolted
+     68  0x00070010  PostBeginPlay
+     69  0x00070010  zapped
+     70  0x00070010  bHidden
+     71  0x00070010  DrawType
+     72  0x00070010  shredded
+     73  0x00070010  AmbientGlow
+     74  0x00070010  BioAmmo
+     75  0x00070010  EClip
+     76  0x00070010  Style
+     77  0x00070010  FlakAmmo
+     78  0x00070010  BladeHopper
+     79  0x00070010  CheckReplacement
+     80  0x00070010  mMinScale
+     81  0x00070010  Mass
+     82  0x00070010  PAmmo
+     83  0x00070010  AddMutator
+     84  0x00070010  exploded
+     85  0x00070010  ScaleGlow
+     86  0x00070010  PlayerPawn
+     87  0x00070010  Player
+     88  0x00070010  DrawScale
+     89  0x00070010  Team
+     90  0x04070010  Sound
+     91  0x00070010  Pawn
+     92  0x00070010  Canvas
+     93  0x00070010  Actor
+     94  0x00070010  Viewport
+     95  0x00070010  HurtRadius
+     96  0x04070410  Class
+     97  0x04070410  Package
+     98  0x00070010  Location
+     99  0x00070010  FovAngle
+    100  0x00070010  DesiredFOV
+    101  0x04070410  Rot
+    102  0x00070010  PlayerReplicationInfo
+    103  0x00070010  CollisionHeight
+    104  0x00070010  Level
+    105  0x00070010  DamageType
+    106  0x00070010  Num
+    107  0x00070010  S
+    108  0x00070010  Effects
+    109  0x00070010  Rand
+    110  0x00070010  Inventory
+    111  0x00070010  HitNormal
+    112  0x00070010  realHit
+    113  0x00070010  bIsPawn
+    114  0x00070010  PRI
+    115  0x00070010  Instigator
+    116  0x00070010  Other
+    117  0x00070010  bStartup
+    118  0x00070010  dist
+    119  0x00070010  NextMutator
+    120  0x00070010  bSuperRelevant
+    121  0x00070010  Palette1
+    122  0x00070010  Z
+    123  0x00070010  i
+    124  0x00070010  PlayerOwner
+    125  0x00070010  HUDMutator
+    126  0x00070010  instigatedBy
+    127  0x00070010  PlayerID
+    128  0x00070010  AmmoType
+    129  0x00070010  bInstantHit
+    130  0x00070010  ProjectileClass
+    131  0x00070010  ViewRotation
+    132  0x00070010  bTemp
+    133  0x00070010  AmmoAmount
+    134  0x04070010  Object
+    135  0x00070010  SpawnNotify
+    136  0x00070010  Dam
+    137  0x00070010  Icons
+    138  0x00070010  Dir
+    139  0x00070010  hitdamage
+    140  0x04070010  TextBuffer
+    141  0x00070010  Palette7
+    142  0x00070010  General
+    143  0x00070010  SpecialExpl
+    144  0x04070410  Function
+    145  0x00070010  HUD
+    146  0x04070410  State
+    147  0x00070010  PlasmaSphere
+    148  0x00070010  UT_SpriteSmokePuff
+    149  0x00070010  ShockProj
+    150  0x00070010  W
+    151  0x00070010  P
+    152  0x00070010  V
+    153  0x00070010  UT_BioGel
+    154  0x00070010  Momentum
+    155  0x00070010  Killer
+    156  0x00070010  HitLocation
+    157  0x00070010  Razor2Alt
+    158  0x00070010  Razor2
+    159  0x00070010  UT_WallHit
+    160  0x00070010  StartTrace
+    161  0x00070010  WarExplosion
+    162  0x00070010  UT_SpriteBallChild
+    163  0x00070010  BioGlob
+    164  0x00070010  UT_Grenade
+    165  0x00070010  UT_ComboRing
+    166  0x00070010  Loc
+    167  0x00070010  UT_SpriteBallExplosion
+    168  0x00070010  RocketMk2
+    169  0x00070010  MTracer
+    170  0x00070010  flakslug
+    171  0x00070010  R
+    172  0x00070010  UT_ShellCase
+    173  0x00070010  I_TeamR
+    174  0x04070410  Rotator
+    175  0x04070410  Vector
+    176  0x04070410  Struct
+    177  0x04070010  UnrealShare
+    178  0x04070010  StructProperty
+    179  0x04070010  ClassProperty
+    180  0x04070010  NameProperty
+    181  0x04070010  ObjectProperty
+    182  0x04070010  FloatProperty
+    183  0x04070010  BoolProperty
+    184  0x04070010  IntProperty
+    185  0x04070010  ByteProperty
+    186  0x00070010  ScriptText
+    187  0x00070010  ReturnValue
+    188  0x00070010  Direction
+    189  0x00070010  Weapon
+    190  0x00070010  A
+    191  0x00070010  LevelInfo
+    192  0x00070010  EndTrace
+    193  0x00070010  Mutator
+    194  0x00070010  TempActor
+    195  0x00070010  Delta
+    196  0x00070010  team_id
+    197  0x00070010  num_used
+    198  0x00070010  player_id
+    199  0x00070010  team_count
+    200  0x00070010  symbol_count
+    201  0x00070010  draw_scale
+    202  0x00070010  interp
+    203  0x00070010  ammo_count
+    204  0x00070010  num_shots
+    205  0x00070010  vec
+    206  0x00070010  TSignB
+    207  0x00070010  TSignR
+    208  0x00070010  TSignG
+    209  0x00070010  TSignY
+
+[imports] 102
+    idx  class             classpkg      package             name
+     -1  Package           Core          -                   Core
+     -2  Package           Core          -                   Engine
+     -3  Class             Core          Engine              Actor
+     -4  Class             Core          Core                Object
+     -5  Class             Core          Core                StructProperty
+     -6  Struct            Core          Object              Vector
+     -7  Class             Core          Engine              Pawn
+     -8  Package           Core          -                   Botpack
+     -9  Class             Core          Core                ObjectProperty
+    -10  Class             Core          Core                IntProperty
+    -11  StructProperty    Core          Actor               Location
+    -12  Class             Core          Core                Function
+    -13  ObjectProperty    Core          Actor               Instigator
+    -14  Class             Core          Core                NameProperty
+    -15  Class             Core          Engine              Mutator
+    -16  Class             Core          Core                State
+    -17  Class             Core          Core                FloatProperty
+    -18  Class             Core          Core                Class
+    -19  BoolProperty      Core          Actor               bHidden
+    -20  Class             Core          Core                TextBuffer
+    -21  Class             Core          Engine              Ammo
+    -22  Struct            Core          Object              Rotator
+    -23  Function          Core          Actor               TakeDamage
+    -24  IntProperty       Core          Ammo                AmmoAmount
+    -25  Class             Core          Engine              HUD
+    -26  State             Core          Inventory           Sleeping
+    -27  Function          Core          Actor               HurtRadius
+    -28  Class             Core          Engine              Inventory
+    -29  Class             Core          Engine              Weapon
+    -30  Class             Core          Engine              PlayerReplicationInfo
+    -31  FloatProperty     Core          Actor               CollisionHeight
+    -32  Class             Core          Engine              PlayerPawn
+    -33  ObjectProperty    Core          Mutator             NextMutator
+    -34  ObjectProperty    Core          Actor               Level
+    -35  ObjectProperty    Core          Actor               Texture
+    -36  BoolProperty      Core          Actor               bIsPawn
+    -37  Class             Core          Engine              LevelInfo
+    -38  Class             Core          Botpack             UT_WallHit
+    -39  Class             Core          Botpack             MTracer
+    -40  Class             Core          Engine              Texture
+    -41  Class             Core          Botpack             UT_SpriteSmokePuff
+    -42  Class             Core          Botpack             UT_ShellCase
+    -43  Class             Core          Core                ByteProperty
+    -44  Class             Core          Core                BoolProperty
+    -45  Class             Core          Botpack             ShockCore
+    -46  Class             Core          Botpack             PAmmo
+    -47  Class             Core          Engine              Canvas
+    -48  Class             Core          Botpack             BioAmmo
+    -49  ObjectProperty    Core          Pawn                Weapon
+    -50  ObjectProperty    Core          Pawn                PlayerReplicationInfo
+    -51  Class             Core          Botpack             PlasmaSphere
+    -52  Class             Core          Botpack             BladeHopper
+    -53  Class             Core          Botpack             Miniammo
+    -54  Class             Core          Botpack             BioGlob
+    -55  Class             Core          Engine              SpawnNotify
+    -56  Class             Core          Botpack             FlakAmmo
+    -57  Class             Core          Botpack             UT_SpriteBallChild
+    -58  ObjectProperty    Core          HUD                 HUDMutator
+    -59  Class             Core          Botpack             BulletBox
+    -60  Class             Core          Botpack             RocketPack
+    -61  Class             Core          Botpack             flakslug
+    -62  Class             Core          Botpack             UT_SpriteBallExplosion
+    -63  BoolProperty      Core          LevelInfo           bStartup
+    -64  ObjectProperty    Core          Weapon              AmmoType
+    -65  Class             Core          Engine              Palette
+    -66  IntProperty       Core          PlayerReplicationInfo PlayerID
+    -67  ByteProperty      Core          PlayerReplicationInfo Team
+    -68  Class             Core          Botpack             RifleShell
+    -69  Class             Core          Engine              Effects
+    -70  Package           Core          -                   UnrealShare
+    -71  Package           Core          UnrealShare         General
+    -72  Sound             Engine        General             SpecialExpl
+    -73  Class             Core          Botpack             RocketMk2
+    -74  Class             Core          Botpack             EClip
+    -75  Class             Core          Botpack             Razor2Alt
+    -76  Function          Core          Mutator             PostRender
+    -77  ClassProperty     Core          Weapon              ProjectileClass
+    -78  Function          Core          Mutator             AlwaysKeep
+    -79  Package           Core          Botpack             Icons
+    -80  BoolProperty      Core          Weapon              bInstantHit
+    -81  Function          Core          Mutator             ScoreKill
+    -82  Class             Core          Botpack             UT_BioGel
+    -83  Function          Core          Mutator             CheckReplacement
+    -84  Class             Core          Botpack             Razor2
+    -85  Class             Core          Botpack             UT_Grenade
+    -86  FloatProperty     Core          PlayerPawn          DesiredFOV
+    -87  Class             Core          Botpack             UT_ComboRing
+    -88  FloatProperty     Core          Pawn                FovAngle
+    -89  StructProperty    Core          Pawn                ViewRotation
+    -90  Class             Core          Botpack             ShockProj
+    -91  FloatProperty     Core          Actor               DrawScale
+    -92  Function          Core          Actor               Tick
+    -93  Function          Core          Actor               PostBeginPlay
+    -94  ObjectProperty    Core          Canvas              Viewport
+    -95  ObjectProperty    Core          Player              Actor
+    -96  FloatProperty     Core          Vector              Z
+    -97  Class             Core          Core                Package
+    -98  Class             Core          Engine              Viewport
+    -99  Class             Core          Engine              Player
+   -100  Function          Core          SpawnNotify         SpawnNotification
+   -101  Texture           Engine        Icons               I_TeamR
+   -102  Class             Core          Botpack             WarExplosion
+
+[exports] 424
+    idx  class             package             name                        flags       serial            props  parse
+      1  ObjectProperty    CheckReplacement    Other                       0x00070004  3075+14           0      3bca49ce518b0f13
+      2  -                 -                   IdentitySymbol              0x000f0024  3089+125          0      3bca49ce518b0f13
+      3  ObjectProperty    Tick                S                           0x00070004  3214+13           0      3bca49ce518b0f13
+      4  ObjectProperty    AlwaysKeep          Other                       0x00070004  3227+14           0      3bca49ce518b0f13
+      5  ObjectProperty    Tick                P                           0x00070004  3241+14           0      3bca49ce518b0f13
+      6  FloatProperty     VBulletBox          Rand                        0x00070004  3255+12           0      3bca49ce518b0f13
+      7  FloatProperty     VMiniAmmo           Rand                        0x00070004  3267+12           0      3bca49ce518b0f13
+      8  ObjectProperty    TBMutator           PlayerOwner                 0x00070004  3279+13           0      3bca49ce518b0f13
+      9  FloatProperty     Tick                interp                      0x00070004  3292+12           0      3bca49ce518b0f13
+     10  ObjectProperty    TraceShot           Other                       0x00070004  3304+13           0      3bca49ce518b0f13
+     11  ObjectProperty    ProcessTraceHit     Other                       0x00070004  3317+13           0      3bca49ce518b0f13
+     12  ObjectProperty    ProcessTraceHit     Other                       0x00070004  3330+13           0      3bca49ce518b0f13
+     13  ObjectProperty    ProcessTraceHit     Other                       0x00070004  3343+13           0      3bca49ce518b0f13
+     14  ObjectProperty    TraceShot           Other                       0x00070004  3356+13           0      3bca49ce518b0f13
+     15  ObjectProperty    TraceShot           Other                       0x00070004  3369+13           0      3bca49ce518b0f13
+     16  ObjectProperty    ScoreKill           W                           0x00070004  3382+13           0      3bca49ce518b0f13
+     17  ObjectProperty    TraceShot           Other                       0x00070004  3395+13           0      3bca49ce518b0f13
+     18  ObjectProperty    SpawnNotification   A                           0x00070004  3408+14           0      3bca49ce518b0f13
+     19  ObjectProperty    ProcessTraceHit     Other                       0x00070004  3422+13           0      3bca49ce518b0f13
+     20  ObjectProperty    ScoreKill           Other                       0x00070004  3435+13           0      3bca49ce518b0f13
+     21  ObjectProperty    SetSymbol           S                           0x00070004  3448+14           0      3bca49ce518b0f13
+     22  FloatProperty     VEClip              Rand                        0x00070004  3462+12           0      3bca49ce518b0f13
+     23  ObjectProperty    Tick                PRI                         0x00070004  3474+13           0      3bca49ce518b0f13
+     24  StructProperty    VBulletBox          V                           0x00070004  3487+14           0      3bca49ce518b0f13
+     25  StructProperty    TraceShot           HitLocation                 0x00070004  3501+14           0      3bca49ce518b0f13
+     26  StructProperty    VMiniAmmo           V                           0x00070004  3515+14           0      3bca49ce518b0f13
+     27  StructProperty    VMiniAmmo           R                           0x00070004  3529+13           0      3bca49ce518b0f13
+     28  StructProperty    VBulletBox          R                           0x00070004  3542+13           0      3bca49ce518b0f13
+     29  StructProperty    VEClip              R                           0x00070004  3555+14           0      3bca49ce518b0f13
+     30  IntProperty       ScoreKill           ammo_count                  0x00070004  3569+13           0      3bca49ce518b0f13
+     31  StructProperty    TraceShot           HitLocation                 0x00070004  3582+14           0      3bca49ce518b0f13
+     32  StructProperty    VRifleShell         R                           0x00070004  3596+14           0      3bca49ce518b0f13
+     33  StructProperty    TraceShot           HitLocation                 0x00070004  3610+14           0      3bca49ce518b0f13
+     34  StructProperty    TraceShot           HitLocation                 0x00070004  3624+14           0      3bca49ce518b0f13
+     35  IntProperty       Tick                symbol_count                0x00070004  3638+13           0      3bca49ce518b0f13
+     36  IntProperty       VMiniAmmo           i                           0x00070004  3651+13           0      3bca49ce518b0f13
+     37  StructProperty    ProcessTraceHit     HitLocation                 0x00070004  3664+13           0      3bca49ce518b0f13
+     38  IntProperty       Tick                team_count                  0x00070004  3677+12           0      3bca49ce518b0f13
+     39  StructProperty    VRocketPack         R                           0x00070004  3689+13           0      3bca49ce518b0f13
+     40  IntProperty       VBulletBox          i                           0x00070004  3702+13           0      3bca49ce518b0f13
+     41  StructProperty    TraceFire           StartTrace                  0x00070004  3715+14           0      3bca49ce518b0f13
+     42  StructProperty    ProcessTraceHit     HitNormal                   0x00070004  3729+14           0      3bca49ce518b0f13
+     43  ObjectProperty    ScoreKill           Killer                      0x00070004  3743+13           0      3bca49ce518b0f13
+     44  IntProperty       VBioAmmo            i                           0x00070004  3756+13           0      3bca49ce518b0f13
+     45  StructProperty    TraceFire           StartTrace                  0x00070004  3769+14           0      3bca49ce518b0f13
+     46  StructProperty    ProcessTraceHit     HitLocation                 0x00070004  3783+14           0      3bca49ce518b0f13
+     47  StructProperty    ProcessTraceHit     HitNormal                   0x00070004  3797+14           0      3bca49ce518b0f13
+     48  StructProperty    ProcessTraceHit     HitLocation                 0x00070004  3811+13           0      3bca49ce518b0f13
+     49  StructProperty    TraceShot           EndTrace                    0x00070004  3824+14           0      3bca49ce518b0f13
+     50  IntProperty       VPAmmo              i                           0x00070004  3838+13           0      3bca49ce518b0f13
+     51  StructProperty    TraceShot           EndTrace                    0x00070004  3851+14           0      3bca49ce518b0f13
+     52  StructProperty    TraceShot           EndTrace                    0x00070004  3865+14           0      3bca49ce518b0f13
+     53  StructProperty    TraceFire           StartTrace                  0x00070004  3879+14           0      3bca49ce518b0f13
+     54  IntProperty       VShockCore          i                           0x00070004  3893+13           0      3bca49ce518b0f13
+     55  StructProperty    Tick                Loc                         0x00070004  3906+14           0      3bca49ce518b0f13
+     56  IntProperty       ScoreKill           i                           0x00070004  3920+13           0      3bca49ce518b0f13
+     57  IntProperty       VEClip              i                           0x00070004  3933+13           0      3bca49ce518b0f13
+     58  IntProperty       VFlakAmmo           i                           0x00070004  3946+13           0      3bca49ce518b0f13
+     59  StructProperty    VBioAmmo            R                           0x00070004  3959+13           0      3bca49ce518b0f13
+     60  IntProperty       VRocketPack         i                           0x00070004  3972+13           0      3bca49ce518b0f13
+     61  StructProperty    ProcessTraceHit     HitNormal                   0x00070004  3985+14           0      3bca49ce518b0f13
+     62  StructProperty    TraceShot           EndTrace                    0x00070004  3999+14           0      3bca49ce518b0f13
+     63  StructProperty    ProcessTraceHit     HitLocation                 0x00070004  4013+13           0      3bca49ce518b0f13
+     64  StructProperty    ProcessTraceHit     HitNormal                   0x00070004  4026+14           0      3bca49ce518b0f13
+     65  StructProperty    TraceFire           StartTrace                  0x00070004  4040+14           0      3bca49ce518b0f13
+     66  FloatProperty     VRocketPack         Rand                        0x00070004  4054+12           0      3bca49ce518b0f13
+     67  ByteProperty      Tick                team_id                     0x00070004  4066+14           0      3bca49ce518b0f13
+     68  StructProperty    VBladeHopper        R                           0x00070004  4080+14           0      3bca49ce518b0f13
+     69  IntProperty       VBladeHopper        i                           0x00070004  4094+13           0      3bca49ce518b0f13
+     70  -                 -                   TBMutator                   0x000f0024  4107+381          0      3bca49ce518b0f13
+     71  StructProperty    VEClip              V                           0x00070004  4488+14           0      3bca49ce518b0f13
+     72  IntProperty       ProcessTraceHit     hitdamage                   0x00070004  4502+12           0      3bca49ce518b0f13
+     73  StructProperty    ProcessTraceHit     Direction                   0x00070004  4514+14           0      3bca49ce518b0f13
+     74  FloatProperty     VRifleShell         Rand                        0x00070004  4528+12           0      3bca49ce518b0f13
+     75  FloatProperty     VFlakAmmo           Rand                        0x00070004  4540+12           0      3bca49ce518b0f13
+     76  IntProperty       VMiniAmmo           Num                         0x00070004  4552+12           0      3bca49ce518b0f13
+     77  FloatProperty     ScoreKill           Rand                        0x00070004  4564+12           0      3bca49ce518b0f13
+     78  IntProperty       VFlakAmmo           Num                         0x00070004  4576+13           0      3bca49ce518b0f13
+     79  Function          VMiniAmmo           TakeDamage                  0x00070004  4589+38           0      3bca49ce518b0f13
+     80  StructProperty    ProcessTraceHit     Direction                   0x00070004  4627+14           0      3bca49ce518b0f13
+     81  StructProperty    TraceFire           HitNormal                   0x00070004  4641+13           0      3bca49ce518b0f13
+     82  StructProperty    TraceFire           HitLocation                 0x00070004  4654+14           0      3bca49ce518b0f13
+     83  StructProperty    VEClip              Direction                   0x00070004  4668+13           0      3bca49ce518b0f13
+     84  IntProperty       ScoreKill           num_shots                   0x00070004  4681+12           0      3bca49ce518b0f13
+     85  StructProperty    VMiniAmmo           Direction                   0x00070004  4693+13           0      3bca49ce518b0f13
+     86  IntProperty       Tick                player_id                   0x00070004  4706+12           0      3bca49ce518b0f13
+     87  StructProperty    VFlakAmmo           R                           0x00070004  4718+13           0      3bca49ce518b0f13
+     88  IntProperty       VEClip              Num                         0x00070004  4731+12           0      3bca49ce518b0f13
+     89  StructProperty    ProcessTraceHit     Direction                   0x00070004  4743+14           0      3bca49ce518b0f13
+     90  StructProperty    TraceShot           StartTrace                  0x00070004  4757+14           0      3bca49ce518b0f13
+     91  Function          VEClip              TakeDamage                  0x00070004  4771+38           0      3bca49ce518b0f13
+     92  StructProperty    TraceFire           Direction                   0x00070004  4809+14           0      3bca49ce518b0f13
+     93  ObjectProperty    TraceFire           Other                       0x00070004  4823+13           0      3bca49ce518b0f13
+     94  FloatProperty     VBladeHopper        Rand                        0x00070004  4836+12           0      3bca49ce518b0f13
+     95  StructProperty    VShockCore          R                           0x00070004  4848+13           0      3bca49ce518b0f13
+     96  ObjectProperty    TraceFire           Other                       0x00070004  4861+13           0      3bca49ce518b0f13
+     97  StructProperty    TraceShot           StartTrace                  0x00070004  4874+14           0      3bca49ce518b0f13
+     98  Palette           de                  Palette1                    0x00070004  4888+1027         0      6f959d9cb2ec443e
+     99  StructProperty    TraceShot           HitNormal                   0x00070004  5915+13           0      3bca49ce518b0f13
+    100  StructProperty    TraceFire           HitNormal                   0x00070004  5928+14           0      3bca49ce518b0f13
+    101  StructProperty    TraceShot           HitNormal                   0x00070004  5942+13           0      3bca49ce518b0f13
+    102  StructProperty    VRifleShell         V                           0x00070004  5955+14           0      3bca49ce518b0f13
+    103  StructProperty    TraceShot           realHit                     0x00070004  5969+13           0      3bca49ce518b0f13
+    104  Function          VShockCore          TakeDamage                  0x00070004  5982+39           0      3bca49ce518b0f13
+    105  StructProperty    TraceShot           StartTrace                  0x00070004  6021+14           0      3bca49ce518b0f13
+    106  IntProperty       VRocketPack         Num                         0x00070004  6035+13           0      3bca49ce518b0f13
+    107  Function          VRocketPack         TakeDamage                  0x00070004  6048+38           0      3bca49ce518b0f13
+    108  StructProperty    VPAmmo              R                           0x00070004  6086+13           0      3bca49ce518b0f13
+    109  IntProperty       VPAmmo              Num                         0x00070004  6099+13           0      3bca49ce518b0f13
+    110  ObjectProperty    TraceFire           Other                       0x00070004  6112+13           0      3bca49ce518b0f13
+    111  Function          VPAmmo              TakeDamage                  0x00070004  6125+39           0      3bca49ce518b0f13
+    112  StructProperty    TraceFire           HitNormal                   0x00070004  6164+13           0      3bca49ce518b0f13
+    113  StructProperty    TraceFire           HitLocation                 0x00070004  6177+14           0      3bca49ce518b0f13
+    114  StructProperty    TraceShot           StartTrace                  0x00070004  6191+14           0      3bca49ce518b0f13
+    115  StructProperty    TraceFire           Direction                   0x00070004  6205+14           0      3bca49ce518b0f13
+    116  StructProperty    TraceFire           EndTrace                    0x00070004  6219+14           0      3bca49ce518b0f13
+    117  StructProperty    ScoreKill           Rot                         0x00070004  6233+14           0      3bca49ce518b0f13
+    118  StructProperty    TraceFire           Direction                   0x00070004  6247+14           0      3bca49ce518b0f13
+    119  Function          VFlakAmmo           TakeDamage                  0x00070004  6261+39           0      3bca49ce518b0f13
+    120  Function          VRifleShell         TakeDamage                  0x00070004  6300+38           0      3bca49ce518b0f13
+    121  FloatProperty     VBioAmmo            Rand                        0x00070004  6338+12           0      3bca49ce518b0f13
+    122  Function          VBioAmmo            TakeDamage                  0x00070004  6350+38           0      3bca49ce518b0f13
+    123  IntProperty       VBladeHopper        Num                         0x00070004  6388+13           0      3bca49ce518b0f13
+    124  StructProperty    TraceFire           HitLocation                 0x00070004  6401+14           0      3bca49ce518b0f13
+    125  Function          VBladeHopper        TakeDamage                  0x00070004  6415+39           0      3bca49ce518b0f13
+    126  StructProperty    TraceShot           realHit                     0x00070004  6454+13           0      3bca49ce518b0f13
+    127  FloatProperty     Tick                draw_scale                  0x00070004  6467+12           0      3bca49ce518b0f13
+    128  ObjectProperty    PostRender          Canvas                      0x00070004  6479+13           0      3bca49ce518b0f13
+    129  StructProperty    VBulletBox          Direction                   0x00070004  6492+13           0      3bca49ce518b0f13
+    130  IntProperty       VBioAmmo            Num                         0x00070004  6505+13           0      3bca49ce518b0f13
+    131  FloatProperty     Tick                dist                        0x00070004  6518+13           0      3bca49ce518b0f13
+    132  StructProperty    TraceShot           HitNormal                   0x00070004  6531+13           0      3bca49ce518b0f13
+    133  StructProperty    Tick                Dir                         0x00070004  6544+13           0      3bca49ce518b0f13
+    134  IntProperty       ProcessTraceHit     hitdamage                   0x00070004  6557+12           0      3bca49ce518b0f13
+    135  IntProperty       ProcessTraceHit     hitdamage                   0x00070004  6569+12           0      3bca49ce518b0f13
+    136  StructProperty    TraceFire           EndTrace                    0x00070004  6581+14           0      3bca49ce518b0f13
+    137  IntProperty       VShockCore          Num                         0x00070004  6595+13           0      3bca49ce518b0f13
+    138  StructProperty    TraceFire           HitLocation                 0x00070004  6608+14           0      3bca49ce518b0f13
+    139  StructProperty    TraceFire           EndTrace                    0x00070004  6622+14           0      3bca49ce518b0f13
+    140  StructProperty    VRifleShell         Direction                   0x00070004  6636+14           0      3bca49ce518b0f13
+    141  StructProperty    ProcessTraceHit     Direction                   0x00070004  6650+14           0      3bca49ce518b0f13
+    142  StructProperty    TraceFire           HitNormal                   0x00070004  6664+13           0      3bca49ce518b0f13
+    143  Function          VBulletBox          TakeDamage                  0x00070004  6677+38           0      3bca49ce518b0f13
+    144  StructProperty    TraceFire           EndTrace                    0x00070004  6715+14           0      3bca49ce518b0f13
+    145  ObjectProperty    TraceFire           Other                       0x00070004  6729+13           0      3bca49ce518b0f13
+    146  StructProperty    TraceShot           HitNormal                   0x00070004  6742+13           0      3bca49ce518b0f13
+    147  StructProperty    TraceShot           realHit                     0x00070004  6755+13           0      3bca49ce518b0f13
+    148  IntProperty       VBulletBox          Num                         0x00070004  6768+12           0      3bca49ce518b0f13
+    149  IntProperty       ProcessTraceHit     hitdamage                   0x00070004  6780+12           0      3bca49ce518b0f13
+    150  StructProperty    TraceFire           Direction                   0x00070004  6792+14           0      3bca49ce518b0f13
+    151  StructProperty    TraceShot           realHit                     0x00070004  6806+13           0      3bca49ce518b0f13
+    152  ObjectProperty    ProcessTraceHit     instigatedBy                0x00070004  6819+14           0      3bca49ce518b0f13
+    153  -                 -                   TBNotify                    0x000f0024  6833+128          0      3bca49ce518b0f13
+    154  ObjectProperty    TraceFire           instigatedBy                0x00070004  6961+14           0      3bca49ce518b0f13
+    155  ObjectProperty    TraceFire           instigatedBy                0x00070004  6975+14           0      3bca49ce518b0f13
+    156  ByteProperty      CheckReplacement    bSuperRelevant              0x00070004  6989+14           0      3bca49ce518b0f13
+    157  ByteProperty      SetSymbol           Team                        0x00070004  7003+13           0      3bca49ce518b0f13
+    158  ObjectProperty    TakeDamage          instigatedBy                0x00070004  7016+14           0      3bca49ce518b0f13
+    159  ObjectProperty    ProcessTraceHit     instigatedBy                0x00070004  7030+14           0      3bca49ce518b0f13
+    160  IntProperty       Tick                num_used                    0x00070004  7044+13           0      3bca49ce518b0f13
+    161  ObjectProperty    TakeDamage          instigatedBy                0x00070004  7057+14           0      3bca49ce518b0f13
+    162  ObjectProperty    TakeDamage          instigatedBy                0x00070004  7071+14           0      3bca49ce518b0f13
+    163  ObjectProperty    TakeDamage          instigatedBy                0x00070004  7085+14           0      3bca49ce518b0f13
+    164  ObjectProperty    TakeDamage          instigatedBy                0x00070004  7099+14           0      3bca49ce518b0f13
+    165  FloatProperty     TBMutator           mMaxScale                   0x00070004  7113+12           0      3bca49ce518b0f13
+    166  ObjectProperty    TakeDamage          instigatedBy                0x00070004  7125+14           0      3bca49ce518b0f13
+    167  FloatProperty     TBMutator           mMinScale                   0x00070004  7139+13           0      3bca49ce518b0f13
+    168  ObjectProperty    TraceFire           instigatedBy                0x00070004  7152+14           0      3bca49ce518b0f13
+    169  ObjectProperty    TakeDamage          instigatedBy                0x00070004  7166+14           0      3bca49ce518b0f13
+    170  ObjectProperty    TakeDamage          instigatedBy                0x00070004  7180+14           0      3bca49ce518b0f13
+    171  ObjectProperty    ProcessTraceHit     instigatedBy                0x00070004  7194+14           0      3bca49ce518b0f13
+    172  IntProperty       VolatileWeapon      mMaxDischarges              0x00070004  7208+12           0      3bca49ce518b0f13
+    173  ObjectProperty    TakeDamage          instigatedBy                0x00070004  7220+14           0      3bca49ce518b0f13
+    174  ObjectProperty    ProcessTraceHit     instigatedBy                0x00070004  7234+14           0      3bca49ce518b0f13
+    175  Texture           de                  TSignR                      0x000f0004  7248+4178         12     c0c834e3063aa86b
+    176  ObjectProperty    TraceFire           instigatedBy                0x00070004  11426+14          0      3bca49ce518b0f13
+    177  ObjectProperty    TakeDamage          instigatedBy                0x00070004  11440+14          0      3bca49ce518b0f13
+    178  Function          VMiniAmmo           ProcessTraceHit             0x00070004  11454+179         0      3bca49ce518b0f13
+    179  Function          VRifleShell         TraceShot                   0x00070004  11633+113         0      3bca49ce518b0f13
+    180  Function          VMiniAmmo           TraceShot                   0x00070004  11746+113         0      3bca49ce518b0f13
+    181  Function          TBMutator           SetSymbol                   0x00070004  11859+128         0      3bca49ce518b0f13
+    182  -                 -                   VFlakAmmo                   0x000f0004  11987+101         0      3bca49ce518b0f13
+    183  -                 -                   VRocketPack                 0x000f0004  12088+101         0      3bca49ce518b0f13
+    184  Function          VEClip              ProcessTraceHit             0x00070004  12189+179         0      3bca49ce518b0f13
+    185  Function          VBulletBox          ProcessTraceHit             0x00070004  12368+182         0      3bca49ce518b0f13
+    186  -                 -                   VPAmmo                      0x000f0004  12550+101         0      3bca49ce518b0f13
+    187  Function          VEClip              TraceShot                   0x00070004  12651+113         0      3bca49ce518b0f13
+    188  -                 -                   VEClip                      0x000f0004  12764+145         0      3bca49ce518b0f13
+    189  Function          VRifleShell         ProcessTraceHit             0x00070004  12909+179         0      3bca49ce518b0f13
+    190  -                 -                   VRifleShell                 0x000f0004  13088+145         0      3bca49ce518b0f13
+    191  Function          VolatileWeapon      ScoreKill                   0x00070004  13233+248         0      3bca49ce518b0f13
+    192  -                 -                   VolatileWeapon              0x000f0024  13481+193         0      3bca49ce518b0f13
+    193  Function          VEClip              TraceFire                   0x00070004  13674+89          0      3bca49ce518b0f13
+    194  Function          TBNotify            SpawnNotification           0x00070004  13763+95          0      3bca49ce518b0f13
+    195  -                 -                   VBulletBox                  0x000f0004  13858+146         0      3bca49ce518b0f13
+    196  Function          VRifleShell         TraceFire                   0x00070004  14004+89          0      3bca49ce518b0f13
+    197  -                 -                   VMiniAmmo                   0x000f0004  14093+146         0      3bca49ce518b0f13
+    198  Function          VolatileAmmo        AlwaysKeep                  0x00070004  14239+210         0      3bca49ce518b0f13
+    199  Function          TBMutator           Tick                        0x00070004  14449+512         0      3bca49ce518b0f13
+    200  -                 -                   VShockCore                  0x000f0004  14961+110         0      3bca49ce518b0f13
+    201  Function          VolatileAmmo        CheckReplacement            0x00070004  15071+605         0      3bca49ce518b0f13
+    202  Function          TBMutator           PostRender                  0x00070004  15676+70          0      3bca49ce518b0f13
+    203  -                 -                   VBioAmmo                    0x000f0004  15746+101         0      3bca49ce518b0f13
+    204  Function          VBulletBox          TraceShot                   0x00070004  15847+113         0      3bca49ce518b0f13
+    205  Function          VMiniAmmo           TraceFire                   0x00070004  15960+89          0      3bca49ce518b0f13
+    206  Function          VBulletBox          TraceFire                   0x00070004  16049+92          0      3bca49ce518b0f13
+    207  -                 -                   VBladeHopper                0x000f0004  16141+101         0      3bca49ce518b0f13
+    208  NameProperty      TakeDamage          DamageType                  0x00070004  16242+12          0      3bca49ce518b0f13
+    209  StructProperty    TakeDamage          Momentum                    0x00070004  16254+14          0      3bca49ce518b0f13
+    210  State             VRocketPack         TakingDamage                0x00070004  16268+222         0      3bca49ce518b0f13
+    211  State             VRocketPack         Sleeping                    0x00070004  16490+43          0      3bca49ce518b0f13
+    212  Function          Sleeping            TakeDamage                  0x00070004  16533+29          0      3bca49ce518b0f13
+    213  -                 -                   VolatileAmmo                0x000f0004  16562+385         0      3bca49ce518b0f13
+    214  State             VRifleShell         TakingDamage                0x00070004  16947+163         0      3bca49ce518b0f13
+    215  Function          TakingDamage        TakeDamage                  0x00070004  17110+29          0      3bca49ce518b0f13
+    216  NameProperty      TakeDamage          DamageType                  0x00070004  17139+12          0      3bca49ce518b0f13
+    217  Function          TakingDamage        TakeDamage                  0x00070004  17151+29          0      3bca49ce518b0f13
+    218  TextBuffer        VPAmmo              ScriptText                  0x00340000  17180+1131        0      7816b2f9567c982f
+    219  StructProperty    TakeDamage          HitLocation                 0x00070004  18311+14          0      3bca49ce518b0f13
+    220  StructProperty    TakeDamage          Momentum                    0x00070004  18325+14          0      3bca49ce518b0f13
+    221  ObjectProperty    TraceShot           ReturnValue                 0x00070004  18339+14          0      3bca49ce518b0f13
+    222  IntProperty       TakeDamage          Dam                         0x00070004  18353+13          0      3bca49ce518b0f13
+    223  ObjectProperty    TakeDamage          instigatedBy                0x00070004  18366+14          0      3bca49ce518b0f13
+    224  StructProperty    TakeDamage          HitLocation                 0x00070004  18380+14          0      3bca49ce518b0f13
+    225  State             VEClip              Sleeping                    0x00070004  18394+43          0      3bca49ce518b0f13
+    226  Function          Sleeping            TakeDamage                  0x00070004  18437+29          0      3bca49ce518b0f13
+    227  StructProperty    TakeDamage          Momentum                    0x00070004  18466+14          0      3bca49ce518b0f13
+    228  TextBuffer        VRifleShell         ScriptText                  0x00340000  18480+2535        0      10656edb9a1b6db3
+    229  State             VEClip              TakingDamage                0x00070004  21015+247         0      3bca49ce518b0f13
+    230  Function          TakingDamage        TakeDamage                  0x00070004  21262+29          0      3bca49ce518b0f13
+    231  IntProperty       TakeDamage          Dam                         0x00070004  21291+13          0      3bca49ce518b0f13
+    232  StructProperty    TakeDamage          HitLocation                 0x00070004  21304+14          0      3bca49ce518b0f13
+    233  StructProperty    TakeDamage          Momentum                    0x00070004  21318+14          0      3bca49ce518b0f13
+    234  IntProperty       TakeDamage          Dam                         0x00070004  21332+13          0      3bca49ce518b0f13
+    235  State             VRifleShell         Sleeping                    0x00070004  21345+43          0      3bca49ce518b0f13
+    236  Function          Sleeping            TakeDamage                  0x00070004  21388+29          0      3bca49ce518b0f13
+    237  IntProperty       TakeDamage          Dam                         0x00070004  21417+13          0      3bca49ce518b0f13
+    238  ObjectProperty    TakeDamage          instigatedBy                0x00070004  21430+14          0      3bca49ce518b0f13
+    239  IntProperty       TakeDamage          Dam                         0x00070004  21444+13          0      3bca49ce518b0f13
+    240  NameProperty      TakeDamage          DamageType                  0x00070004  21457+12          0      3bca49ce518b0f13
+    241  NameProperty      TakeDamage          DamageType                  0x00070004  21469+12          0      3bca49ce518b0f13
+    242  StructProperty    TakeDamage          Momentum                    0x00070004  21481+14          0      3bca49ce518b0f13
+    243  StructProperty    TakeDamage          HitLocation                 0x00070004  21495+14          0      3bca49ce518b0f13
+    244  IntProperty       TakeDamage          Dam                         0x00070004  21509+13          0      3bca49ce518b0f13
+    245  State             VMiniAmmo           TakingDamage                0x00070004  21522+349         0      3bca49ce518b0f13
+    246  Function          TakingDamage        TakeDamage                  0x00070004  21871+29          0      3bca49ce518b0f13
+    247  StructProperty    TakeDamage          HitLocation                 0x00070004  21900+14          0      3bca49ce518b0f13
+    248  State             VBulletBox          Sleeping                    0x00070004  21914+43          0      3bca49ce518b0f13
+    249  Function          Sleeping            TakeDamage                  0x00070004  21957+29          0      3bca49ce518b0f13
+    250  ObjectProperty    TakeDamage          instigatedBy                0x00070004  21986+14          0      3bca49ce518b0f13
+    251  NameProperty      TakeDamage          DamageType                  0x00070004  22000+12          0      3bca49ce518b0f13
+    252  StructProperty    TakeDamage          Momentum                    0x00070004  22012+14          0      3bca49ce518b0f13
+    253  StructProperty    TakeDamage          HitLocation                 0x00070004  22026+14          0      3bca49ce518b0f13
+    254  ObjectProperty    TraceShot           ReturnValue                 0x00070004  22040+14          0      3bca49ce518b0f13
+    255  TextBuffer        VBladeHopper        ScriptText                  0x00340000  22054+1138        0      5c5b3fbc3bb30317
+    256  ObjectProperty    TakeDamage          instigatedBy                0x00070004  23192+14          0      3bca49ce518b0f13
+    257  State             VBulletBox          TakingDamage                0x00070004  23206+349         0      3bca49ce518b0f13
+    258  Function          TakingDamage        TakeDamage                  0x00070004  23555+29          0      3bca49ce518b0f13
+    259  ObjectProperty    TakeDamage          instigatedBy                0x00070004  23584+14          0      3bca49ce518b0f13
+    260  StructProperty    TakeDamage          HitLocation                 0x00070004  23598+14          0      3bca49ce518b0f13
+    261  StructProperty    TakeDamage          Momentum                    0x00070004  23612+14          0      3bca49ce518b0f13
+    262  NameProperty      TakeDamage          DamageType                  0x00070004  23626+12          0      3bca49ce518b0f13
+    263  ObjectProperty    TakeDamage          instigatedBy                0x00070004  23638+14          0      3bca49ce518b0f13
+    264  IntProperty       TakeDamage          Dam                         0x00070004  23652+13          0      3bca49ce518b0f13
+    265  FloatProperty     VShockCore          Rand                        0x00070004  23665+12          0      3bca49ce518b0f13
+    266  IntProperty       TakeDamage          Dam                         0x00070004  23677+13          0      3bca49ce518b0f13
+    267  TextBuffer        TBNotify            ScriptText                  0x00340000  23690+1297        0      69b5c7f2cb6acbce
+    268  StructProperty    TakeDamage          Momentum                    0x00070004  24987+14          0      3bca49ce518b0f13
+    269  NameProperty      TakeDamage          DamageType                  0x00070004  25001+12          0      3bca49ce518b0f13
+    270  State             VShockCore          Sleeping                    0x00070004  25013+43          0      3bca49ce518b0f13
+    271  Function          Sleeping            TakeDamage                  0x00070004  25056+29          0      3bca49ce518b0f13
+    272  IntProperty       TakeDamage          Dam                         0x00070004  25085+13          0      3bca49ce518b0f13
+    273  ObjectProperty    TakeDamage          instigatedBy                0x00070004  25098+14          0      3bca49ce518b0f13
+    274  StructProperty    TakeDamage          HitLocation                 0x00070004  25112+14          0      3bca49ce518b0f13
+    275  StructProperty    TakeDamage          Momentum                    0x00070004  25126+14          0      3bca49ce518b0f13
+    276  NameProperty      TakeDamage          DamageType                  0x00070004  25140+12          0      3bca49ce518b0f13
+    277  State             VShockCore          TakingDamage                0x00070004  25152+194         0      3bca49ce518b0f13
+    278  Function          TakingDamage        TakeDamage                  0x00070004  25346+29          0      3bca49ce518b0f13
+    279  StructProperty    TakeDamage          Momentum                    0x00070004  25375+14          0      3bca49ce518b0f13
+    280  ObjectProperty    TakeDamage          instigatedBy                0x00070004  25389+14          0      3bca49ce518b0f13
+    281  StructProperty    TakeDamage          HitLocation                 0x00070004  25403+14          0      3bca49ce518b0f13
+    282  StructProperty    TakeDamage          Momentum                    0x00070004  25417+14          0      3bca49ce518b0f13
+    283  -                 -                   TeamBeacon                  0x000f0004  25431+97          0      3bca49ce518b0f13
+    284  State             VMiniAmmo           Sleeping                    0x00070004  25528+43          0      3bca49ce518b0f13
+    285  Function          Sleeping            TakeDamage                  0x00070004  25571+29          0      3bca49ce518b0f13
+    286  NameProperty      TakeDamage          DamageType                  0x00070004  25600+12          0      3bca49ce518b0f13
+    287  StructProperty    TakeDamage          Momentum                    0x00070004  25612+14          0      3bca49ce518b0f13
+    288  StructProperty    TakeDamage          HitLocation                 0x00070004  25626+14          0      3bca49ce518b0f13
+    289  IntProperty       TakeDamage          Dam                         0x00070004  25640+13          0      3bca49ce518b0f13
+    290  NameProperty      TakeDamage          DamageType                  0x00070004  25653+12          0      3bca49ce518b0f13
+    291  IntProperty       TakeDamage          Dam                         0x00070004  25665+13          0      3bca49ce518b0f13
+    292  StructProperty    TakeDamage          Momentum                    0x00070004  25678+14          0      3bca49ce518b0f13
+    293  NameProperty      TakeDamage          DamageType                  0x00070004  25692+12          0      3bca49ce518b0f13
+    294  State             VFlakAmmo           Sleeping                    0x00070004  25704+43          0      3bca49ce518b0f13
+    295  Function          Sleeping            TakeDamage                  0x00070004  25747+29          0      3bca49ce518b0f13
+    296  IntProperty       TakeDamage          Dam                         0x00070004  25776+13          0      3bca49ce518b0f13
+    297  ObjectProperty    TakeDamage          instigatedBy                0x00070004  25789+14          0      3bca49ce518b0f13
+    298  StructProperty    TakeDamage          HitLocation                 0x00070004  25803+14          0      3bca49ce518b0f13
+    299  StructProperty    TakeDamage          Momentum                    0x00070004  25817+14          0      3bca49ce518b0f13
+    300  StructProperty    TakeDamage          HitLocation                 0x00070004  25831+14          0      3bca49ce518b0f13
+    301  State             VFlakAmmo           TakingDamage                0x00070004  25845+211         0      3bca49ce518b0f13
+    302  Function          TakingDamage        TakeDamage                  0x00070004  26056+29          0      3bca49ce518b0f13
+    303  IntProperty       TakeDamage          Dam                         0x00070004  26085+13          0      3bca49ce518b0f13
+    304  ObjectProperty    TakeDamage          instigatedBy                0x00070004  26098+14          0      3bca49ce518b0f13
+    305  StructProperty    TakeDamage          Momentum                    0x00070004  26112+14          0      3bca49ce518b0f13
+    306  TextBuffer        VRocketPack         ScriptText                  0x00340000  26126+1217        0      871e569cd9c678e0
+    307  NameProperty      TakeDamage          DamageType                  0x00070004  27343+12          0      3bca49ce518b0f13
+    308  ObjectProperty    TakeDamage          instigatedBy                0x00070004  27355+14          0      3bca49ce518b0f13
+    309  IntProperty       TakeDamage          Dam                         0x00070004  27369+13          0      3bca49ce518b0f13
+    310  IntProperty       TakeDamage          Dam                         0x00070004  27382+13          0      3bca49ce518b0f13
+    311  StructProperty    TakeDamage          HitLocation                 0x00070004  27395+14          0      3bca49ce518b0f13
+    312  NameProperty      TakeDamage          DamageType                  0x00070004  27409+12          0      3bca49ce518b0f13
+    313  StructProperty    TakeDamage          Momentum                    0x00070004  27421+14          0      3bca49ce518b0f13
+    314  NameProperty      TakeDamage          DamageType                  0x00070004  27435+12          0      3bca49ce518b0f13
+    315  ObjectProperty    TakeDamage          instigatedBy                0x00070004  27447+14          0      3bca49ce518b0f13
+    316  StructProperty    TakeDamage          HitLocation                 0x00070004  27461+14          0      3bca49ce518b0f13
+    317  IntProperty       TakeDamage          Dam                         0x00070004  27475+13          0      3bca49ce518b0f13
+    318  NameProperty      TakeDamage          DamageType                  0x00070004  27488+12          0      3bca49ce518b0f13
+    319  StructProperty    TakeDamage          HitLocation                 0x00070004  27500+14          0      3bca49ce518b0f13
+    320  IntProperty       TakeDamage          Dam                         0x00070004  27514+13          0      3bca49ce518b0f13
+    321  ObjectProperty    TakeDamage          instigatedBy                0x00070004  27527+14          0      3bca49ce518b0f13
+    322  StructProperty    TakeDamage          HitLocation                 0x00070004  27541+14          0      3bca49ce518b0f13
+    323  StructProperty    TakeDamage          Momentum                    0x00070004  27555+14          0      3bca49ce518b0f13
+    324  NameProperty      TakeDamage          DamageType                  0x00070004  27569+12          0      3bca49ce518b0f13
+    325  TextBuffer        TeamBeacon          ScriptText                  0x00340000  27581+420         0      9602e3bd344fd01c
+    326  FloatProperty     VPAmmo              Rand                        0x00070004  28001+12          0      3bca49ce518b0f13
+    327  ObjectProperty    TakeDamage          instigatedBy                0x00070004  28013+14          0      3bca49ce518b0f13
+    328  IntProperty       TakeDamage          Dam                         0x00070004  28027+13          0      3bca49ce518b0f13
+    329  IntProperty       TakeDamage          Dam                         0x00070004  28040+13          0      3bca49ce518b0f13
+    330  StructProperty    TakeDamage          HitLocation                 0x00070004  28053+14          0      3bca49ce518b0f13
+    331  StructProperty    TakeDamage          Momentum                    0x00070004  28067+14          0      3bca49ce518b0f13
+    332  NameProperty      TakeDamage          DamageType                  0x00070004  28081+12          0      3bca49ce518b0f13
+    333  State             VPAmmo              Sleeping                    0x00070004  28093+43          0      3bca49ce518b0f13
+    334  Function          Sleeping            TakeDamage                  0x00070004  28136+29          0      3bca49ce518b0f13
+    335  IntProperty       TakeDamage          Dam                         0x00070004  28165+13          0      3bca49ce518b0f13
+    336  ObjectProperty    TakeDamage          instigatedBy                0x00070004  28178+14          0      3bca49ce518b0f13
+    337  StructProperty    TakeDamage          HitLocation                 0x00070004  28192+14          0      3bca49ce518b0f13
+    338  StructProperty    TakeDamage          Momentum                    0x00070004  28206+14          0      3bca49ce518b0f13
+    339  NameProperty      TakeDamage          DamageType                  0x00070004  28220+12          0      3bca49ce518b0f13
+    340  State             VPAmmo              TakingDamage                0x00070004  28232+221         0      3bca49ce518b0f13
+    341  Function          TakingDamage        TakeDamage                  0x00070004  28453+29          0      3bca49ce518b0f13
+    342  IntProperty       TakeDamage          Dam                         0x00070004  28482+13          0      3bca49ce518b0f13
+    343  ObjectProperty    TakeDamage          instigatedBy                0x00070004  28495+14          0      3bca49ce518b0f13
+    344  StructProperty    TakeDamage          HitLocation                 0x00070004  28509+14          0      3bca49ce518b0f13
+    345  StructProperty    TakeDamage          Momentum                    0x00070004  28523+14          0      3bca49ce518b0f13
+    346  NameProperty      TakeDamage          DamageType                  0x00070004  28537+12          0      3bca49ce518b0f13
+    347  ObjectProperty    TraceShot           ReturnValue                 0x00070004  28549+14          0      3bca49ce518b0f13
+    348  StructProperty    TakeDamage          HitLocation                 0x00070004  28563+14          0      3bca49ce518b0f13
+    349  StructProperty    TakeDamage          Momentum                    0x00070004  28577+14          0      3bca49ce518b0f13
+    350  IntProperty       TakeDamage          Dam                         0x00070004  28591+13          0      3bca49ce518b0f13
+    351  StructProperty    TakeDamage          HitLocation                 0x00070004  28604+14          0      3bca49ce518b0f13
+    352  StructProperty    TakeDamage          HitLocation                 0x00070004  28618+14          0      3bca49ce518b0f13
+    353  StructProperty    TakeDamage          Momentum                    0x00070004  28632+14          0      3bca49ce518b0f13
+    354  NameProperty      TakeDamage          DamageType                  0x00070004  28646+12          0      3bca49ce518b0f13
+    355  State             VBioAmmo            Sleeping                    0x00070004  28658+43          0      3bca49ce518b0f13
+    356  Function          Sleeping            TakeDamage                  0x00070004  28701+29          0      3bca49ce518b0f13
+    357  IntProperty       TakeDamage          Dam                         0x00070004  28730+13          0      3bca49ce518b0f13
+    358  ObjectProperty    TakeDamage          instigatedBy                0x00070004  28743+14          0      3bca49ce518b0f13
+    359  StructProperty    TakeDamage          HitLocation                 0x00070004  28757+14          0      3bca49ce518b0f13
+    360  StructProperty    TakeDamage          Momentum                    0x00070004  28771+14          0      3bca49ce518b0f13
+    361  NameProperty      TakeDamage          DamageType                  0x00070004  28785+12          0      3bca49ce518b0f13
+    362  State             VBioAmmo            TakingDamage                0x00070004  28797+206         0      3bca49ce518b0f13
+    363  Function          TakingDamage        TakeDamage                  0x00070004  29003+29          0      3bca49ce518b0f13
+    364  IntProperty       TakeDamage          Dam                         0x00070004  29032+13          0      3bca49ce518b0f13
+    365  ObjectProperty    TakeDamage          instigatedBy                0x00070004  29045+14          0      3bca49ce518b0f13
+    366  StructProperty    TakeDamage          HitLocation                 0x00070004  29059+14          0      3bca49ce518b0f13
+    367  StructProperty    TakeDamage          Momentum                    0x00070004  29073+14          0      3bca49ce518b0f13
+    368  NameProperty      TakeDamage          DamageType                  0x00070004  29087+12          0      3bca49ce518b0f13
+    369  NameProperty      TakeDamage          DamageType                  0x00070004  29099+12          0      3bca49ce518b0f13
+    370  TextBuffer        VBioAmmo            ScriptText                  0x00340000  29111+1138        0      6b1f8050d03bab41
+    371  NameProperty      TakeDamage          DamageType                  0x00070004  30249+12          0      3bca49ce518b0f13
+    372  TextBuffer        VEClip              ScriptText                  0x00340000  30261+2878        0      aba9f193c7f5554e
+    373  IntProperty       TakeDamage          Dam                         0x00070004  33139+13          0      3bca49ce518b0f13
+    374  StructProperty    TakeDamage          Momentum                    0x00070004  33152+14          0      3bca49ce518b0f13
+    375  NameProperty      TakeDamage          DamageType                  0x00070004  33166+12          0      3bca49ce518b0f13
+    376  State             VBladeHopper        Sleeping                    0x00070004  33178+43          0      3bca49ce518b0f13
+    377  Function          Sleeping            TakeDamage                  0x00070004  33221+29          0      3bca49ce518b0f13
+    378  IntProperty       TakeDamage          Dam                         0x00070004  33250+13          0      3bca49ce518b0f13
+    379  ObjectProperty    TakeDamage          instigatedBy                0x00070004  33263+14          0      3bca49ce518b0f13
+    380  StructProperty    TakeDamage          HitLocation                 0x00070004  33277+14          0      3bca49ce518b0f13
+    381  StructProperty    TakeDamage          Momentum                    0x00070004  33291+14          0      3bca49ce518b0f13
+    382  NameProperty      TakeDamage          DamageType                  0x00070004  33305+12          0      3bca49ce518b0f13
+    383  State             VBladeHopper        TakingDamage                0x00070004  33317+214         0      3bca49ce518b0f13
+    384  Function          TakingDamage        TakeDamage                  0x00070004  33531+29          0      3bca49ce518b0f13
+    385  IntProperty       TakeDamage          Dam                         0x00070004  33560+13          0      3bca49ce518b0f13
+    386  ObjectProperty    TakeDamage          instigatedBy                0x00070004  33573+14          0      3bca49ce518b0f13
+    387  StructProperty    TakeDamage          HitLocation                 0x00070004  33587+14          0      3bca49ce518b0f13
+    388  StructProperty    TakeDamage          Momentum                    0x00070004  33601+14          0      3bca49ce518b0f13
+    389  NameProperty      TakeDamage          DamageType                  0x00070004  33615+12          0      3bca49ce518b0f13
+    390  ObjectProperty    SpawnNotification   ReturnValue                 0x00070004  33627+14          0      3bca49ce518b0f13
+    391  ObjectProperty    SpawnNotification   TempActor                   0x00070004  33641+13          0      3bca49ce518b0f13
+    392  TextBuffer        VolatileWeapon      ScriptText                  0x00340000  33654+1629        0      f5c92d9861393c24
+    393  BoolProperty      AlwaysKeep          ReturnValue                 0x00070004  35283+13          0      3bca49ce518b0f13
+    394  BoolProperty      AlwaysKeep          bTemp                       0x00070004  35296+12          0      3bca49ce518b0f13
+    395  StructProperty    TakeDamage          Momentum                    0x00070004  35308+14          0      3bca49ce518b0f13
+    396  BoolProperty      CheckReplacement    ReturnValue                 0x00070004  35322+12          0      3bca49ce518b0f13
+    397  StructProperty    TakeDamage          HitLocation                 0x00070004  35334+14          0      3bca49ce518b0f13
+    398  TextBuffer        TBMutator           ScriptText                  0x00340000  35348+3545        0      5e637bd56480d4cc
+    399  IntProperty       TakeDamage          Dam                         0x00070004  38893+13          0      3bca49ce518b0f13
+    400  StructProperty    TakeDamage          Momentum                    0x00070004  38906+14          0      3bca49ce518b0f13
+    401  ObjectProperty    TraceShot           ReturnValue                 0x00070004  38920+14          0      3bca49ce518b0f13
+    402  FloatProperty     Tick                Delta                       0x00070004  38934+12          0      3bca49ce518b0f13
+    403  TextBuffer        VMiniAmmo           ScriptText                  0x00340000  38946+3182        0      5d6a8123cb4b9ca2
+    404  NameProperty      TakeDamage          DamageType                  0x00070004  42128+12          0      3bca49ce518b0f13
+    405  TextBuffer        VFlakAmmo           ScriptText                  0x00340000  42140+1084        0      e66a1d2ffc6b5239
+    406  StructProperty    TakeDamage          Momentum                    0x00070004  43224+14          0      3bca49ce518b0f13
+    407  StructProperty    TakeDamage          HitLocation                 0x00070004  43238+14          0      3bca49ce518b0f13
+    408  TextBuffer        VBulletBox          ScriptText                  0x00340000  43252+3159        0      569921947dee4760
+    409  NameProperty      TakeDamage          DamageType                  0x00070004  46411+12          0      3bca49ce518b0f13
+    410  StructProperty    TakeDamage          HitLocation                 0x00070004  46423+14          0      3bca49ce518b0f13
+    411  IntProperty       TakeDamage          Dam                         0x00070004  46437+13          0      3bca49ce518b0f13
+    412  StructProperty    ScoreKill           vec                         0x00070004  46450+14          0      3bca49ce518b0f13
+    413  NameProperty      TakeDamage          DamageType                  0x00070004  46464+12          0      3bca49ce518b0f13
+    414  StructProperty    TakeDamage          HitLocation                 0x00070004  46476+14          0      3bca49ce518b0f13
+    415  TextBuffer        IdentitySymbol      ScriptText                  0x00340000  46490+717         0      d585d5a5c70bf036
+    416  TextBuffer        VolatileAmmo        ScriptText                  0x00340000  47207+2764        0      b36ff96bb46addc6
+    417  IntProperty       TakeDamage          Dam                         0x00070004  49971+13          0      3bca49ce518b0f13
+    418  TextBuffer        VShockCore          ScriptText                  0x00340000  49984+1061        0      d9c0979f0ad8c111
+    419  Function          TeamBeacon          PostBeginPlay               0x00070004  51045+47          0      3bca49ce518b0f13
+    420  Texture           de                  TSignB                      0x000f0004  51092+4171        11     b49bd978b17d66cd
+    421  Texture           de                  TSignG                      0x000f0004  55263+4178        12     6b9da41456c4b463
+    422  Texture           de                  TSignY                      0x000f0004  59441+4178        12     f287387e279a1edb
+    423  Palette           de                  Palette7                    0x00070004  63619+1027        0      e6815e5d22e6b7ba
+    424  Package           -                   de                          0x00070004  64646+1           0      3bca49ce518b0f13

@@ -1,0 +1,225 @@
+package  ut99-436/textures/XFX.utx
+bytes    198416
+sha256   54fe1249f498f56e4f419ba298445e9728392f1b05050be4fdaa5ba9081d3bf0
+
+[header]
+  signature           0x9e2a83c1
+  version             61
+  licensee_version    0
+  package_flags       0x00000001
+  name_count          118
+  name_offset         60
+  export_count        40
+  export_offset       197743
+  import_count        33
+  import_offset       197488
+  heritage_count      1
+  heritage_offset     44
+
+[classes] 7
+  firetexture             16
+  icetexture              2
+  package                 2
+  palette                 11
+  texture                 2
+  wavetexture             1
+  wettexture              6
+
+[names] 118
+      0  0x00070010  ADrop
+      1  0x00070010  Drops
+      2  0x00070010  InternalTime
+      3  0x04070410  None
+      4  0x04070410  Color
+      5  0x00070010  USize
+      6  0x00070010  VSize
+      7  0x00070010  UClamp
+      8  0x00070010  UBits
+      9  0x00070010  MipZero
+     10  0x00070010  VClamp
+     11  0x00070010  Palette
+     12  0x00070010  VBits
+     13  0x00070010  bParametric
+     14  0x00070010  bRealtime
+     15  0x00070010  FX_Frequency
+     16  0x00070010  FX_Size
+     17  0x00070010  FX_Phase
+     18  0x00070010  FX_Area
+     19  0x00070010  FX_VertSpeed
+     20  0x00070010  FX_Heat
+     21  0x00070010  FX_HorizSpeed
+     22  0x00070010  RenderHeat
+     23  0x00070010  NumSparks
+     24  0x00070010  SparksLimit
+     25  0x00070010  SparkType
+     26  0x00070010  PrimeCount
+     27  0x00070010  SourceTexture
+     28  0x00070010  FX_Amplitude
+     29  0x00070010  FX_Speed
+     30  0x00070010  FX_Radius
+     31  0x00070010  FX_Time
+     32  0x00070010  DropType
+     33  0x00070010  FX_Depth
+     34  0x00070010  NumDrops
+     35  0x00070010  WaveAmp
+     36  0x00070010  MaxColor
+     37  0x00070010  HorizPanSpeed
+     38  0x00070010  GlassTexture
+     39  0x00070010  UDisplace
+     40  0x00070010  VertPanSpeed
+     41  0x00070010  VPosition
+     42  0x00070010  UPosition
+     43  0x00070010  VDisplace
+     44  0x00070010  MasterCount
+     45  0x00070010  MoveIce
+     46  0x00070010  Amplitude
+     47  0x00070010  Frequency
+     48  0x00070010  DrawMode
+     49  0x00070010  DetailTexture
+     50  0x00070010  PhongRange
+     51  0x00070010  BumpMapLight
+     52  0x00070010  BumpMapAngle
+     53  0x00070010  PhongSize
+     54  0x04070410  Class
+     55  0x04070010  WetTexture
+     56  0x04070410  Package
+     57  0x04070010  Engine
+     58  0x00070010  Palette3
+     59  0x04070010  Core
+     60  0x04070010  Texture
+     61  0x04070010  FireTexture
+     62  0x04070010  IceTexture
+     63  0x04070010  WaveTexture
+     64  0x04070010  Blue
+     65  0x00070010  Palette67
+     66  0x00070010  Fire
+     67  0x00070010  Light
+     68  0x00070010  Floor
+     69  0x00070010  Palette14
+     70  0x00070010  Palette199
+     71  0x00070010  Detail
+     72  0x00070010  Palette0
+     73  0x00070010  scanline
+     74  0x00070010  paint2
+     75  0x00070010  genfluid
+     76  0x00070010  Sky
+     77  0x00070010  gmist2
+     78  0x00070010  BlueSky
+     79  0x00070010  DecayedS
+     80  0x00070010  Aisle
+     81  0x00070010  dlaser1
+     82  0x00070010  GenFX
+     83  0x00070010  Palettes
+     84  0x00070010  LensFlar
+     85  0x00070010  flare2
+     86  0x00070010  PalFire2
+     87  0x00070010  BRI_Blue
+     88  0x00070010  XFX
+     89  0x00070010  brainwave
+     90  0x00070010  xtreme
+     91  0x00070010  xfx1
+     92  0x00070010  mandarin
+     93  0x00070010  Elektroshok
+     94  0x00070010  xbeg
+     95  0x00070010  detailtest
+     96  0x00070010  testmore
+     97  0x00070010  wavyx
+     98  0x00070010  inoxxy
+     99  0x00070010  fishlightning
+    100  0x00070010  chinese
+    101  0x00070010  cyberFire
+    102  0x00070010  SpaceBlood
+    103  0x00070010  pinkpink
+    104  0x00070010  elextropink
+    105  0x00070010  cloud
+    106  0x00070010  beg2
+    107  0x00070010  wavexxx
+    108  0x00070010  pinkbunny
+    109  0x00070010  revenge
+    110  0x00070010  ErikEnergy
+    111  0x00070010  testlight
+    112  0x00070010  darkshield
+    113  0x00070010  ionwave
+    114  0x00070010  inoxBlu1
+    115  0x00070010  lightVision
+    116  0x00070010  flareZw
+    117  0x00070010  xeolighting
+
+[imports] 33
+    idx  class             classpkg      package             name
+     -1  Package           Core          -                   Fire
+     -2  Class             Core          Fire                FireTexture
+     -3  Package           Core          -                   Engine
+     -4  Class             Core          Engine              Palette
+     -5  Class             Core          Fire                WetTexture
+     -6  Package           Core          -                   DecayedS
+     -7  Package           Core          -                   Detail
+     -8  Package           Core          -                   Core
+     -9  Class             Core          Fire                IceTexture
+    -10  Package           Core          -                   Palettes
+    -11  Class             Core          Core                Package
+    -12  Class             Core          Engine              Texture
+    -13  Package           Core          -                   genfluid
+    -14  Package           Core          -                   GenFX
+    -15  Package           Core          genfluid            Sky
+    -16  Class             Core          Fire                WaveTexture
+    -17  Package           Core          DecayedS            Floor
+    -18  Package           Core          DecayedS            Light
+    -19  Palette           Engine        DecayedS            Palette0
+    -20  Texture           Engine        Floor               Aisle
+    -21  Palette           Engine        Detail              Palette67
+    -22  Texture           Engine        Detail              scanline
+    -23  Texture           Engine        Detail              paint2
+    -24  Palette           Engine        Palettes            PalFire2
+    -25  Texture           Engine        Light               dlaser1
+    -26  Texture           Engine        Sky                 gmist2
+    -27  Texture           Engine        Sky                 BlueSky
+    -28  Palette           Engine        DecayedS            Palette14
+    -29  Palette           Engine        GenFX               Palette199
+    -30  Package           Core          GenFX               LensFlar
+    -31  Texture           Engine        LensFlar            flare2
+    -32  Package           Core          Palettes            Blue
+    -33  Texture           Engine        Blue                BRI_Blue
+
+[exports] 40
+    idx  class             package             name                        flags       serial            props  parse
+      1  Palette           -                   elextropink                 0x00070000  1600+1027         0      43d65a34ffaa6324
+      2  Palette           -                   mandarin                    0x00070000  2627+1027         0      c5f61739dfe3b7f3
+      3  Palette           -                   cyberFire                   0x00070000  3654+1027         0      bfd898c282a725f0
+      4  Palette           -                   Palette0                    0x00070000  4681+1027         0      4054b6e4a1a006cd
+      5  Palette           -                   testlight                   0x00070000  5708+1027         0      f034897f666e7c11
+      6  Texture           -                   inoxxy                      0x000f0004  6735+87550        11     467a2fe9e8cac28e
+      7  Palette           -                   Palette3                    0x00070004  94285+1027        0      1fa8e3355c574b11
+      8  Palette           -                   wavexxx                     0x00070000  95312+1027        0      0b5f893cb2af49d8
+      9  Palette           -                   SpaceBlood                  0x00070000  96339+1027        0      3dc3c67163ea5bec
+     10  Palette           xbeg                xfx1                        0x00070000  97366+1027        0      e8550c726f90d665
+     11  Texture           -                   inoxBlu1                    0x000f0004  98393+87550       11     bde3b227df77f992
+     12  Palette           -                   xeolighting                 0x00070000  185943+1027       0      4fec143caf2d486e
+     13  Palette           xtreme              Elektroshok                 0x00070000  186970+1027       0      d104c5705f521fea
+     14  Package           -                   xtreme                      0x00070004  187997+1          0      3bca49ce518b0f13
+     15  WetTexture        xtreme              brainwave                   0x000f0004  187998+623        65     901f2ae9ee4f019d
+     16  Package           -                   xbeg                        0x00070004  188621+1          0      3bca49ce518b0f13
+     17  FireTexture       -                   chinese                     0x000f0004  188622+595        24     3d9653b9beb9e6ac
+     18  WetTexture        -                   ErikEnergy                  0x000f0004  189217+1436       126    c05f445cd532caee
+     19  WetTexture        -                   beg2                        0x000f0004  190653+604        62     e18a9bcdeec6b914
+     20  WaveTexture       -                   wavexxx                     0x000f0004  191257+236        36     5fa1da9341a2525a
+     21  FireTexture       -                   darkshield                  0x000f0004  191493+147        24     2967ab2ace1f63e2
+     22  FireTexture       -                   pinkbunny                   0x000f0004  191640+689        23     490313100f1f99ab
+     23  FireTexture       -                   cloud                       0x000f0004  192329+304        23     a21c78ff39a59e73
+     24  FireTexture       -                   elextropink                 0x000f0004  192633+120        23     f90f88dc519cac39
+     25  WetTexture        -                   detailtest                  0x000f0004  192753+604        62     9d323813126e856f
+     26  FireTexture       -                   testmore                    0x000f0004  193357+147        24     fb5c97964fee25ba
+     27  FireTexture       -                   xeolighting                 0x000f0004  193504+195        24     65986b709863e673
+     28  FireTexture       -                   testlight                   0x000f0004  193699+352        23     b5a1ddcbac5a775e
+     29  IceTexture        -                   lightVision                 0x000f0004  194051+123        24     68b8be35641fae08
+     30  IceTexture        -                   flareZw                     0x000f0004  194174+123        24     b9c5e9474e1813ff
+     31  FireTexture       xtreme              Elektroshok                 0x000f0004  194297+120        23     e46f906e64b15513
+     32  FireTexture       xbeg                xfx1                        0x000f0004  194417+195        24     c3fab962cace5a4a
+     33  FireTexture       -                   mandarin                    0x000f0004  194612+120        23     9926dc0f3e4622b9
+     34  FireTexture       -                   pinkpink                    0x000f0004  194732+128        23     bfa36dcbec87c59b
+     35  WetTexture        -                   ionwave                     0x000f0004  194860+763        75     2281598184c2a4ce
+     36  FireTexture       -                   cyberFire                   0x000f0004  195623+264        23     c84d7371f995cdb7
+     37  FireTexture       -                   SpaceBlood                  0x000f0004  195887+299        24     98a9c9b7cab50d2b
+     38  WetTexture        -                   wavyx                       0x000f0004  196186+659        67     3827ac9efdbb9493
+     39  FireTexture       -                   revenge                     0x000f0004  196845+147        24     2494372070cc08b9
+     40  FireTexture       -                   fishlightning               0x000f0004  196992+496        23     27a031eb213f6aa2

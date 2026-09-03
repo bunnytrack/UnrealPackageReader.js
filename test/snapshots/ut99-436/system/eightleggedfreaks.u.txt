@@ -1,0 +1,1744 @@
+package  ut99-436/system/eightleggedfreaks.u
+bytes    4635463
+sha256   3162a35aa249bd40a7956868bc356c8e7ad45384764a1338a32efb4d22ac4ca2
+
+[header]
+  signature           0x9e2a83c1
+  version             69
+  licensee_version    0
+  package_flags       0x00000001
+  name_count          817
+  name_offset         64
+  export_count        488
+  export_offset       4627113
+  import_count        394
+  import_offset       4623583
+  guid                891FE20011D65EE800007DB07F0CD121
+  generation_count    1
+  generation[0]       exports=488 names=817
+
+[classes] 17
+  animation               3
+  boolproperty            12
+  byteproperty            15
+  classproperty           6
+  floatproperty           49
+  function                138
+  intproperty             12
+  nameproperty            16
+  objectproperty          59
+  package                 1
+  palette                 39
+  skeletalmesh            3
+  state                   4
+  strproperty             28
+  structproperty          38
+  textbuffer              13
+  texture                 39
+
+[names] 817
+      0  0x04070410  None
+      1  0x00070010  SetSkinElement
+      2  0x04070410  Color
+      3  0x00070010  InternalTime
+      4  0x00070010  PlayFootStep
+      5  0x00070010  VBits
+      6  0x00070010  VClamp
+      7  0x00070010  UClamp
+      8  0x00070010  UBits
+      9  0x00070010  LODSet
+     10  0x00070010  USize
+     11  0x00070010  MaxColor
+     12  0x00070010  VSize
+     13  0x00070010  Palette
+     14  0x00070010  MipZero
+     15  0x00070010  legs_idle
+     16  0x00070010  Deaths
+     17  0x00070010  legs_run
+     18  0x00070010  legs_swim
+     19  0x00070010  legs_Walk
+     20  0x00070010  torso_raise
+     21  0x00070010  torso_attack
+     22  0x00070010  legs_walkcr
+     23  0x00070010  Death2
+     24  0x00070010  death1
+     25  0x00070010  legs_jump
+     26  0x00070010  Death3
+     27  0x00070010  Botpack
+     28  0x00070010  torso_gesture
+     29  0x04070010  Engine
+     30  0x04070010  Core
+     31  0x00070010  eightleggedfreaks
+     32  0x00070010  Gesture
+     33  0x00070010  legs_land
+     34  0x00070010  legs_TakeHitR
+     35  0x00070010  Initfor
+     36  0x00070010  legs_strafe
+     37  0x00070010  legs_TakeHitL
+     38  0x00070010  legs_TakeHitB
+     39  0x00070010  LandThump
+     40  0x00070010  legs_TakeHitF
+     41  0x00070010  death_f
+     42  0x04070010  System
+     43  0x00070010  VoicePackMetaClass
+     44  0x00070010  CarcassType
+     45  0x00070010  GiveWeapon
+     46  0x00070010  Mesh
+     47  0x00070010  legs_turn
+     48  0x00070010  legs_idlecr
+     49  0x00070010  SetMultiSkin
+     50  0x00070010  TweenToWaiting
+     51  0x00070010  VoiceType
+     52  0x00070010  legs_back
+     53  0x00070010  Dummy05
+     54  0x04070010  Die
+     55  0x00070010  HitSound1
+     56  0x00070010  StatusDoll
+     57  0x00070010  Dummy10
+     58  0x00070010  Dummy08
+     59  0x00070010  legs_jumpb
+     60  0x00070010  SpecialMesh
+     61  0x00070010  LandGrunt
+     62  0x00070010  StatusBelt
+     63  0x00070010  SelectionMesh
+     64  0x00070010  HitSound4
+     65  0x00070010  Dummy11
+     66  0x00070010  HitSound3
+     67  0x00070010  MenuName
+     68  0x00070010  Dummy09
+     69  0x00070010  Dummy12
+     70  0x00070010  Dummy03
+     71  0x00070010  Dummy01
+     72  0x00070010  Dummy04
+     73  0x00070010  Dummy14
+     74  0x00070010  Dummy02
+     75  0x00070010  Dummy07
+     76  0x00070010  JumpSound
+     77  0x00070010  Dummy06
+     78  0x00070010  HitSound2
+     79  0x04070010  AnimEnd
+     80  0x00070010  legs_DodgeF
+     81  0x00070010  legs_DodgeR
+     82  0x00070010  torso_attack2
+     83  0x04070010  User
+     84  0x00070010  legs_DodgeL
+     85  0x00070010  GetItemName
+     86  0x00070010  PlayWaiting
+     87  0x00070010  Drowned
+     88  0x00070010  Mesh03
+     89  0x00070010  Mesh02
+     90  0x00070010  Mesh01
+     91  0x00070010  Object17
+     92  0x00070010  Object06
+     93  0x00070010  Object15
+     94  0x00070010  Object18
+     95  0x00070010  Object12
+     96  0x00070010  Object16
+     97  0x00070010  Object14
+     98  0x00070010  Object13
+     99  0x00070010  Object67
+    100  0x00070010  Object111
+    101  0x00070010  Object106
+    102  0x00070010  Object59
+    103  0x00070010  Object66
+    104  0x00070010  Object58
+    105  0x00070010  PlaySwimming
+    106  0x00070010  DeathMatchPlus
+    107  0x00070010  Object99
+    108  0x00070010  PlayDecap
+    109  0x00070010  Object04
+    110  0x00070010  Object100
+    111  0x00070010  Object87
+    112  0x00070010  Object101
+    113  0x00070010  Object86
+    114  0x00070010  Object102
+    115  0x00070010  Object56
+    116  0x00070010  Object65
+    117  0x00070010  Object64
+    118  0x00070010  Object54
+    119  0x00070010  Object109
+    120  0x00070010  Object98
+    121  0x00070010  Object107
+    122  0x00070010  Object89
+    123  0x00070010  Object90
+    124  0x00070010  Object91
+    125  0x00070010  Object92
+    126  0x00070010  Object110
+    127  0x00070010  Decapitated
+    128  0x00070010  shot
+    129  0x00070010  Object104
+    130  0x00070010  Object63
+    131  0x00070010  Object94
+    132  0x00070010  Object95
+    133  0x00070010  TweenToSwimming
+    134  0x00070010  Object96
+    135  0x00070010  Object97
+    136  0x00070010  Object07
+    137  0x00070010  Object60
+    138  0x00070010  ClientFlash
+    139  0x00070010  Object61
+    140  0x00070010  Object01
+    141  0x00070010  Object02
+    142  0x00070010  legs_DodgeB
+    143  0x00070010  realWeapon
+    144  0x00070010  Corroded
+    145  0x00070010  torso_drop
+    146  0x00070010  Object112
+    147  0x00070010  Object105
+    148  0x00070010  Object93
+    149  0x00070010  Object62
+    150  0x00070010  Object103
+    151  0x00070010  Object108
+    152  0x00070010  Object03
+    153  0x00070010  Object52
+    154  0x00070010  Dummy13
+    155  0x00070010  Object05
+    156  0x00070010  ServerSetInstantRocket
+    157  0x00070010  FootStepping
+    158  0x00070010  CollisionHeight
+    159  0x00070010  Victory1
+    160  0x00070010  Taunt1
+    161  0x00070010  PlayInAir
+    162  0x00070010  Thrust
+    163  0x00070010  Wave
+    164  0x00070010  PlayHeadHit
+    165  0x00070010  PlayLeftHit
+    166  0x00070010  PlayGutHit
+    167  0x00070010  PlayRightHit
+    168  0x00070010  LoadLeftHand
+    169  0x00070010  TweenToWalking
+    170  0x00070010  ClientActive
+    171  0x00070010  ClientPutDown
+    172  0x00070010  ServerSetTaunt
+    173  0x00070010  TweenToStill
+    174  0x00070010  PlayDyingSound
+    175  0x00070010  PlayTakeHitSound
+    176  0x04070010  ReceiveLocalizedMessage
+    177  0x00070010  Object23
+    178  0x00070010  Mesh22
+    179  0x00070010  Mesh05
+    180  0x00070010  Mesh21
+    181  0x00070010  Mesh04
+    182  0x00070010  PlayVictoryDance
+    183  0x00070010  Mesh20
+    184  0x00070010  Mesh06
+    185  0x00070010  Burned
+    186  0x00070010  Object24
+    187  0x00070010  Object41
+    188  0x04070010  KilledBy
+    189  0x00070010  Mesh17
+    190  0x00070010  Mesh19
+    191  0x00070010  Object22
+    192  0x00070010  Object21
+    193  0x00070010  Object19
+    194  0x00070010  Object55
+    195  0x00070010  Object20
+    196  0x00070010  Object11
+    197  0x00070010  Dummy15
+    198  0x00070010  Object88
+    199  0x00070010  Mesh07
+    200  0x00070010  Object131
+    201  0x00070010  Object121
+    202  0x00070010  Object113
+    203  0x00070010  Object125
+    204  0x00070010  Object57
+    205  0x00070010  PlayDodge
+    206  0x00070010  Object132
+    207  0x00070010  Object116
+    208  0x00070010  Object118
+    209  0x00070010  Object119
+    210  0x00070010  Object120
+    211  0x04070010  All
+    212  0x04070010  BeginState
+    213  0x00070010  Object122
+    214  0x00070010  Object117
+    215  0x00070010  Object114
+    216  0x00070010  Object115
+    217  0x00070010  PlayFeignDeath
+    218  0x00070010  PlayRising
+    219  0x00070010  Object10
+    220  0x00070010  PlayWeaponSwitch
+    221  0x00070010  Mesh15
+    222  0x00070010  Object08
+    223  0x00070010  Object128
+    224  0x00070010  Mesh23
+    225  0x00070010  PlayHit
+    226  0x00070010  PlayCrawling
+    227  0x00070010  PlayTakeHit
+    228  0x00070010  ClientPlaySound
+    229  0x00070010  PlayTurning
+    230  0x00070010  PlayWalking
+    231  0x00070010  Object129
+    232  0x00070010  Object44
+    233  0x00070010  Object46
+    234  0x00070010  Object45
+    235  0x00070010  PlayRecoil
+    236  0x00070010  Suicided
+    237  0x00070010  Object47
+    238  0x00070010  Object133
+    239  0x00070010  PlayDying
+    240  0x00070010  Mesh16
+    241  0x00070010  PlayLanded
+    242  0x00070010  GiveTo
+    243  0x00070010  PlayChatting
+    244  0x00070010  SendVoiceMessage
+    245  0x00070010  Object124
+    246  0x00070010  PlayerSwimming
+    247  0x00070010  Object50
+    248  0x00070010  Object123
+    249  0x00070010  TweenToRunning
+    250  0x00070010  PlayFiring
+    251  0x00070010  Object130
+    252  0x00070010  PlayRunning
+    253  0x00070010  Object09
+    254  0x00070010  PlayDuck
+    255  0x00070010  Object126
+    256  0x00070010  Object85
+    257  0x00070010  Object127
+    258  0x00070010  Object79
+    259  0x00070010  Object38
+    260  0x00070010  Object80
+    261  0x00070010  Object81
+    262  0x00070010  Object82
+    263  0x00070010  Object83
+    264  0x00070010  Object84
+    265  0x00070010  Object37
+    266  0x00070010  Object72
+    267  0x00070010  Object73
+    268  0x00070010  Object74
+    269  0x00070010  Object39
+    270  0x00070010  Object75
+    271  0x00070010  Object76
+    272  0x00070010  Object77
+    273  0x00070010  Object78
+    274  0x00070010  Object40
+    275  0x00070010  Object53
+    276  0x00070010  Mesh18
+    277  0x00070010  Object68
+    278  0x00070010  Object69
+    279  0x00070010  Object70
+    280  0x00070010  Object71
+    281  0x00070010  Dead5
+    282  0x00070010  GreenBlood
+    283  0x00070010  SendClientFire
+    284  0x00070010  shredded
+    285  0x00070010  SendClientAltFire
+    286  0x00070010  EyeHeight
+    287  0x00070010  BaseEyeHeight
+    288  0x00070010  TournamentWeapon
+    289  0x00070010  ServerSetVoice
+    290  0x00070010  AUTOTAUNT
+    291  0x00070010  zapped
+    292  0x00070010  bGreenBlood
+    293  0x00070010  ClientPlayTakeHit
+    294  0x00070010  Object51
+    295  0x00070010  Box02
+    296  0x00070010  NeedActivate
+    297  0x00070010  PlayDeathHit
+    298  0x00070010  ServerReStartGame
+    299  0x00070010  DoJump
+    300  0x00070010  CheckBob
+    301  0x00070010  GetMultiSkin
+    302  0x00070010  Gasp
+    303  0x00070010  Team
+    304  0x00070010  AnimSequence
+    305  0x00070010  ChangeSetHand
+    306  0x00070010  SwitchWeapon
+    307  0x00070010  Bot
+    308  0x00070010  PreSetMovement
+    309  0x00070010  SendGlobalMessage
+    310  0x00070010  Drop
+    311  0x00070010  CreateReplacement
+    312  0x00070010  Killed
+    313  0x00070010  SendTeamMessage
+    314  0x00070010  ClientReplicateSkins
+    315  0x00070010  PlayBeepSound
+    316  0x00070010  Summon
+    317  0x00070010  TakeHit
+    318  0x00070010  ViewFlash
+    319  0x00070010  Taunt
+    320  0x00070010  ForceAddBot
+    321  0x00070010  FeigningDeath
+    322  0x00070010  ClientVoiceMessage
+    323  0x00070010  TweenToFighter
+    324  0x00070010  OwnerJumped
+    325  0x00070010  Fell
+    326  0x00070010  Dying
+    327  0x00070010  ReplicateMove
+    328  0x00070010  KillAll
+    329  0x00070010  ConsoleCommand
+    330  0x00070010  Died
+    331  0x00070010  CollisionRadius
+    332  0x00070010  Fire
+    333  0x04070010  PostBeginPlay
+    334  0x04070010  TakeDamage
+    335  0x04070010  ClientMessage
+    336  0x04070010  Possess
+    337  0x04070410  Global
+    338  0x04070410  Skip
+    339  0x00070010  GameEnded
+    340  0x00070010  ShakeView
+    341  0x04070010  EncroachingOn
+    342  0x00070010  legs_Gesture
+    343  0x00070010  FastInAir
+    344  0x00070010  jumperbot
+    345  0x00070010  spiderbit
+    346  0x00070010  spiderBotPlus
+    347  0x00070010  spiderCarcass
+    348  0x00070010  spiderMasterChunk
+    349  0x00070010  spitter
+    350  0x00070010  spitterbot
+    351  0x00070010  PulseGun
+    352  0x00070010  tarantula
+    353  0x00070010  Skeletalspiderbot
+    354  0x00070010  minigun2
+    355  0x00070010  Skeletalspider
+    356  0x00070010  tarantulabot
+    357  0x00070010  Tournamentspider
+    358  0x00070010  SetVoice
+    359  0x00070010  ListBots
+    360  0x00070010  SetAutoTaunt
+    361  0x00070010  SetInstantRocket
+    362  0x00070010  FallingState
+    363  0x00070010  Dead2
+    364  0x00070010  SetAirControl
+    365  0x00070010  Advance
+    366  0x00070010  GutHit
+    367  0x00070010  PlayChallenge
+    368  0x00070010  Breath2
+    369  0x00070010  Dead4
+    370  0x00070010  AdvanceAll
+    371  0x00070010  SetDamage
+    372  0x00070010  CTFFlag
+    373  0x00070010  StillSmFr
+    374  0x00070010  TimeMessage
+    375  0x00070010  SkipAll
+    376  0x00070010  PlayHitAnim
+    377  0x00070010  SendAltFire
+    378  0x00070010  Jumping
+    379  0x00070010  ClientExtraChunks
+    380  0x00070010  SendFire
+    381  0x00070010  PreCacheReferences
+    382  0x00070010  PlayLookAround
+    383  0x00070010  PlayWaving
+    384  0x00070010  UpdateRealWeapon
+    385  0x00070010  Jumper
+    386  0x00070010  ImpactJumping
+    387  0x00070010  Breath2L
+    388  0x00070010  Breath1L
+    389  0x00070010  Loaded
+    390  0x00070010  ForceClientFire
+    391  0x00070010  Breath1
+    392  0x00070010  ForceClientAltFire
+    393  0x00070010  MasterReplacement
+    394  0x00070010  FireWhileFalling
+    395  0x00070010  GibSounds
+    396  0x00070010  ClientDown
+    397  0x00070010  ChallengeHUD
+    398  0x00070010  EndSpree
+    399  0x00070010  SpawnHead
+    400  0x00070010  Verbose
+    401  0x00070010  PlayFlip
+    402  0x00070010  AddBotNamed
+    403  0x00070010  PlayWinMessage
+    404  0x00070010  IAmTheOne
+    405  0x00070010  Palette73
+    406  0x00070010  Palette69
+    407  0x04070010  ByteProperty
+    408  0x00070010  bOptionalTakeHit
+    409  0x00070010  Palette77
+    410  0x00070010  Focus2D
+    411  0x00070010  bVerbose
+    412  0x00070010  strafemag
+    413  0x00070010  bWinner
+    414  0x00070010  Palette71
+    415  0x00070010  Palette49
+    416  0x00070010  bAltFire
+    417  0x00070010  NextState
+    418  0x00070010  NextLabel
+    419  0x00070010  Palette41
+    420  0x00070010  Loc2D
+    421  0x00070010  Bubble1
+    422  0x00070010  Palette37
+    423  0x00070010  Palette35
+    424  0x00070010  Palette33
+    425  0x00070010  Palette31
+    426  0x00070010  Palette53
+    427  0x00070010  Palette51
+    428  0x00070010  Palette27
+    429  0x00070010  Palette25
+    430  0x00070010  Palette23
+    431  0x00070010  Palette21
+    432  0x00070010  bFire
+    433  0x00070010  Footstep3
+    434  0x00070010  breathagain
+    435  0x00070010  Palette45
+    436  0x00070010  bDuckLeft
+    437  0x00070010  Footstep1
+    438  0x00070010  Palette43
+    439  0x00070010  ReducedDamageType
+    440  0x00070010  Dest2D
+    441  0x00070010  Palette5
+    442  0x00070010  BotName
+    443  0x00070010  CowTail
+    444  0x00070010  CarcassAnim
+    445  0x00070010  PlayerRep
+    446  0x00070010  Palette19
+    447  0x00070010  Skins
+    448  0x00070010  BotConfig
+    449  0x00070010  rnd
+    450  0x00070010  bub
+    451  0x00070010  BloodOffset
+    452  0x00070010  bServerGuessWeapon
+    453  0x00070010  DamageClass
+    454  0x00070010  newAnim
+    455  0x00070010  carriedDecoration
+    456  0x00070010  OldMessageTime
+    457  0x00070010  TournamentPlayer
+    458  0x00070010  Shadow
+    459  0x00070010  MaxAmmo
+    460  0x00070010  AmmoAmount
+    461  0x00070010  DM
+    462  0x00070010  ChallengeVoicePack
+    463  0x00070010  ChallengeBotInfo
+    464  0x00070010  ViewRotation
+    465  0x00070010  Current
+    466  0x00070010  FaceSkin
+    467  0x00070010  Palette47
+    468  0x00070010  bRapidFire
+    469  0x00070010  bPointing
+    470  0x00070010  WaterStep
+    471  0x00070010  Step
+    472  0x00070010  Palette75
+    473  0x00070010  AmmoType
+    474  0x00070010  MessageID
+    475  0x00070010  TalkTexture
+    476  0x00070010  Land
+    477  0x00070010  LastPainSound
+    478  0x00070010  GaspSound
+    479  0x00070010  Footstep2
+    480  0x00070010  UTHumanCarcass
+    481  0x00070010  UWHit2
+    482  0x00070010  drown
+    483  0x00070010  FixedSkin
+    484  0x00070010  UWHit1
+    485  0x00070010  Skill
+    486  0x00070010  Palette17
+    487  0x00070010  Palette55
+    488  0x00070010  Sender
+    489  0x00070010  bHeldItem
+    490  0x00070010  Focus
+    491  0x00070010  Inv
+    492  0x00070010  Destination
+    493  0x00070010  Palette39
+    494  0x00070010  MinPlayers
+    495  0x00070010  SkinItem
+    496  0x00070010  ThighPads
+    497  0x00070010  FootRegion
+    498  0x00070010  Palette57
+    499  0x00070010  instigatedBy
+    500  0x00070010  Rotation
+    501  0x00070010  TeamSkin1
+    502  0x00070010  UTMasterCreatureChunk
+    503  0x00070010  bWaterZone
+    504  0x00070010  Palette61
+    505  0x00070010  Palette9
+    506  0x00070010  Palette59
+    507  0x00070010  Armor2
+    508  0x00070010  Palette11
+    509  0x00070010  Palette7
+    510  0x00070010  Icons
+    511  0x00070010  Palette13
+    512  0x00070010  Palette67
+    513  0x00070010  moveDir
+    514  0x00070010  Palette15
+    515  0x00070010  decision
+    516  0x00070010  AnnouncerVolume
+    517  0x00070010  LastKillTime
+    518  0x00070010  UT_GreenBloodPuff
+    519  0x00070010  UT_BloodHit
+    520  0x00070010  UT_BloodBurst
+    521  0x00070010  UT_BigBloodHit
+    522  0x00070010  UTPlayerChunks
+    523  0x00070010  UTCreatureChunks
+    524  0x00070010  TMale2Carcass
+    525  0x00070010  TMale2
+    526  0x00070010  TFemale2
+    527  0x00070010  TFemale1
+    528  0x00070010  TMaleBody
+    529  0x00070010  KillingSpreeMessage
+    530  0x00070010  HumanBotPlus
+    531  0x00070010  CriticalEventPlus
+    532  0x00070010  TMale1
+    533  0x00070010  PlayerShadow
+    534  0x00070010  ripper
+    535  0x00070010  ChatSound
+    536  0x00070010  NewBeep
+    537  0x00070010  bLastJumpAlt
+    538  0x00070010  bInstantRocket
+    539  0x00070010  bAutoTaunt
+    540  0x00070010  bNoAutoTaunts
+    541  0x00070010  bNoVoiceTaunts
+    542  0x00070010  bNoVoiceMessages
+    543  0x00070010  bNeedActivate
+    544  0x00070010  b3DSound
+    545  0x00070010  WeaponUpdate
+    546  0x00070010  ClientPending
+    547  0x00070010  OldClientWeapon
+    548  0x00070010  TimeMessageClass
+    549  0x00070010  BossRef
+    550  0x00070010  Announcement
+    551  0x00070010  Real
+    552  0x00070010  FacePackage
+    553  0x00070010  FaceItem
+    554  0x00070010  SkinPackage
+    555  0x00070010  Mo
+    556  0x00070010  iDam
+    557  0x00070010  Boss
+    558  0x00070010  BDeath1
+    559  0x00070010  BDeath3
+    560  0x00070010  BDeath4
+    561  0x00070010  BInjur1
+    562  0x00070010  BInjur2
+    563  0x00070010  BInjur3
+    564  0x00070010  BInjur4
+    565  0x00070010  BJump1
+    566  0x00070010  Bland01
+    567  0x00070010  BNewGib
+    568  0x00070010  BossDoll
+    569  0x00070010  BossBelt
+    570  0x00070010  bNovice
+    571  0x00070010  bFireFalling
+    572  0x00070010  bTacticalDir
+    573  0x00070010  bNoTact
+    574  0x00070010  bStartMatch
+    575  0x00070010  ShortSkinName
+    576  0x00070010  FullSkinName
+    577  0x00070010  ShortFaceName
+    578  0x00070010  FullFaceName
+    579  0x00070010  Palette65
+    580  0x00070010  WeaponNameFade
+    581  0x00070010  bCanClientFire
+    582  0x00070010  Face
+    583  0x00070010  UT_Eightball
+    584  0x00070010  DesiredName
+    585  0x00070010  bAdvancedTactics
+    586  0x00070010  UT_FlakCannon
+    587  0x00070010  TeamSkin2
+    588  0x00070010  ut_biorifle
+    589  0x00070010  SniperRifle
+    590  0x00070010  ShockRifle
+    591  0x00070010  enforcer
+    592  0x00070010  ImpactHammer
+    593  0x00070010  Translocator
+    594  0x00070010  Palette63
+    595  0x00070010  Palette29
+    596  0x00070010  DefaultPackage
+    597  0x00070010  CHUD
+    598  0x00070010  bCountJumps
+    599  0x00070010  tarananim
+    600  0x00070010  SkinActor
+    601  0x00070010  FaceName
+    602  0x00070010  TeamNum
+    603  0x00070010  Bugs
+    604  0x00070010  PlayerOwner
+    605  0x00070010  bCanOpenDoors
+    606  0x00070010  bCanSwim
+    607  0x00070010  bCanWalk
+    608  0x00070010  weap
+    609  0x00070010  Palette1
+    610  0x00070010  bIsWalking
+    611  0x00070010  bBehindView
+    612  0x00070010  impactVel
+    613  0x00070010  Palette3
+    614  0x00070010  Mult
+    615  0x00070010  lookDir
+    616  0x00070010  bVeryLowGore
+    617  0x00070010  bLowGore
+    618  0x00070010  PawnList
+    619  0x00070010  NetMode
+    620  0x00070010  carc
+    621  0x00070010  bDropDetail
+    622  0x00070010  TimeSeconds
+    623  0x00070010  NewClass
+    624  0x00070010  bDestructive
+    625  0x00070010  ExitActor
+    626  0x00070010  nextPawn
+    627  0x00070010  bobtime
+    628  0x00070010  AppliedBob
+    629  0x00070010  Zone
+    630  0x00070010  myHUD
+    631  0x00070010  Base
+    632  0x00070010  Region
+    633  0x00070010  Game
+    634  0x00070010  WalkBob
+    635  0x00070010  InstantFlash
+    636  0x00070010  Next
+    637  0x00070010  Recipient
+    638  0x00070010  bAdmin
+    639  0x00070010  Wait
+    640  0x00070010  MessageType
+    641  0x00070010  HasFlag
+    642  0x00070010  Enemy
+    643  0x00070010  PlayerName
+    644  0x00070010  bAnimTransition
+    645  0x00070010  bFrozen
+    646  0x00070010  bTeamGame
+    647  0x00070010  HeadRegion
+    648  0x00070010  PainTime
+    649  0x00070010  M
+    650  0x00070010  Velocity
+    651  0x00070010  Acceleration
+    652  0x00070010  DefaultSkinName
+    653  0x00070010  bCheatsEnabled
+    654  0x00070010  bCanFly
+    655  0x00070010  bCanDoSpecial
+    656  0x00070010  Rate
+    657  0x00070010  EventInstigator
+    658  0x00070010  MultiSkins
+    659  0x00070010  Damage
+    660  0x00070010  HitLocation
+    661  0x00070010  NewWeapon
+    662  0x00070010  Momentum
+    663  0x00070010  N
+    664  0x00070010  EDodgeDir
+    665  0x00070010  Killer
+    666  0x00070010  P
+    667  0x00070010  MeshName
+    668  0x00070010  LastPlaySound
+    669  0x00070010  LandBob
+    670  0x00070010  ViewTarget
+    671  0x00070010  bIsCrouching
+    672  0x00070010  InstantFog
+    673  0x00070010  Volume
+    674  0x00070010  aClass
+    675  0x00070010  HitLoc
+    676  0x00070010  Skin1
+    677  0x00070010  Skin2
+    678  0x00070010  Skin3
+    679  0x00070010  Skin4
+    680  0x00070010  Speed2D
+    681  0x00070010  Num
+    682  0x00070010  SkinName
+    683  0x00070010  bIsTyping
+    684  0x00070010  bUpdating
+    685  0x00070010  bVolumeControl
+    686  0x00070010  bInterrupt
+    687  0x00070010  ASound
+    688  0x00070010  DodgeMove
+    689  0x00070010  TweenTime
+    690  0x00070010  Other
+    691  0x00070010  DeltaTime
+    692  0x00070010  DeltaRot
+    693  0x00070010  OldBobTime
+    694  0x00070010  SoundPlayer
+    695  0x00070010  newAccel
+    696  0x00070010  Dir
+    697  0x00070010  Difficulty
+    698  0x00070010  ZoneGravity
+    699  0x00070010  bHighDetailMode
+    700  0x00070010  Handedness
+    701  0x00070010  Bob
+    702  0x00070010  Health
+    703  0x00070010  taran1
+    704  0x00070010  taran2
+    705  0x00070010  taran3
+    706  0x00070010  taranface
+    707  0x00070010  taranr1
+    708  0x00070010  taranr2
+    709  0x00070010  taranr3
+    710  0x00070010  taranb1
+    711  0x00070010  taranb2
+    712  0x00070010  taranb3
+    713  0x00070010  tarang1
+    714  0x00070010  tarang2
+    715  0x00070010  tarang3
+    716  0x00070010  spitteranim
+    717  0x00070010  PointRegion
+    718  0x00070010  Location
+    719  0x00070010  AirControl
+    720  0x00070010  JumpZ
+    721  0x00070010  GroundSpeed
+    722  0x00070010  bCanJump
+    723  0x00070010  bIsPlayer
+    724  0x00070010  bIsPawn
+    725  0x00070010  PlayOwnedSound
+    726  0x00070010  RotationRate
+    727  0x00070010  RespawnTime
+    728  0x00070010  Mass
+    729  0x00070010  DrawScale
+    730  0x00070010  Physics
+    731  0x00070010  DamageType
+    732  0x00070010  F
+    733  0x00070010  bHidden
+    734  0x00070010  X
+    735  0x00070010  C
+    736  0x00070010  Z
+    737  0x00070010  Y
+    738  0x00070010  W
+    739  0x00070010  Pitch
+    740  0x00070010  i
+    741  0x00070010  ScriptText
+    742  0x00070010  S
+    743  0x00070010  V
+    744  0x00070010  B
+    745  0x00070010  ReturnValue
+    746  0x00070010  DynamicLoadObject
+    747  0x00070010  Weapon
+    748  0x00070010  LevelInfo
+    749  0x00070010  GameInfo
+    750  0x00070010  ZoneInfo
+    751  0x00070010  HUD
+    752  0x00070010  Decoration
+    753  0x00070010  Carcass
+    754  0x00070010  PlayerReplicationInfo
+    755  0x00070010  GameReplicationInfo
+    756  0x00070010  Ammo
+    757  0x00070010  Inventory
+    758  0x00070010  Level
+    759  0x00070010  Actor
+    760  0x00070010  Pawn
+    761  0x00070010  spitter1
+    762  0x00070010  spitter2
+    763  0x00070010  spitter3
+    764  0x00070010  spitface
+    765  0x00070010  spitterr1
+    766  0x00070010  spitterr2
+    767  0x00070010  spitterr3
+    768  0x00070010  spitterb1
+    769  0x00070010  spitterb2
+    770  0x00070010  spitterb3
+    771  0x00070010  spitterg1
+    772  0x00070010  spitterg2
+    773  0x00070010  spitterg3
+    774  0x00070010  jumperanim
+    775  0x00070010  PlayerPawn
+    776  0x00070010  Animation
+    777  0x00070010  LodMesh
+    778  0x00070010  SkeletalMesh
+    779  0x00070010  ClassName
+    780  0x04070010  Sound
+    781  0x04070010  Texture
+    782  0x04070010  RemoteRole
+    783  0x04070010  Role
+    784  0x04070410  Class
+    785  0x04070410  Package
+    786  0x04070010  TextBuffer
+    787  0x04070010  Object
+    788  0x04070410  Enum
+    789  0x04070410  Function
+    790  0x04070410  State
+    791  0x04070410  Rotator
+    792  0x04070410  Vector
+    793  0x04070410  Struct
+    794  0x04070010  UnrealShare
+    795  0x04070010  StrProperty
+    796  0x04070010  StructProperty
+    797  0x04070010  ClassProperty
+    798  0x04070010  NameProperty
+    799  0x04070010  ObjectProperty
+    800  0x04070010  FloatProperty
+    801  0x04070010  BoolProperty
+    802  0x00070010  jumper1
+    803  0x00070010  jumper2
+    804  0x00070010  jumper3
+    805  0x00070010  jumpface
+    806  0x00070010  jumperb1
+    807  0x00070010  jumperb2
+    808  0x00070010  jumperb3
+    809  0x00070010  jumperr1
+    810  0x00070010  jumperr2
+    811  0x00070010  jumperr3
+    812  0x00070010  jumperg1
+    813  0x00070010  jumperg2
+    814  0x00070010  jumperg3
+    815  0x04070010  IntProperty
+    816  0x00070010  LastPainTime
+
+[imports] 394
+    idx  class             classpkg      package             name
+     -1  Package           Core          -                   Engine
+     -2  Package           Core          -                   Core
+     -3  Package           Core          -                   Botpack
+     -4  Class             Core          Engine              Pawn
+     -5  Class             Core          Engine              Actor
+     -6  Class             Core          Botpack             TournamentPlayer
+     -7  Class             Core          Core                Function
+     -8  Class             Core          Core                Object
+     -9  ObjectProperty    Core          Pawn                Weapon
+    -10  Class             Core          Engine              Weapon
+    -11  Class             Core          Engine              Texture
+    -12  Class             Core          Engine              LevelInfo
+    -13  NameProperty      Core          Actor               AnimSequence
+    -14  Package           Core          Botpack             Boss
+    -15  FloatProperty     Core          Pawn                BaseEyeHeight
+    -16  Struct            Core          Object              Vector
+    -17  Class             Core          Core                ObjectProperty
+    -18  Class             Core          Engine              PlayerPawn
+    -19  Class             Core          Core                FloatProperty
+    -20  ObjectProperty    Core          Actor               Level
+    -21  FloatProperty     Core          Actor               Mass
+    -22  Class             Core          Engine              Palette
+    -23  Class             Core          Engine              PlayerReplicationInfo
+    -24  Class             Core          Core                StructProperty
+    -25  Class             Core          Engine              ZoneInfo
+    -26  Class             Core          Botpack             HumanBotPlus
+    -27  Function          Core          Object              DynamicLoadObject
+    -28  FloatProperty     Core          Vector              Z
+    -29  Class             Core          Core                StrProperty
+    -30  Class             Core          Core                Class
+    -31  Class             Core          Botpack             DeathMatchPlus
+    -32  Class             Core          Engine              GameInfo
+    -33  Class             Core          Botpack             Bot
+    -34  ObjectProperty    Core          Pawn                PlayerReplicationInfo
+    -35  Class             Core          Engine              Carcass
+    -36  ObjectProperty    Core          LevelInfo           Game
+    -37  Sound             Engine        Boss                BDeath1
+    -38  ObjectProperty    Core          PointRegion         Zone
+    -39  Struct            Core          Actor               PointRegion
+    -40  Struct            Core          Object              Rotator
+    -41  Class             Core          Core                NameProperty
+    -42  StructProperty    Core          Actor               Location
+    -43  IntProperty       Core          Rotator             Pitch
+    -44  Class             Core          Core                ByteProperty
+    -45  ByteProperty      Core          LevelInfo           NetMode
+    -46  Class             Core          Engine              Inventory
+    -47  Package           Core          -                   UnrealShare
+    -48  StructProperty    Core          Pawn                ViewRotation
+    -49  Class             Core          UnrealShare         Bubble1
+    -50  Class             Core          Core                TextBuffer
+    -51  Sound             Engine        Boss                BDeath3
+    -52  Sound             Engine        Boss                BDeath4
+    -53  Class             Core          Core                BoolProperty
+    -54  Package           Core          Botpack             Icons
+    -55  StructProperty    Core          Actor               Region
+    -56  Class             Core          Core                IntProperty
+    -57  ByteProperty      Core          Actor               Physics
+    -58  Class             Core          Botpack             TournamentWeapon
+    -59  BoolProperty      Core          Weapon              bPointing
+    -60  ByteProperty      Core          Actor               Role
+    -61  Class             Core          Engine              Mesh
+    -62  StructProperty    Core          Actor               Rotation
+    -63  StructProperty    Core          Actor               Acceleration
+    -64  BoolProperty      Core          TournamentPlayer    bNeedActivate
+    -65  IntProperty       Core          TournamentPlayer    WeaponUpdate
+    -66  ObjectProperty    Core          PlayerReplicationInfo TalkTexture
+    -67  BoolProperty      Core          ZoneInfo            bWaterZone
+    -68  Class             Core          Botpack             UT_BloodBurst
+    -69  Class             Core          Botpack             UTMasterCreatureChunk
+    -70  FloatProperty     Core          Actor               CollisionRadius
+    -71  Class             Core          Engine              Sound
+    -72  ObjectProperty    Core          Carcass             Bugs
+    -73  StructProperty    Core          ZoneInfo            ZoneGravity
+    -74  StructProperty    Core          Actor               Velocity
+    -75  IntProperty       Core          Pawn                Health
+    -76  Sound             Engine        Boss                BInjur4
+    -77  Sound             Engine        Boss                Bland01
+    -78  Texture           Engine        Icons               BossDoll
+    -79  Sound             Engine        Boss                BInjur2
+    -80  ObjectProperty    Core          TournamentPlayer    ClientPending
+    -81  Sound             Engine        Boss                BJump1
+    -82  Class             Core          Botpack             ChallengeHUD
+    -83  Texture           Engine        Icons               BossBelt
+    -84  Sound             Engine        Boss                BInjur1
+    -85  FloatProperty     Core          PlayerPawn          bobtime
+    -86  Class             Core          Core                ClassProperty
+    -87  Class             Core          Engine              Ammo
+    -88  Sound             Engine        Boss                BInjur3
+    -89  FloatProperty     Core          LevelInfo           TimeSeconds
+    -90  BoolProperty      Core          PlayerPawn          bCheatsEnabled
+    -91  BoolProperty      Core          PlayerPawn          bAdmin
+    -92  State             Core          TournamentPlayer    Dying
+    -93  FloatProperty     Core          Actor               DrawScale
+    -94  BoolProperty      Core          Weapon              bRapidFire
+    -95  ObjectProperty    Core          Weapon              AmmoType
+    -96  FloatProperty     Core          Pawn                Skill
+    -97  IntProperty       Core          TournamentPlayer    TeamSkin1
+    -98  ObjectProperty    Core          TournamentPlayer    OldClientWeapon
+    -99  FloatProperty     Core          PlayerPawn          AppliedBob
+   -100  ObjectProperty    Core          PlayerPawn          ViewTarget
+   -101  IntProperty       Core          TournamentPlayer    TeamSkin2
+   -102  StructProperty    Core          Actor               RotationRate
+   -103  ObjectProperty    Core          PlayerPawn          myHUD
+   -104  FloatProperty     Core          Pawn                JumpZ
+   -105  IntProperty       Core          TournamentPlayer    FaceSkin
+   -106  Class             Core          Botpack             UTCreatureChunks
+   -107  IntProperty       Core          TournamentPlayer    FixedSkin
+   -108  Class             Core          Core                State
+   -109  State             Core          TournamentPlayer    FeigningDeath
+   -110  FloatProperty     Core          Pawn                EyeHeight
+   -111  ObjectProperty    Core          Actor               Inventory
+   -112  StructProperty    Core          Pawn                WalkBob
+   -113  Class             Core          Engine              Animation
+   -114  Function          Core          TournamentPlayer    EncroachingOn
+   -115  BoolProperty      Core          TournamentPlayer    bInstantRocket
+   -116  FloatProperty     Core          Actor               CollisionHeight
+   -117  Class             Core          Botpack             UT_GreenBloodPuff
+   -118  ByteProperty      Core          Pawn                bAltFire
+   -119  FloatProperty     Core          PlayerPawn          LandBob
+   -120  ObjectProperty    Core          Actor               Base
+   -121  ObjectProperty    Core          Pawn                carriedDecoration
+   -122  ByteProperty      Core          Pawn                bFire
+   -123  NameProperty      Core          UTCreatureChunks    CarcassAnim
+   -124  BoolProperty      Core          Pawn                bIsWalking
+   -125  ObjectProperty    Core          Actor               Mesh
+   -126  StructProperty    Core          Pawn                HeadRegion
+   -127  ClassProperty     Core          TournamentPlayer    TimeMessageClass
+   -128  Class             Core          Engine              SkeletalMesh
+   -129  BoolProperty      Core          GameInfo            bLowGore
+   -130  StructProperty    Core          Pawn                FootRegion
+   -131  Class             Core          Botpack             TMaleBody
+   -132  BoolProperty      Core          TournamentPlayer    bLastJumpAlt
+   -133  ObjectProperty    Core          Pawn                Enemy
+   -134  Function          Core          Bot                 SetMultiSkin
+   -135  ObjectProperty    Core          PlayerReplicationInfo HasFlag
+   -136  BoolProperty      Core          TournamentPlayer    bAutoTaunt
+   -137  NameProperty      Core          Pawn                NextState
+   -138  Function          Core          Actor               PlayOwnedSound
+   -139  BoolProperty      Core          Bot                 bNovice
+   -140  BoolProperty      Core          LevelInfo           bDropDetail
+   -141  ClassProperty     Core          ZoneInfo            ExitActor
+   -142  ClassProperty     Core          PlayerReplicationInfo VoiceType
+   -143  FloatProperty     Core          Pawn                LastPainSound
+   -144  ObjectProperty    Core          Pawn                Land
+   -145  Function          Core          PlayerPawn          KilledBy
+   -146  FloatProperty     Core          PlayerPawn          Bob
+   -147  StructProperty    Core          Pawn                Destination
+   -148  ObjectProperty    Core          Actor               MultiSkins
+   -149  NameProperty      Core          Pawn                ReducedDamageType
+   -150  BoolProperty      Core          PlayerPawn          bAnimTransition
+   -151  BoolProperty      Core          GameInfo            bVeryLowGore
+   -152  FloatProperty     Core          PlayerPawn          Handedness
+   -153  ByteProperty      Core          GameInfo            Difficulty
+   -154  ByteProperty      Core          PlayerReplicationInfo Team
+   -155  Enum              Core          Actor               EDodgeDir
+   -156  BoolProperty      Core          Pawn                bBehindView
+   -157  FloatProperty     Core          Pawn                OldMessageTime
+   -158  BoolProperty      Core          Inventory           bHeldItem
+   -159  IntProperty       Core          Ammo                AmmoAmount
+   -160  FloatProperty     Core          Inventory           RespawnTime
+   -161  StructProperty    Core          Pawn                Focus
+   -162  Function          Core          Dying               ViewFlash
+   -163  Class             Core          Botpack             KillingSpreeMessage
+   -164  ClassProperty     Core          TournamentPlayer    BossRef
+   -165  BoolProperty      Core          TournamentPlayer    b3DSound
+   -166  ObjectProperty    Core          TournamentPlayer    UWHit2
+   -167  ObjectProperty    Core          TournamentPlayer    UWHit1
+   -168  Class             Core          Engine              Decoration
+   -169  StrProperty       Core          TournamentPlayer    DefaultPackage
+   -170  StrProperty       Core          TournamentPlayer    DefaultSkinName
+   -171  ObjectProperty    Core          TournamentPlayer    Deaths
+   -172  Class             Core          Botpack             TMale2Carcass
+   -173  Function          Core          TournamentPlayer    ReplicateMove
+   -174  BoolProperty      Core          TournamentWeapon    bCanClientFire
+   -175  Function          Core          TournamentPlayer    ChangeSetHand
+   -176  BoolProperty      Core          Bot                 bFireFalling
+   -177  Function          Core          TournamentPlayer    ClientVoiceMessage
+   -178  IntProperty       Core          TournamentPlayer    AnnouncerVolume
+   -179  Function          Core          TournamentPlayer    PostBeginPlay
+   -180  Function          Core          TournamentPlayer    KillAll
+   -181  Class             Core          Botpack             ChallengeVoicePack
+   -182  Class             Core          Botpack             UTPlayerChunks
+   -183  Class             Core          Botpack             ChallengeBotInfo
+   -184  State             Core          TournamentPlayer    GameEnded
+   -185  Class             Core          Botpack             UTHumanCarcass
+   -186  Function          Core          TournamentPlayer    Possess
+   -187  Function          Core          FeigningDeath       BeginState
+   -188  Function          Core          TournamentPlayer    Summon
+   -189  Class             Core          Engine              GameReplicationInfo
+   -190  State             Core          HumanBotPlus        ImpactJumping
+   -191  Function          Core          Dying               BeginState
+   -192  Function          Core          TournamentPlayer    Killed
+   -193  Class             Core          Botpack             PulseGun
+   -194  Class             Core          Botpack             ImpactHammer
+   -195  BoolProperty      Core          Bot                 bVerbose
+   -196  Class             Core          Botpack             ShockRifle
+   -197  FloatProperty     Core          PlayerPawn          LastPlaySound
+   -198  Class             Core          Botpack             SniperRifle
+   -199  BoolProperty      Core          PlayerPawn          bIsTyping
+   -200  ObjectProperty    Core          Pawn                WaterStep
+   -201  Class             Core          Botpack             ut_biorifle
+   -202  ObjectProperty    Core          Pawn                Shadow
+   -203  Function          Core          UTCreatureChunks    ClientExtraChunks
+   -204  ObjectProperty    Core          Pawn                HitSound2
+   -205  Function          Core          TournamentPlayer    SetMultiSkin
+   -206  BoolProperty      Core          LevelInfo           bHighDetailMode
+   -207  Function          Core          TournamentPlayer    PlayLanded
+   -208  Class             Core          Botpack             ThighPads
+   -209  Function          Core          TournamentPlayer    PlayWaiting
+   -210  Class             Core          Botpack             Armor2
+   -211  Function          Core          TournamentPlayer    ListBots
+   -212  BoolProperty      Core          Actor               bIsPawn
+   -213  ObjectProperty    Core          PlayerPawn          JumpSound
+   -214  Function          Core          TournamentPlayer    PlayDeathHit
+   -215  Class             Core          Botpack             UT_Eightball
+   -216  BoolProperty      Core          Pawn                bCountJumps
+   -217  Function          Core          TournamentPlayer    TweenToRunning
+   -218  Function          Core          PlayerPawn          Died
+   -219  ObjectProperty    Core          Pawn                HitSound1
+   -220  Function          Core          Bot                 PlayHit
+   -221  Class             Core          Botpack             TMale1
+   -222  Function          Core          TournamentPlayer    ClientPlaySound
+   -223  Function          Core          HumanBotPlus        TweenToWalking
+   -224  BoolProperty      Core          Bot                 bTacticalDir
+   -225  Function          Core          HumanBotPlus        PlayWaiting
+   -226  Function          Core          TournamentPlayer    PlayInAir
+   -227  BoolProperty      Core          ZoneInfo            bDestructive
+   -228  Function          Core          HumanBotPlus        TweenToRunning
+   -229  Class             Core          Botpack             PlayerShadow
+   -230  Function          Core          UTHumanCarcass      CreateReplacement
+   -231  BoolProperty      Core          Pawn                bCanWalk
+   -232  BoolProperty      Core          Pawn                bCanSwim
+   -233  Class             Core          Botpack             TFemale1
+   -234  Class             Core          Botpack             ripper
+   -235  Function          Core          HumanBotPlus        PlayDying
+   -236  BoolProperty      Core          Pawn                bCanDoSpecial
+   -237  Function          Core          TournamentPlayer    TweenToWalking
+   -238  Function          Core          TournamentPlayer    PlayRunning
+   -239  Class             Core          Botpack             UT_BloodHit
+   -240  FloatProperty     Core          PlayerPawn          InstantFlash
+   -241  StructProperty    Core          PlayerPawn          InstantFog
+   -242  BoolProperty      Core          PlayerPawn          bUpdating
+   -243  Class             Core          Botpack             TFemale2
+   -244  BoolProperty      Core          PlayerPawn          bFrozen
+   -245  BoolProperty      Core          DeathMatchPlus      bStartMatch
+   -246  ObjectProperty    Core          PlayerPawn          GameReplicationInfo
+   -247  Class             Core          Botpack             Translocator
+   -248  Function          Core          TournamentPlayer    GetMultiSkin
+   -249  Function          Core          TournamentPlayer    FootStepping
+   -250  BoolProperty      Core          Bot                 bNoTact
+   -251  BoolProperty      Core          Pawn                bCanOpenDoors
+   -252  Function          Core          TournamentPlayer    ClientPutDown
+   -253  Function          Core          TournamentPlayer    PlayGutHit
+   -254  BoolProperty      Core          Pawn                bCanFly
+   -255  Function          Core          Pawn                PlayDying
+   -256  Class             Core          Botpack             enforcer
+   -257  Class             Core          Botpack             minigun2
+   -258  Class             Core          Botpack             TMale2
+   -259  Function          Core          TournamentPlayer    LoadLeftHand
+   -260  FloatProperty     Core          ChallengeHUD        WeaponNameFade
+   -261  IntProperty       Core          Ammo                MaxAmmo
+   -262  ObjectProperty    Core          Carcass             PlayerOwner
+   -263  Function          Core          HumanBotPlus        PlayVictoryDance
+   -264  Function          Core          HumanBotPlus        PlayWeaponSwitch
+   -265  Function          Core          HumanBotPlus        PlayGutHit
+   -266  Function          Core          HumanBotPlus        PlayInAir
+   -267  Function          Core          HumanBotPlus        FastInAir
+   -268  Function          Core          HumanBotPlus        TweenToWaiting
+   -269  FloatProperty     Core          Pawn                PainTime
+   -270  Function          Core          TournamentPlayer    PlayRightHit
+   -271  Function          Core          TournamentPlayer    PlayLeftHit
+   -272  Function          Core          TournamentPlayer    PlayHeadHit
+   -273  Function          Core          TournamentPlayer    ClientPlayTakeHit
+   -274  Function          Core          TournamentPlayer    PlayTakeHitSound
+   -275  Function          Core          TournamentPlayer    EndSpree
+   -276  Function          Core          TournamentPlayer    PlayDyingSound
+   -277  Function          Core          TournamentPlayer    PlayDodge
+   -278  Function          Core          HumanBotPlus        PlayRunning
+   -279  Function          Core          TournamentPlayer    SetVoice
+   -280  FloatProperty     Core          Pawn                GroundSpeed
+   -281  BoolProperty      Core          Pawn                bCanJump
+   -282  Function          Core          TournamentPlayer    PlayWinMessage
+   -283  BoolProperty      Core          PlayerPawn          bIsCrouching
+   -284  Function          Core          Pawn                TakeDamage
+   -285  FloatProperty     Core          TournamentPlayer    LastKillTime
+   -286  Function          Core          TMaleBody           SpawnHead
+   -287  Function          Core          HumanBotPlus        PlayHeadHit
+   -288  Function          Core          HumanBotPlus        PlayLeftHit
+   -289  Function          Core          HumanBotPlus        PlayRightHit
+   -290  Function          Core          HumanBotPlus        PlayFeignDeath
+   -291  Class             Core          Engine              DamageType
+   -292  Function          Core          HumanBotPlus        TweenToSwimming
+   -293  BoolProperty      Core          GameReplicationInfo bTeamGame
+   -294  NameProperty      Core          Pawn                NextLabel
+   -295  LodMesh           Engine        UnrealShare         CowTail
+   -296  FloatProperty     Core          Pawn                AirControl
+   -297  BoolProperty      Core          Pawn                bAdvancedTactics
+   -298  Function          Core          HumanBotPlus        PlayRecoil
+   -299  Function          Core          TournamentPlayer    CheckBob
+   -300  BoolProperty      Core          GameInfo            bTeamGame
+   -301  Function          Core          TournamentPlayer    realWeapon
+   -302  Function          Core          TournamentPlayer    SetAutoTaunt
+   -303  Function          Core          TournamentPlayer    SetInstantRocket
+   -304  ObjectProperty    Core          Bot                 LandGrunt
+   -305  Function          Core          TournamentPlayer    PlayFeignDeath
+   -306  Function          Core          TournamentPlayer    PlayRecoil
+   -307  Function          Core          TournamentPlayer    TweenToSwimming
+   -308  Function          Core          HumanBotPlus        PlayDodge
+   -309  Function          Core          HumanBotPlus        TweenToFighter
+   -310  Function          Core          HumanBotPlus        PlayChallenge
+   -311  ClassProperty     Core          UTHumanCarcass      MasterReplacement
+   -312  ObjectProperty    Core          TournamentPlayer    Footstep1
+   -313  ObjectProperty    Core          TournamentPlayer    breathagain
+   -314  ObjectProperty    Core          TournamentPlayer    Footstep3
+   -315  ObjectProperty    Core          TournamentPlayer    HitSound4
+   -316  ByteProperty      Core          Actor               RemoteRole
+   -317  ObjectProperty    Core          LevelInfo           PawnList
+   -318  ObjectProperty    Core          Pawn                nextPawn
+   -319  BoolProperty      Core          Actor               bHidden
+   -320  Class             Core          Core                Package
+   -321  StrProperty       Core          PlayerReplicationInfo PlayerName
+   -322  Class             Core          Engine              HUD
+   -323  BoolProperty      Core          TournamentPlayer    bNoVoiceMessages
+   -324  BoolProperty      Core          Pawn                bIsPlayer
+   -325  Function          Core          TournamentPlayer    ClientReplicateSkins
+   -326  Function          Core          TournamentPlayer    SendClientAltFire
+   -327  Function          Core          TournamentPlayer    SendAltFire
+   -328  Function          Core          TournamentPlayer    UpdateRealWeapon
+   -329  Function          Core          TournamentPlayer    TimeMessage
+   -330  Function          Core          TournamentPlayer    ServerSetTaunt
+   -331  Function          Core          PlayerPawn          SwitchWeapon
+   -332  Function          Core          TournamentPlayer    SendGlobalMessage
+   -333  Function          Core          TournamentPlayer    SendTeamMessage
+   -334  Class             Core          Botpack             UT_BigBloodHit
+   -335  Function          Core          TournamentPlayer    PlayBeepSound
+   -336  Function          Core          TournamentPlayer    PlayChatting
+   -337  Function          Core          TournamentPlayer    SetAirControl
+   -338  Function          Core          TournamentPlayer    PlayFootStep
+   -339  Package           Core          Botpack             ChatSound
+   -340  Sound             Engine        ChatSound           NewBeep
+   -341  ObjectProperty    Core          TournamentPlayer    drown
+   -342  ObjectProperty    Core          TournamentPlayer    Footstep2
+   -343  ObjectProperty    Core          TournamentPlayer    HitSound3
+   -344  Function          Core          TournamentPlayer    PlayTurning
+   -345  Function          Core          TournamentPlayer    Gasp
+   -346  ObjectProperty    Core          TournamentPlayer    LandGrunt
+   -347  Function          Core          TournamentPlayer    PlayWalking
+   -348  BoolProperty      Core          TournamentPlayer    bNoAutoTaunts
+   -349  BoolProperty      Core          TournamentPlayer    bNoVoiceTaunts
+   -350  ObjectProperty    Core          UTMasterCreatureChunk PlayerRep
+   -351  Function          Core          TournamentPlayer    PlayRising
+   -352  Function          Core          TournamentPlayer    SendClientFire
+   -353  Function          Core          TournamentPlayer    SendFire
+   -354  Function          Core          TournamentPlayer    TweenToWaiting
+   -355  Function          Core          TournamentPlayer    PlayDuck
+   -356  Function          Core          TournamentPlayer    PlayCrawling
+   -357  Function          Core          TournamentPlayer    ServerSetInstantRocket
+   -358  Function          Core          TournamentPlayer    PlayWeaponSwitch
+   -359  Function          Core          TournamentPlayer    PlayFiring
+   -360  Function          Core          TournamentPlayer    PlaySwimming
+   -361  Function          Core          TournamentPlayer    NeedActivate
+   -362  ObjectProperty    Core          DeathMatchPlus      BotConfig
+   -363  Function          Core          TournamentPlayer    PlayHit
+   -364  IntProperty       Core          DeathMatchPlus      MinPlayers
+   -365  Function          Core          TournamentPlayer    ServerSetVoice
+   -366  ObjectProperty    Core          TournamentPlayer    GaspSound
+   -367  Function          Core          HumanBotPlus        PlayLanded
+   -368  Function          Core          GameEnded           Fire
+   -369  Function          Core          Bot                 PlayFlip
+   -370  Class             Core          Botpack             UT_FlakCannon
+   -371  Function          Core          TournamentPlayer    Verbose
+   -372  FloatProperty     Core          Bot                 LastPainTime
+   -373  Class             Core          Botpack             CriticalEventPlus
+   -374  Function          Core          FeigningDeath       NeedActivate
+   -375  Function          Core          TournamentPlayer    PreCacheReferences
+   -376  Function          Core          TournamentPlayer    DoJump
+   -377  Function          Core          TournamentPlayer    AdvanceAll
+   -378  Function          Core          TournamentPlayer    Advance
+   -379  Function          Core          TournamentPlayer    IAmTheOne
+   -380  Function          Core          TournamentPlayer    PreSetMovement
+   -381  Sound             Engine        Boss                BNewGib
+   -382  Function          Core          TournamentPlayer    Loaded
+   -383  Function          Core          ImpactJumping       PlayWaiting
+   -384  Function          Core          HumanBotPlus        PlaySwimming
+   -385  Function          Core          HumanBotPlus        PlayFiring
+   -386  Function          Core          HumanBotPlus        PlayLookAround
+   -387  Function          Core          HumanBotPlus        PlayCrawling
+   -388  Function          Core          HumanBotPlus        PlayDuck
+   -389  Function          Core          HumanBotPlus        PlayRising
+   -390  Function          Core          HumanBotPlus        PlayWalking
+   -391  Function          Core          HumanBotPlus        PlayWaving
+   -392  Function          Core          HumanBotPlus        PlayTurning
+   -393  StrProperty       Core          ChallengeBotInfo    DesiredName
+   -394  Function          Core          TournamentPlayer    AddBotNamed
+
+[exports] 488
+    idx  class             package             name                        flags       serial            props  parse
+      1  StrProperty       SetMultiSkin        SkinName                    0x00070004  12358+13          0      3bca49ce518b0f13
+      2  StrProperty       SetMultiSkin        SkinName                    0x00070004  12371+13          0      3bca49ce518b0f13
+      3  StrProperty       SetMultiSkin        SkinName                    0x00070004  12384+13          0      3bca49ce518b0f13
+      4  StrProperty       SetMultiSkin        SkinName                    0x00070004  12397+13          0      3bca49ce518b0f13
+      5  StrProperty       SetMultiSkin        SkinName                    0x00070004  12410+13          0      3bca49ce518b0f13
+      6  StrProperty       SetMultiSkin        SkinName                    0x00070004  12423+13          0      3bca49ce518b0f13
+      7  ObjectProperty    ClientExtraChunks   carc                        0x00070004  12436+14          0      3bca49ce518b0f13
+      8  ObjectProperty    Loaded              Inv                         0x00070004  12450+13          0      3bca49ce518b0f13
+      9  ObjectProperty    SetMultiSkin        SkinActor                   0x00070004  12463+13          0      3bca49ce518b0f13
+     10  ObjectProperty    SetMultiSkin        SkinActor                   0x00070004  12476+13          0      3bca49ce518b0f13
+     11  ObjectProperty    SetMultiSkin        SkinActor                   0x00070004  12489+13          0      3bca49ce518b0f13
+     12  ObjectProperty    SetMultiSkin        SkinActor                   0x00070004  12502+13          0      3bca49ce518b0f13
+     13  ObjectProperty    SetMultiSkin        SkinActor                   0x00070004  12515+13          0      3bca49ce518b0f13
+     14  ObjectProperty    SetMultiSkin        SkinActor                   0x00070004  12528+13          0      3bca49ce518b0f13
+     15  StrProperty       SetMultiSkin        SkinName                    0x00070004  12541+12          0      3bca49ce518b0f13
+     16  ObjectProperty    SetMultiSkin        SkinActor                   0x00070004  12553+13          0      3bca49ce518b0f13
+     17  NameProperty      PlayHit             DamageType                  0x00070004  12566+13          0      3bca49ce518b0f13
+     18  ObjectProperty    Loaded              DM                          0x00070004  12579+13          0      3bca49ce518b0f13
+     19  NameProperty      PlayWaiting         newAnim                     0x00070004  12592+12          0      3bca49ce518b0f13
+     20  FloatProperty     PlayLanded          impactVel                   0x00070004  12604+12          0      3bca49ce518b0f13
+     21  FloatProperty     PlayLanded          impactVel                   0x00070004  12616+12          0      3bca49ce518b0f13
+     22  NameProperty      PlayWaiting         newAnim                     0x00070004  12628+12          0      3bca49ce518b0f13
+     23  ObjectProperty    ListBots            P                           0x00070004  12640+13          0      3bca49ce518b0f13
+     24  -                 -                   spiderbit                   0x000f0004  12653+108         0      3bca49ce518b0f13
+     25  ObjectProperty    PlayDeathHit        bub                         0x00070004  12761+13          0      3bca49ce518b0f13
+     26  FloatProperty     TweenToRunning      TweenTime                   0x00070004  12774+13          0      3bca49ce518b0f13
+     27  FloatProperty     PlayHit             Damage                      0x00070004  12787+12          0      3bca49ce518b0f13
+     28  IntProperty       ClientPlaySound     Volume                      0x00070004  12799+12          0      3bca49ce518b0f13
+     29  StrProperty       SetMultiSkin        FaceName                    0x00070004  12811+13          0      3bca49ce518b0f13
+     30  FloatProperty     PlayHit             rnd                         0x00070004  12824+13          0      3bca49ce518b0f13
+     31  StrProperty       SetMultiSkin        FacePackage                 0x00070004  12837+13          0      3bca49ce518b0f13
+     32  FloatProperty     CheckBob            Speed2D                     0x00070004  12850+13          0      3bca49ce518b0f13
+     33  ObjectProperty    CreateReplacement   carc                        0x00070004  12863+15          0      3bca49ce518b0f13
+     34  -                 -                   spiderCarcass               0x000f0004  12878+164         0      3bca49ce518b0f13
+     35  -                 -                   Skeletalspider              0x000f0004  13042+163         0      3bca49ce518b0f13
+     36  -                 -                   Skeletalspiderbot           0x000f0004  13205+162         0      3bca49ce518b0f13
+     37  ObjectProperty    ClientPlaySound     SoundPlayer                 0x00070004  13367+13          0      3bca49ce518b0f13
+     38  StructProperty    PlayHit             BloodOffset                 0x00070004  13380+14          0      3bca49ce518b0f13
+     39  ObjectProperty    SetMultiSkin        Face                        0x00070004  13394+13          0      3bca49ce518b0f13
+     40  ObjectProperty    SetMultiSkin        Face                        0x00070004  13407+13          0      3bca49ce518b0f13
+     41  ObjectProperty    EncroachingOn       Other                       0x00070004  13420+14          0      3bca49ce518b0f13
+     42  ObjectProperty    SetMultiSkin        Face                        0x00070004  13434+13          0      3bca49ce518b0f13
+     43  StructProperty    TweenToRunning      Dir                         0x00070004  13447+13          0      3bca49ce518b0f13
+     44  FloatProperty     TweenToWalking      TweenTime                   0x00070004  13460+12          0      3bca49ce518b0f13
+     45  ObjectProperty    Loaded              weap                        0x00070004  13472+13          0      3bca49ce518b0f13
+     46  StructProperty    PlayRunning         Dir                         0x00070004  13485+13          0      3bca49ce518b0f13
+     47  NameProperty      PlayDeathHit        DamageType                  0x00070004  13498+13          0      3bca49ce518b0f13
+     48  StructProperty    PlayHit             HitLocation                 0x00070004  13511+13          0      3bca49ce518b0f13
+     49  ObjectProperty    SetMultiSkin        Face                        0x00070004  13524+13          0      3bca49ce518b0f13
+     50  FloatProperty     PlayHit             Damage                      0x00070004  13537+13          0      3bca49ce518b0f13
+     51  FloatProperty     CheckBob            DeltaTime                   0x00070004  13550+12          0      3bca49ce518b0f13
+     52  ObjectProperty    SetMultiSkin        Face                        0x00070004  13562+13          0      3bca49ce518b0f13
+     53  StructProperty    PlayHit             BloodOffset                 0x00070004  13575+13          0      3bca49ce518b0f13
+     54  ObjectProperty    SetMultiSkin        Face                        0x00070004  13588+13          0      3bca49ce518b0f13
+     55  StructProperty    PlayRunning         Loc2D                       0x00070004  13601+13          0      3bca49ce518b0f13
+     56  NameProperty      PlayRunning         newAnim                     0x00070004  13614+12          0      3bca49ce518b0f13
+     57  StructProperty    PlayDeathHit        Mo                          0x00070004  13626+13          0      3bca49ce518b0f13
+     58  StructProperty    PlayHit             Mo                          0x00070004  13639+14          0      3bca49ce518b0f13
+     59  ObjectProperty    FootStepping        Step                        0x00070004  13653+15          0      3bca49ce518b0f13
+     60  ObjectProperty    ClientPutDown       Next                        0x00070004  13668+13          0      3bca49ce518b0f13
+     61  StructProperty    PlayRunning         Dest2D                      0x00070004  13681+14          0      3bca49ce518b0f13
+     62  FloatProperty     PlayGutHit          TweenTime                   0x00070004  13695+12          0      3bca49ce518b0f13
+     63  StrProperty       SetMultiSkin        FaceItem                    0x00070004  13707+13          0      3bca49ce518b0f13
+     64  NameProperty      PlayDying           DamageType                  0x00070004  13720+13          0      3bca49ce518b0f13
+     65  StrProperty       Summon              ClassName                   0x00070004  13733+13          0      3bca49ce518b0f13
+     66  StrProperty       SetMultiSkin        SkinPackage                 0x00070004  13746+12          0      3bca49ce518b0f13
+     67  FloatProperty     PlayGutHit          TweenTime                   0x00070004  13758+12          0      3bca49ce518b0f13
+     68  StrProperty       SetMultiSkin        SkinItem                    0x00070004  13770+12          0      3bca49ce518b0f13
+     69  FloatProperty     PlayInAir           TweenTime                   0x00070004  13782+12          0      3bca49ce518b0f13
+     70  FloatProperty     TweenToWaiting      TweenTime                   0x00070004  13794+12          0      3bca49ce518b0f13
+     71  ObjectProperty    ClientPlaySound     ASound                      0x00070004  13806+15          0      3bca49ce518b0f13
+     72  StrProperty       GetMultiSkin        FullFaceName                0x00070004  13821+12          0      3bca49ce518b0f13
+     73  StrProperty       GetMultiSkin        FullSkinName                0x00070004  13833+13          0      3bca49ce518b0f13
+     74  ObjectProperty    GetMultiSkin        SkinActor                   0x00070004  13846+14          0      3bca49ce518b0f13
+     75  NameProperty      PlayDying           DamageType                  0x00070004  13860+13          0      3bca49ce518b0f13
+     76  FloatProperty     PlayGutHit          TweenTime                   0x00070004  13873+12          0      3bca49ce518b0f13
+     77  FloatProperty     TweenToWalking      TweenTime                   0x00070004  13885+12          0      3bca49ce518b0f13
+     78  NameProperty      ClientVoiceMessage  MessageType                 0x00070004  13897+13          0      3bca49ce518b0f13
+     79  ObjectProperty    LoadLeftHand        M                           0x00070004  13910+13          0      3bca49ce518b0f13
+     80  FloatProperty     TweenToWaiting      TweenTime                   0x00070004  13923+12          0      3bca49ce518b0f13
+     81  BoolProperty      ClientPlaySound     bInterrupt                  0x00070004  13935+13          0      3bca49ce518b0f13
+     82  ClassProperty     KillAll             aClass                      0x00070004  13948+14          0      3bca49ce518b0f13
+     83  StructProperty    PlayRunning         Focus2D                     0x00070004  13962+13          0      3bca49ce518b0f13
+     84  ObjectProperty    ClientPutDown       Current                     0x00070004  13975+13          0      3bca49ce518b0f13
+     85  ByteProperty      SetMultiSkin        TeamNum                     0x00070004  13988+13          0      3bca49ce518b0f13
+     86  FloatProperty     PlayInAir           TweenTime                   0x00070004  14001+12          0      3bca49ce518b0f13
+     87  StructProperty    PlayHit             HitLocation                 0x00070004  14013+14          0      3bca49ce518b0f13
+     88  NameProperty      PlayHit             DamageType                  0x00070004  14027+13          0      3bca49ce518b0f13
+     89  ObjectProperty    PlayHit             bub                         0x00070004  14040+14          0      3bca49ce518b0f13
+     90  ByteProperty      SetMultiSkin        TeamNum                     0x00070004  14054+13          0      3bca49ce518b0f13
+     91  FloatProperty     PlayVictoryDance    decision                    0x00070004  14067+12          0      3bca49ce518b0f13
+     92  FloatProperty     FastInAir           TweenTime                   0x00070004  14079+12          0      3bca49ce518b0f13
+     93  StructProperty    PlayRunning         lookDir                     0x00070004  14091+14          0      3bca49ce518b0f13
+     94  ClassProperty     SetVoice            V                           0x00070004  14105+15          0      3bca49ce518b0f13
+     95  ByteProperty      SetMultiSkin        TeamNum                     0x00070004  14120+13          0      3bca49ce518b0f13
+     96  FloatProperty     FootStepping        decision                    0x00070004  14133+12          0      3bca49ce518b0f13
+     97  FloatProperty     PlayHeadHit         TweenTime                   0x00070004  14145+12          0      3bca49ce518b0f13
+     98  FloatProperty     PlayLeftHit         TweenTime                   0x00070004  14157+12          0      3bca49ce518b0f13
+     99  FloatProperty     PlayRightHit        TweenTime                   0x00070004  14169+12          0      3bca49ce518b0f13
+    100  StructProperty    TweenToRunning      X                           0x00070004  14181+14          0      3bca49ce518b0f13
+    101  ObjectProperty    ClientPlayTakeHit   CHUD                        0x00070004  14195+14          0      3bca49ce518b0f13
+    102  ByteProperty      PlayDodge           DodgeMove                   0x00070004  14209+14          0      3bca49ce518b0f13
+    103  StructProperty    ClientPlayTakeHit   HitLoc                      0x00070004  14223+14          0      3bca49ce518b0f13
+    104  StructProperty    PlayRunning         X                           0x00070004  14237+14          0      3bca49ce518b0f13
+    105  IntProperty       PlayTakeHitSound    Damage                      0x00070004  14251+13          0      3bca49ce518b0f13
+    106  FloatProperty     PlayFeignDeath      decision                    0x00070004  14264+12          0      3bca49ce518b0f13
+    107  FloatProperty     PlayHeadHit         TweenTime                   0x00070004  14276+12          0      3bca49ce518b0f13
+    108  ObjectProperty    ClientExtraChunks   B                           0x00070004  14288+15          0      3bca49ce518b0f13
+    109  ByteProperty      SetMultiSkin        TeamNum                     0x00070004  14303+13          0      3bca49ce518b0f13
+    110  ObjectProperty    PlayHit             bub                         0x00070004  14316+14          0      3bca49ce518b0f13
+    111  FloatProperty     PlayLeftHit         TweenTime                   0x00070004  14330+12          0      3bca49ce518b0f13
+    112  NameProperty      TweenToRunning      newAnim                     0x00070004  14342+12          0      3bca49ce518b0f13
+    113  ByteProperty      SetMultiSkin        TeamNum                     0x00070004  14354+13          0      3bca49ce518b0f13
+    114  FloatProperty     PlayRightHit        TweenTime                   0x00070004  14367+12          0      3bca49ce518b0f13
+    115  Function          Tournamentspider    SetMultiSkin                0x00070004  14379+479         0      3bca49ce518b0f13
+    116  ObjectProperty    Killed              Other                       0x00070004  14858+14          0      3bca49ce518b0f13
+    117  FloatProperty     PlayRightHit        TweenTime                   0x00070004  14872+12          0      3bca49ce518b0f13
+    118  ByteProperty      SetMultiSkin        TeamNum                     0x00070004  14884+13          0      3bca49ce518b0f13
+    119  FloatProperty     PlayLeftHit         TweenTime                   0x00070004  14897+12          0      3bca49ce518b0f13
+    120  StrProperty       GetMultiSkin        ShortFaceName               0x00070004  14909+13          0      3bca49ce518b0f13
+    121  ObjectProperty    EndSpree            Killer                      0x00070004  14922+14          0      3bca49ce518b0f13
+    122  StrProperty       GetMultiSkin        ShortSkinName               0x00070004  14936+13          0      3bca49ce518b0f13
+    123  ByteProperty      SetMultiSkin        TeamNum                     0x00070004  14949+14          0      3bca49ce518b0f13
+    124  StructProperty    PlayInAir           Dir                         0x00070004  14963+14          0      3bca49ce518b0f13
+    125  IntProperty       PlayDyingSound      rnd                         0x00070004  14977+12          0      3bca49ce518b0f13
+    126  FloatProperty     TweenToRunning      TweenTime                   0x00070004  14989+13          0      3bca49ce518b0f13
+    127  FloatProperty     PlayInAir           F                           0x00070004  15002+13          0      3bca49ce518b0f13
+    128  FloatProperty     PlayRunning         strafemag                   0x00070004  15015+13          0      3bca49ce518b0f13
+    129  FloatProperty     PlayHeadHit         TweenTime                   0x00070004  15028+12          0      3bca49ce518b0f13
+    130  ObjectProperty    EndSpree            Other                       0x00070004  15040+13          0      3bca49ce518b0f13
+    131  ObjectProperty    PlayWinMessage      Announcement                0x00070004  15053+14          0      3bca49ce518b0f13
+    132  FloatProperty     TweenToSwimming     TweenTime                   0x00070004  15067+12          0      3bca49ce518b0f13
+    133  FloatProperty     PlayFeignDeath      decision                    0x00070004  15079+12          0      3bca49ce518b0f13
+    134  FloatProperty     PlayRecoil          Rate                        0x00070004  15091+12          0      3bca49ce518b0f13
+    135  BoolProperty      SetInstantRocket    B                           0x00070004  15103+12          0      3bca49ce518b0f13
+    136  BoolProperty      ClientPlaySound     bVolumeControl              0x00070004  15115+12          0      3bca49ce518b0f13
+    137  FloatProperty     TweenToSwimming     TweenTime                   0x00070004  15127+12          0      3bca49ce518b0f13
+    138  -                 -                   Tournamentspider            0x000f0004  15139+1800        0      3bca49ce518b0f13
+    139  FloatProperty     PlayRecoil          Rate                        0x00070004  16939+12          0      3bca49ce518b0f13
+    140  BoolProperty      PlayHit             bOptionalTakeHit            0x00070004  16951+12          0      3bca49ce518b0f13
+    141  ObjectProperty    CreateReplacement   B                           0x00070004  16963+14          0      3bca49ce518b0f13
+    142  ObjectProperty    Killed              Killer                      0x00070004  16977+14          0      3bca49ce518b0f13
+    143  BoolProperty      SetAutoTaunt        B                           0x00070004  16991+12          0      3bca49ce518b0f13
+    144  IntProperty       realWeapon          N                           0x00070004  17003+12          0      3bca49ce518b0f13
+    145  StructProperty    PlayInAir           X                           0x00070004  17015+14          0      3bca49ce518b0f13
+    146  -                 -                   spiderBotPlus               0x000f0004  17029+436         0      3bca49ce518b0f13
+    147  IntProperty       CheckBob            N                           0x00070004  17465+12          0      3bca49ce518b0f13
+    148  StructProperty    PlayDeathHit        HitLocation                 0x00070004  17477+13          0      3bca49ce518b0f13
+    149  StructProperty    PlayRunning         Y                           0x00070004  17490+14          0      3bca49ce518b0f13
+    150  FloatProperty     CheckBob            OldBobTime                  0x00070004  17504+13          0      3bca49ce518b0f13
+    151  BoolProperty      PlayHit             bServerGuessWeapon          0x00070004  17517+13          0      3bca49ce518b0f13
+    152  IntProperty       CheckBob            M                           0x00070004  17530+13          0      3bca49ce518b0f13
+    153  ByteProperty      ClientPlayTakeHit   Damage                      0x00070004  17543+14          0      3bca49ce518b0f13
+    154  StructProperty    PlayRunning         Y                           0x00070004  17557+13          0      3bca49ce518b0f13
+    155  StructProperty    TweenToRunning      Y                           0x00070004  17570+14          0      3bca49ce518b0f13
+    156  StructProperty    PlayRunning         moveDir                     0x00070004  17584+14          0      3bca49ce518b0f13
+    157  StructProperty    PlayHit             Momentum                    0x00070004  17598+14          0      3bca49ce518b0f13
+    158  StructProperty    PlayInAir           Y                           0x00070004  17612+14          0      3bca49ce518b0f13
+    159  IntProperty       PlayHit             iDam                        0x00070004  17626+12          0      3bca49ce518b0f13
+    160  ClassProperty     ServerSetVoice      V                           0x00070004  17638+15          0      3bca49ce518b0f13
+    161  ObjectProperty    UpdateRealWeapon    W                           0x00070004  17653+13          0      3bca49ce518b0f13
+    162  IntProperty       TimeMessage         Num                         0x00070004  17666+12          0      3bca49ce518b0f13
+    163  StructProperty    ReplicateMove       DeltaRot                    0x00070004  17678+13          0      3bca49ce518b0f13
+    164  FloatProperty     SetAirControl       F                           0x00070004  17691+12          0      3bca49ce518b0f13
+    165  ObjectProperty    SendAltFire         W                           0x00070004  17703+13          0      3bca49ce518b0f13
+    166  StructProperty    CheckBob            Y                           0x00070004  17716+14          0      3bca49ce518b0f13
+    167  ByteProperty      ReplicateMove       DodgeMove                   0x00070004  17730+15          0      3bca49ce518b0f13
+    168  StrProperty       GetMultiSkin        FaceName                    0x00070004  17745+13          0      3bca49ce518b0f13
+    169  ObjectProperty    SendFire            W                           0x00070004  17758+13          0      3bca49ce518b0f13
+    170  BoolProperty      PlayWinMessage      bWinner                     0x00070004  17771+13          0      3bca49ce518b0f13
+    171  NameProperty      Killed              DamageType                  0x00070004  17784+12          0      3bca49ce518b0f13
+    172  StrProperty       SetMultiSkin        MeshName                    0x00070004  17796+12          0      3bca49ce518b0f13
+    173  StructProperty    ReplicateMove       newAccel                    0x00070004  17808+14          0      3bca49ce518b0f13
+    174  NameProperty      SendTeamMessage     MessageType                 0x00070004  17822+13          0      3bca49ce518b0f13
+    175  StructProperty    PlayHit             Momentum                    0x00070004  17835+13          0      3bca49ce518b0f13
+    176  StrProperty       AddBotNamed         BotName                     0x00070004  17848+12          0      3bca49ce518b0f13
+    177  ObjectProperty    SendTeamMessage     Recipient                   0x00070004  17860+14          0      3bca49ce518b0f13
+    178  StrProperty       GetMultiSkin        SkinName                    0x00070004  17874+13          0      3bca49ce518b0f13
+    179  ByteProperty      SendGlobalMessage   MessageID                   0x00070004  17887+14          0      3bca49ce518b0f13
+    180  IntProperty       SendClientFire      N                           0x00070004  17901+12          0      3bca49ce518b0f13
+    181  ObjectProperty    SendClientFire      W                           0x00070004  17913+14          0      3bca49ce518b0f13
+    182  StrProperty       ChangeSetHand       S                           0x00070004  17927+12          0      3bca49ce518b0f13
+    183  ObjectProperty    ClientReplicateSkins Skin4                       0x00070004  17939+14          0      3bca49ce518b0f13
+    184  NameProperty      SendGlobalMessage   MessageType                 0x00070004  17953+13          0      3bca49ce518b0f13
+    185  FloatProperty     ReplicateMove       DeltaTime                   0x00070004  17966+13          0      3bca49ce518b0f13
+    186  ObjectProperty    ClientReplicateSkins Skin3                       0x00070004  17979+14          0      3bca49ce518b0f13
+    187  StructProperty    PlayDeathHit        Momentum                    0x00070004  17993+13          0      3bca49ce518b0f13
+    188  ObjectProperty    ClientReplicateSkins Skin2                       0x00070004  18006+14          0      3bca49ce518b0f13
+    189  ObjectProperty    ClientReplicateSkins Skin1                       0x00070004  18020+14          0      3bca49ce518b0f13
+    190  IntProperty       SendClientAltFire   N                           0x00070004  18034+12          0      3bca49ce518b0f13
+    191  ObjectProperty    SendGlobalMessage   Recipient                   0x00070004  18046+14          0      3bca49ce518b0f13
+    192  NameProperty      PlayTakeHitSound    DamageType                  0x00070004  18060+13          0      3bca49ce518b0f13
+    193  BoolProperty      ServerSetInstantRocket B                           0x00070004  18073+12          0      3bca49ce518b0f13
+    194  BoolProperty      ServerSetTaunt      B                           0x00070004  18085+12          0      3bca49ce518b0f13
+    195  ByteProperty      ClientVoiceMessage  MessageID                   0x00070004  18097+13          0      3bca49ce518b0f13
+    196  ByteProperty      SendTeamMessage     MessageID                   0x00070004  18110+14          0      3bca49ce518b0f13
+    197  BoolProperty      ClientPlayTakeHit   bServerGuessWeapon          0x00070004  18124+13          0      3bca49ce518b0f13
+    198  ObjectProperty    ClientVoiceMessage  Recipient                   0x00070004  18137+14          0      3bca49ce518b0f13
+    199  ObjectProperty    SendClientAltFire   W                           0x00070004  18151+14          0      3bca49ce518b0f13
+    200  ObjectProperty    ClientVoiceMessage  Sender                      0x00070004  18165+14          0      3bca49ce518b0f13
+    201  ObjectProperty    realWeapon          Real                        0x00070004  18179+14          0      3bca49ce518b0f13
+    202  Function          Tournamentspider    PlayGutHit                  0x00070004  18193+111         0      3bca49ce518b0f13
+    203  StructProperty    PlayDying           HitLoc                      0x00070004  18304+13          0      3bca49ce518b0f13
+    204  FloatProperty     TweenToFighter      TweenTime                   0x00070004  18317+12          0      3bca49ce518b0f13
+    205  StructProperty    PlayInAir           Z                           0x00070004  18329+14          0      3bca49ce518b0f13
+    206  FloatProperty     ViewFlash           DeltaTime                   0x00070004  18343+12          0      3bca49ce518b0f13
+    207  -                 -                   spiderMasterChunk           0x000f0004  18355+251         0      3bca49ce518b0f13
+    208  StructProperty    TweenToRunning      Z                           0x00070004  18606+13          0      3bca49ce518b0f13
+    209  BoolProperty      PlayDodge           bDuckLeft                   0x00070004  18619+12          0      3bca49ce518b0f13
+    210  SkeletalMesh      -                   Jumper                      0x000f0004  18631+36324       0      f6f0f7f3f79f09a1
+    211  SkeletalMesh      -                   tarantula                   0x000f0004  54955+37144       0      ac98cd174e7fe37e
+    212  StructProperty    PlayDying           HitLoc                      0x00070004  92099+13          0      3bca49ce518b0f13
+    213  StructProperty    PlayRunning         Z                           0x00070004  92112+13          0      3bca49ce518b0f13
+    214  Function          Tournamentspider    PlayHeadHit                 0x00070004  92125+93          0      3bca49ce518b0f13
+    215  Function          spiderBotPlus       PlayVictoryDance            0x00070004  92218+40          0      3bca49ce518b0f13
+    216  Function          Tournamentspider    PlayLeftHit                 0x00070004  92258+93          0      3bca49ce518b0f13
+    217  Function          Tournamentspider    PlayRightHit                0x00070004  92351+93          0      3bca49ce518b0f13
+    218  SkeletalMesh      -                   spitter                     0x000f0004  92444+35874       0      89593c37bedc0492
+    219  Function          Tournamentspider    PlayFeignDeath              0x00070004  128318+107        0      3bca49ce518b0f13
+    220  Function          Tournamentspider    PlayRising                  0x00070004  128425+52         0      3bca49ce518b0f13
+    221  TextBuffer        spiderBotPlus       ScriptText                  0x00340000  128477+12319      0      4daa161d4d98a395
+    222  Function          Tournamentspider    PlayRunning                 0x00070004  140796+239        0      3bca49ce518b0f13
+    223  Function          Tournamentspider    PlayTakeHitSound            0x00070004  141035+364        0      3bca49ce518b0f13
+    224  IntProperty       PlayTakeHitSound    Mult                        0x00070004  141399+12         0      3bca49ce518b0f13
+    225  FloatProperty     PlayDeathHit        Damage                      0x00070004  141411+13         0      3bca49ce518b0f13
+    226  Function          Tournamentspider    AddBotNamed                 0x00070004  141424+150        0      3bca49ce518b0f13
+    227  Function          Tournamentspider    PlayDeathHit                0x00070004  141574+507        0      3bca49ce518b0f13
+    228  Function          Tournamentspider    PlayInAir                   0x00070004  142081+321        0      3bca49ce518b0f13
+    229  Function          Tournamentspider    PlayFootStep                0x00070004  142402+104        0      3bca49ce518b0f13
+    230  ClassProperty     PlayHit             DamageClass                 0x00070004  142506+15         0      3bca49ce518b0f13
+    231  Function          Tournamentspider    ClientPlayTakeHit           0x00070004  142521+154        0      3bca49ce518b0f13
+    232  Function          Tournamentspider    Gasp                        0x00070004  142675+83         0      3bca49ce518b0f13
+    233  Function          Tournamentspider    Summon                      0x00070004  142758+118        0      3bca49ce518b0f13
+    234  TextBuffer        spiderbit           ScriptText                  0x00340000  142876+222        0      dbb1e19850ae8117
+    235  Function          Tournamentspider    PlayDuck                    0x00070004  143098+87         0      3bca49ce518b0f13
+    236  Function          Tournamentspider    PlayCrawling                0x00070004  143185+77         0      3bca49ce518b0f13
+    237  Function          Tournamentspider    TweenToWaiting              0x00070004  143262+162        0      3bca49ce518b0f13
+    238  Function          Tournamentspider    PlayHit                     0x00070004  143424+661        0      3bca49ce518b0f13
+    239  Function          Tournamentspider    PlayRecoil                  0x00070004  144085+137        0      3bca49ce518b0f13
+    240  Function          Tournamentspider    GetMultiSkin                0x00070004  144222+165        0      3bca49ce518b0f13
+    241  Function          Tournamentspider    PlayFiring                  0x00070004  144387+111        0      3bca49ce518b0f13
+    242  Function          Tournamentspider    PlayLanded                  0x00070004  144498+358        0      3bca49ce518b0f13
+    243  Function          Tournamentspider    FootStepping                0x00070004  144856+151        0      3bca49ce518b0f13
+    244  Function          Tournamentspider    PlaySwimming                0x00070004  145007+81         0      3bca49ce518b0f13
+    245  Function          Tournamentspider    AdvanceAll                  0x00070004  145088+112        0      3bca49ce518b0f13
+    246  Function          Tournamentspider    PlayTurning                 0x00070004  145200+94         0      3bca49ce518b0f13
+    247  Function          Tournamentspider    NeedActivate                0x00070004  145294+36         0      3bca49ce518b0f13
+    248  State             Tournamentspider    FeigningDeath               0x00070004  145330+45         0      3bca49ce518b0f13
+    249  Function          FeigningDeath       NeedActivate                0x00070004  145375+35         0      3bca49ce518b0f13
+    250  Function          FeigningDeath       BeginState                  0x00070004  145410+122        0      3bca49ce518b0f13
+    251  State             Tournamentspider    Dying                       0x00070004  145532+45         0      3bca49ce518b0f13
+    252  Function          Dying               KilledBy                    0x00070004  145577+30         0      3bca49ce518b0f13
+    253  Function          Tournamentspider    CheckBob                    0x00070004  145607+395        0      3bca49ce518b0f13
+    254  ClassProperty     Summon              NewClass                    0x00070004  146002+14         0      3bca49ce518b0f13
+    255  ByteProperty      SwitchWeapon        F                           0x00070004  146016+13         0      3bca49ce518b0f13
+    256  Function          Dying               ViewFlash                   0x00070004  146029+75         0      3bca49ce518b0f13
+    257  TextBuffer        Skeletalspiderbot   ScriptText                  0x00340000  146104+2847       0      6ad92cbdabec211a
+    258  Function          Dying               BeginState                  0x00070004  148951+43         0      3bca49ce518b0f13
+    259  State             Tournamentspider    GameEnded                   0x00070004  148994+45         0      3bca49ce518b0f13
+    260  Function          GameEnded           KilledBy                    0x00070004  149039+30         0      3bca49ce518b0f13
+    261  ObjectProperty    KilledBy            EventInstigator             0x00070004  149069+13         0      3bca49ce518b0f13
+    262  Function          GameEnded           TakeDamage                  0x00070004  149082+31         0      3bca49ce518b0f13
+    263  TextBuffer        Skeletalspider      ScriptText                  0x00340000  149113+2592       0      0552b579e7e40c7f
+    264  ObjectProperty    TakeDamage          instigatedBy                0x00070004  151705+14         0      3bca49ce518b0f13
+    265  StructProperty    TakeDamage          HitLocation                 0x00070004  151719+14         0      3bca49ce518b0f13
+    266  StructProperty    TakeDamage          Momentum                    0x00070004  151733+14         0      3bca49ce518b0f13
+    267  NameProperty      TakeDamage          DamageType                  0x00070004  151747+12         0      3bca49ce518b0f13
+    268  Function          GameEnded           Died                        0x00070004  151759+31         0      3bca49ce518b0f13
+    269  ObjectProperty    Died                Killer                      0x00070004  151790+14         0      3bca49ce518b0f13
+    270  NameProperty      Died                DamageType                  0x00070004  151804+13         0      3bca49ce518b0f13
+    271  Function          Tournamentspider    PlayWeaponSwitch            0x00070004  151817+31         0      3bca49ce518b0f13
+    272  Function          GameEnded           Fire                        0x00070004  151848+76         0      3bca49ce518b0f13
+    273  FloatProperty     Fire                F                           0x00070004  151924+12         0      3bca49ce518b0f13
+    274  Function          Skeletalspider      PlayDying                   0x00070004  151936+383        0      3bca49ce518b0f13
+    275  Function          Tournamentspider    Verbose                     0x00070004  152319+56         0      3bca49ce518b0f13
+    276  Function          Tournamentspider    TweenToRunning              0x00070004  152375+312        0      3bca49ce518b0f13
+    277  Function          Tournamentspider    TweenToWalking              0x00070004  152687+145        0      3bca49ce518b0f13
+    278  Function          Skeletalspider      PlayGutHit                  0x00070004  152832+117        0      3bca49ce518b0f13
+    279  ObjectProperty    PlayWeaponSwitch    NewWeapon                   0x00070004  152949+13         0      3bca49ce518b0f13
+    280  Function          Skeletalspider      PlayHeadHit                 0x00070004  152962+93         0      3bca49ce518b0f13
+    281  Function          Tournamentspider    IAmTheOne                   0x00070004  153055+38         0      3bca49ce518b0f13
+    282  Function          Tournamentspider    Advance                     0x00070004  153093+112        0      3bca49ce518b0f13
+    283  Function          Tournamentspider    EndSpree                    0x00070004  153205+82         0      3bca49ce518b0f13
+    284  Function          Skeletalspider      PlayRightHit                0x00070004  153287+93         0      3bca49ce518b0f13
+    285  -                 -                   jumperbot                   0x000f0004  153380+286        0      3bca49ce518b0f13
+    286  Animation         -                   tarananim                   0x000f0004  153666+405138     0      b778c415fcc573f4
+    287  ObjectProperty    KilledBy            EventInstigator             0x00070004  558804+13         0      3bca49ce518b0f13
+    288  Function          Tournamentspider    PlayWaiting                 0x00070004  558817+734        0      3bca49ce518b0f13
+    289  Function          tarantula           SetMultiSkin                0x00070004  559551+613        0      3bca49ce518b0f13
+    290  TextBuffer        spiderCarcass       ScriptText                  0x00340000  560164+782        0      2fe5b338c65bafe4
+    291  Function          Tournamentspider    PlayChatting                0x00070004  560946+54         0      3bca49ce518b0f13
+    292  Palette           Skins               Palette1                    0x00070004  561000+1027       0      31bd05c961dea5c1
+    293  Function          Tournamentspider    PlayBeepSound               0x00070004  562027+43         0      3bca49ce518b0f13
+    294  Palette           Skins               Palette3                    0x00070004  562070+1027       0      4455ab317d87acaf
+    295  Function          Tournamentspider    PlayDyingSound              0x00070004  563097+168        0      3bca49ce518b0f13
+    296  Palette           Skins               Palette5                    0x00070004  563265+1027       0      9d181f7b85f56d77
+    297  Function          Tournamentspider    PlayDodge                   0x00070004  564292+173        0      3bca49ce518b0f13
+    298  Palette           Skins               Palette7                    0x00070004  564465+1027       0      68a8d45a79620065
+    299  TextBuffer        jumperbot           ScriptText                  0x00340000  565492+1892       0      431b9b433c5ff70f
+    300  Palette           Skins               Palette9                    0x00070004  567384+1027       0      80d4ff6bfcbf5546
+    301  TextBuffer        spiderMasterChunk   ScriptText                  0x00340000  568411+1863       0      eec03e42e56542ca
+    302  Function          Dying               SwitchWeapon                0x00070004  570274+33         0      3bca49ce518b0f13
+    303  IntProperty       TakeDamage          Damage                      0x00070004  570307+13         0      3bca49ce518b0f13
+    304  Palette           Skins               Palette13                   0x00070004  570320+1027       0      f5bab93fc12bd579
+    305  -                 -                   Jumper                      0x000f0004  571347+287        0      3bca49ce518b0f13
+    306  Function          Tournamentspider    PlayWalking                 0x00070004  571634+135        0      3bca49ce518b0f13
+    307  Function          Tournamentspider    Loaded                      0x00070004  571769+526        0      3bca49ce518b0f13
+    308  Palette           Skins               Palette17                   0x00070004  572295+1027       0      a87d55f1d6ca9f53
+    309  TextBuffer        spitter             ScriptText                  0x00340000  573322+5035       0      6be513c029dc915f
+    310  Palette           Skins               Palette19                   0x00070004  578357+1027       0      07a508ed5cbc7b12
+    311  -                 -                   spitter                     0x000f0004  579384+289        0      3bca49ce518b0f13
+    312  Palette           Skins               Palette21                   0x00070004  579673+1027       0      180181c13d728d8c
+    313  Function          Tournamentspider    Killed                      0x00070004  580700+155        0      3bca49ce518b0f13
+    314  Palette           Skins               Palette23                   0x00070004  580855+1027       0      6afb5782ac9b7e2d
+    315  FloatProperty     SendTeamMessage     Wait                        0x00070004  581882+12         0      3bca49ce518b0f13
+    316  Palette           Skins               Palette25                   0x00070004  581894+1027       0      7d4170ee2573e6d8
+    317  TextBuffer        spitterbot          ScriptText                  0x00340000  582921+1909       0      b0d21cac616b3e84
+    318  StrProperty       SetMultiSkin        FaceName                    0x00070004  584830+13         0      3bca49ce518b0f13
+    319  Function          Tournamentspider    SendTeamMessage             0x00070004  584843+73         0      3bca49ce518b0f13
+    320  FloatProperty     SendGlobalMessage   Wait                        0x00070004  584916+12         0      3bca49ce518b0f13
+    321  Animation         -                   spitteranim                 0x000f0004  584928+378122     0      607eb756846a622b
+    322  StructProperty    Died                HitLocation                 0x00070004  963050+13         0      3bca49ce518b0f13
+    323  Function          spitter             SetMultiSkin                0x00070004  963063+617        0      3bca49ce518b0f13
+    324  -                 -                   spitterbot                  0x000f0004  963680+288        0      3bca49ce518b0f13
+    325  TextBuffer        tarantula           ScriptText                  0x00340000  963968+4976       0      1a9305717da1b067
+    326  Palette           Skins               Palette27                   0x00070004  968944+1027       0      5a1f3f1c659f79b3
+    327  Function          Tournamentspider    SendGlobalMessage           0x00070004  969971+73         0      3bca49ce518b0f13
+    328  Palette           Skins               Palette29                   0x00070004  970044+1027       0      245511acb4a3e612
+    329  Function          Tournamentspider    ClientVoiceMessage          0x00070004  971071+115        0      3bca49ce518b0f13
+    330  Palette           Skins               Palette31                   0x00070004  971186+1027       0      0cb3beb9c2812b7b
+    331  ByteProperty      Possess             i                           0x00070004  972213+13         0      3bca49ce518b0f13
+    332  Palette           Skins               Palette33                   0x00070004  972226+1027       0      db8c1f61ba54cb09
+    333  Function          Tournamentspider    Possess                     0x00070004  973253+82         0      3bca49ce518b0f13
+    334  Palette           Skins               Palette35                   0x00070004  973335+1027       0      fe959b8ccd80b796
+    335  Function          Tournamentspider    LoadLeftHand                0x00070004  974362+148        0      3bca49ce518b0f13
+    336  Palette           Skins               Palette37                   0x00070004  974510+1027       0      500b7f63e4fb11b0
+    337  Function          Skeletalspider      PlayDecap                   0x00070004  975537+40         0      3bca49ce518b0f13
+    338  Palette           Skins               Palette39                   0x00070004  975577+1027       0      ce5a0dd01a0aea0b
+    339  Function          Tournamentspider    ChangeSetHand               0x00070004  976604+52         0      3bca49ce518b0f13
+    340  Palette           Skins               Palette41                   0x00070004  976656+1027       0      f24cfabbb2d0295b
+    341  Function          Tournamentspider    SetInstantRocket            0x00070004  977683+48         0      3bca49ce518b0f13
+    342  Palette           Skins               Palette43                   0x00070004  977731+1027       0      51d9cc9162ed5662
+    343  Function          Tournamentspider    ServerSetInstantRocket      0x00070004  978758+42         0      3bca49ce518b0f13
+    344  Palette           Skins               Palette45                   0x00070004  978800+1027       0      12dcfdf3df847e67
+    345  Function          Tournamentspider    SetAutoTaunt                0x00070004  979827+48         0      3bca49ce518b0f13
+    346  Palette           Skins               Palette47                   0x00070004  979875+1027       0      97da7469c08882cf
+    347  -                 -                   tarantula                   0x000f0004  980902+293        0      3bca49ce518b0f13
+    348  Palette           Skins               Palette49                   0x00070004  981195+1027       0      3557673d09f8e97c
+    349  Function          Tournamentspider    SetAirControl               0x00070004  982222+64         0      3bca49ce518b0f13
+    350  Palette           Skins               Palette51                   0x00070004  982286+1027       0      d2e7f4282287fa30
+    351  TextBuffer        tarantulabot        ScriptText                  0x00340000  983313+1896       0      affe6a7f47f59fe4
+    352  StrProperty       SetMultiSkin        FaceName                    0x00070004  985209+13         0      3bca49ce518b0f13
+    353  Function          Tournamentspider    ServerSetTaunt              0x00070004  985222+42         0      3bca49ce518b0f13
+    354  Function          Tournamentspider    PreSetMovement              0x00070004  985264+66         0      3bca49ce518b0f13
+    355  Animation         -                   jumperanim                  0x000f0004  985330+398682     0      27a2e6c0c265b887
+    356  Function          Skeletalspider      PlayLeftHit                 0x00070004  1384012+94        0      3bca49ce518b0f13
+    357  Function          Jumper              SetMultiSkin                0x00070004  1384106+613       0      3bca49ce518b0f13
+    358  TextBuffer        Jumper              ScriptText                  0x00340000  1384719+4967      0      fc4aa8809c477bd3
+    359  Function          Tournamentspider    ListBots                    0x00070004  1389686+162       0      3bca49ce518b0f13
+    360  Palette           Skins               Palette53                   0x00070004  1389848+1027      0      11e076fef8d46142
+    361  Palette           Skins               Palette11                   0x00070004  1390875+1027      0      c2fbe5d3513b1597
+    362  Palette           Skins               Palette55                   0x00070004  1391902+1027      0      70c259e113114bcd
+    363  Function          Tournamentspider    ServerSetVoice              0x00070004  1392929+46        0      3bca49ce518b0f13
+    364  Palette           Skins               Palette57                   0x00070004  1392975+1027      0      d8c0ec6f5488ba7e
+    365  Function          Tournamentspider    SetVoice                    0x00070004  1394002+66        0      3bca49ce518b0f13
+    366  Palette           Skins               Palette59                   0x00070004  1394068+1027      0      9f3679bb8c67625d
+    367  -                 -                   tarantulabot                0x000f0004  1395095+292       0      3bca49ce518b0f13
+    368  Palette           Skins               Palette61                   0x00070004  1395387+1027      0      492d2c2c2b7884f5
+    369  Function          Tournamentspider    TimeMessage                 0x00070004  1396414+89        0      3bca49ce518b0f13
+    370  Palette           Skins               Palette63                   0x00070004  1396503+1027      0      ce6e1990a16c24c2
+    371  Function          Tournamentspider    ReplicateMove               0x00070004  1397530+256       0      3bca49ce518b0f13
+    372  Palette           Skins               Palette65                   0x00070004  1397786+1027      0      8e6639c837e41f9b
+    373  Function          Tournamentspider    realWeapon                  0x00070004  1398813+137       0      3bca49ce518b0f13
+    374  Palette           Skins               Palette67                   0x00070004  1398950+1027      0      e36fee19766a3709
+    375  Function          Tournamentspider    UpdateRealWeapon            0x00070004  1399977+46        0      3bca49ce518b0f13
+    376  Palette           Skins               Palette69                   0x00070004  1400023+1027      0      b31ade1dac622a79
+    377  Function          Tournamentspider    SendAltFire                 0x00070004  1401050+46        0      3bca49ce518b0f13
+    378  Palette           Skins               Palette71                   0x00070004  1401096+1027      0      25858d3dd929c2db
+    379  Function          Tournamentspider    SendFire                    0x00070004  1402123+46        0      3bca49ce518b0f13
+    380  Palette           Skins               Palette73                   0x00070004  1402169+1027      0      b67f60a31dc98364
+    381  Function          Tournamentspider    ClientPutDown               0x00070004  1403196+183       0      3bca49ce518b0f13
+    382  Palette           Skins               Palette75                   0x00070004  1403379+1027      0      97853958824bf0c7
+    383  Function          Tournamentspider    KillAll                     0x00070004  1404406+132       0      3bca49ce518b0f13
+    384  Palette           Skins               Palette77                   0x00070004  1404538+1027      0      e599bc68eef64dd6
+    385  TextBuffer        Tournamentspider    ScriptText                  0x00340000  1405565+37481     0      d8574e901c96719d
+    386  StrProperty       SetMultiSkin        FaceName                    0x00070004  1443046+13        0      3bca49ce518b0f13
+    387  Function          Tournamentspider    SendClientAltFire           0x00070004  1443059+84        0      3bca49ce518b0f13
+    388  Function          Tournamentspider    SendClientFire              0x00070004  1443143+84        0      3bca49ce518b0f13
+    389  Function          spiderBotPlus       PlayTurning                 0x00070004  1443227+93        0      3bca49ce518b0f13
+    390  Function          spiderBotPlus       PlayFlip                    0x00070004  1443320+82        0      3bca49ce518b0f13
+    391  Function          spiderBotPlus       PlayHit                     0x00070004  1443402+576       0      3bca49ce518b0f13
+    392  Function          Tournamentspider    PreCacheReferences          0x00070004  1443978+120       0      3bca49ce518b0f13
+    393  ClassProperty     ClientReplicateSkins C                           0x00070004  1444098+14        0      3bca49ce518b0f13
+    394  Function          Tournamentspider    ClientReplicateSkins        0x00070004  1444112+124       0      3bca49ce518b0f13
+    395  Function          Tournamentspider    PostBeginPlay               0x00070004  1444236+177       0      3bca49ce518b0f13
+    396  FloatProperty     PlayHit             rnd                         0x00070004  1444413+13        0      3bca49ce518b0f13
+    397  BoolProperty      EncroachingOn       ReturnValue                 0x00070004  1444426+12        0      3bca49ce518b0f13
+    398  Function          Tournamentspider    EncroachingOn               0x00070004  1444438+188       0      3bca49ce518b0f13
+    399  Function          Tournamentspider    ClientPlaySound             0x00070004  1444626+262       0      3bca49ce518b0f13
+    400  StructProperty    PlayHit             Mo                          0x00070004  1444888+13        0      3bca49ce518b0f13
+    401  Palette           Skins               Palette15                   0x00070004  1444901+1027      0      163ed5f939fdea70
+    402  Function          spiderBotPlus       PlayWaving                  0x00070004  1445928+45        0      3bca49ce518b0f13
+    403  Function          spiderBotPlus       TweenToWalking              0x00070004  1445973+104       0      3bca49ce518b0f13
+    404  FloatProperty     DoJump              F                           0x00070004  1446077+12        0      3bca49ce518b0f13
+    405  Function          spiderBotPlus       TweenToRunning              0x00070004  1446089+136       0      3bca49ce518b0f13
+    406  Function          Tournamentspider    DoJump                      0x00070004  1446225+281       0      3bca49ce518b0f13
+    407  Function          Tournamentspider    PlayWinMessage              0x00070004  1446506+117       0      3bca49ce518b0f13
+    408  Function          spiderBotPlus       PlayWalking                 0x00070004  1446623+78        0      3bca49ce518b0f13
+    409  Function          spiderBotPlus       PlayRunning                 0x00070004  1446701+368       0      3bca49ce518b0f13
+    410  Function          Tournamentspider    TweenToSwimming             0x00070004  1447069+88        0      3bca49ce518b0f13
+    411  Function          ImpactJumping       PlayWaiting                 0x00070004  1447157+39        0      3bca49ce518b0f13
+    412  Function          Skeletalspiderbot   PlayVictoryDance            0x00070004  1447196+113       0      3bca49ce518b0f13
+    413  Function          spiderCarcass       CreateReplacement           0x00070004  1447309+202       0      3bca49ce518b0f13
+    414  Function          spiderCarcass       SpawnHead                   0x00070004  1447511+29        0      3bca49ce518b0f13
+    415  ObjectProperty    ClientExtraChunks   P                           0x00070004  1447540+13        0      3bca49ce518b0f13
+    416  Function          spiderMasterChunk   ClientExtraChunks           0x00070004  1447553+456       0      3bca49ce518b0f13
+    417  State             spiderBotPlus       ImpactJumping               0x00070004  1448009+45        0      3bca49ce518b0f13
+    418  Function          spiderBotPlus       PlayRising                  0x00070004  1448054+52        0      3bca49ce518b0f13
+    419  Function          spiderBotPlus       PlayFeignDeath              0x00070004  1448106+101       0      3bca49ce518b0f13
+    420  StrProperty       SetMultiSkin        FaceName                    0x00070004  1448207+13        0      3bca49ce518b0f13
+    421  Function          spiderBotPlus       PlayLanded                  0x00070004  1448220+272       0      3bca49ce518b0f13
+    422  Function          jumperbot           SetMultiSkin                0x00070004  1448492+613       0      3bca49ce518b0f13
+    423  Function          spiderBotPlus       FastInAir                   0x00070004  1449105+148       0      3bca49ce518b0f13
+    424  Function          spiderBotPlus       TweenToSwimming             0x00070004  1449253+88        0      3bca49ce518b0f13
+    425  Function          spiderBotPlus       PlayInAir                   0x00070004  1449341+144       0      3bca49ce518b0f13
+    426  Function          spitterbot          SetMultiSkin                0x00070004  1449485+617       0      3bca49ce518b0f13
+    427  Function          spiderBotPlus       PlayDodge                   0x00070004  1450102+63        0      3bca49ce518b0f13
+    428  StrProperty       SetMultiSkin        FaceName                    0x00070004  1450165+13        0      3bca49ce518b0f13
+    429  Function          spiderBotPlus       PlayDuck                    0x00070004  1450178+87        0      3bca49ce518b0f13
+    430  Function          spiderBotPlus       PlayCrawling                0x00070004  1450265+77        0      3bca49ce518b0f13
+    431  Function          spiderBotPlus       TweenToWaiting              0x00070004  1450342+368       0      3bca49ce518b0f13
+    432  StrProperty       SetMultiSkin        FaceName                    0x00070004  1450710+13        0      3bca49ce518b0f13
+    433  Function          spiderBotPlus       TweenToFighter              0x00070004  1450723+37        0      3bca49ce518b0f13
+    434  Function          Skeletalspiderbot   PlayRightHit                0x00070004  1450760+93        0      3bca49ce518b0f13
+    435  Function          spiderBotPlus       PlayChallenge               0x00070004  1450853+38        0      3bca49ce518b0f13
+    436  Function          spiderBotPlus       PlayLookAround              0x00070004  1450891+56        0      3bca49ce518b0f13
+    437  Function          spiderBotPlus       PlayWaiting                 0x00070004  1450947+597       0      3bca49ce518b0f13
+    438  Function          tarantulabot        SetMultiSkin                0x00070004  1451544+613       0      3bca49ce518b0f13
+    439  Function          spiderBotPlus       PlayRecoil                  0x00070004  1452157+189       0      3bca49ce518b0f13
+    440  Function          Skeletalspiderbot   PlayHeadHit                 0x00070004  1452346+93        0      3bca49ce518b0f13
+    441  Function          spiderBotPlus       PlayFiring                  0x00070004  1452439+239       0      3bca49ce518b0f13
+    442  Function          spiderBotPlus       PlayWeaponSwitch            0x00070004  1452678+31        0      3bca49ce518b0f13
+    443  ObjectProperty    PlayWeaponSwitch    NewWeapon                   0x00070004  1452709+13        0      3bca49ce518b0f13
+    444  Function          spiderBotPlus       PlaySwimming                0x00070004  1452722+81        0      3bca49ce518b0f13
+    445  Function          Skeletalspiderbot   PlayLeftHit                 0x00070004  1452803+93        0      3bca49ce518b0f13
+    446  Function          Skeletalspiderbot   PlayGutHit                  0x00070004  1452896+116       0      3bca49ce518b0f13
+    447  Function          Skeletalspiderbot   PlayDying                   0x00070004  1453012+382       0      3bca49ce518b0f13
+    448  Function          Skeletalspiderbot   PlayDecap                   0x00070004  1453394+40        0      3bca49ce518b0f13
+    449  Texture           Skins               spitterg3                   0x000f0004  1453434+87590     12     5726c1da15860217
+    450  Texture           Skins               jumper1                     0x000f0004  1541024+87590     12     609393fe4014f0c0
+    451  Texture           Skins               spitterb1                   0x000f0004  1628614+87590     12     ca2acdea0c00cdd5
+    452  Texture           Skins               spitterr3                   0x000f0004  1716204+87590     12     5fe9e7ef99d3ef04
+    453  Texture           Skins               spitterg1                   0x000f0004  1803794+87590     12     7c724942d1bed9a8
+    454  Texture           Skins               jumperg3                    0x000f0004  1891384+87590     12     f3698bf24082f9a9
+    455  Texture           Skins               spitterg2                   0x000f0004  1978974+87590     12     6ac9d8fe2b661881
+    456  Texture           Skins               spitterr2                   0x000f0004  2066564+87590     12     9a452653385c4bd8
+    457  Texture           Skins               jumpface                    0x000f0004  2154154+5636      12     0ae03e8068ea21aa
+    458  Texture           Skins               spitterr1                   0x000f0004  2159790+87590     12     b0c1ab62b07fc9aa
+    459  Texture           Skins               jumper3                     0x000f0004  2247380+87590     12     d65803d93c8618b6
+    460  Texture           Skins               spitface                    0x000f0004  2334970+5636      12     9174f64677ce399e
+    461  Texture           Skins               jumper2                     0x000f0004  2340606+87590     12     38925399df93e35d
+    462  Texture           Skins               spitter3                    0x000f0004  2428196+87590     12     ff13275e1327ba30
+    463  Texture           Skins               jumperb2                    0x000f0004  2515786+87590     12     5182b2b5f709f37e
+    464  Texture           Skins               spitter2                    0x000f0004  2603376+87590     12     2b15139f8f90982f
+    465  Texture           Skins               spitter1                    0x000f0004  2690966+87590     12     625d40c304d2c15e
+    466  Texture           Skins               spitterb3                   0x000f0004  2778556+87590     12     5cc9af7c3332304b
+    467  Texture           Skins               tarang3                     0x000f0004  2866146+87590     12     58993998ab64c570
+    468  Texture           Skins               tarang2                     0x000f0004  2953736+87590     12     38fc2eb7184dd567
+    469  Texture           Skins               jumperb1                    0x000f0004  3041326+87590     12     eada52cc5a73bb47
+    470  Texture           Skins               tarang1                     0x000f0004  3128916+87590     12     aa8dc87e6004c78b
+    471  Texture           Skins               taranb3                     0x000f0004  3216506+87590     12     c1a46310af2caa7b
+    472  Texture           Skins               jumperr1                    0x000f0004  3304096+87590     12     74e3dd238cda5cc2
+    473  Texture           Skins               taranb2                     0x000f0004  3391686+87590     12     22b1df80231584e0
+    474  Texture           Skins               taranb1                     0x000f0004  3479276+87590     12     38b45212fa69d00c
+    475  Texture           Skins               jumperb3                    0x000f0004  3566866+87590     12     d003f1b34d43d510
+    476  Texture           Skins               taranr3                     0x000f0004  3654456+87590     12     58832c06fea157b6
+    477  Texture           Skins               taranr2                     0x000f0004  3742046+87590     12     6de09caa35f7fad5
+    478  Texture           Skins               jumperr2                    0x000f0004  3829636+87590     12     1518bae690016c89
+    479  Texture           Skins               taranr1                     0x000f0004  3917226+87590     12     b661d1af04cec9af
+    480  Texture           Skins               taranface                   0x000f0004  4004816+5636      12     484a08a0c92085bf
+    481  Texture           Skins               jumperr3                    0x000f0004  4010452+87590     12     1533f0acbed926b0
+    482  Texture           Skins               taran3                      0x000f0004  4098042+87590     12     698e2f142e4e4f3f
+    483  Texture           Skins               taran2                      0x000f0004  4185632+87590     12     77cdbbd9787b6243
+    484  Texture           Skins               jumperg1                    0x000f0004  4273222+87590     12     03df060969f22549
+    485  Texture           Skins               jumperg2                    0x000f0004  4360812+87590     12     be4a6eb8b7f38e82
+    486  Texture           Skins               spitterb2                   0x000f0004  4448402+87590     12     621aaeb1f961243c
+    487  Texture           Skins               taran1                      0x000f0004  4535992+87590     12     220004b13e3a2744
+    488  Package           -                   Skins                       0x00070004  4623582+1         0      3bca49ce518b0f13

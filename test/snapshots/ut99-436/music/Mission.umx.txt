@@ -1,0 +1,39 @@
+package  ut99-436/music/Mission.umx
+bytes    734957
+sha256   10839051ef41ea0145823243e00f3b1016df2a3ddc67d81a7716817158a16a95
+
+[header]
+  signature           0x9e2a83c1
+  version             64
+  licensee_version    0
+  package_flags       0x00000001
+  name_count          8
+  name_offset         60
+  export_count        1
+  export_offset       734941
+  import_count        2
+  import_offset       734927
+  heritage_count      1
+  heritage_offset     44
+
+[classes] 1
+  music                   1
+
+[names] 8
+      0  0x00070010  it
+      1  0x04070410  None
+      2  0x04070410  Package
+      3  0x04070410  Class
+      4  0x00070010  Music
+      5  0x04070010  Engine
+      6  0x00070010  Mission
+      7  0x04070010  Core
+
+[imports] 2
+    idx  class             classpkg      package             name
+     -1  Class             Core          Engine              Music
+     -2  Package           Core          -                   Engine
+
+[exports] 1
+    idx  class             package             name                        flags       serial            props  parse
+      1  Music             -                   Mission                     0x000f0004  148+734779        0      48ad6e4912aba5cf

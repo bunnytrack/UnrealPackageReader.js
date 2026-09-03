@@ -1,0 +1,213 @@
+package  ut99-436/system/epiccustommodels.u
+bytes    2408852
+sha256   debb0ece16ef8ad33d48a59cda7a3a1ab9b173b2cdf261e4a158683c484842a9
+
+[header]
+  signature           0x9e2a83c1
+  version             69
+  licensee_version    0
+  package_flags       0x00000001
+  name_count          138
+  name_offset         72
+  export_count        31
+  export_offset       2408312
+  import_count        10
+  import_offset       2408225
+  guid                13F8255A11D3DBA01000CBB9F6F8975A
+  generation_count    2
+  generation[0]       exports=27 names=132
+  generation[1]       exports=31 names=138
+
+[classes] 5
+  lodmesh                 3
+  package                 1
+  palette                 9
+  textbuffer              4
+  texture                 10
+
+[names] 138
+      0  0x04070410  None
+      1  0x00070010  PlayFootStep
+      2  0x00070010  Waiting
+      3  0x00070010  MovingFire
+      4  0x00070010  Jumping
+      5  0x00070010  InternalTime
+      6  0x04070410  Color
+      7  0x00070010  Gesture
+      8  0x00070010  TakeHit
+      9  0x00070010  LandThump
+     10  0x00070010  Palette
+     11  0x00070010  USize
+     12  0x00070010  VSize
+     13  0x00070010  UClamp
+     14  0x00070010  VClamp
+     15  0x00070010  MipZero
+     16  0x00070010  VBits
+     17  0x00070010  UBits
+     18  0x00070010  MaxColor
+     19  0x00070010  Ducking
+     20  0x00070010  LODSet
+     21  0x00070010  Landing
+     22  0x04070010  Core
+     23  0x00070010  EpicCustomModels
+     24  0x04070010  Engine
+     25  0x04070010  System
+     26  0x04070010  All
+     27  0x00070010  AimDnLg
+     28  0x00070010  CockGunL
+     29  0x00070010  WalkSmFr
+     30  0x00070010  Walk
+     31  0x00070010  DodgeF
+     32  0x00070010  Chat1
+     33  0x00070010  Fighter
+     34  0x00070010  DodgeB
+     35  0x00070010  RunSmFr
+     36  0x00070010  Dead2
+     37  0x00070010  DodgeL
+     38  0x00070010  DodgeR
+     39  0x00070010  GutHit
+     40  0x00070010  Dead3
+     41  0x00070010  LeftHit
+     42  0x00070010  RightHit
+     43  0x00070010  Breath2
+     44  0x00070010  Dead4
+     45  0x00070010  BackRun
+     46  0x00070010  HeadHit
+     47  0x00070010  RunSm
+     48  0x00070010  StillSmFr
+     49  0x00070010  StillFrRp
+     50  0x00070010  WalkSm
+     51  0x00070010  DuckWlkS
+     52  0x00070010  JumpLgFr
+     53  0x00070010  RunLg
+     54  0x00070010  JumpSmFr
+     55  0x00070010  WalkLg
+     56  0x00070010  StrafeR
+     57  0x00070010  WalkLgFr
+     58  0x00070010  Look
+     59  0x00070010  DuckWlkL
+     60  0x00070010  RunLgFr
+     61  0x00070010  LandSmFr
+     62  0x00070010  TreadSm
+     63  0x00070010  AimUpSm
+     64  0x00070010  TreadLg
+     65  0x00070010  AimUpLg
+     66  0x00070010  StrafeL
+     67  0x00070010  AimDnSm
+     68  0x00070010  CockGun
+     69  0x00070010  Breath3
+     70  0x00070010  SwimLg
+     71  0x00070010  SwimSm
+     72  0x00070010  Flip
+     73  0x00070010  LandLgFr
+     74  0x00070010  Wave
+     75  0x00070010  TurnLg
+     76  0x00070010  Thrust
+     77  0x00070010  StillLgFr
+     78  0x00070010  TurnSm
+     79  0x00070010  Victory1
+     80  0x00070010  Breath2L
+     81  0x00070010  Breath1L
+     82  0x00070010  Breath1
+     83  0x00070010  Taunt1
+     84  0x00070010  DeathEnd
+     85  0x00070010  Dead1
+     86  0x00070010  DeathEnd2
+     87  0x00070010  Dodge
+     88  0x00070010  WaveL
+     89  0x00070010  LookL
+     90  0x00070010  Dead9
+     91  0x00070010  Duck
+     92  0x00070010  Dead
+     93  0x00070010  ROLLLEFT
+     94  0x00070010  TSkaarjMeshInfo
+     95  0x00070010  DeathEnd3
+     96  0x00070010  TNaliMeshInfo
+     97  0x00070010  Drowning
+     98  0x00070010  Dead9B
+     99  0x00070010  BigHit
+    100  0x00070010  Run
+    101  0x00070010  Dead5
+    102  0x00070010  ROLLRIGHT
+    103  0x00070010  TCowMeshInfo
+    104  0x00070010  custommeshinfo
+    105  0x04070410  Class
+    106  0x00070010  Palette4
+    107  0x00070010  LodMesh
+    108  0x00070010  ScriptText
+    109  0x04070010  Texture
+    110  0x04070010  TextBuffer
+    111  0x00070010  Palette122
+    112  0x00070010  Palette2
+    113  0x04070010  Object
+    114  0x04070410  Package
+    115  0x00070010  Palette1
+    116  0x00070010  Info
+    117  0x00070010  Palette124
+    118  0x00070010  TCowMeshSkins
+    119  0x00070010  COW-face
+    120  0x00070010  T_cow_0
+    121  0x00070010  T_cow_3
+    122  0x00070010  T_cow_2
+    123  0x00070010  T_cow_1
+    124  0x00070010  cowpack
+    125  0x00070010  warcow
+    126  0x00070010  warcowface
+    127  0x00070010  TCowMesh
+    128  0x00070010  tnalimesh
+    129  0x00070010  TSkM
+    130  0x00070010  Palette118
+    131  0x00070010  Palette120
+    132  0x04070410  None
+    133  0x00070010  bMasked
+    134  0x00070010  atomiccow
+    135  0x00070010  atomiccowface
+    136  0x00070010  Palette7
+    137  0x00070010  Palette5
+
+[imports] 10
+    idx  class             classpkg      package             name
+     -1  Package           Core          -                   Engine
+     -2  Package           Core          -                   Core
+     -3  Class             Core          Engine              Texture
+     -4  Class             Core          Engine              Palette
+     -5  Class             Core          Core                Object
+     -6  Class             Core          Core                Class
+     -7  Class             Core          Core                TextBuffer
+     -8  Class             Core          Engine              LodMesh
+     -9  Class             Core          Engine              Info
+    -10  Class             Core          Core                Package
+
+[exports] 31
+    idx  class             package             name                        flags       serial            props  parse
+      1  -                 -                   custommeshinfo              0x000f0004  1890+87           0      3bca49ce518b0f13
+      2  Palette           TCowMeshSkins       Palette2                    0x00070004  1977+1028         0      afb99d20a203f51e
+      3  TextBuffer        TCowMeshInfo        ScriptText                  0x00340000  3005+7690         0      4488890383d1dcfb
+      4  -                 -                   TCowMeshInfo                0x000f0004  10695+87          0      3bca49ce518b0f13
+      5  TextBuffer        TNaliMeshInfo       ScriptText                  0x00340000  10782+8912        0      184325f161665bb9
+      6  -                 -                   TSkaarjMeshInfo             0x000f0004  19694+87          0      3bca49ce518b0f13
+      7  TextBuffer        TSkaarjMeshInfo     ScriptText                  0x00340000  19781+8795        0      85fd3b7a467cdac2
+      8  TextBuffer        custommeshinfo      ScriptText                  0x00340000  28576+297         0      1af4404d8692b146
+      9  -                 -                   TNaliMeshInfo               0x000f0004  28873+87          0      3bca49ce518b0f13
+     10  Palette           TCowMeshSkins       Palette1                    0x00070004  28960+1028        0      0519656d1828fbad
+     11  Palette           TCowMeshSkins       Palette118                  0x00070004  29988+1028        0      c7bd0fa0c9f85b55
+     12  Palette           TCowMeshSkins       Palette122                  0x00070004  31016+1028        0      b3aeeb61cfe52b5f
+     13  Palette           TCowMeshSkins       Palette124                  0x00070004  32044+1028        0      5533666f00b41584
+     14  Palette           TCowMeshSkins       Palette4                    0x00070004  33072+1028        0      f7343e20bb6b02f1
+     15  Palette           TCowMeshSkins       Palette120                  0x00070004  34100+1028        0      93693bc24a5054a8
+     16  Package           -                   TCowMeshSkins               0x00070004  35128+2           0      3bca49ce518b0f13
+     17  Texture           TCowMeshSkins       COW-face                    0x000f0004  35130+4179        12     412a2cdc9056dc0c
+     18  Texture           TCowMeshSkins       cowpack                     0x000f0004  39309+87583       11     6ae53d93cd94f692
+     19  LodMesh           -                   TCowMesh                    0x000f0004  126892+373433     0      f0a3d52a5ab9b7e5
+     20  Texture           TCowMeshSkins       warcow                      0x000f0004  500325+87590      12     63361109cfc8bcc1
+     21  Texture           TCowMeshSkins       T_cow_3                     0x000f0004  587915+87590      12     b0962392a0b61f43
+     22  Texture           TCowMeshSkins       T_cow_0                     0x000f0004  675505+87590      12     33a0a5b1e867015c
+     23  Texture           TCowMeshSkins       T_cow_2                     0x000f0004  763095+87590      12     e125a9ec97b14b97
+     24  Texture           TCowMeshSkins       T_cow_1                     0x000f0004  850685+87590      12     6df038ee0e421909
+     25  Texture           TCowMeshSkins       warcowface                  0x000f0004  938275+4179       12     ee60dee550bcc807
+     26  LodMesh           -                   tnalimesh                   0x000f0004  942454+477454     0      88feebef42812edd
+     27  LodMesh           -                   TSkM                        0x000f0004  1419908+916462    0      07c2abe4b186aba9
+     28  Palette           TCowMeshSkins       Palette7                    0x00070004  2336370+1028      0      f5ab1cf566dc6dfb
+     29  Palette           TCowMeshSkins       Palette5                    0x00070004  2337398+1028      0      f352a772fc368029
+     30  Texture           TCowMeshSkins       atomiccow                   0x000f0004  2338426+65620     12     01836a381dd733df
+     31  Texture           TCowMeshSkins       atomiccowface               0x000f0004  2404046+4179      12     6b033785502d1fc4

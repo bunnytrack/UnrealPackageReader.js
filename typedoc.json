@@ -1,0 +1,34 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "name": "UnrealPackageReader.js",
+  "entryPoints": [
+    "src/reader.ts",
+    "src/package/index.ts",
+    "src/natives/index.ts",
+    "src/structs/index.ts",
+    "src/constants/index.ts",
+    "src/io/cursor.ts",
+    "src/io/text.ts"
+  ],
+  "out": "docs",
+  "readme": "README.md",
+  "headings": {
+    "readme": false
+  },
+  "sortEntryPoints": false,
+  "sort": [
+    "source-order"
+  ],
+  "highlightLanguages": [
+    "cpp",
+    "html",
+    "ini",
+    "js",
+    "ts"
+  ],
+  "favicon": "demo/icons/favicon.png",
+  "includeVersion": false,
+  "excludePrivate": true,
+  "excludeInternal": true,
+  "treatWarningsAsErrors": true
+}

@@ -1,0 +1,51 @@
+package  ut99-221/sounds/DMatch.uax
+bytes    177443
+sha256   e0e5ef3ceeaf169f790fb696ce49dcfc97df5b17d9de0e2b67f8108878186c3b
+
+[header]
+  signature           0x9e2a83c1
+  version             61
+  licensee_version    0
+  package_flags       0x00000001
+  name_count          13
+  name_offset         60
+  export_count        5
+  export_offset       177361
+  import_count        4
+  import_offset       177333
+  heritage_count      1
+  heritage_offset     44
+
+[classes] 2
+  package                 1
+  sound                   4
+
+[names] 13
+      0  0x04070410  None
+      1  0x00070010  WAV
+      2  0x00070010  DMatch
+      3  0x04070410  Package
+      4  0x04070410  Class
+      5  0x04070010  Sound
+      6  0x04070010  Core
+      7  0x04070010  Engine
+      8  0x00070010  1234
+      9  0x00070010  Four
+     10  0x00070010  One
+     11  0x00070010  Three
+     12  0x00070010  Two
+
+[imports] 4
+    idx  class             classpkg      package             name
+     -1  Class             Core          Engine              Sound
+     -2  Package           Core          -                   Engine
+     -3  Class             Core          Core                Package
+     -4  Package           Core          -                   Core
+
+[exports] 5
+    idx  class             package             name                        flags       serial            props  parse
+      1  Sound             1234                Three                       0x000f0004  184+44479         0      7ccc0f597e5485e7
+      2  Sound             1234                Four                        0x000f0004  44663+44223       0      772e15150574a589
+      3  Sound             1234                One                         0x000f0004  88886+44159       0      b0698992e79da681
+      4  Sound             1234                Two                         0x000f0004  133045+44287      0      0c458ba3927bf3fc
+      5  Package           -                   1234                        0x00070004  177332+1          0      3bca49ce518b0f13

@@ -1,0 +1,9 @@
+/node_modules
+/docs
+
+# Dev-related tooling
+/test/corpus/*
+!/test/corpus/.gitkeep
+/test/deep
+/local
+CLAUDE.local.md

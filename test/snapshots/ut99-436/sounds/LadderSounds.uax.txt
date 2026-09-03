@@ -1,0 +1,52 @@
+package  ut99-436/sounds/LadderSounds.uax
+bytes    247341
+sha256   3b8ec7fc7f6572665470b6a8331e2bf5c867068365251cd86ed942544126b84f
+
+[header]
+  signature           0x9e2a83c1
+  version             66
+  licensee_version    0
+  package_flags       0x00000001
+  name_count          13
+  name_offset         60
+  export_count        6
+  export_offset       247243
+  import_count        4
+  import_offset       247215
+  heritage_count      1
+  heritage_offset     44
+
+[classes] 2
+  package                 1
+  sound                   5
+
+[names] 13
+      0  0x04070410  None
+      1  0x00070010  WAV
+      2  0x00070010  LadderSounds
+      3  0x04070410  Package
+      4  0x04070410  Class
+      5  0x04070010  Sound
+      6  0x04070010  Core
+      7  0x04070010  Engine
+      8  0x00070010  lsChange1
+      9  0x00070010  lcursorMove
+     10  0x00070010  ldoorsopen1b
+     11  0x00070010  lface1
+     12  0x00070010  ladvance
+
+[imports] 4
+    idx  class             classpkg      package             name
+     -1  Package           Core          -                   Engine
+     -2  Class             Core          Engine              Sound
+     -3  Class             Core          Core                Package
+     -4  Package           Core          -                   Core
+
+[exports] 6
+    idx  class             package             name                        flags       serial            props  parse
+      1  Sound             LadderSounds        lsChange1                   0x000f0004  230+88939         0      46b2275b9c3d32cd
+      2  Sound             LadderSounds        lcursorMove                 0x000f0004  89169+12651       0      d15d7f0e96345a81
+      3  Sound             LadderSounds        ldoorsopen1b                0x000f0004  101820+108837     0      dd83abe0f88e51ad
+      4  Sound             LadderSounds        lface1                      0x000f0004  210657+4470       0      35af2aaaeef09275
+      5  Sound             LadderSounds        ladvance                    0x000f0004  215127+32087      0      52095e590fd0a59c
+      6  Package           -                   LadderSounds                0x00070004  247214+1          0      3bca49ce518b0f13

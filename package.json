@@ -1,0 +1,24 @@
+{
+  "name": "unrealpackagereader",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/browser/entry.ts --bundle --format=iife --target=es2022 --sourcemap --outfile=dist/UnrealPackageReader.js",
+    "docs": "typedoc",
+    "format": "prettier \"{src,test}/**/*.{ts,js}\" --write",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:update": "vitest run -u",
+    "dump": "node test/dump.ts",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.0",
+    "esbuild": "^0.28.2",
+    "prettier": "^3.9.6",
+    "typedoc": "^0.28.20",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.11"
+  }
+}

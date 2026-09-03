@@ -62,21 +62,20 @@ var UnrealPackageReader = function (arrayBuffer) {
   /**
    * A compact index is a variable-length signed integer spanning 1-5 bytes:
    *
+   * ```
    *   byte 1     bit 8 = sign, bit 7 = continuation, bits 1-6 = value
    *   bytes 2-5  bit 8 = continuation, bits 1-7 = value
+   * ```
    *
    * 6 + 7 + 7 + 7 bits leaves only 5 bits for the fifth byte, making 32 in
    * total - the most a compact index can hold. The fifth byte is therefore
    * terminal, and a conforming encoder can never set its continuation bit,
    * because the value that bit would continue has already used every bit
    * available to it.
-   *
-   * The engine ignores that bit rather than checking it. Ignoring it only
-   * bounds the damage instead of reporting it though: if the bit is set then
-   * the bytes are rubbish, and everything read after them is meaningless
-   * whatever we do here - so this throws instead.
    */
   const MAX_COMPACT_INDEX_BYTES = 5;
+
+  const MAX_PACKAGE_DEPTH = 128;
 
   const CompactIndex = () => {
     const firstByte = Uint8();
@@ -193,6 +192,73 @@ var UnrealPackageReader = function (arrayBuffer) {
   };
 
   /**
+   * A static-array element index in the engine's own encoding
+   * (`FPropertyTag<<`, Core/Src/UnClass.cpp in the UT v400 tree):
+   *
+   *   ```
+   *   0xxxxxxx                            one byte, 0-127
+   *   10xxxxxx xxxxxxxx                   two bytes, big-endian
+   *   11xxxxxx xxxxxxxx xxxxxxxx xxxxxxxx four bytes, big-endian
+   *   ```
+   *
+   * Big-endian because the engine writes it byte by byte, not as a word. Not a
+   * compact index - the continuation bit lives elsewhere.
+   */
+  this.getArrayIndex = function () {
+    const first = Uint8();
+
+    if ((first & 0x80) === 0) {
+      return first;
+    }
+
+    if ((first & 0xc0) === 0x80) {
+      return ((first & 0x7f) << 8) | Uint8();
+    }
+
+    return ((first & 0x3f) << 24) | (Uint8() << 16) | (Uint8() << 8) | Uint8();
+  };
+
+  /** Copy of the next `byteCount` bytes. */
+  this.getBytes = function (byteCount) {
+    const start = reader.offset;
+    reader.offset += byteCount;
+    return new Uint8Array(reader.dataView.buffer.slice(start, reader.offset));
+  };
+
+  /** The legacy fixed-length String type: null-terminated ANSI within `size`. */
+  this.getFixedString = function (size) {
+    const bytes = reader.getBytes(size);
+    const terminator = bytes.indexOf(0);
+
+    return reader.decodeText(
+      terminator === -1 ? bytes : bytes.subarray(0, terminator),
+    );
+  };
+
+  /**
+   * REFACTOR SCAFFOLDING - remove once the TypeScript port lands.
+   *
+   * These helpers are closure-private, so there is no way to test them from
+   * outside. Exposing them lets the test suite pin their exact current
+   * behaviour, which then serves as the spec the ported versions must match
+   * byte for byte. Nothing in the reader itself reads this property.
+   */
+  this.__internals = {
+    Int8,
+    Uint8,
+    Int16,
+    Uint16,
+    Int32,
+    Uint32,
+    Float32,
+    BigInt64,
+    BigUint64,
+    CompactIndex,
+    Name,
+    TArray,
+  };
+
+  /**
    * Package table objects
    */
   class UObject {
@@ -215,7 +281,13 @@ var UnrealPackageReader = function (arrayBuffer) {
     get uppermostPackageObject() {
       let parent = this;
 
-      while (parent.packageObject) {
+      for (let depth = 0; parent.packageObject; depth++) {
+        if (depth === MAX_PACKAGE_DEPTH) {
+          throw new Error(
+            `Package chain for "${this.objectName}" exceeds ${MAX_PACKAGE_DEPTH} levels; bailing out`,
+          );
+        }
+
         parent = parent.packageObject;
       }
 
@@ -337,37 +409,39 @@ var UnrealPackageReader = function (arrayBuffer) {
             break;
         }
 
-        // Property special flags
+        /**
+         * Bit 7 is the array flag - except for a Boolean, where it is the value
+         * itself and no index follows.
+         *
+         * The engine writes one entry per static-array element that differs
+         * from the default, in ascending order, and element 0 is written
+         * *without* the flag. So when a flagged element follows an unmarked
+         * property of the same name, that previous property was element 0 and
+         * is marked as such after the fact - rebuilt rather than mutated, so
+         * its key order matches an element that was read with the flag.
+         */
         const arrayFlag = Boolean(infoByte >> 7);
 
         if (prop.type !== "Boolean" && arrayFlag) {
-          let prevProp, arrayIndex;
+          prop.index = reader.getArrayIndex();
 
-          if (properties.length > 0) {
-            prevProp = properties[properties.length - 1];
+          const prevProp = properties[properties.length - 1];
 
-            if (prevProp.name === prop.name && prevProp.subtype === undefined) {
-              prevProp.subtype = "Array";
-              prevProp.index = 0;
-            }
-
-            properties[properties.length - 1] = prevProp;
+          if (
+            prevProp &&
+            prevProp.index === undefined &&
+            prevProp.name === prop.name
+          ) {
+            properties[properties.length - 1] = {
+              name: prevProp.name,
+              type: prevProp.type,
+              ...(prevProp.subtype !== undefined
+                ? { subtype: prevProp.subtype }
+                : {}),
+              index: 0,
+              value: prevProp.value,
+            };
           }
-
-          if (prevProp && prevProp.index !== undefined) {
-            if (prevProp.index >= 0x3fff) {
-              arrayIndex = Uint32() & 0x3fffffff;
-            } else if (prevProp.index >= 0x7f) {
-              arrayIndex = Uint16() & 0x7fff;
-            } else {
-              arrayIndex = Uint8();
-            }
-          } else {
-            arrayIndex = Uint8();
-          }
-
-          prop.aggtype = "Array";
-          prop.index = arrayIndex;
         }
 
         // Assign property value
@@ -388,16 +462,15 @@ var UnrealPackageReader = function (arrayBuffer) {
             prop.value = Float32();
             break;
 
+          // A class<...> variable is an object reference to a class, written
+          // exactly like Object (UClassProperty subclasses UObjectProperty).
           case "Object":
+          case "Class":
             prop.value = CompactIndex();
             break;
 
           case "Name":
             prop.value = Name();
-            break;
-
-          // Handled later
-          case "Class":
             break;
 
           case "Struct":
@@ -422,8 +495,9 @@ var UnrealPackageReader = function (arrayBuffer) {
                 prop.value = new PointRegion();
                 break;
 
+              // A struct this reader has no layout for: keep its bytes.
               default:
-                reader.offset += propSize;
+                prop.value = reader.getBytes(propSize);
                 break;
             }
             break;
@@ -432,15 +506,21 @@ var UnrealPackageReader = function (arrayBuffer) {
             prop.value = reader.getStringProperty();
             break;
 
-          // Unknown
+          // The pre-Str fixed-length string: null-terminated ANSI within the
+          // tagged size, which is how the engine upgrades it.
           case "String":
+            prop.value = reader.getFixedString(propSize);
+            break;
+
+          // Reserved or legacy type IDs with no reader: keep the bytes.
+          case "Unknown":
           case "Array":
           case "Vector":
           case "Rotator":
           case "Map":
           case "Fixed Array":
           default:
-            reader.offset += propSize;
+            prop.value = reader.getBytes(propSize);
             break;
         }
 
@@ -731,13 +811,13 @@ var UnrealPackageReader = function (arrayBuffer) {
       // Deus Ex
       /*const xyz = Number(BigUint64());
 
-			let x = (xyz & 0xFFFF) / 256;
-			let y = ((xyz >> 16) & 0xFFFF) / 256;
-			let z = ((xyz >> 32) & 0xFFFF) / 256;
+      let x = (xyz & 0xFFFF) / 256;
+      let y = ((xyz >> 16) & 0xFFFF) / 256;
+      let z = ((xyz >> 32) & 0xFFFF) / 256;
 
-			if (x > 128) x -= 256;
-			if (y > 128) y -= 256;
-			if (z > 128) z -= 256;*/
+      if (x > 128) x -= 256;
+      if (y > 128) y -= 256;
+      if (z > 128) z -= 256;*/
 
       this.x = x;
       this.y = y;
@@ -981,6 +1061,16 @@ var UnrealPackageReader = function (arrayBuffer) {
       this.y = Uint32();
       this.width = Uint32();
       this.height = Uint32();
+    }
+  }
+
+  // One entry of a font's TMap<TCHAR, TCHAR> CharRemap. TCHAR is two bytes -
+  // UT is a Unicode build - as UT 436's LadderFonts.utx shows: 1,183 pairs per
+  // font at four bytes each, landing exactly on the object's end.
+  class FontRemap {
+    constructor() {
+      this.key = Uint16();
+      this.value = Uint16();
     }
   }
 
@@ -1331,10 +1421,8 @@ var UnrealPackageReader = function (arrayBuffer) {
       this.format = Name();
       this.data_end_offset = Uint32();
       this.size = CompactIndex(); // includes null padding?
-      this.audio_data = reader.dataView.buffer.slice(
-        reader.offset,
-        reader.offset + this.size,
-      );
+      // Consumes the payload, so the cursor ends where the object's data ends.
+      this.audio_data = reader.getBytes(this.size);
     }
   }
 
@@ -1354,6 +1442,7 @@ var UnrealPackageReader = function (arrayBuffer) {
         this.sample_rate = null;
         this.lip_sync_data = null;
 
+        // TODO: use version range check above; all of these version checks evaluate to true due to `=== 79`
         if (reader.header.version > 76) {
           this.raw_num_samples = Uint32();
         }
@@ -1403,14 +1492,38 @@ var UnrealPackageReader = function (arrayBuffer) {
             reader.offset + this.size - 1,
           ),
         );
-        reader.offset += this.size + 1;
+        // `size` counts the null terminator, so this lands just past it.
+        reader.offset += this.size;
       }
     }
   }
 
+  /**
+   * Two layouts. Originally the font *is* a texture - `UFont : public UTexture`
+   * with a glyph table, one FontCharacter per character code (Unreal 1.200,
+   * Engine/Src/UnFont.cpp:22-23) - and that holds through v63. By v68 it is a
+   * UObject holding texture pages and the page size (Unreal 1.224,
+   * Engine/Inc/UnTex.h:449-455); v69 appended the character remap (HP2's
+   * Engine/Src/UnFont.cpp:35-36, behind `Ar.Ver() >= 69`). Fonts are observed
+   * texture-based up to v63 and paged from v68, with nothing in between in any
+   * available package, so the branch sits at the first version seen paged.
+   */
   class UFont {
     constructor() {
-      this.textures = TArray(FontTexture, Uint8());
+      const version = reader.header.version;
+
+      if (version < 68) {
+        this.mip_maps = new UTexture().mip_maps;
+        this.characters = TArray(FontCharacter);
+      } else {
+        this.textures = TArray(FontTexture);
+        this.characters_per_page = Int32();
+
+        if (version >= 69) {
+          this.char_remap = TArray(FontRemap);
+          this.is_remapped = Uint32() > 0;
+        }
+      }
     }
   }
 
@@ -1443,8 +1556,11 @@ var UnrealPackageReader = function (arrayBuffer) {
     RF_TagGarbage: 0x00000040,
     RF_NeedLoad: 0x00000200,
     RF_HighlightedName: 0x00000400,
+    RF_EliminateObject: 0x00000400,
     RF_InSingularFunc: 0x00000800,
+    RF_RemappedName: 0x00000800,
     RF_Suppress: 0x00001000,
+    RF_StateChanged: 0x00001000,
     RF_InEndState: 0x00002000,
     RF_Transient: 0x00004000,
     RF_PreLoading: 0x00008000,
@@ -1848,8 +1964,18 @@ var UnrealPackageReader = function (arrayBuffer) {
     NoBoundRejection: 0x00200000,
     Unlit: 0x00400000,
     HighShadowDetail: 0x00800000,
+    // Editor and internal flags
+    Memorized: 0x01000000,
+    RenderHint: 0x01000000,
+    Selected: 0x02000000,
     Portal: 0x04000000,
     Mirrored: 0x08000000,
+    Highlighted: 0x10000000,
+    FlatShaded: 0x40000000,
+    EdProcessed: 0x40000000,
+    RenderFog: 0x40000000,
+    EdCut: 0x80000000,
+    Occlude: 0x80000000,
   };
 
   this.brushClasses = [
@@ -2487,3 +2613,14 @@ var UnrealPackageReader = function (arrayBuffer) {
     return counts;
   };
 };
+
+/**
+ * Publish the constructor explicitly rather than relying on `var` reaching the
+ * global object.
+ *
+ * A top-level `export` would make this an ES module, and the demo's plain
+ * `<script src>` tag would then fail to parse the file at all. Assigning to
+ * globalThis works in both worlds: unchanged for a classic script, and enough
+ * for `await import()` under Node, where top-level `var` is module-scoped.
+ */
+globalThis.UnrealPackageReader = UnrealPackageReader;
