@@ -1,6 +1,9 @@
 {
   "$schema": "https://typedoc.org/schema.json",
   "name": "UnrealPackageReader.js",
+  "navigationLinks": {
+    "GitHub": "https://github.com/bunnytrack/unreal-package-reader"
+  },
   "entryPoints": [
     "src/reader.ts",
     "src/package/index.ts",
