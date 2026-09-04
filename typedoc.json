@@ -6,6 +6,7 @@
   },
   "entryPoints": [
     "src/reader.ts",
+    "src/browser/index.ts",
     "src/package/index.ts",
     "src/natives/index.ts",
     "src/structs/index.ts",

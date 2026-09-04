@@ -149,18 +149,18 @@ $(function () {
 
     clearTimeout(screenshotSlideshowId);
 
-    const screenshotArray = utPackage.getLevelScreenshots();
+    const { frames, interval } = utPackage.getLevelScreenshots();
 
-    if (screenshotArray.length > 0) {
-      $(".screenshot canvas").replaceWith(screenshotArray[0]);
+    if (frames.length > 0) {
+      $(".screenshot canvas").replaceWith(frames[0]);
 
       // Emulate "slideshow" if multiple found
-      if (screenshotArray.length > 1) {
-        const speed = 1300; // approximation of UT's speed
+      if (frames.length > 1) {
+        const speed = interval * 1000 || 1300;
         const showScreenshot = (i) => {
           screenshotSlideshowId = setTimeout(function () {
-            $(".screenshot canvas").replaceWith(screenshotArray[i]);
-            showScreenshot((i + 1) % screenshotArray.length);
+            $(".screenshot canvas").replaceWith(frames[i]);
+            showScreenshot((i + 1) % frames.length);
           }, speed);
         };
 

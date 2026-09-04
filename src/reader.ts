@@ -41,6 +41,7 @@ import {
   getLevelScreenshots,
   getPaletteCanvas,
   textureToCanvas,
+  type LevelScreenshots,
 } from "./browser/canvas.ts";
 
 /** A brush export with its resolved model and polygon list. */
@@ -493,15 +494,18 @@ export class UnrealPackageReader {
   // The canvas-producing methods, delegated so browser-only code stays in
   // src/browser. Calling these outside a browser throws on `document`.
 
+  /** {@inheritDoc browser!textureToCanvas} */
   textureToCanvas(textureObject: ExportTableObject): HTMLCanvasElement {
     return textureToCanvas(this, textureObject);
   }
 
+  /** {@inheritDoc browser!getPaletteCanvas} */
   getPaletteCanvas(paletteObject: ExportTableObject): HTMLCanvasElement {
     return getPaletteCanvas(paletteObject);
   }
 
-  getLevelScreenshots(): HTMLCanvasElement[] {
+  /** {@inheritDoc browser!getLevelScreenshots} */
+  getLevelScreenshots(): LevelScreenshots {
     return getLevelScreenshots(this);
   }
 }

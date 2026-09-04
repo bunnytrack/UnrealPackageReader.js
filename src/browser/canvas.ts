@@ -8,7 +8,8 @@
  */
 
 import type { ExportTableObject } from "../package/objects.ts";
-import type { UPalette } from "../natives/texture.ts";
+import type { FloatProperty, ObjectProperty } from "../package/properties.ts";
+import type { UPalette, UTexture } from "../natives/texture.ts";
 import type { MipMap } from "../structs/texture.ts";
 import type { UnrealPackageReader } from "../reader.ts";
 
@@ -74,7 +75,7 @@ export function textureToCanvas(
   reader: UnrealPackageReader,
   textureObject: ExportTableObject,
 ): HTMLCanvasElement {
-  const textureData = textureObject.readData() as { mip_maps: MipMap[] };
+  const textureData = textureObject.readData() as UTexture;
   const [mipMap] = textureData.mip_maps;
   const paletteProp = textureObject.getProp("palette") as { value: number };
   const paletteObject = reader.getObject(
@@ -90,7 +91,7 @@ export function textureToCanvas(
   });
 }
 
-/** A palette as a 16 x 16 swatch grid. */
+/** A palette as a 16×16 swatch grid. */
 export function getPaletteCanvas(
   paletteObject: ExportTableObject,
 ): HTMLCanvasElement {
@@ -101,49 +102,87 @@ export function getPaletteCanvas(
   });
 }
 
+export interface LevelScreenshots {
+  frames: HTMLCanvasElement[];
+  /**
+   * Seconds per frame: `1 / MaxFrameRate` of the `Screenshot` texture, with
+   * the engine's clamp of the rate to 0.01-100. The engine advances the
+   * animation by ticking the texture being drawn, so only the first frame's
+   * rate matters; the others' are ignored. Zero means that texture sets no
+   * rate, which the engine treats as "advance every tick"; slideshow callers
+   * should substitute a floor.
+   */
+  interval: number;
+}
+
 /**
- * A map's embedded screenshots.
+ * A map's screenshot frames, in order.
  *
- * Officially one texture named "Screenshot"; consecutively numbered
- * "Screenshot1", "Screenshot2", ... make an in-game montage, so all are
- * returned in numeric order (which table order does not guarantee). Some maps
- * instead point `LevelInfo0.Screenshot` at an arbitrary texture - shown when
- * it lives in this package, skipped when it is an import.
+ * The game menus load the texture named `Screenshot` and draw it
+ * (`UMenu/UMenuScreenshotCW.uc`, `UBrowser/UBrowserScreenshotCW.uc`). A montage
+ * is ordinary texture animation: `UTexture::ConstantTimeTick` walks `AnimNext`
+ * from frame to frame, restarting from the first texture at a null link. The
+ * walk in this reader stops at: a null link, an import object (this reader only
+ * holds one package at a time), and at a frame already collected, since some
+ * maps link the last frame back to the head.
+ *
+ * With no `Screenshot` texture the game shows nothing. As a convenience, this
+ * reader falls back to `LevelInfo0.Screenshot`, when that lives in this package.
  */
 export function getLevelScreenshots(
   reader: UnrealPackageReader,
-): HTMLCanvasElement[] {
-  const screenshots: HTMLCanvasElement[] = [];
-  const screenshotRegEx = /^Screenshot([0-9]+)?$/i;
-  const screenshotObjects = reader
+): LevelScreenshots {
+  const frameObjects: ExportTableObject[] = [];
+  let interval = 0;
+
+  const head = reader
     .getTextureObjects()
-    .filter((item) => screenshotRegEx.test(item.objectName));
+    .find((item) => item.objectName.toLowerCase() === "screenshot");
 
-  if (screenshotObjects.length > 0) {
-    const tempScreenshots = screenshotObjects.map((item) => ({
-      canvas: textureToCanvas(reader, item),
-      num: Number(item.objectName.substring("Screenshot".length)),
-    }));
+  if (head) {
+    frameObjects.push(head);
 
-    tempScreenshots.sort(({ num: a }, { num: b }) => a - b);
+    const maxFrameRate = head.getProp("MaxFrameRate");
 
-    screenshots.push(...tempScreenshots.map((item) => item.canvas));
+    if (maxFrameRate && "value" in maxFrameRate) {
+      const rate = (maxFrameRate as FloatProperty).value;
+
+      if (rate !== 0) {
+        interval = 1 / Math.min(Math.max(rate, 0.01), 100);
+      }
+    }
+
+    let current: ExportTableObject = head;
+
+    while (true) {
+      const animNext = current.getProp("AnimNext");
+
+      if (!animNext || !("value" in animNext)) break;
+
+      const next = reader.getObject((animNext as ObjectProperty).value);
+
+      if (!next?.isExportTableObject() || frameObjects.includes(next)) break;
+
+      frameObjects.push(next);
+      current = next;
+    }
   } else {
     const levelInfo = reader.getExportObjectByName("LevelInfo0");
     const screenshotProp = levelInfo?.getProp("Screenshot");
 
     if (screenshotProp && "value" in screenshotProp) {
-      const invalidScreenshot = reader.getObject(
-        screenshotProp.value as number,
+      const texture = reader.getObject(
+        (screenshotProp as ObjectProperty).value,
       );
 
-      if (invalidScreenshot && invalidScreenshot.table !== "import") {
-        screenshots.push(
-          textureToCanvas(reader, invalidScreenshot as ExportTableObject),
-        );
+      if (texture?.isExportTableObject()) {
+        frameObjects.push(texture);
       }
     }
   }
 
-  return screenshots;
+  return {
+    frames: frameObjects.map((item) => textureToCanvas(reader, item)),
+    interval,
+  };
 }

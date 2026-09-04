@@ -1727,6 +1727,12 @@
     get uppermostPackageObjectName() {
       return this.uppermostPackageObject.objectName;
     }
+    isExportTableObject() {
+      return this.table === "export";
+    }
+    isImportTableObject() {
+      return this.table === "import";
+    }
   };
   var ExportTableObject = class extends UObject {
     class_index;
@@ -1947,31 +1953,43 @@
     });
   }
   function getLevelScreenshots(reader) {
-    const screenshots = [];
-    const screenshotRegEx = /^Screenshot([0-9]+)?$/i;
-    const screenshotObjects = reader.getTextureObjects().filter((item) => screenshotRegEx.test(item.objectName));
-    if (screenshotObjects.length > 0) {
-      const tempScreenshots = screenshotObjects.map((item) => ({
-        canvas: textureToCanvas(reader, item),
-        num: Number(item.objectName.substring("Screenshot".length))
-      }));
-      tempScreenshots.sort(({ num: a }, { num: b }) => a - b);
-      screenshots.push(...tempScreenshots.map((item) => item.canvas));
+    const frameObjects = [];
+    let interval = 0;
+    const head = reader.getTextureObjects().find((item) => item.objectName.toLowerCase() === "screenshot");
+    if (head) {
+      frameObjects.push(head);
+      const maxFrameRate = head.getProp("MaxFrameRate");
+      if (maxFrameRate && "value" in maxFrameRate) {
+        const rate = maxFrameRate.value;
+        if (rate !== 0) {
+          interval = 1 / Math.min(Math.max(rate, 0.01), 100);
+        }
+      }
+      let current = head;
+      while (true) {
+        const animNext = current.getProp("AnimNext");
+        if (!animNext || !("value" in animNext)) break;
+        const next = reader.getObject(animNext.value);
+        if (!next?.isExportTableObject() || frameObjects.includes(next)) break;
+        frameObjects.push(next);
+        current = next;
+      }
     } else {
       const levelInfo = reader.getExportObjectByName("LevelInfo0");
       const screenshotProp = levelInfo?.getProp("Screenshot");
       if (screenshotProp && "value" in screenshotProp) {
-        const invalidScreenshot = reader.getObject(
+        const texture = reader.getObject(
           screenshotProp.value
         );
-        if (invalidScreenshot && invalidScreenshot.table !== "import") {
-          screenshots.push(
-            textureToCanvas(reader, invalidScreenshot)
-          );
+        if (texture?.isExportTableObject()) {
+          frameObjects.push(texture);
         }
       }
     }
-    return screenshots;
+    return {
+      frames: frameObjects.map((item) => textureToCanvas(reader, item)),
+      interval
+    };
   }
 
   // src/reader.ts
@@ -2286,12 +2304,15 @@
     }
     // The canvas-producing methods, delegated so browser-only code stays in
     // src/browser. Calling these outside a browser throws on `document`.
+    /** {@inheritDoc browser!textureToCanvas} */
     textureToCanvas(textureObject) {
       return textureToCanvas(this, textureObject);
     }
+    /** {@inheritDoc browser!getPaletteCanvas} */
     getPaletteCanvas(paletteObject) {
       return getPaletteCanvas(paletteObject);
     }
+    /** {@inheritDoc browser!getLevelScreenshots} */
     getLevelScreenshots() {
       return getLevelScreenshots(this);
     }
