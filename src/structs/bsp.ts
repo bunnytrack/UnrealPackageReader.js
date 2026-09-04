@@ -11,7 +11,6 @@
  * source release).
  */
 
-import { decodePolyFlags, type PolyFlagName } from "../constants/flags.ts";
 import { readStructArray, type ReadContext } from "./context.ts";
 import { readPlane, readVector, type Plane, type Vector } from "./geometry.ts";
 
@@ -193,7 +192,7 @@ export interface Polygon {
   texture_u: Vector;
   texture_v: Vector;
   vertices: Vector[];
-  flags: PolyFlagName[];
+  flags: number;
   actor: number;
   texture: number;
   item_name: number;
@@ -214,7 +213,7 @@ export function readPolygon(ctx: ReadContext): Polygon {
     texture_u: readVector(ctx),
     texture_v: readVector(ctx),
     vertices: readStructArray(ctx, readVector, vertex_count),
-    flags: decodePolyFlags(cursor.uint32()),
+    flags: cursor.uint32(),
     actor: cursor.compactIndex(),
     texture: cursor.compactIndex(),
     item_name: cursor.compactIndex(),

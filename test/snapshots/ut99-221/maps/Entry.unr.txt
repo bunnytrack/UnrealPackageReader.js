@@ -373,147 +373,147 @@ sha256   7bc3819f30c45adf9da13f7a4f0f6fc6bb5481e8d32505365b7ce7f015573b96
      44  Verts             -                   Verts26                     0x00070001  52574+10          0      3bca49ce518b0f13
      45  Vectors           -                   Vectors52                   0x00070001  52584+9           0      3bca49ce518b0f13
      46  Vectors           -                   Vectors53                   0x00070001  52593+9           0      3bca49ce518b0f13
-     47  Polys             -                   Polys12                     0x00070000  52602+669         0      6924e00e92e95835
+     47  Polys             -                   Polys12                     0x00070000  52602+669         0      6a12da30aef31a0b
      48  Model             -                   Model2                      0x00340001  53271+60          0      19bfe1055f14f77c
      49  BspNodes          -                   BspNodes27                  0x00070001  53331+10          0      3bca49ce518b0f13
      50  BspSurfs          -                   BspSurfs27                  0x00070001  53341+9           0      3bca49ce518b0f13
      51  Verts             -                   Verts27                     0x00070001  53350+10          0      3bca49ce518b0f13
      52  Vectors           -                   Vectors54                   0x00070001  53360+9           0      3bca49ce518b0f13
      53  Vectors           -                   Vectors55                   0x00070001  53369+9           0      3bca49ce518b0f13
-     54  Polys             -                   Polys14                     0x00070000  53378+669         0      e1a790148bca566a
+     54  Polys             -                   Polys14                     0x00070000  53378+669         0      6d5fbccbcb6081cc
      55  Model             -                   Model3                      0x00340001  54047+60          0      b5a0a4071a0ba901
      56  BspNodes          -                   BspNodes28                  0x00070001  54107+10          0      3bca49ce518b0f13
      57  BspSurfs          -                   BspSurfs28                  0x00070001  54117+9           0      3bca49ce518b0f13
      58  Verts             -                   Verts28                     0x00070001  54126+10          0      3bca49ce518b0f13
      59  Vectors           -                   Vectors56                   0x00070001  54136+9           0      3bca49ce518b0f13
      60  Vectors           -                   Vectors57                   0x00070001  54145+9           0      3bca49ce518b0f13
-     61  Polys             -                   Polys18                     0x00070000  54154+669         0      57875ebff62adae7
+     61  Polys             -                   Polys18                     0x00070000  54154+669         0      079dd8eb637b8762
      62  Model             -                   Model4                      0x00340001  54823+65          0      e31315d39b82129b
      63  BspNodes          -                   BspNodes29                  0x00070001  54888+10          0      3bca49ce518b0f13
      64  BspSurfs          -                   BspSurfs29                  0x00070001  54898+9           0      3bca49ce518b0f13
      65  Verts             -                   Verts29                     0x00070001  54907+10          0      3bca49ce518b0f13
      66  Vectors           -                   Vectors58                   0x00070001  54917+9           0      3bca49ce518b0f13
      67  Vectors           -                   Vectors59                   0x00070001  54926+9           0      3bca49ce518b0f13
-     68  Polys             -                   Polys22                     0x00070000  54935+669         0      f3f1b516750a21ed
+     68  Polys             -                   Polys22                     0x00070000  54935+669         0      fea816225cf23f62
      69  Model             -                   Model5                      0x00340001  55604+66          0      dcc13ac6c62679e2
      70  BspNodes          -                   BspNodes30                  0x00070001  55670+10          0      3bca49ce518b0f13
      71  BspSurfs          -                   BspSurfs30                  0x00070001  55680+9           0      3bca49ce518b0f13
      72  Verts             -                   Verts30                     0x00070001  55689+10          0      3bca49ce518b0f13
      73  Vectors           -                   Vectors60                   0x00070001  55699+9           0      3bca49ce518b0f13
      74  Vectors           -                   Vectors61                   0x00070001  55708+9           0      3bca49ce518b0f13
-     75  Polys             -                   Polys26                     0x00070000  55717+669         0      425d6ed77d484d5a
+     75  Polys             -                   Polys26                     0x00070000  55717+669         0      d7e7c83701650f2e
      76  Model             -                   Model6                      0x00340001  56386+66          0      62497c3676cd2472
      77  BspNodes          -                   BspNodes31                  0x00070001  56452+10          0      3bca49ce518b0f13
      78  BspSurfs          -                   BspSurfs31                  0x00070001  56462+9           0      3bca49ce518b0f13
      79  Verts             -                   Verts31                     0x00070001  56471+10          0      3bca49ce518b0f13
      80  Vectors           -                   Vectors62                   0x00070001  56481+9           0      3bca49ce518b0f13
      81  Vectors           -                   Vectors63                   0x00070001  56490+9           0      3bca49ce518b0f13
-     82  Polys             -                   Polys30                     0x00070000  56499+669         0      425d6ed77d484d5a
+     82  Polys             -                   Polys30                     0x00070000  56499+669         0      d7e7c83701650f2e
      83  Model             -                   Model7                      0x00340001  57168+66          0      6c9c0f9c8208972f
      84  BspNodes          -                   BspNodes32                  0x00070001  57234+10          0      3bca49ce518b0f13
      85  BspSurfs          -                   BspSurfs32                  0x00070001  57244+9           0      3bca49ce518b0f13
      86  Verts             -                   Verts32                     0x00070001  57253+10          0      3bca49ce518b0f13
      87  Vectors           -                   Vectors64                   0x00070001  57263+9           0      3bca49ce518b0f13
      88  Vectors           -                   Vectors65                   0x00070001  57272+9           0      3bca49ce518b0f13
-     89  Polys             -                   Polys34                     0x00070000  57281+669         0      35f67085e9bacfbc
+     89  Polys             -                   Polys34                     0x00070000  57281+669         0      ec4d93df259a3361
      90  Model             -                   Model9                      0x00340001  57950+66          0      abe53bc6514576aa
      91  BspNodes          -                   BspNodes33                  0x00070001  58016+10          0      3bca49ce518b0f13
      92  BspSurfs          -                   BspSurfs33                  0x00070001  58026+9           0      3bca49ce518b0f13
      93  Verts             -                   Verts33                     0x00070001  58035+10          0      3bca49ce518b0f13
      94  Vectors           -                   Vectors66                   0x00070001  58045+9           0      3bca49ce518b0f13
      95  Vectors           -                   Vectors67                   0x00070001  58054+9           0      3bca49ce518b0f13
-     96  Polys             -                   Polys38                     0x00070000  58063+669         0      56730bfd8035f3d7
+     96  Polys             -                   Polys38                     0x00070000  58063+669         0      46c717e00dee46ad
      97  Model             -                   Model10                     0x00340001  58732+66          0      4c260d1cde7e3496
      98  BspNodes          -                   BspNodes34                  0x00070001  58798+10          0      3bca49ce518b0f13
      99  BspSurfs          -                   BspSurfs34                  0x00070001  58808+9           0      3bca49ce518b0f13
     100  Verts             -                   Verts34                     0x00070001  58817+10          0      3bca49ce518b0f13
     101  Vectors           -                   Vectors68                   0x00070001  58827+9           0      3bca49ce518b0f13
     102  Vectors           -                   Vectors69                   0x00070001  58836+9           0      3bca49ce518b0f13
-    103  Polys             -                   Polys42                     0x00070000  58845+669         0      cdc1066d22a66606
+    103  Polys             -                   Polys42                     0x00070000  58845+669         0      7bb0bc34b467c7ce
     104  Model             -                   Model11                     0x00340001  59514+66          0      9841f8eb20dca4e3
     105  BspNodes          -                   BspNodes35                  0x00070001  59580+10          0      3bca49ce518b0f13
     106  BspSurfs          -                   BspSurfs35                  0x00070001  59590+9           0      3bca49ce518b0f13
     107  Verts             -                   Verts35                     0x00070001  59599+10          0      3bca49ce518b0f13
     108  Vectors           -                   Vectors70                   0x00070001  59609+9           0      3bca49ce518b0f13
     109  Vectors           -                   Vectors71                   0x00070001  59618+9           0      3bca49ce518b0f13
-    110  Polys             -                   Polys45                     0x00070000  59627+669         0      75acdccf8ee89033
+    110  Polys             -                   Polys45                     0x00070000  59627+669         0      fb0ffd230d0e209f
     111  Model             -                   Model12                     0x00340001  60296+66          0      61ece67f37284525
     112  BspNodes          -                   BspNodes36                  0x00070001  60362+10          0      3bca49ce518b0f13
     113  BspSurfs          -                   BspSurfs36                  0x00070001  60372+9           0      3bca49ce518b0f13
     114  Verts             -                   Verts36                     0x00070001  60381+10          0      3bca49ce518b0f13
     115  Vectors           -                   Vectors72                   0x00070001  60391+9           0      3bca49ce518b0f13
     116  Vectors           -                   Vectors73                   0x00070001  60400+9           0      3bca49ce518b0f13
-    117  Polys             -                   Polys47                     0x00070000  60409+669         0      ba754bf73557a61b
+    117  Polys             -                   Polys47                     0x00070000  60409+669         0      c2a5e28715ff6786
     118  Model             -                   Model13                     0x00340001  61078+66          0      655caa59f8829960
     119  BspNodes          -                   BspNodes37                  0x00070001  61144+10          0      3bca49ce518b0f13
     120  BspSurfs          -                   BspSurfs37                  0x00070001  61154+9           0      3bca49ce518b0f13
     121  Verts             -                   Verts37                     0x00070001  61163+10          0      3bca49ce518b0f13
     122  Vectors           -                   Vectors74                   0x00070001  61173+9           0      3bca49ce518b0f13
     123  Vectors           -                   Vectors75                   0x00070001  61182+9           0      3bca49ce518b0f13
-    124  Polys             -                   Polys49                     0x00070000  61191+669         0      ba754bf73557a61b
+    124  Polys             -                   Polys49                     0x00070000  61191+669         0      c2a5e28715ff6786
     125  Model             -                   Model14                     0x00340001  61860+66          0      d44653d79ef7f465
     126  BspNodes          -                   BspNodes38                  0x00070001  61926+10          0      3bca49ce518b0f13
     127  BspSurfs          -                   BspSurfs38                  0x00070001  61936+9           0      3bca49ce518b0f13
     128  Verts             -                   Verts38                     0x00070001  61945+10          0      3bca49ce518b0f13
     129  Vectors           -                   Vectors76                   0x00070001  61955+9           0      3bca49ce518b0f13
     130  Vectors           -                   Vectors77                   0x00070001  61964+9           0      3bca49ce518b0f13
-    131  Polys             -                   Polys51                     0x00070000  61973+937         0      09a0e4d117b864a8
+    131  Polys             -                   Polys51                     0x00070000  61973+937         0      baab8dc588f4550d
     132  Model             -                   Model15                     0x00340001  62910+66          0      5368756eab958174
     133  BspNodes          -                   BspNodes39                  0x00070001  62976+10          0      3bca49ce518b0f13
     134  BspSurfs          -                   BspSurfs39                  0x00070001  62986+9           0      3bca49ce518b0f13
     135  Verts             -                   Verts39                     0x00070001  62995+10          0      3bca49ce518b0f13
     136  Vectors           -                   Vectors78                   0x00070001  63005+9           0      3bca49ce518b0f13
     137  Vectors           -                   Vectors79                   0x00070001  63014+9           0      3bca49ce518b0f13
-    138  Polys             -                   Polys53                     0x00070000  63023+937         0      02d1c11d29459417
+    138  Polys             -                   Polys53                     0x00070000  63023+937         0      2688b29c3c427f17
     139  Model             -                   Model16                     0x00340001  63960+66          0      1a2ce59d96bec54d
     140  BspNodes          -                   BspNodes40                  0x00070001  64026+10          0      3bca49ce518b0f13
     141  BspSurfs          -                   BspSurfs40                  0x00070001  64036+9           0      3bca49ce518b0f13
     142  Verts             -                   Verts40                     0x00070001  64045+10          0      3bca49ce518b0f13
     143  Vectors           -                   Vectors80                   0x00070001  64055+9           0      3bca49ce518b0f13
     144  Vectors           -                   Vectors81                   0x00070001  64064+9           0      3bca49ce518b0f13
-    145  Polys             -                   Polys55                     0x00070000  64073+937         0      249e094414c58619
+    145  Polys             -                   Polys55                     0x00070000  64073+937         0      675a64e2dabc8725
     146  Model             -                   Model17                     0x00340001  65010+66          0      ae842703852d1943
     147  BspNodes          -                   BspNodes41                  0x00070001  65076+10          0      3bca49ce518b0f13
     148  BspSurfs          -                   BspSurfs41                  0x00070001  65086+9           0      3bca49ce518b0f13
     149  Verts             -                   Verts41                     0x00070001  65095+10          0      3bca49ce518b0f13
     150  Vectors           -                   Vectors82                   0x00070001  65105+9           0      3bca49ce518b0f13
     151  Vectors           -                   Vectors83                   0x00070001  65114+9           0      3bca49ce518b0f13
-    152  Polys             -                   Polys57                     0x00070000  65123+937         0      2822278a5addb4a4
+    152  Polys             -                   Polys57                     0x00070000  65123+937         0      df60805a6524acd7
     153  Model             -                   Model18                     0x00340001  66060+66          0      d2227169117d050c
     154  BspNodes          -                   BspNodes42                  0x00070001  66126+10          0      3bca49ce518b0f13
     155  BspSurfs          -                   BspSurfs42                  0x00070001  66136+9           0      3bca49ce518b0f13
     156  Verts             -                   Verts42                     0x00070001  66145+10          0      3bca49ce518b0f13
     157  Vectors           -                   Vectors84                   0x00070001  66155+9           0      3bca49ce518b0f13
     158  Vectors           -                   Vectors85                   0x00070001  66164+9           0      3bca49ce518b0f13
-    159  Polys             -                   Polys59                     0x00070000  66173+937         0      c4ea5f71bf5f0290
+    159  Polys             -                   Polys59                     0x00070000  66173+937         0      94ed4806ad8c9881
     160  Model             -                   Model19                     0x00340001  67110+66          0      1c03f89b708df0e4
     161  BspNodes          -                   BspNodes43                  0x00070001  67176+10          0      3bca49ce518b0f13
     162  BspSurfs          -                   BspSurfs43                  0x00070001  67186+9           0      3bca49ce518b0f13
     163  Verts             -                   Verts43                     0x00070001  67195+10          0      3bca49ce518b0f13
     164  Vectors           -                   Vectors86                   0x00070001  67205+9           0      3bca49ce518b0f13
     165  Vectors           -                   Vectors87                   0x00070001  67214+9           0      3bca49ce518b0f13
-    166  Polys             -                   Polys61                     0x00070000  67223+669         0      be03bb0142bd9b98
+    166  Polys             -                   Polys61                     0x00070000  67223+669         0      ce18edc11bcb8157
     167  Model             -                   Model20                     0x00340001  67892+66          0      31c7cab0d7d6a66a
     168  BspNodes          -                   BspNodes44                  0x00070001  67958+10          0      3bca49ce518b0f13
     169  BspSurfs          -                   BspSurfs44                  0x00070001  67968+9           0      3bca49ce518b0f13
     170  Verts             -                   Verts44                     0x00070001  67977+10          0      3bca49ce518b0f13
     171  Vectors           -                   Vectors88                   0x00070001  67987+9           0      3bca49ce518b0f13
     172  Vectors           -                   Vectors89                   0x00070001  67996+9           0      3bca49ce518b0f13
-    173  Polys             -                   Polys63                     0x00070000  68005+669         0      be03bb0142bd9b98
+    173  Polys             -                   Polys63                     0x00070000  68005+669         0      ce18edc11bcb8157
     174  Model             -                   Model21                     0x00340001  68674+66          0      912c39f100dde345
     175  BspNodes          -                   BspNodes45                  0x00070001  68740+10          0      3bca49ce518b0f13
     176  BspSurfs          -                   BspSurfs45                  0x00070001  68750+9           0      3bca49ce518b0f13
     177  Verts             -                   Verts45                     0x00070001  68759+10          0      3bca49ce518b0f13
     178  Vectors           -                   Vectors90                   0x00070001  68769+9           0      3bca49ce518b0f13
     179  Vectors           -                   Vectors91                   0x00070001  68778+9           0      3bca49ce518b0f13
-    180  Polys             -                   Polys65                     0x00070000  68787+669         0      be03bb0142bd9b98
+    180  Polys             -                   Polys65                     0x00070000  68787+669         0      ce18edc11bcb8157
     181  Model             -                   Model22                     0x00340001  69456+66          0      52f7bcba5cf8111a
     182  BspNodes          -                   BspNodes46                  0x00070001  69522+10          0      3bca49ce518b0f13
     183  BspSurfs          -                   BspSurfs46                  0x00070001  69532+9           0      3bca49ce518b0f13
     184  Verts             -                   Verts46                     0x00070001  69541+10          0      3bca49ce518b0f13
     185  Vectors           -                   Vectors92                   0x00070001  69551+9           0      3bca49ce518b0f13
     186  Vectors           -                   Vectors93                   0x00070001  69560+9           0      3bca49ce518b0f13
-    187  Polys             -                   Polys67                     0x00070000  69569+535         0      4fca6a17c7e93fdd
+    187  Polys             -                   Polys67                     0x00070000  69569+535         0      d5207114d224d142
     188  Model             -                   Model23                     0x00340001  70104+66          0      9ac2494a2894a7f6
     189  BspNodes          -                   BspNodes47                  0x00070001  70170+10          0      3bca49ce518b0f13
     190  BspSurfs          -                   BspSurfs47                  0x00070001  70180+9           0      3bca49ce518b0f13
@@ -521,7 +521,7 @@ sha256   7bc3819f30c45adf9da13f7a4f0f6fc6bb5481e8d32505365b7ce7f015573b96
     192  Vectors           -                   Vectors94                   0x00070001  70199+9           0      3bca49ce518b0f13
     193  Vectors           -                   Vectors95                   0x00070001  70208+9           0      3bca49ce518b0f13
     194  TextBuffer        -                   TextBuffer0                 0x00340000  70217+72          0      ed42aa34c12b237d
-    195  Polys             -                   Polys69                     0x00070000  70289+3571        0      a06f1a5165b48ba2
+    195  Polys             -                   Polys69                     0x00070000  70289+3571        0      fb7cc05b24e8941c
     196  Camera            -                   Camera18                    0x02340000  73860+106         14     e5e596b894944895
     197  Camera            -                   Camera19                    0x02340000  73966+106         14     3eb126b636c00639
     198  Camera            -                   Camera20                    0x02340000  74072+148         16     5a4d34f6a1b26d40

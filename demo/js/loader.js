@@ -1944,19 +1944,20 @@ $(function () {
             break;
 
           case "flags":
-            if (propValue.length > 0) {
+            if (propValue > 0) {
               polyEl.append(`
                 <section class="struct">
                   <p class="array-name mono">PolyFlags</p>
 
                   <section class="array-items">
-                    ${propValue
+                    ${utPackage
+                      .getPolyFlags(propValue)
                       .map(
                         (flag) => `
-                        <p class="property mono">
-                          <span class="value">${flag}</span>
-                        </p>
-                    `,
+                          <p class="property mono">
+                            <span class="value">${flag}</span>
+                          </p>
+                        `,
                       )
                       .join("")}
                   </section>

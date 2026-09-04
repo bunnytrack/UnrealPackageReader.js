@@ -1073,7 +1073,7 @@
       texture_u: readVector(ctx),
       texture_v: readVector(ctx),
       vertices: readStructArray(ctx, readVector, vertex_count),
-      flags: decodePolyFlags(cursor.uint32()),
+      flags: cursor.uint32(),
       actor: cursor.compactIndex(),
       texture: cursor.compactIndex(),
       item_name: cursor.compactIndex(),

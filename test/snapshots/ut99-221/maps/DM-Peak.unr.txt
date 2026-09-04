@@ -2387,19 +2387,19 @@ sha256   da9f63af9e468a4a1acc46bbd0cd7ea914dcd20fc6ac665217595c8f2b71e0f3
     609  UDamage           -                   UDamage0                    0x02070001  118838+87         9      fb68560f44d845ea
     610  LiftCenter        -                   LiftCenter8                 0x02070001  118925+88         12     ac81efb0ea92d803
     611  Model             -                   Model176                    0x00340001  119013+71         0      b1cb77dea8c9bb07
-    612  Polys             -                   Polys118                    0x00070001  119084+1185       0      93c9bb1739455822
-    613  Polys             -                   Polys227                    0x00340001  120269+1453       0      c6919df8a96617e9
-    614  Polys             -                   Polys66                     0x00340001  121722+1453       0      25c2aa82422af6b4
-    615  Polys             -                   Polys215                    0x00340001  123175+841        0      b6f8a0dc4e599bbb
-    616  Polys             -                   Polys11                     0x00340001  124016+16376      0      4283fffccb7086b4
+    612  Polys             -                   Polys118                    0x00070001  119084+1185       0      47e7212277eacbcc
+    613  Polys             -                   Polys227                    0x00340001  120269+1453       0      a4c80742edf832d0
+    614  Polys             -                   Polys66                     0x00340001  121722+1453       0      3baeed621a9865b6
+    615  Polys             -                   Polys215                    0x00340001  123175+841        0      048d11c77addeb32
+    616  Polys             -                   Polys11                     0x00340001  124016+16376      0      612d2ea489b3b475
     617  Model             -                   Model221                    0x00340001  140392+71         0      c6f9042e32a22f34
     618  Mover             -                   Mover1                      0x02070001  140463+257        23     8074659737f0e5aa
     619  Model             -                   Model186                    0x00070001  140720+71         0      c6ae765adca89cc9
     620  Model             -                   Model202                    0x00070001  140791+71         0      e5271dec87da3384
-    621  Polys             -                   Polys124                    0x00340001  140862+1110       0      78038bbb36582081
+    621  Polys             -                   Polys124                    0x00340001  140862+1110       0      3f0a91e6723a1588
     622  Model             -                   Model93                     0x00070001  141972+71         0      082ccf12fd4145b6
     623  Model             -                   Model16                     0x00070001  142043+71         0      de2b17e223c4a137
-    624  Polys             -                   Polys40                     0x00070001  142114+1453       0      4d2ed71e484e788c
+    624  Polys             -                   Polys40                     0x00070001  142114+1453       0      114b080e4be0f39f
     625  AmbientSound      -                   AmbientSound0               0x02070001  143567+78         10     b01bf554fdfa2bbd
     626  Model             -                   Model177                    0x00340001  143645+71         0      699cb41e14a0ab38
     627  Model             -                   Model14                     0x00340001  143716+71         0      20be653ce49a5783
@@ -2408,123 +2408,123 @@ sha256   da9f63af9e468a4a1acc46bbd0cd7ea914dcd20fc6ac665217595c8f2b71e0f3
     630  Model             -                   Model182                    0x00340001  143929+71         0      9c003bec609a552c
     631  Model             -                   Brush                       0x00340001  144000+71         0      e48de87237861b3b
     632  Model             -                   Model225                    0x00070001  144071+71         0      18a6dc974dce4edb
-    633  Polys             -                   Polys164                    0x00340001  144142+669        0      579d2efc6d83eaeb
+    633  Polys             -                   Polys164                    0x00340001  144142+669        0      fb7621b6ed074637
     634  Model             -                   Model125                    0x00070001  144811+71         0      e65d692a2dc7067d
     635  Model             -                   Model76                     0x00340001  144882+71         0      bc5df794151332f7
     636  Model             -                   Model39                     0x00340001  144953+71         0      ce83cffba64f62d1
-    637  Polys             -                   Polys131                    0x00340001  145024+669        0      1236b89f0e036460
-    638  Polys             -                   Polys160                    0x00340001  145693+669        0      d1c9d782d9fcd8ef
+    637  Polys             -                   Polys131                    0x00340001  145024+669        0      ca98dd1b012a89f4
+    638  Polys             -                   Polys160                    0x00340001  145693+669        0      fe6276ded4bd758d
     639  Model             -                   Model62                     0x00340001  146362+71         0      570f01091371588a
     640  Model             -                   Model146                    0x00340001  146433+71         0      36ce176e6d18a2e8
-    641  Polys             -                   Polys98                     0x00340001  146504+669        0      a6f7613a1b31011d
+    641  Polys             -                   Polys98                     0x00340001  146504+669        0      102db4a707306eb4
     642  Model             -                   Model90                     0x00070001  147173+71         0      b79975953570e766
-    643  Polys             -                   Polys34                     0x00340001  147244+669        0      a3d0bbc8b980c805
+    643  Polys             -                   Polys34                     0x00340001  147244+669        0      0bbecde027b98994
     644  Model             -                   Model223                    0x00070001  147913+71         0      5e864e6beed22338
     645  Model             -                   Model124                    0x00070001  147984+71         0      0079a90a33e182a2
     646  Model             -                   Model78                     0x00340001  148055+71         0      4b9546870940f1ba
     647  Model             -                   Model134                    0x00340001  148126+71         0      4ad74e88a237e1bb
-    648  Polys             -                   Polys28                     0x00340001  148197+989        0      cd52046c7d4df835
+    648  Polys             -                   Polys28                     0x00340001  148197+989        0      c8374676a79ea032
     649  AmbientSound      -                   AmbientSound1               0x02070001  149186+81         11     35bad88a6bd13b93
-    650  Polys             -                   Polys21                     0x00340001  149267+4125       0      30cb37b520ccf650
-    651  Polys             -                   Polys97                     0x00070001  153392+669        0      d9770e16f74d41d8
-    652  Polys             -                   Polys39                     0x00070001  154061+669        0      655bdbd9e7c26652
+    650  Polys             -                   Polys21                     0x00340001  149267+4125       0      f8722231e7889803
+    651  Polys             -                   Polys97                     0x00070001  153392+669        0      023a84b04383f68f
+    652  Polys             -                   Polys39                     0x00070001  154061+669        0      6ddce9dd802fc8bb
     653  Model             -                   Model209                    0x00340001  154730+71         0      f2622d67d2122889
     654  Model             -                   Model24                     0x00340001  154801+71         0      aa64c1da808d66d9
-    655  Polys             -                   Polys52                     0x00340001  154872+1185       0      ef6b6f6cdba9f382
+    655  Polys             -                   Polys52                     0x00340001  154872+1185       0      da692b0ed7be1222
     656  Model             -                   Model19                     0x00070001  156057+71         0      9c833dd9a5ece0a5
-    657  Polys             -                   Polys45                     0x00340001  156128+669        0      1b8400b8a91d5408
+    657  Polys             -                   Polys45                     0x00340001  156128+669        0      42396d03ce7473d8
     658  Model             -                   Model58                     0x00340001  156797+71         0      7481db6e284aa5c7
-    659  Polys             -                   Polys110                    0x00070001  156868+1147       0      261d9b910f870e6b
-    660  Polys             -                   Polys155                    0x00340001  158015+669        0      4626186c2899c794
+    659  Polys             -                   Polys110                    0x00070001  156868+1147       0      874b0ca5e337c7f4
+    660  Polys             -                   Polys155                    0x00340001  158015+669        0      95663eb28219e690
     661  Model             -                   Model70                     0x00340001  158684+71         0      bb10e02a5ef30d08
-    662  Polys             -                   Polys87                     0x00340001  158755+669        0      d9770e16f74d41d8
+    662  Polys             -                   Polys87                     0x00340001  158755+669        0      023a84b04383f68f
     663  Model             -                   Model89                     0x00070001  159424+71         0      f4422a97d11a19c0
-    664  Polys             -                   Polys214                    0x00340001  159495+669        0      cab8990bee3db7ef
+    664  Polys             -                   Polys214                    0x00340001  159495+669        0      e878e67544b59ab8
     665  Model             -                   Model38                     0x00340001  160164+71         0      d763495bc200c32a
-    666  Polys             -                   Polys43                     0x00340001  160235+1453       0      43afb025f9db1a4d
-    667  Polys             -                   Polys85                     0x00340001  161688+3537       0      dcc1535b0f6687da
+    666  Polys             -                   Polys43                     0x00340001  160235+1453       0      4098dbd33e2a6f54
+    667  Polys             -                   Polys85                     0x00340001  161688+3537       0      16657a3c6aa4861d
     668  Model             -                   Model137                    0x00070001  165225+71         0      9445dfcb0d3f9de3
     669  Model             -                   Model147                    0x00340001  165296+71         0      e48c9eb0c79a84d8
-    670  Polys             -                   Polys195                    0x00340001  165367+119        0      5aa348a2429d77e3
-    671  Polys             -                   Polys83                     0x00340001  165486+3537       0      1eb9ea5c371f6d02
+    670  Polys             -                   Polys195                    0x00340001  165367+119        0      1bf5690ba4d85d4b
+    671  Polys             -                   Polys83                     0x00340001  165486+3537       0      046347058ea6f6fa
     672  Model             -                   Model195                    0x00340001  169023+71         0      ff7898fa7964050a
-    673  Polys             -                   Polys33                     0x00070001  169094+7072       0      53e5d1b923d9b97c
-    674  Polys             -                   Polys96                     0x00340001  176166+669        0      f1ebf01c603cda9a
-    675  Polys             -                   Polys63                     0x00340001  176835+669        0      1079d0f9738776a1
-    676  Polys             -                   Polys48                     0x00070001  177504+1453       0      d3c023033acaafd0
+    673  Polys             -                   Polys33                     0x00070001  169094+7072       0      902cc040fd49d24d
+    674  Polys             -                   Polys96                     0x00340001  176166+669        0      4f4d2449181c89a2
+    675  Polys             -                   Polys63                     0x00340001  176835+669        0      4a9f4a55b795b70c
+    676  Polys             -                   Polys48                     0x00070001  177504+1453       0      af118dc539bb8770
     677  Model             -                   Model75                     0x00070001  178957+71         0      4532a887d571c81c
-    678  Polys             -                   Polys68                     0x00070001  179028+669        0      a3d0bbc8b980c805
+    678  Polys             -                   Polys68                     0x00070001  179028+669        0      0bbecde027b98994
     679  Mover             -                   Mover0                      0x02070001  179697+257        23     89909315252d3b0c
     680  Model             -                   Model35                     0x00340001  179954+71         0      5c3e8dbb8c265128
     681  Model             -                   Model156                    0x00340001  180025+71         0      31a756ef27f7deea
-    682  Polys             -                   Polys35                     0x00070001  180096+4125       0      1bf6beffb668d7fd
-    683  Polys             -                   Polys191                    0x00340001  184221+1453       0      fa42ca4647bf96b2
+    682  Polys             -                   Polys35                     0x00070001  180096+4125       0      1a924bb6fa4fdd40
+    683  Polys             -                   Polys191                    0x00340001  184221+1453       0      6af75c7195e27415
     684  Model             -                   Model105                    0x00340001  185674+71         0      c990ef09800f6651
-    685  Polys             -                   Polys84                     0x00340001  185745+1185       0      30921b9ab1950e34
+    685  Polys             -                   Polys84                     0x00340001  185745+1185       0      915f7636be90ff60
     686  Model             -                   Model130                    0x00340001  186930+71         0      f6d0b7661a5d7f58
-    687  Polys             -                   Polys25                     0x00340001  187001+5889       0      7a81d9252e9c2615
-    688  Polys             -                   Polys226                    0x00340001  192890+669        0      126c2c97a096f998
-    689  Polys             -                   Polys218                    0x00340001  193559+669        0      1d51aeeebf2495cd
+    687  Polys             -                   Polys25                     0x00340001  187001+5889       0      a33a63c4bcff0137
+    688  Polys             -                   Polys226                    0x00340001  192890+669        0      306811f69795ab13
+    689  Polys             -                   Polys218                    0x00340001  193559+669        0      089f212c509d0c4a
     690  Model             -                   Model227                    0x00070001  194228+71         0      3263d13d90b1edd6
-    691  Polys             -                   Polys168                    0x00340001  194299+669        0      f1ca1eabe0ac7a58
-    692  Polys             -                   Polys210                    0x00340001  194968+669        0      fef31192b3dab7a4
-    693  Polys             -                   Polys142                    0x00340001  195637+841        0      4861bfa92ba3ea51
+    691  Polys             -                   Polys168                    0x00340001  194299+669        0      d5407044c6878fa0
+    692  Polys             -                   Polys210                    0x00340001  194968+669        0      4f2cdf516f430983
+    693  Polys             -                   Polys142                    0x00340001  195637+841        0      38c407f7cebb17b1
     694  Model             -                   Model4                      0x00340001  196478+71         0      82e4a9a70919d32b
-    695  Polys             -                   Polys185                    0x00340001  196549+841        0      d7f931f7b93789d9
-    696  Polys             -                   Polys165                    0x00070001  197390+2453       0      8af3cefad2060ab6
-    697  Polys             -                   Polys113                    0x00340001  199843+1147       0      870ceb8ed8fdfccf
+    695  Polys             -                   Polys185                    0x00340001  196549+841        0      4894be9291308d9d
+    696  Polys             -                   Polys165                    0x00070001  197390+2453       0      f12ea3432abea506
+    697  Polys             -                   Polys113                    0x00340001  199843+1147       0      a7bafae1bc0f8906
     698  Model             -                   Model84                     0x00340001  200990+71         0      3e034003c5674809
-    699  Polys             -                   Polys134                    0x00070001  201061+1147       0      673ca1925c5a9f67
+    699  Polys             -                   Polys134                    0x00070001  201061+1147       0      9ac5388cf0faf17a
     700  Model             -                   Model159                    0x00340001  202208+71         0      209c90e60c967a78
     701  Model             -                   Model157                    0x00340001  202279+71         0      d4db3ddbcfc049de
     702  Model             -                   Model42                     0x00340001  202350+71         0      39696064a7b758c3
     703  Model             -                   Model212                    0x00340001  202421+71         0      be7783afb366a68a
     704  Model             -                   Model181                    0x00070001  202492+21020      0      c725289d1a01a7d7
-    705  Polys             -                   Polys228                    0x00340001  223512+669        0      6793402675a5491b
+    705  Polys             -                   Polys228                    0x00340001  223512+669        0      1601a03bba522af3
     706  Model             -                   Model135                    0x00340001  224181+71         0      3b566d30a555e291
     707  Model             -                   Model9                      0x00340001  224252+71         0      f072b0ef61f55946
     708  SpecialEvent      -                   SpecialEvent4               0x02070001  224323+108        10     ab536607b8afaf67
     709  SpecialEvent      -                   SpecialEvent3               0x02070001  224431+111        10     1d47b6a016dadf28
     710  Model             -                   Model233                    0x00340001  224542+71         0      ba2fdfbfcbebec12
-    711  Polys             -                   Polys234                    0x00340001  224613+669        0      f8792f8afd066850
+    711  Polys             -                   Polys234                    0x00340001  224613+669        0      204603aea1d2be6d
     712  Model             -                   Model169                    0x00340001  225282+71         0      a24b5bda375fc6a4
     713  Model             -                   Model234                    0x00340001  225353+71         0      5f331398f5dffad9
-    714  Polys             -                   Polys238                    0x00340001  225424+535        0      7992dadbe8583828
+    714  Polys             -                   Polys238                    0x00340001  225424+535        0      ca7cf567f90d2d1e
     715  Model             -                   Model239                    0x00340001  225959+71         0      e0ecf406dd8cf7c1
     716  Model             -                   Model88                     0x00070001  226030+71         0      59443babf86aee88
-    717  Polys             -                   Polys243                    0x00070001  226101+119        0      3fef372434db0488
+    717  Polys             -                   Polys243                    0x00070001  226101+119        0      c58f86ac90ddea0b
     718  Model             -                   Model240                    0x00340001  226220+71         0      7c859d28e864281a
-    719  Polys             -                   Polys247                    0x00340001  226291+669        0      332afa8e4aa1e74e
-    720  Polys             -                   Polys171                    0x00340001  226960+119        0      8f404a7b4198df96
-    721  Polys             -                   Polys250                    0x00070001  227079+669        0      655bdbd9e7c26652
-    722  Polys             -                   Polys90                     0x00070001  227748+1453       0      2b5568c0e561fd59
-    723  Polys             -                   Polys172                    0x00340001  229201+669        0      00b730126572e57f
-    724  Polys             -                   Polys237                    0x00070001  229870+2165       0      25b5de10bb68179d
+    719  Polys             -                   Polys247                    0x00340001  226291+669        0      031fb469349ec530
+    720  Polys             -                   Polys171                    0x00340001  226960+119        0      33a8175d04eb8570
+    721  Polys             -                   Polys250                    0x00070001  227079+669        0      6ddce9dd802fc8bb
+    722  Polys             -                   Polys90                     0x00070001  227748+1453       0      bd9ee9983da0d47c
+    723  Polys             -                   Polys172                    0x00340001  229201+669        0      06d85da55b34d45b
+    724  Polys             -                   Polys237                    0x00070001  229870+2165       0      0036d07b1d517824
     725  Model             -                   Model190                    0x00070001  232035+71         0      576617afbfc303c9
-    726  Polys             -                   Polys106                    0x00070001  232106+1185       0      008766e0230049e7
+    726  Polys             -                   Polys106                    0x00070001  232106+1185       0      8c7cad9043e655ab
     727  Model             -                   Model54                     0x00340001  233291+71         0      2f6359597abc6878
-    728  Polys             -                   Polys30                     0x00340001  233362+669        0      655bdbd9e7c26652
+    728  Polys             -                   Polys30                     0x00340001  233362+669        0      6ddce9dd802fc8bb
     729  Model             -                   Model232                    0x00340001  234031+71         0      17ade9ef1cdb8ee9
-    730  Polys             -                   Polys229                    0x00340001  234102+119        0      5aa348a2429d77e3
-    731  Polys             -                   Polys144                    0x00340001  234221+669        0      6bfacf5413004d9b
-    732  Polys             -                   Polys154                    0x00070001  234890+1185       0      675ecab098d8d1a0
+    730  Polys             -                   Polys229                    0x00340001  234102+119        0      1bf5690ba4d85d4b
+    731  Polys             -                   Polys144                    0x00340001  234221+669        0      11a2d3927c021a69
+    732  Polys             -                   Polys154                    0x00070001  234890+1185       0      05ed55942f992982
     733  Model             -                   Model95                     0x00070001  236075+71         0      a5d724a7f9b422b3
-    734  Polys             -                   Polys217                    0x00340001  236146+119        0      5aa348a2429d77e3
+    734  Polys             -                   Polys217                    0x00340001  236146+119        0      1bf5690ba4d85d4b
     735  Model             -                   Model191                    0x00070001  236265+71         0      b369ca41cb84b63a
-    736  Polys             -                   Polys153                    0x00070001  236336+669        0      aa379236df7a57a1
-    737  Polys             -                   Polys200                    0x00340001  237005+669        0      e97b9c6677b1a78c
+    736  Polys             -                   Polys153                    0x00070001  236336+669        0      af7181d8dec8ea57
+    737  Polys             -                   Polys200                    0x00340001  237005+669        0      31a2a171c27a5a12
     738  Model             -                   Model115                    0x00340001  237674+71         0      836a1c5a7e4e022f
     739  Model             -                   Model67                     0x00340001  237745+71         0      15df5d36578465cf
-    740  Polys             -                   Polys58                     0x00340001  237816+1453       0      0420178cfc41693e
+    740  Polys             -                   Polys58                     0x00340001  237816+1453       0      03ce8dede37e8188
     741  Model             -                   Model61                     0x00340001  239269+71         0      f266fb68472f8231
-    742  Polys             -                   Polys128                    0x00340001  239340+669        0      5dd7a918f51c24e1
-    743  Polys             -                   Polys156                    0x00070001  240009+1185       0      92ac09140ca3cd49
-    744  Polys             -                   Polys132                    0x00340001  241194+119        0      5d5b5b670ab26fa2
-    745  Polys             -                   Polys101                    0x00340001  241313+1577       0      c358500b1ac60827
+    742  Polys             -                   Polys128                    0x00340001  239340+669        0      b4ae1bf0b3d1a09c
+    743  Polys             -                   Polys156                    0x00070001  240009+1185       0      1ba0cf3ab5f1b695
+    744  Polys             -                   Polys132                    0x00340001  241194+119        0      eefdc1f9a414f306
+    745  Polys             -                   Polys101                    0x00340001  241313+1577       0      5b16699995c35680
     746  Model             -                   Model215                    0x00340001  242890+71         0      e5b9011a5d80950c
-    747  Polys             -                   Polys148                    0x00340001  242961+841        0      4152cfc28ebaeeab
-    748  Polys             -                   Polys103                    0x00340001  243802+669        0      483f4dfff432cded
-    749  Polys             -                   Polys102                    0x00340001  244471+669        0      8d6b686a5affe3a4
+    747  Polys             -                   Polys148                    0x00340001  242961+841        0      d776d25f4026ac3f
+    748  Polys             -                   Polys103                    0x00340001  243802+669        0      5222af36ecee3d92
+    749  Polys             -                   Polys102                    0x00340001  244471+669        0      de62f6b378e23dc6
     750  Model             -                   Model2                      0x00340001  245140+71         0      f1a8a7cb94fc7320
     751  Model             -                   Model6                      0x00340001  245211+71         0      6531d5015694887f
     752  Model             -                   Model133                    0x00340001  245282+71         0      fe807ae20359b489
@@ -2536,35 +2536,35 @@ sha256   da9f63af9e468a4a1acc46bbd0cd7ea914dcd20fc6ac665217595c8f2b71e0f3
     758  Model             -                   Model72                     0x00340001  245708+71         0      3e033d53c17188c5
     759  Model             -                   Model47                     0x00340001  245779+71         0      361382043785e1fb
     760  Model             -                   Model217                    0x00340001  245850+71         0      a1b128f9a58a3275
-    761  Polys             -                   Polys115                    0x00340001  245921+4630       0      d66a301aee27d558
-    762  Polys             -                   Polys69                     0x00340001  250551+669        0      583ffc521cb903bc
+    761  Polys             -                   Polys115                    0x00340001  245921+4630       0      14d4729bf400d585
+    762  Polys             -                   Polys69                     0x00340001  250551+669        0      c55eb6edb4a8cf30
     763  Model             -                   Model92                     0x00070001  251220+71         0      f4aac5a0db863a7d
     764  Model             -                   Model60                     0x00340001  251291+71         0      64f499aaee2e6233
     765  Model             -                   Model79                     0x00070001  251362+71         0      d5cabe6be0e43ee6
-    766  Polys             -                   Polys127                    0x00070001  251433+1453       0      829aab691afd9dfc
+    766  Polys             -                   Polys127                    0x00070001  251433+1453       0      0ebd29a225cea063
     767  Model             -                   Model8                      0x00340001  252886+71         0      919d3af4f517c7a7
-    768  Polys             -                   Polys199                    0x00070001  252957+120        0      4541da0fc9127fea
-    769  Polys             -                   Polys135                    0x00340001  253077+669        0      53b63937e68517d8
-    770  Polys             -                   Polys12                     0x00340001  253746+669        0      a137506a107ea715
+    768  Polys             -                   Polys199                    0x00070001  252957+120        0      773cdc688642f2e2
+    769  Polys             -                   Polys135                    0x00340001  253077+669        0      6f82426139e048f9
+    770  Polys             -                   Polys12                     0x00340001  253746+669        0      c0cf1a088d7bd15c
     771  Model             -                   Model106                    0x00340001  254415+71         0      3880d6e618d762b3
     772  Model             -                   Model98                     0x00340001  254486+71         0      66e75581449cae2d
-    773  Polys             -                   Polys15                     0x00340001  254557+1147       0      a9717951fb8a8e5c
+    773  Polys             -                   Polys15                     0x00340001  254557+1147       0      fc369a05075f2d3b
     774  Model             -                   Model87                     0x00070001  255704+71         0      3c4d82dbb0bd1826
     775  Model             -                   Model224                    0x00070001  255775+71         0      fd4cfb74dae3eeda
-    776  Polys             -                   Polys77                     0x00340001  255846+841        0      f9adc7866296b257
+    776  Polys             -                   Polys77                     0x00340001  255846+841        0      932e757f208a1163
     777  Model             -                   Model99                     0x00340001  256687+71         0      1e7e4e5ff7f41211
-    778  Polys             -                   Polys49                     0x00340001  256758+1147       0      05aeef3d0ed59f77
-    779  Polys             -                   Polys74                     0x00340001  257905+841        0      f9adc7866296b257
+    778  Polys             -                   Polys49                     0x00340001  256758+1147       0      1e3f0efadf4783ce
+    779  Polys             -                   Polys74                     0x00340001  257905+841        0      932e757f208a1163
     780  Model             -                   Model55                     0x00340001  258746+71         0      03fb31f2f4c5177c
-    781  Polys             -                   Polys44                     0x00340001  258817+669        0      fb94b88c800d8c1f
-    782  Polys             -                   Polys145                    0x00070001  259486+4017       0      83c50ff3ca9d6f57
-    783  Polys             -                   Polys79                     0x00070001  263503+669        0      5d893abbd036d8b8
+    781  Polys             -                   Polys44                     0x00340001  258817+669        0      739ad541612fdf94
+    782  Polys             -                   Polys145                    0x00070001  259486+4017       0      3b1355bfd6086bcd
+    783  Polys             -                   Polys79                     0x00070001  263503+669        0      3392900c1058c0e1
     784  Model             -                   Model185                    0x00340001  264172+71         0      e3157962b8cc265d
     785  Model             -                   Model30                     0x00340001  264243+71         0      befe7f8cba315e3e
     786  Model             -                   Model102                    0x00340001  264314+71         0      f662467df6e0f535
     787  Model             -                   Model103                    0x00070001  264385+71         0      feb2b1d53267b86b
-    788  Polys             -                   Polys149                    0x00340001  264456+1453       0      29df6621ddec676b
-    789  Polys             -                   Polys51                     0x00340001  265909+3970       0      8db53ea5af62dc14
+    788  Polys             -                   Polys149                    0x00340001  264456+1453       0      c8094a25678fba96
+    789  Polys             -                   Polys51                     0x00340001  265909+3970       0      81bc6684b9f3c26d
     790  AmbientSound      -                   AmbientSound14              0x02070001  269879+80         11     36583c932d8a938e
     791  AmbientSound      -                   AmbientSound13              0x02070001  269959+83         12     1e7793f56a27cac5
     792  AmbientSound      -                   AmbientSound12              0x02070001  270042+81         11     dd200496dadf746d
@@ -2580,99 +2580,99 @@ sha256   da9f63af9e468a4a1acc46bbd0cd7ea914dcd20fc6ac665217595c8f2b71e0f3
     802  Model             -                   Model163                    0x00340001  270857+71         0      8fc8f3c8d50232f8
     803  Model             -                   Model73                     0x00340001  270928+71         0      3cad47fc74aa5956
     804  Model             -                   Model104                    0x00340001  270999+71         0      b38ab842b4b4fbd8
-    805  Polys             -                   Polys80                     0x00070001  271070+669        0      5d893abbd036d8b8
+    805  Polys             -                   Polys80                     0x00070001  271070+669        0      3392900c1058c0e1
     806  Model             -                   Model193                    0x00070001  271739+71         0      288c41267a31bc63
-    807  Polys             -                   Polys99                     0x00340001  271810+841        0      78174e849aeae88c
-    808  Polys             -                   Polys23                     0x00340001  272651+1453       0      d17e5fb14b3af0a8
+    807  Polys             -                   Polys99                     0x00340001  271810+841        0      4da14709ee64b13c
+    808  Polys             -                   Polys23                     0x00340001  272651+1453       0      ea67177293079048
     809  Model             -                   Model12                     0x00340001  274104+71         0      3e2ea92aa72d289c
-    810  Polys             -                   Polys71                     0x00340001  274175+669        0      d01d334aa4e72ebb
+    810  Polys             -                   Polys71                     0x00340001  274175+669        0      9e8c60acdeed4fe7
     811  Model             -                   Model77                     0x00340001  274844+71         0      bdeeb6bc099e8de4
-    812  Polys             -                   Polys76                     0x00340001  274915+669        0      eb14651f9ad00dce
-    813  Polys             -                   Polys141                    0x00340001  275584+1453       0      efb4c956a580c411
+    812  Polys             -                   Polys76                     0x00340001  274915+669        0      ff562ff2865f6d0a
+    813  Polys             -                   Polys141                    0x00340001  275584+1453       0      b7c7ed0faa4cc98d
     814  Model             -                   Model97                     0x00340001  277037+71         0      a3696156f98e1fe0
-    815  Polys             -                   Polys95                     0x00070001  277108+669        0      255197ed43b67426
+    815  Polys             -                   Polys95                     0x00070001  277108+669        0      9f5d9641327b4c7c
     816  Model             -                   Model123                    0x00340001  277777+71         0      ae80114742c8218f
-    817  Polys             -                   Polys82                     0x00070001  277848+669        0      655bdbd9e7c26652
-    818  Polys             -                   Polys198                    0x00340001  278517+669        0      e97b9c6677b1a78c
-    819  Polys             -                   Polys86                     0x00340001  279186+841        0      f9adc7866296b257
-    820  Polys             -                   Polys42                     0x00340001  280027+119        0      531546646fad7402
-    821  Polys             -                   Polys57                     0x00070001  280146+669        0      655bdbd9e7c26652
+    817  Polys             -                   Polys82                     0x00070001  277848+669        0      6ddce9dd802fc8bb
+    818  Polys             -                   Polys198                    0x00340001  278517+669        0      31a2a171c27a5a12
+    819  Polys             -                   Polys86                     0x00340001  279186+841        0      932e757f208a1163
+    820  Polys             -                   Polys42                     0x00340001  280027+119        0      f60423e8fbfc4897
+    821  Polys             -                   Polys57                     0x00070001  280146+669        0      6ddce9dd802fc8bb
     822  Model             -                   Model111                    0x00070001  280815+71         0      32c3a59e3876c48f
     823  Model             -                   Model86                     0x00340001  280886+71         0      f7fd7beb796fcfc1
-    824  Polys             -                   Polys94                     0x00070001  280957+669        0      a3d0bbc8b980c805
+    824  Polys             -                   Polys94                     0x00070001  280957+669        0      0bbecde027b98994
     825  Model             -                   Model112                    0x00070001  281626+71         0      ddb2c43a3b97137b
-    826  Polys             -                   Polys100                    0x00070001  281697+669        0      5d893abbd036d8b8
-    827  Polys             -                   Polys109                    0x00340001  282366+669        0      d579f8a52a9dd55e
-    828  Polys             -                   Polys18                     0x00340001  283035+669        0      aa379236df7a57a1
+    826  Polys             -                   Polys100                    0x00070001  281697+669        0      3392900c1058c0e1
+    827  Polys             -                   Polys109                    0x00340001  282366+669        0      c95aeccc59d2752f
+    828  Polys             -                   Polys18                     0x00340001  283035+669        0      af7181d8dec8ea57
     829  Model             -                   Model21                     0x00070001  283704+71         0      b898c744e73f68bc
     830  Model             -                   Model231                    0x00340001  283775+71         0      a3c38dc5be571329
-    831  Polys             -                   Polys203                    0x00340001  283846+119        0      5aa348a2429d77e3
+    831  Polys             -                   Polys203                    0x00340001  283846+119        0      1bf5690ba4d85d4b
     832  Model             -                   Model114                    0x00070001  283965+71         0      22249837f0da00a2
     833  Model             -                   Model80                     0x00070001  284036+71         0      0df7f6665cbc6957
     834  Model             -                   Model117                    0x00340001  284107+71         0      e65ab1688a097243
     835  Model             -                   Model247                    0x00340001  284178+71         0      f697d840812a1f35
     836  Model             -                   Model109                    0x00070001  284249+71         0      f1b62ab925350a72
-    837  Polys             -                   Polys323                    0x00070001  284320+2165       0      25b5de10bb68179d
-    838  Polys             -                   Polys285                    0x00070001  286485+119        0      915086ceb3da9288
-    839  Polys             -                   Polys273                    0x00340001  286604+119        0      9a57da0af551cc54
-    840  Polys             -                   Polys281                    0x00070001  286723+119        0      3fef372434db0488
+    837  Polys             -                   Polys323                    0x00070001  284320+2165       0      0036d07b1d517824
+    838  Polys             -                   Polys285                    0x00070001  286485+119        0      de09ff70743660b1
+    839  Polys             -                   Polys273                    0x00340001  286604+119        0      86e2b63226c218c7
+    840  Polys             -                   Polys281                    0x00070001  286723+119        0      c58f86ac90ddea0b
     841  Model             -                   Model254                    0x00340001  286842+71         0      2f2e9fe3fab3d8fa
     842  Model             -                   Model257                    0x00340001  286913+71         0      ca6116c3a57f984d
-    843  Polys             -                   Polys298                    0x00070001  286984+1185       0      d799d8cd8be3c0d7
+    843  Polys             -                   Polys298                    0x00070001  286984+1185       0      fb54c5bbac2ac3dd
     844  Model             -                   Model53                     0x00340001  288169+71         0      7520982378318291
     845  Model             -                   Model100                    0x00340001  288240+71         0      96e3cbde36e7b499
     846  Model             -                   Model286                    0x00070001  288311+71         0      e47cce3d4803d774
     847  Model             -                   Model295                    0x00070001  288382+71         0      2c3cb1b1074cfc64
-    848  Polys             -                   Polys309                    0x00070001  288453+119        0      915086ceb3da9288
+    848  Polys             -                   Polys309                    0x00070001  288453+119        0      de09ff70743660b1
     849  Model             -                   Model296                    0x00070001  288572+71         0      737d67a4aa98d7ef
-    850  Polys             -                   Polys313                    0x00070001  288643+119        0      3fef372434db0488
-    851  Polys             -                   Polys319                    0x00070001  288762+119        0      3fef372434db0488
+    850  Polys             -                   Polys313                    0x00070001  288643+119        0      c58f86ac90ddea0b
+    851  Polys             -                   Polys319                    0x00070001  288762+119        0      c58f86ac90ddea0b
     852  Model             -                   Model297                    0x00070001  288881+71         0      dbe27c2171f6cc4d
-    853  Polys             -                   Polys317                    0x00070001  288952+2165       0      25b5de10bb68179d
+    853  Polys             -                   Polys317                    0x00070001  288952+2165       0      0036d07b1d517824
     854  Model             -                   Model298                    0x00070001  291117+71         0      911c53a7ddf2fcbc
-    855  Polys             -                   Polys322                    0x00070001  291188+669        0      aa379236df7a57a1
+    855  Polys             -                   Polys322                    0x00070001  291188+669        0      af7181d8dec8ea57
     856  Model             -                   Model299                    0x00070001  291857+71         0      e10072ea2bbe3e49
-    857  Polys             -                   Polys326                    0x00070001  291928+669        0      3d4e18ccbfcbf8ee
-    858  Polys             -                   Polys321                    0x00070001  292597+119        0      915086ceb3da9288
+    857  Polys             -                   Polys326                    0x00070001  291928+669        0      85f83c83976fb3aa
+    858  Polys             -                   Polys321                    0x00070001  292597+119        0      de09ff70743660b1
     859  Model             -                   Model300                    0x00070001  292716+71         0      aa10a39d810766f8
-    860  Polys             -                   Polys330                    0x00070001  292787+1185       0      ef6b6f6cdba9f382
-    861  Polys             -                   Polys251                    0x00340001  293972+119        0      5aa348a2429d77e3
-    862  Polys             -                   Polys334                    0x00070001  294091+1185       0      3b4b58b3a59e7b36
+    860  Polys             -                   Polys330                    0x00070001  292787+1185       0      da692b0ed7be1222
+    861  Polys             -                   Polys251                    0x00340001  293972+119        0      1bf5690ba4d85d4b
+    862  Polys             -                   Polys334                    0x00070001  294091+1185       0      ce9d93e2edfdc4bb
     863  Model             -                   Model302                    0x00070001  295276+71         0      9e6dfd63b1f8902a
-    864  Polys             -                   Polys337                    0x00070001  295347+119        0      3fef372434db0488
+    864  Polys             -                   Polys337                    0x00070001  295347+119        0      c58f86ac90ddea0b
     865  Model             -                   Model303                    0x00070001  295466+71         0      6fc7e147d8df21ea
-    866  Polys             -                   Polys339                    0x00070001  295537+119        0      915086ceb3da9288
-    867  Polys             -                   Polys325                    0x00070001  295656+119        0      3fef372434db0488
+    866  Polys             -                   Polys339                    0x00070001  295537+119        0      de09ff70743660b1
+    867  Polys             -                   Polys325                    0x00070001  295656+119        0      c58f86ac90ddea0b
     868  Model             -                   Model304                    0x00070001  295775+71         0      d07876b30b7cba44
-    869  Polys             -                   Polys343                    0x00070001  295846+119        0      3fef372434db0488
-    870  Polys             -                   Polys345                    0x00070001  295965+119        0      915086ceb3da9288
+    869  Polys             -                   Polys343                    0x00070001  295846+119        0      c58f86ac90ddea0b
+    870  Polys             -                   Polys345                    0x00070001  295965+119        0      de09ff70743660b1
     871  Model             -                   Model307                    0x00340001  296084+71         0      a505f9963c839dd8
-    872  Polys             -                   Polys347                    0x00070001  296155+2165       0      25b5de10bb68179d
+    872  Polys             -                   Polys347                    0x00070001  296155+2165       0      0036d07b1d517824
     873  Model             -                   Model308                    0x00070001  298320+71         0      31a7ce15477eb57a
-    874  Polys             -                   Polys349                    0x00070001  298391+119        0      3fef372434db0488
+    874  Polys             -                   Polys349                    0x00070001  298391+119        0      c58f86ac90ddea0b
     875  Model             -                   Model309                    0x00070001  298510+71         0      39fc3a600ddb1982
-    876  Polys             -                   Polys351                    0x00070001  298581+119        0      915086ceb3da9288
-    877  Polys             -                   Polys353                    0x00340001  298700+669        0      aaa65c4597470ccd
+    876  Polys             -                   Polys351                    0x00070001  298581+119        0      de09ff70743660b1
+    877  Polys             -                   Polys353                    0x00340001  298700+669        0      a79e9837fab86765
     878  Model             -                   Model311                    0x00340001  299369+71         0      02a537aa1a5bd8a2
-    879  Polys             -                   Polys355                    0x00340001  299440+669        0      c8c782d1575f52fe
+    879  Polys             -                   Polys355                    0x00340001  299440+669        0      6fd457e3de6f669d
     880  Model             -                   Model312                    0x00340001  300109+71         0      1e133a86cae2fa81
     881  Model             -                   Model313                    0x00070001  300180+71         0      f06e140e7b7337fa
-    882  Polys             -                   Polys361                    0x00070001  300251+841        0      b12d8625eae92250
+    882  Polys             -                   Polys361                    0x00070001  300251+841        0      7d44f98eafab0552
     883  Model             -                   Model316                    0x00070001  301092+71         0      7e4c6695201cc241
-    884  Polys             -                   Polys365                    0x00340001  301163+669        0      d27b7aea13ea17f5
-    885  Polys             -                   Polys367                    0x00340001  301832+119        0      6ad1fc84c25c0b35
+    884  Polys             -                   Polys365                    0x00340001  301163+669        0      f79325ea897cbb62
+    885  Polys             -                   Polys367                    0x00340001  301832+119        0      94026a6b5790a848
     886  Model             -                   Model318                    0x00340001  301951+71         0      9a815f03f8036733
     887  Model             -                   Model323                    0x00070001  302022+71         0      0c81544d21be4ad8
     888  Model             -                   Model322                    0x00070001  302093+71         0      8be7a4a22e4aefef
-    889  Polys             -                   Polys341                    0x00070001  302164+2165       0      25b5de10bb68179d
-    890  Polys             -                   Polys357                    0x00070001  304329+841        0      61f0b845255d0551
+    889  Polys             -                   Polys341                    0x00070001  302164+2165       0      0036d07b1d517824
+    890  Polys             -                   Polys357                    0x00070001  304329+841        0      191b6a88fc00d897
     891  Model             -                   Model253                    0x00340001  305170+71         0      58bbbc0e055dff32
     892  Model             -                   Model262                    0x00340001  305241+71         0      92221abf4319e760
-    893  Polys             -                   Polys240                    0x00340001  305312+119        0      5aa348a2429d77e3
+    893  Polys             -                   Polys240                    0x00340001  305312+119        0      1bf5690ba4d85d4b
     894  Model             -                   Model315                    0x00070001  305431+71         0      704be0cb533e072c
-    895  Polys             -                   Polys256                    0x00070001  305502+669        0      655bdbd9e7c26652
+    895  Polys             -                   Polys256                    0x00070001  305502+669        0      6ddce9dd802fc8bb
     896  Model             -                   Model321                    0x00340001  306171+71         0      799798e4308b9df6
-    897  Polys             -                   Polys274                    0x00340001  306242+669        0      f2ee442818dffa54
+    897  Polys             -                   Polys274                    0x00340001  306242+669        0      0605e6f7ab9c8c5e
     898  AmbientSound      -                   AmbientSound15              0x02070001  306911+80         11     b0f7334f67db2d8e
     899  AmbientSound      -                   AmbientSound16              0x02070001  306991+83         12     ce1307cbea41c2b6
     900  AmbientSound      -                   AmbientSound17              0x02070001  307074+80         11     0bdfe8b348adb82b
@@ -2682,95 +2682,95 @@ sha256   da9f63af9e468a4a1acc46bbd0cd7ea914dcd20fc6ac665217595c8f2b71e0f3
     904  Model             -                   Model278                    0x00070001  307442+71         0      9bbec80a5cba8ef4
     905  Model             -                   Model243                    0x00340001  307513+71         0      c3971db8972f7005
     906  Model             -                   Model282                    0x00070001  307584+71         0      63280d04b60abe9a
-    907  Polys             -                   Polys275                    0x00340001  307655+119        0      79fd12efe5cb79cb
+    907  Polys             -                   Polys275                    0x00340001  307655+119        0      ae039500ef7f6d62
     908  Model             -                   Model329                    0x00340001  307774+71         0      d8ad5506ccdba291
     909  Model             -                   Model330                    0x00340001  307845+71         0      c4e6e945ba0b3761
-    910  Polys             -                   Polys252                    0x00070001  307916+669        0      a3d0bbc8b980c805
+    910  Polys             -                   Polys252                    0x00070001  307916+669        0      0bbecde027b98994
     911  Model             -                   Model331                    0x00340001  308585+71         0      ce38733ce5fe6b10
-    912  Polys             -                   Polys270                    0x00340001  308656+669        0      f2ee442818dffa54
+    912  Polys             -                   Polys270                    0x00340001  308656+669        0      0605e6f7ab9c8c5e
     913  Model             -                   Model332                    0x00340001  309325+71         0      0083b428a7899b47
-    914  Polys             -                   Polys286                    0x00070001  309396+1185       0      72a7afdab95b0693
+    914  Polys             -                   Polys286                    0x00070001  309396+1185       0      5e5ce5b2117c9036
     915  Model             -                   Model333                    0x00070001  310581+71         0      9c9b0d11cf49f47d
-    916  Polys             -                   Polys291                    0x00070001  310652+119        0      915086ceb3da9288
+    916  Polys             -                   Polys291                    0x00070001  310652+119        0      de09ff70743660b1
     917  Model             -                   Model334                    0x00340001  310771+71         0      3c96bc3db862f3e1
-    918  Polys             -                   Polys257                    0x00340001  310842+119        0      9a57da0af551cc54
-    919  Polys             -                   Polys294                    0x00070001  310961+1185       0      ee1419756acd4c06
+    918  Polys             -                   Polys257                    0x00340001  310842+119        0      86e2b63226c218c7
+    919  Polys             -                   Polys294                    0x00070001  310961+1185       0      2fd89924c2d1ab89
     920  Model             -                   Model335                    0x00070001  312146+71         0      2f9f09182338880d
     921  Model             -                   Model336                    0x00340001  312217+71         0      7d725c5d66279e43
-    922  Polys             -                   Polys311                    0x00070001  312288+2165       0      25b5de10bb68179d
-    923  Polys             -                   Polys363                    0x00340001  314453+1453       0      39c5b3e3f7fa1ca6
-    924  Polys             -                   Polys329                    0x00070001  315906+2165       0      25b5de10bb68179d
+    922  Polys             -                   Polys311                    0x00070001  312288+2165       0      0036d07b1d517824
+    923  Polys             -                   Polys363                    0x00340001  314453+1453       0      7840dd78fd80ba3d
+    924  Polys             -                   Polys329                    0x00070001  315906+2165       0      0036d07b1d517824
     925  Model             -                   Model314                    0x00070001  318071+71         0      4d74183d61b739ff
-    926  Polys             -                   Polys359                    0x00340001  318142+669        0      39a0c8254f0490f6
-    927  Polys             -                   Polys333                    0x00070001  318811+119        0      915086ceb3da9288
+    926  Polys             -                   Polys359                    0x00340001  318142+669        0      d2ec8858e1b7e888
+    927  Polys             -                   Polys333                    0x00070001  318811+119        0      de09ff70743660b1
     928  Trigger           -                   Trigger6                    0x02070001  318930+85         11     e76819966c31c054
     929  Trigger           -                   Trigger5                    0x02070001  319015+85         11     f5abfaf71fe2539f
     930  Trigger           -                   Trigger8                    0x02070001  319100+85         11     f6e3d003de45e489
     931  Model             -                   Model129                    0x00340001  319185+71         0      4e55c64ce4dc7afc
-    932  Polys             -                   Polys176                    0x00070001  319256+1185       0      ab8b0e41c6dfc40d
+    932  Polys             -                   Polys176                    0x00070001  319256+1185       0      81ce7ffe866e0a43
     933  AmbientSound      -                   AmbientSound26              0x02070001  320441+98         13     b7649d790a27add8
     934  AmbientSound      -                   AmbientSound27              0x02070001  320539+95         12     d6357be0b9b04bed
     935  AmbientSound      -                   AmbientSound28              0x02070001  320634+83         12     1ac20b4b3288c6d3
     936  AmbientSound      -                   AmbientSound30              0x02070001  320717+97         12     790617addc3d7264
     937  AmbientSound      -                   AmbientSound31              0x02070001  320814+84         12     adc4dd3597505611
-    938  Polys             -                   Polys310                    0x00340001  320898+841        0      f18b067c7e05dba4
+    938  Polys             -                   Polys310                    0x00340001  320898+841        0      f14ff30ae1f10a71
     939  Model             -                   Model284                    0x00070001  321739+71         0      691782639affc9bc
     940  Model             -                   Model258                    0x00340001  321810+71         0      0d47c0c90913627c
     941  Model             -                   Model283                    0x00070001  321881+71         0      1cd8789097660bf8
-    942  Polys             -                   Polys295                    0x00070001  321952+119        0      3fef372434db0488
+    942  Polys             -                   Polys295                    0x00070001  321952+119        0      c58f86ac90ddea0b
     943  Model             -                   Model244                    0x00340001  322071+71         0      02d60ca5f757020e
     944  Model             -                   Model245                    0x00340001  322142+71         0      03e867ae2a1b7485
     945  Model             -                   Model276                    0x00070001  322213+71         0      455fa6f278cd6c71
-    946  Polys             -                   Polys236                    0x00070001  322284+1147       0      843961adcfdb6512
+    946  Polys             -                   Polys236                    0x00070001  322284+1147       0      5e704c97a03367ab
     947  Model             -                   Model248                    0x00340001  323431+71         0      482018d324cfd7b8
     948  Model             -                   Model277                    0x00070001  323502+71         0      aae8f75234c1bd7d
-    949  Polys             -                   Polys272                    0x00340001  323573+669        0      8b109957793de06b
+    949  Polys             -                   Polys272                    0x00340001  323573+669        0      fb01b81013f19771
     950  Model             -                   Model288                    0x00070001  324242+71         0      811f803cf31071a2
-    951  Polys             -                   Polys280                    0x00340001  324313+119        0      79fd12efe5cb79cb
+    951  Polys             -                   Polys280                    0x00340001  324313+119        0      ae039500ef7f6d62
     952  Model             -                   Model289                    0x00070001  324432+71         0      3566070721d9a4ff
-    953  Polys             -                   Polys284                    0x00340001  324503+119        0      af9bdfeec9f3e753
+    953  Polys             -                   Polys284                    0x00340001  324503+119        0      56c43a0df81c22d3
     954  Model             -                   Model290                    0x00070001  324622+71         0      8f016c174b56cb70
-    955  Polys             -                   Polys289                    0x00070001  324693+119        0      3fef372434db0488
-    956  Polys             -                   Polys292                    0x00070001  324812+119        0      915086ceb3da9288
-    957  Polys             -                   Polys306                    0x00340001  324931+669        0      9e4f1377c90073e9
-    958  Polys             -                   Polys338                    0x00070001  325600+1185       0      1ba5059a66b489a8
-    959  Polys             -                   Polys346                    0x00340001  326785+841        0      84df6a40726f27bb
+    955  Polys             -                   Polys289                    0x00070001  324693+119        0      c58f86ac90ddea0b
+    956  Polys             -                   Polys292                    0x00070001  324812+119        0      de09ff70743660b1
+    957  Polys             -                   Polys306                    0x00340001  324931+669        0      12ee72d484a16fb3
+    958  Polys             -                   Polys338                    0x00070001  325600+1185       0      96a9f26ba0f5697b
+    959  Polys             -                   Polys346                    0x00340001  326785+841        0      26d67114df230324
     960  SpecialEvent      -                   SpecialEvent0               0x02070001  327626+127        10     df0e3d458c535a3b
-    961  Polys             -                   Polys260                    0x00070001  327753+669        0      5d893abbd036d8b8
-    962  Polys             -                   Polys282                    0x00340001  328422+119        0      4705ba1ad9eb9ece
-    963  Polys             -                   Polys315                    0x00070001  328541+119        0      915086ceb3da9288
-    964  Polys             -                   Polys342                    0x00070001  328660+1185       0      30921b9ab1950e34
+    961  Polys             -                   Polys260                    0x00070001  327753+669        0      3392900c1058c0e1
+    962  Polys             -                   Polys282                    0x00340001  328422+119        0      87b7c5c9430f3595
+    963  Polys             -                   Polys315                    0x00070001  328541+119        0      de09ff70743660b1
+    964  Polys             -                   Polys342                    0x00070001  328660+1185       0      915f7636be90ff60
     965  Model             -                   Model267                    0x00070001  329845+71         0      651bb29d20dcbe1d
-    966  Polys             -                   Polys305                    0x00070001  329916+2165       0      25b5de10bb68179d
-    967  Polys             -                   Polys253                    0x00340001  332081+119        0      9a57da0af551cc54
-    968  Polys             -                   Polys249                    0x00070001  332200+1453       0      008784018dd61165
+    966  Polys             -                   Polys305                    0x00070001  329916+2165       0      0036d07b1d517824
+    967  Polys             -                   Polys253                    0x00340001  332081+119        0      86e2b63226c218c7
+    968  Polys             -                   Polys249                    0x00070001  332200+1453       0      3af58f5a5d7b92c5
     969  Model             -                   Model319                    0x00340001  333653+71         0      fc5cbea313119ea6
     970  Model             -                   Model306                    0x00340001  333724+71         0      b90cb9492dacda65
     971  Model             -                   Model305                    0x00070001  333795+71         0      90c10047ded9e0ea
     972  Model             -                   Model301                    0x00070001  333866+71         0      9a1a1e8b4c1f0da8
-    973  Polys             -                   Polys271                    0x00070001  333937+120        0      129aafc2ef199dca
-    974  Polys             -                   Polys269                    0x00340001  334057+119        0      9a57da0af551cc54
+    973  Polys             -                   Polys271                    0x00070001  333937+120        0      0a0fc7ca7c9a58e5
+    974  Polys             -                   Polys269                    0x00340001  334057+119        0      86e2b63226c218c7
     975  Model             -                   Model266                    0x00340001  334176+71         0      7be2ecf45adb4809
     976  Model             -                   Model242                    0x00340001  334247+71         0      d0d9dde230acb58c
     977  Model             -                   Model320                    0x00340001  334318+71         0      1e47ba1513c063f1
     978  Model             -                   Model246                    0x00340001  334389+71         0      57821108261e9bbb
-    979  Polys             -                   Polys267                    0x00340001  334460+119        0      79fd12efe5cb79cb
-    980  Polys             -                   Polys265                    0x00340001  334579+841        0      fa1019502cd57320
-    981  Polys             -                   Polys259                    0x00340001  335420+119        0      5aa348a2429d77e3
-    982  Polys             -                   Polys266                    0x00340001  335539+669        0      38dc3f95c9451292
-    983  Polys             -                   Polys277                    0x00070001  336208+2165       0      25b5de10bb68179d
-    984  Polys             -                   Polys335                    0x00070001  338373+2165       0      25b5de10bb68179d
-    985  Polys             -                   Polys331                    0x00070001  340538+119        0      3fef372434db0488
-    986  Polys             -                   Polys327                    0x00070001  340657+119        0      915086ceb3da9288
-    987  Polys             -                   Polys307                    0x00070001  340776+119        0      3fef372434db0488
-    988  Polys             -                   Polys263                    0x00340001  340895+669        0      83a97e35629db48e
-    989  Polys             -                   Polys245                    0x00340001  341564+669        0      ff4309330024834a
-    990  Polys             -                   Polys261                    0x00340001  342233+119        0      9a57da0af551cc54
+    979  Polys             -                   Polys267                    0x00340001  334460+119        0      ae039500ef7f6d62
+    980  Polys             -                   Polys265                    0x00340001  334579+841        0      13bcb35d3eddf2f1
+    981  Polys             -                   Polys259                    0x00340001  335420+119        0      1bf5690ba4d85d4b
+    982  Polys             -                   Polys266                    0x00340001  335539+669        0      bdfdbbf9527d2813
+    983  Polys             -                   Polys277                    0x00070001  336208+2165       0      0036d07b1d517824
+    984  Polys             -                   Polys335                    0x00070001  338373+2165       0      0036d07b1d517824
+    985  Polys             -                   Polys331                    0x00070001  340538+119        0      c58f86ac90ddea0b
+    986  Polys             -                   Polys327                    0x00070001  340657+119        0      de09ff70743660b1
+    987  Polys             -                   Polys307                    0x00070001  340776+119        0      c58f86ac90ddea0b
+    988  Polys             -                   Polys263                    0x00340001  340895+669        0      3dc1e2be593e409d
+    989  Polys             -                   Polys245                    0x00340001  341564+669        0      044095d106ffd304
+    990  Polys             -                   Polys261                    0x00340001  342233+119        0      86e2b63226c218c7
     991  Model             -                   Model327                    0x00070001  342352+71         0      de4544e5d8a2a7d0
     992  Model             -                   Model328                    0x00070001  342423+71         0      be7662c5722be868
     993  Model             -                   Model310                    0x00070001  342494+71         0      3e9ebe52862f20d6
     994  Model             -                   Model317                    0x00070001  342565+71         0      0c15c609e3f53549
-    995  Polys             -                   Polys302                    0x00340001  342636+841        0      5d185180063fdf4e
+    995  Polys             -                   Polys302                    0x00340001  342636+841        0      15dbf11396b39b9c
     996  Model             -                   Model326                    0x00070001  343477+71         0      43f7830b996a1305
     997  Model             -                   Model255                    0x00340001  343548+71         0      6e362badc505bbba
     998  Model             -                   Model252                    0x00340001  343619+71         0      e3d6649fdbd4baf2
@@ -2780,9 +2780,9 @@ sha256   da9f63af9e468a4a1acc46bbd0cd7ea914dcd20fc6ac665217595c8f2b71e0f3
    1002  AmbientSound      -                   AmbientSound20              0x02070001  343930+95         12     fafb38bd251dab1c
    1003  Trigger           -                   Trigger4                    0x02070001  344025+85         11     fa23e73736efe071
    1004  Trigger           -                   Trigger7                    0x02070001  344110+85         11     a276e5c8804b2848
-   1005  Polys             -                   Polys255                    0x00340001  344195+841        0      999b5851eb58c03b
+   1005  Polys             -                   Polys255                    0x00340001  344195+841        0      4ece4935acd839ce
    1006  Model             -                   Model261                    0x00340001  345036+71         0      6b75d30136351542
-   1007  Polys             -                   Polys254                    0x00070001  345107+669        0      5d893abbd036d8b8
+   1007  Polys             -                   Polys254                    0x00070001  345107+669        0      3392900c1058c0e1
    1008  Model             -                   Model256                    0x00340001  345776+71         0      7092231b51ac1bee
    1009  AmbientSound      -                   AmbientSound24              0x02070001  345847+95         12     208bc365ae93b67a
    1010  AmbientSound      -                   AmbientSound25              0x02070001  345942+95         12     7614366278f7f2d9
@@ -2791,167 +2791,167 @@ sha256   da9f63af9e468a4a1acc46bbd0cd7ea914dcd20fc6ac665217595c8f2b71e0f3
    1013  Model             -                   Model11                     0x00340001  346230+71         0      9c6fd8a28b43d8a8
    1014  Model             -                   Model66                     0x00340001  346301+71         0      aa7dbd540e275eb2
    1015  Model             -                   Model270                    0x00070001  346372+71         0      f8f720de824810e4
-   1016  Polys             -                   Polys22                     0x00340001  346443+119        0      5d5b5b670ab26fa2
+   1016  Polys             -                   Polys22                     0x00340001  346443+119        0      eefdc1f9a414f306
    1017  Model             -                   Model10                     0x00340001  346562+71         0      abc09ea494d53939
    1018  Model             -                   Model263                    0x00340001  346633+71         0      63a6fb1be546a2bc
-   1019  Polys             -                   Polys10                     0x00340001  346704+669        0      e43273feeecce305
+   1019  Polys             -                   Polys10                     0x00340001  346704+669        0      929d23ae83542c90
    1020  Model             -                   Model5                      0x00340001  347373+71         0      a7ee642afafe8987
-   1021  Polys             -                   Polys194                    0x00340001  347444+841        0      61f0b845255d0551
-   1022  Polys             -                   Polys179                    0x00340001  348285+669        0      0d8be491db71342a
-   1023  Polys             -                   Polys182                    0x00340001  348954+669        0      7862699c0d19c9ce
-   1024  Polys             -                   Polys62                     0x00340001  349623+1453       0      fdf702e937bad12a
+   1021  Polys             -                   Polys194                    0x00340001  347444+841        0      191b6a88fc00d897
+   1022  Polys             -                   Polys179                    0x00340001  348285+669        0      f46812bb3d6a402f
+   1023  Polys             -                   Polys182                    0x00340001  348954+669        0      88f28fd9ce00b253
+   1024  Polys             -                   Polys62                     0x00340001  349623+1453       0      b6c0364ef5bd5ff8
    1025  Model             -                   Model264                    0x00340001  351076+71         0      63a1f2939c1f14ff
-   1026  Polys             -                   Polys143                    0x00340001  351147+669        0      aa67c60fea089543
-   1027  Polys             -                   Polys108                    0x00070001  351816+669        0      a3d0bbc8b980c805
+   1026  Polys             -                   Polys143                    0x00340001  351147+669        0      02d564a25401c2d8
+   1027  Polys             -                   Polys108                    0x00070001  351816+669        0      0bbecde027b98994
    1028  Model             -                   Model154                    0x00340001  352485+71         0      af154836139297a9
-   1029  Polys             -                   Polys213                    0x00340001  352556+669        0      24600b82123abbb0
+   1029  Polys             -                   Polys213                    0x00340001  352556+669        0      0dea4d0d8fa97a38
    1030  Model             -                   Model155                    0x00340001  353225+71         0      5769c4b318f542f1
    1031  Model             -                   Model265                    0x00340001  353296+71         0      22f553ae5c7ed671
-   1032  Polys             -                   Polys36                     0x00340001  353367+669        0      b3e1da8eb2e0c6b9
-   1033  Polys             -                   Polys221                    0x00340001  354036+119        0      9a57da0af551cc54
+   1032  Polys             -                   Polys36                     0x00340001  353367+669        0      3cfc79f4ceadf81c
+   1033  Polys             -                   Polys221                    0x00340001  354036+119        0      86e2b63226c218c7
    1034  Model             -                   Model268                    0x00070001  354155+71         0      c7cd51ce4541a402
-   1035  Polys             -                   Polys224                    0x00340001  354226+669        0      126c2c97a096f998
+   1035  Polys             -                   Polys224                    0x00340001  354226+669        0      306811f69795ab13
    1036  Model             -                   Model74                     0x00340001  354895+71         0      c26c25f7c0799a0b
    1037  Model             -                   Model269                    0x00070001  354966+71         0      d5d501c57e180d5b
    1038  Model             -                   Model36                     0x00340001  355037+71         0      61a19a2fe84225e8
-   1039  Polys             -                   Polys92                     0x00340001  355108+669        0      f1ebf01c603cda9a
-   1040  Polys             -                   Polys151                    0x00340001  355777+841        0      d1bd79be42e9659c
-   1041  Polys             -                   Polys231                    0x00340001  356618+1453       0      f62561c4fe492494
-   1042  Polys             -                   Polys225                    0x00340001  358071+119        0      9a57da0af551cc54
+   1039  Polys             -                   Polys92                     0x00340001  355108+669        0      4f4d2449181c89a2
+   1040  Polys             -                   Polys151                    0x00340001  355777+841        0      35f5c7d0f8632aa1
+   1041  Polys             -                   Polys231                    0x00340001  356618+1453       0      8e120856fb8ea5f0
+   1042  Polys             -                   Polys225                    0x00340001  358071+119        0      86e2b63226c218c7
    1043  Model             -                   Model27                     0x00340001  358190+71         0      0e63435004954b64
    1044  Model             -                   Model200                    0x00070001  358261+71         0      01f4ff421fb9d045
-   1045  Polys             -                   Polys116                    0x00340001  358332+669        0      211bc20542ef5de3
+   1045  Polys             -                   Polys116                    0x00340001  358332+669        0      99d9d6d06496245c
    1046  Model             -                   Model219                    0x00340001  359001+71         0      69d8694f181f51cc
    1047  Model             -                   Model65                     0x00340001  359072+71         0      3e6ee1b4ea3fcc4e
-   1048  Polys             -                   Polys70                     0x00340001  359143+841        0      f9adc7866296b257
+   1048  Polys             -                   Polys70                     0x00340001  359143+841        0      932e757f208a1163
    1049  Model             -                   Model196                    0x00340001  359984+71         0      eaa3fccecbad1a3c
    1050  Model             -                   Model142                    0x00340001  360055+71         0      09c0c006ae91f492
-   1051  Polys             -                   Polys78                     0x00340001  360126+1185       0      1ba5059a66b489a8
-   1052  Polys             -                   Polys174                    0x00070001  361311+1185       0      42887827b04387c3
+   1051  Polys             -                   Polys78                     0x00340001  360126+1185       0      96a9f26ba0f5697b
+   1052  Polys             -                   Polys174                    0x00070001  361311+1185       0      7e2e5c4c6247264e
    1053  Model             -                   Model144                    0x00340001  362496+71         0      903632b788681b23
    1054  Model             -                   Model82                     0x00340001  362567+71         0      f65466a78786dec9
    1055  Model             -                   Model274                    0x00070001  362638+71         0      3f7456f8571f56ec
    1056  Model             -                   Model40                     0x00340001  362709+71         0      20f71dad48333ce3
-   1057  Polys             -                   Polys55                     0x00070001  362780+669        0      a3d0bbc8b980c805
+   1057  Polys             -                   Polys55                     0x00070001  362780+669        0      0bbecde027b98994
    1058  Model             -                   Model59                     0x00340001  363449+71         0      91a11d07f71522e6
    1059  Model             -                   Model107                    0x00340001  363520+71         0      dcedc8932245b23e
-   1060  Polys             -                   Polys205                    0x00070001  363591+1453       0      9738e20b4f522e75
-   1061  Polys             -                   Polys268                    0x00340001  365044+669        0      f2ee442818dffa54
+   1060  Polys             -                   Polys205                    0x00070001  363591+1453       0      7c66036df21cbdc3
+   1061  Polys             -                   Polys268                    0x00340001  365044+669        0      0605e6f7ab9c8c5e
    1062  Model             -                   Model275                    0x00070001  365713+71         0      f342827224ffea8f
-   1063  Polys             -                   Polys278                    0x00340001  365784+119        0      79fd12efe5cb79cb
+   1063  Polys             -                   Polys278                    0x00340001  365784+119        0      ae039500ef7f6d62
    1064  Model             -                   Model71                     0x00340001  365903+71         0      4f37d5849124e569
    1065  Model             -                   Model37                     0x00340001  365974+71         0      e902b76efb31f886
-   1066  Polys             -                   Polys88                     0x00340001  366045+669        0      a2bd7c9da9c63042
-   1067  Polys             -                   Polys161                    0x00340001  366714+2165       0      25b5de10bb68179d
+   1066  Polys             -                   Polys88                     0x00340001  366045+669        0      c57f47e819cd5d5d
+   1067  Polys             -                   Polys161                    0x00340001  366714+2165       0      0036d07b1d517824
    1068  Model             -                   Model287                    0x00070001  368879+71         0      cb94fe99f2c6a429
-   1069  Polys             -                   Polys287                    0x00070001  368950+2165       0      25b5de10bb68179d
+   1069  Polys             -                   Polys287                    0x00070001  368950+2165       0      0036d07b1d517824
    1070  Model             -                   Model151                    0x00340001  371115+71         0      ac14b98560d6daf3
-   1071  Polys             -                   Polys181                    0x00340001  371186+669        0      a9d1db042ff6de88
+   1071  Polys             -                   Polys181                    0x00340001  371186+669        0      e0f0cce6741636f4
    1072  Model             -                   Model148                    0x00340001  371855+71         0      e3ac4e2a3ae9eda1
    1073  Model             -                   Model194                    0x00340001  371926+71         0      03135ad9bdabacfc
-   1074  Polys             -                   Polys54                     0x00070001  371997+669        0      5d893abbd036d8b8
-   1075  Polys             -                   Polys138                    0x00070001  372666+1185       0      d799d8cd8be3c0d7
+   1074  Polys             -                   Polys54                     0x00070001  371997+669        0      3392900c1058c0e1
+   1075  Polys             -                   Polys138                    0x00070001  372666+1185       0      fb54c5bbac2ac3dd
    1076  Model             -                   Model127                    0x00070001  373851+71         0      de7046ce83efa203
    1077  Model             -                   Model192                    0x00070001  373922+71         0      04a230544e0c888d
    1078  Model             -                   Model52                     0x00340001  373993+71         0      e4a90668c4bcbed3
-   1079  Polys             -                   Polys117                    0x00340001  374064+1453       0      1ef9c7d747602f40
+   1079  Polys             -                   Polys117                    0x00340001  374064+1453       0      f581cdd3c82e2ca0
    1080  Model             -                   Model218                    0x00340001  375517+71         0      c3f408a8a59c4f43
    1081  Model             -                   Model206                    0x00070001  375588+71         0      3ada376d97d480cd
    1082  Model             -                   Model222                    0x00340001  375659+71         0      c62eb2a4f0a4329d
    1083  Model             -                   Model41                     0x00340001  375730+71         0      3e490b7a03973d06
-   1084  Polys             -                   Polys137                    0x00340001  375801+669        0      53b63937e68517d8
-   1085  Polys             -                   Polys37                     0x00070001  376470+5889       0      9f50ff1335b07720
+   1084  Polys             -                   Polys137                    0x00340001  375801+669        0      6f82426139e048f9
+   1085  Polys             -                   Polys37                     0x00070001  376470+5889       0      bf374aea0c5ce323
    1086  Model             -                   Model230                    0x00070001  382359+71         0      de0ff8f533a94d8d
-   1087  Polys             -                   Polys147                    0x00340001  382430+119        0      8f404a7b4198df96
-   1088  Polys             -                   Polys13                     0x00070001  382549+1453       0      e32a22a9727d72e3
-   1089  Polys             -                   Polys133                    0x00340001  384002+669        0      69a2baed79749975
+   1087  Polys             -                   Polys147                    0x00340001  382430+119        0      33a8175d04eb8570
+   1088  Polys             -                   Polys13                     0x00070001  382549+1453       0      0114e73713a8df24
+   1089  Polys             -                   Polys133                    0x00340001  384002+669        0      28ffd45ecf2ac24e
    1090  Model             -                   Model285                    0x00070001  384671+71         0      87d4cae7bca4e8c3
    1091  Model             -                   Model96                     0x00070001  384742+71         0      8b4e58f88aec92c6
    1092  Trigger           -                   Trigger0                    0x02070001  384813+85         11     bbee32b3960f4295
    1093  Trigger           -                   Trigger3                    0x02070001  384898+85         11     31ee2eebf0a99e4d
-   1094  Polys             -                   Polys29                     0x00070001  384983+4125       0      30cb37b520ccf650
+   1094  Polys             -                   Polys29                     0x00070001  384983+4125       0      f8722231e7889803
    1095  Model             -                   Model116                    0x00070001  389108+71         0      f4761215467cea7e
-   1096  Polys             -                   Polys107                    0x00340001  389179+841        0      6c1dea18030f6a18
+   1096  Polys             -                   Polys107                    0x00340001  389179+841        0      c583acee91f9c87e
    1097  Model             -                   Model29                     0x00340001  390020+71         0      78a3e1f4cbe1c237
-   1098  Polys             -                   Polys120                    0x00340001  390091+120        0      129aafc2ef199dca
+   1098  Polys             -                   Polys120                    0x00340001  390091+120        0      0a0fc7ca7c9a58e5
    1099  Model             -                   Model241                    0x00070001  390211+71         0      a5ccbad20833fe03
    1100  Trigger           -                   Trigger1                    0x02070001  390282+85         11     d5ca67e37aed4991
    1101  Model             -                   Model189                    0x00340001  390367+71         0      fe3ec9025d828dbd
    1102  Model             -                   Model260                    0x00340001  390438+71         0      44c9d1f28cafca1b
-   1103  Polys             -                   Polys188                    0x00340001  390509+669        0      562ce7c72f40d154
+   1103  Polys             -                   Polys188                    0x00340001  390509+669        0      738a0c08f80a9d7f
    1104  Model             -                   Model121                    0x00340001  391178+71         0      2f9e8b4a07b436ff
-   1105  Polys             -                   Polys56                     0x00340001  391249+2151       0      79fc41d46f0f1315
+   1105  Polys             -                   Polys56                     0x00340001  391249+2151       0      7b82ca7fc931441f
    1106  Model             -                   Model32                     0x00340001  393400+71         0      580f827b61624e5d
-   1107  Polys             -                   Polys38                     0x00340001  393471+669        0      5d893abbd036d8b8
-   1108  Polys             -                   Polys111                    0x00340001  394140+669        0      49af432c6941f0f7
+   1107  Polys             -                   Polys38                     0x00340001  393471+669        0      3392900c1058c0e1
+   1108  Polys             -                   Polys111                    0x00340001  394140+669        0      cc685ad58fbf0e43
    1109  Model             -                   Model238                    0x00340001  394809+71         0      c5e6236d1678be60
    1110  Model             -                   Model17                     0x00070001  394880+71         0      f9a4fe983847cf5f
-   1111  Polys             -                   Polys314                    0x00340001  394951+841        0      fdeafd1f606c707f
+   1111  Polys             -                   Polys314                    0x00340001  394951+841        0      abcd1eabb0ac8b97
    1112  Model             -                   Model145                    0x00340001  395792+71         0      336ce67fb947205e
-   1113  Polys             -                   Polys207                    0x00340001  395863+669        0      521d7f11c7985965
-   1114  Polys             -                   Polys139                    0x00070001  396532+1453       0      6f43065f098894ac
-   1115  Polys             -                   Polys64                     0x00340001  397985+669        0      e303d2903ccebded
+   1113  Polys             -                   Polys207                    0x00340001  395863+669        0      20a53ea2b1001876
+   1114  Polys             -                   Polys139                    0x00070001  396532+1453       0      e043ffbc50074a34
+   1115  Polys             -                   Polys64                     0x00340001  397985+669        0      589f1a12013f5009
    1116  Model             -                   Model126                    0x00070001  398654+71         0      40362eb7aa52f1dd
-   1117  Polys             -                   Polys75                     0x00340001  398725+669        0      e14ec8d31ee16fed
+   1117  Polys             -                   Polys75                     0x00340001  398725+669        0      7f1165fe7492df93
    1118  Model             -                   Model271                    0x00070001  399394+71         0      2e757fe108f77e48
-   1119  Polys             -                   Polys193                    0x00340001  399465+669        0      9ee9fc48f2a45821
+   1119  Polys             -                   Polys193                    0x00340001  399465+669        0      044dc95c647adbe7
    1120  Model             -                   Model18                     0x00070001  400134+71         0      74faafe8571f3be7
    1121  Model             -                   Model220                    0x00340001  400205+71         0      b67a294d1aab8027
-   1122  Polys             -                   Polys242                    0x00340001  400276+669        0      5294b0a7e60d64bf
-   1123  Polys             -                   Polys220                    0x00340001  400945+669        0      1d51aeeebf2495cd
+   1122  Polys             -                   Polys242                    0x00340001  400276+669        0      905aef992920bc4d
+   1123  Polys             -                   Polys220                    0x00340001  400945+669        0      089f212c509d0c4a
    1124  Model             -                   Model273                    0x00070001  401614+71         0      6a0e526af76f8eb3
-   1125  Polys             -                   Polys126                    0x00070001  401685+1147       0      1b31957829cfa6c9
+   1125  Polys             -                   Polys126                    0x00070001  401685+1147       0      915fd98a2a5dffd0
    1126  Model             -                   Model31                     0x00340001  402832+71         0      07ae12699c3578e2
-   1127  Polys             -                   Polys178                    0x00070001  402903+1185       0      1ba4baf844f88f09
+   1127  Polys             -                   Polys178                    0x00070001  402903+1185       0      77013cddbc04fca9
    1128  Model             -                   Model272                    0x00070001  404088+71         0      e545fef8b7183165
    1129  Model             -                   Model101                    0x00070001  404159+71         0      5710a3bc94530813
-   1130  Polys             -                   Polys5                      0x00340001  404230+989        0      0caeb2c857db3a4b
-   1131  Polys             -                   Polys105                    0x00340001  405219+669        0      77de18cb6717df2f
+   1130  Polys             -                   Polys5                      0x00340001  404230+989        0      92d8fc191b09f2e6
+   1131  Polys             -                   Polys105                    0x00340001  405219+669        0      7aaf857e56daffac
    1132  Model             -                   Model131                    0x00340001  405888+71         0      57b57b9c49071f8f
    1133  Model             -                   Model3                      0x00340001  405959+71         0      525ffa6529adfa53
-   1134  Polys             -                   Polys6                      0x00340001  406030+1147       0      b8b67b26c865da26
+   1134  Polys             -                   Polys6                      0x00340001  406030+1147       0      17a5d69532661d42
    1135  Model             -                   Model140                    0x00340001  407177+71         0      6e4fef3eeeb40c1b
-   1136  Polys             -                   Polys167                    0x00070001  407248+669        0      aa379236df7a57a1
-   1137  Polys             -                   Polys170                    0x00340001  407917+841        0      e6ff1841a3ada526
-   1138  Polys             -                   Polys189                    0x00340001  408758+119        0      3fef372434db0488
-   1139  Polys             -                   Polys192                    0x00340001  408877+669        0      d5cd09e63e2a9013
+   1136  Polys             -                   Polys167                    0x00070001  407248+669        0      af7181d8dec8ea57
+   1137  Polys             -                   Polys170                    0x00340001  407917+841        0      43e48610f78c2b8b
+   1138  Polys             -                   Polys189                    0x00340001  408758+119        0      c58f86ac90ddea0b
+   1139  Polys             -                   Polys192                    0x00340001  408877+669        0      d77146530cbd8e68
    1140  TextBuffer        -                   TextBuffer0                 0x00340000  409546+72         0      f8fe6df01bfa119f
    1141  Model             -                   Model210                    0x00340001  409618+71         0      58269765f943a3c1
    1142  Model             -                   Model69                     0x00340001  409689+71         0      c5a6d145b7b0ea9b
-   1143  Polys             -                   Polys157                    0x00070001  409760+669        0      aa379236df7a57a1
-   1144  Polys             -                   Polys125                    0x00340001  410429+669        0      a801aaa0cec482d7
+   1143  Polys             -                   Polys157                    0x00070001  409760+669        0      af7181d8dec8ea57
+   1144  Polys             -                   Polys125                    0x00340001  410429+669        0      aed164e05859e100
    1145  Model             -                   Model136                    0x00070001  411098+71         0      d044cd22cba1431a
    1146  Model             -                   Model138                    0x00070001  411169+71         0      50f8a261467adfb9
    1147  Model             -                   Model122                    0x00340001  411240+71         0      e305cefdbd25d88e
-   1148  Polys             -                   Polys129                    0x00340001  411311+989        0      10e518e29bbf64a9
+   1148  Polys             -                   Polys129                    0x00340001  411311+989        0      539c05724f3a1f77
    1149  Model             -                   Model139                    0x00070001  412300+71         0      5db203dadb8571ec
    1150  Model             -                   Model34                     0x00340001  412371+71         0      470c0a3be97917f5
    1151  Model             -                   Model160                    0x00340001  412442+71         0      3a1ecf8086556897
    1152  Model             -                   Model108                    0x00070001  412513+71         0      128f9f526daf3082
-   1153  Polys             -                   Polys7                      0x00340001  412584+1147       0      7f5b7c609160998b
-   1154  Polys             -                   Polys159                    0x00340001  413731+841        0      1f7df01ac993bdd0
+   1153  Polys             -                   Polys7                      0x00340001  412584+1147       0      2fc111fc83fc0e14
+   1154  Polys             -                   Polys159                    0x00340001  413731+841        0      d7f524fc0167d5e5
    1155  Model             -                   Model85                     0x00340001  414572+71         0      6ff4caa7883680ff
-   1156  Polys             -                   Polys235                    0x00340001  414643+1453       0      4fde777b6aea4ab1
-   1157  Polys             -                   Polys41                     0x00340001  416096+669        0      1f42b3e0211f5c1c
+   1156  Polys             -                   Polys235                    0x00340001  414643+1453       0      ec6c62529bc3b72f
+   1157  Polys             -                   Polys41                     0x00340001  416096+669        0      baaa9aec04a2d3e8
    1158  Model             -                   Model166                    0x00340001  416765+71         0      d24daf473c4f11e8
-   1159  Polys             -                   Polys31                     0x00070001  416836+5889       0      cc9e46907cd82e5a
+   1159  Polys             -                   Polys31                     0x00070001  416836+5889       0      c29d81696f859088
    1160  Model             -                   Model50                     0x00070001  422725+71         0      46e03a5af89fbb5e
    1161  Model             -                   Model188                    0x00340001  422796+71         0      5afe4f3aa1569160
    1162  Model             -                   Model91                     0x00070001  422867+71         0      763044f8608f823f
    1163  Model             -                   Model63                     0x00340001  422938+71         0      e480f624554e3ce7
-   1164  Polys             -                   Polys89                     0x00340001  423009+669        0      255197ed43b67426
+   1164  Polys             -                   Polys89                     0x00340001  423009+669        0      9f5d9641327b4c7c
    1165  Model             -                   Model43                     0x00340001  423678+71         0      a2a8d987f64a0aec
-   1166  Polys             -                   Polys61                     0x00340001  423749+669        0      2b073868892955aa
-   1167  Polys             -                   Polys93                     0x00070001  424418+669        0      d9770e16f74d41d8
-   1168  Polys             -                   Polys8                      0x00340001  425087+1453       0      89fadcec27fe282f
-   1169  Polys             -                   Polys65                     0x00340001  426540+669        0      561bf475a39e82cf
-   1170  Polys             -                   Polys27                     0x00070001  427209+7072       0      fd9a6403266441ab
-   1171  Polys             -                   Polys184                    0x00070001  434281+1147       0      12c5cbe30bdeebef
+   1166  Polys             -                   Polys61                     0x00340001  423749+669        0      c34544898e0cb255
+   1167  Polys             -                   Polys93                     0x00070001  424418+669        0      023a84b04383f68f
+   1168  Polys             -                   Polys8                      0x00340001  425087+1453       0      30db2549144fe344
+   1169  Polys             -                   Polys65                     0x00340001  426540+669        0      88e22222721f85c6
+   1170  Polys             -                   Polys27                     0x00070001  427209+7072       0      98719be05f725860
+   1171  Polys             -                   Polys184                    0x00070001  434281+1147       0      69da1af54dd85b7d
    1172  AmbientSound      -                   AmbientSound2               0x02070001  435428+81         11     b81279427a5e87a8
-   1173  Polys             -                   Polys136                    0x00340001  435509+989        0      728f3d2e46772593
-   1174  Polys             -                   Polys223                    0x00070001  436498+1185       0      008766e0230049e7
+   1173  Polys             -                   Polys136                    0x00340001  435509+989        0      813b9c2d2a826c65
+   1174  Polys             -                   Polys223                    0x00070001  436498+1185       0      8c7cad9043e655ab
    1175  Model             -                   Model187                    0x00070001  437683+71         0      e86eec2903c320ff
-   1176  Polys             -                   Polys209                    0x00340001  437754+119        0      915086ceb3da9288
+   1176  Polys             -                   Polys209                    0x00340001  437754+119        0      de09ff70743660b1
    1177  Model             -                   Model162                    0x00340001  437873+71         0      47fc9ff021416535
    1178  Model             -                   Model161                    0x00340001  437944+71         0      3aafdef0e023c1a9
    1179  Model             -                   Model201                    0x00340001  438015+71         0      5d6f8036b4a8c9ea
@@ -2960,9 +2960,9 @@ sha256   da9f63af9e468a4a1acc46bbd0cd7ea914dcd20fc6ac665217595c8f2b71e0f3
    1182  Model             -                   Model118                    0x00070001  438228+71         0      572c2f30b187735d
    1183  Model             -                   Model208                    0x00340001  438299+71         0      55d3c5d57de13f9b
    1184  Model             -                   Model178                    0x00070001  438370+29838      0      25fe31941c57942b
-   1185  Polys             -                   Polys16                     0x00340001  468208+1147       0      339b55634b24e57f
-   1186  Polys             -                   Polys59                     0x00340001  469355+669        0      c623ce15d86988bd
-   1187  Polys             -                   Polys53                     0x00340001  470024+669        0      774f845f7657523a
+   1185  Polys             -                   Polys16                     0x00340001  468208+1147       0      fd69e62fa36d8ece
+   1186  Polys             -                   Polys59                     0x00340001  469355+669        0      7619d5610f0bccd5
+   1187  Polys             -                   Polys53                     0x00340001  470024+669        0      7f233a7d8680b53e
    1188  Model             -                   Model119                    0x00340001  470693+71         0      8b0491ac0a8aea41
    1189  Model             -                   Model211                    0x00340001  470764+71         0      18aabdd6ec0ec737
    1190  Model             -                   Model15                     0x00340001  470835+71         0      b80e9cc7101eea09
@@ -2972,54 +2972,54 @@ sha256   da9f63af9e468a4a1acc46bbd0cd7ea914dcd20fc6ac665217595c8f2b71e0f3
    1194  Model             -                   Model143                    0x00340001  471119+71         0      c7f3d8cae77b4e8d
    1195  Model             -                   Model7                      0x00070001  471190+1050838    0      b6a410cd88e8eccb
    1196  Model             -                   Model49                     0x00070001  1522028+71        0      1d5528dcbd679861
-   1197  Polys             -                   Polys239                    0x00340001  1522099+119       0      9a57da0af551cc54
-   1198  Polys             -                   Polys14                     0x00340001  1522218+1453      0      89fadcec27fe282f
-   1199  Polys             -                   Polys183                    0x00340001  1523671+119       0      5aa348a2429d77e3
-   1200  Polys             -                   Polys9                      0x00070001  1523790+119       0      d8be11b74a7ff4f5
+   1197  Polys             -                   Polys239                    0x00340001  1522099+119       0      86e2b63226c218c7
+   1198  Polys             -                   Polys14                     0x00340001  1522218+1453      0      30db2549144fe344
+   1199  Polys             -                   Polys183                    0x00340001  1523671+119       0      1bf5690ba4d85d4b
+   1200  Polys             -                   Polys9                      0x00070001  1523790+119       0      079d42f2966b68e2
    1201  Model             -                   Model56                     0x00340001  1523909+71        0      8dea00a3b3e3ce19
-   1202  Polys             -                   Polys241                    0x00070001  1523980+120       0      fe8dd11f8fc34acc
-   1203  Polys             -                   Polys19                     0x00340001  1524100+7072      0      7afc5ee4ca20b736
-   1204  Polys             -                   Polys163                    0x00070001  1531172+669       0      aa379236df7a57a1
+   1202  Polys             -                   Polys241                    0x00070001  1523980+120       0      41661040d3e94159
+   1203  Polys             -                   Polys19                     0x00340001  1524100+7072      0      d5b1c07b76480a88
+   1204  Polys             -                   Polys163                    0x00070001  1531172+669       0      af7181d8dec8ea57
    1205  Model             -                   Model197                    0x00340001  1531841+71        0      a4f79dcff7812f5b
    1206  Model             -                   Model64                     0x00340001  1531912+71        0      1eaa0a90c3e83fc0
-   1207  Polys             -                   Polys20                     0x00340001  1531983+669       0      884f93e3d2548ef8
+   1207  Polys             -                   Polys20                     0x00340001  1531983+669       0      46ce7fe26e3f8d77
    1208  Model             -                   Model128                    0x00340001  1532652+71        0      0e703161b24e6d02
    1209  Model             -                   Model48                     0x00070001  1532723+71        0      7e95c200ace2e9be
-   1210  Polys             -                   Polys17                     0x00340001  1532794+669       0      884f93e3d2548ef8
-   1211  Polys             -                   Polys180                    0x00070001  1533463+1185      0      d6b8ffd666462c8c
-   1212  Polys             -                   Polys26                     0x00340001  1534648+669       0      aa379236df7a57a1
+   1210  Polys             -                   Polys17                     0x00340001  1532794+669       0      46ce7fe26e3f8d77
+   1211  Polys             -                   Polys180                    0x00070001  1533463+1185      0      3cc65bec67a1aca4
+   1212  Polys             -                   Polys26                     0x00340001  1534648+669       0      af7181d8dec8ea57
    1213  Model             -                   Model81                     0x00340001  1535317+71        0      8a10bfde82d135ca
    1214  Model             -                   Model51                     0x00070001  1535388+71        0      efa7376ac6a91459
-   1215  Polys             -                   Polys60                     0x00340001  1535459+1185      0      3b4b58b3a59e7b36
+   1215  Polys             -                   Polys60                     0x00340001  1535459+1185      0      ce9d93e2edfdc4bb
    1216  Model             -                   Model164                    0x00340001  1536644+71        0      1b9f117f34b422d9
    1217  Model             -                   Model179                    0x00340001  1536715+71        0      69e02a7957b1e7f7
-   1218  Polys             -                   Polys158                    0x00340001  1536786+669       0      a6178c9640cc870f
+   1218  Polys             -                   Polys158                    0x00340001  1536786+669       0      c72e3fb8b156c9f8
    1219  Model             -                   Model113                    0x00070001  1537455+71        0      4e7699be640dee45
    1220  Model             -                   Model28                     0x00340001  1537526+71        0      1f347a7cb2f0e064
    1221  Model             -                   Model183                    0x00340001  1537597+71        0      ee7c49381d4c7287
    1222  Model             -                   Model236                    0x00340001  1537668+71        0      70810c3a3af0efdf
-   1223  Polys             -                   Polys32                     0x00340001  1537739+1197      0      4069e3d31d624630
+   1223  Polys             -                   Polys32                     0x00340001  1537739+1197      0      f79ce0c4a4749ad2
    1224  Model             -                   Model235                    0x00340001  1538936+71        0      85eae96c64670000
    1225  Model             -                   Model180                    0x00340001  1539007+71        0      b06d6d60714cbbd4
    1226  Model             -                   Model173                    0x00340001  1539078+71        0      20b670ca27379dc2
-   1227  Polys             -                   Polys104                    0x00070001  1539149+669       0      655bdbd9e7c26652
-   1228  Polys             -                   Polys47                     0x00340001  1539818+669       0      c9891b3816448a16
+   1227  Polys             -                   Polys104                    0x00070001  1539149+669       0      6ddce9dd802fc8bb
+   1228  Polys             -                   Polys47                     0x00340001  1539818+669       0      f0c8ebfe4a1c3431
    1229  Model             -                   Model184                    0x00340001  1540487+71        0      92e587250446dfda
    1230  Model             -                   Model170                    0x00340001  1540558+71        0      78a0ee00ea3e0fdb
    1231  Model             -                   Model175                    0x00340001  1540629+71        0      8ba0dd44bebdb2e0
-   1232  Polys             -                   Polys187                    0x00340001  1540700+669       0      3d4e18ccbfcbf8ee
-   1233  Polys             -                   Polys173                    0x00340001  1541369+669       0      908379067dd5848b
-   1234  Polys             -                   Polys219                    0x00340001  1542038+669       0      4d4e0accf5d4c714
-   1235  Polys             -                   Polys222                    0x00340001  1542707+669       0      1d51aeeebf2495cd
+   1232  Polys             -                   Polys187                    0x00340001  1540700+669       0      85f83c83976fb3aa
+   1233  Polys             -                   Polys173                    0x00340001  1541369+669       0      580577f91a95d522
+   1234  Polys             -                   Polys219                    0x00340001  1542038+669       0      a6ced7cbc1a62688
+   1235  Polys             -                   Polys222                    0x00340001  1542707+669       0      089f212c509d0c4a
    1236  Model             -                   Model44                     0x00340001  1543376+71        0      22667253fd44ff55
    1237  Model             -                   Model171                    0x00340001  1543447+71        0      bd04cb0630d85af1
-   1238  Polys             -                   Polys121                    0x00340001  1543518+1453      0      ad1a313fff206e90
+   1238  Polys             -                   Polys121                    0x00340001  1543518+1453      0      2da6d3c6f98c4401
    1239  Model             -                   Model149                    0x00340001  1544971+71        0      c950ff8f93662ed7
    1240  Model             -                   Model172                    0x00070001  1545042+71        0      1d7de1ba90c65dec
    1241  Model             -                   Model22                     0x00340001  1545113+71        0      48b50dba4410c216
    1242  Model             -                   Model20                     0x00070001  1545184+71        0      7fcf8167a2ab027d
-   1243  Polys             -                   Polys114                    0x00070001  1545255+1185      0      29f210bddde6db66
-   1244  Polys             -                   Polys123                    0x00070001  1546440+1147      0      bf5dee5f0b344028
+   1243  Polys             -                   Polys114                    0x00070001  1545255+1185      0      16848dad77e0ee8f
+   1244  Polys             -                   Polys123                    0x00070001  1546440+1147      0      36035917b38bd473
    1245  Model             -                   Model46                     0x00340001  1547587+71        0      6db6a2f7470b520d
    1246  Model             -                   Model216                    0x00340001  1547658+71        0      8c9b036bcfc784e3
    1247  Model             -                   Model168                    0x00340001  1547729+71        0      79f6a79020352a7b
@@ -3029,86 +3029,86 @@ sha256   da9f63af9e468a4a1acc46bbd0cd7ea914dcd20fc6ac665217595c8f2b71e0f3
    1251  Model             -                   Model110                    0x00070001  1548013+71        0      e446134488de2422
    1252  Brush             -                   Brush6                      0x02340001  1548084+148       12     9893338a6e9dcac9
    1253  Model             -                   Model226                    0x00070001  1548232+71        0      91e078e409e96997
-   1254  Polys             -                   Polys162                    0x00340001  1548303+669       0      61f6d48d60c5155b
-   1255  Polys             -                   Polys186                    0x00340001  1548972+669       0      9df61249819f0ca6
-   1256  Polys             -                   Polys46                     0x00070001  1549641+669       0      655bdbd9e7c26652
-   1257  Polys             -                   Polys230                    0x00340001  1550310+669       0      6793402675a5491b
-   1258  Polys             -                   Polys81                     0x00340001  1550979+3537      0      6c095ace5872f502
-   1259  Polys             -                   Polys190                    0x00340001  1554516+669       0      7bf73c92de3d9686
-   1260  Polys             -                   Polys169                    0x00070001  1555185+1453      0      43adbdd2b7ceea76
-   1261  Polys             -                   Polys246                    0x00340001  1556638+119       0      9a57da0af551cc54
-   1262  Polys             -                   Polys24                     0x00340001  1556757+119       0      e6c4c8ee2eec1326
-   1263  Polys             -                   Polys212                    0x00340001  1556876+669       0      ffe4d68b593ae3ae
-   1264  Polys             -                   Polys73                     0x00340001  1557545+669       0      96491ac84dbf5341
-   1265  Polys             -                   Polys67                     0x00340001  1558214+669       0      7a5a864fe9479123
-   1266  Polys             -                   Polys119                    0x00340001  1558883+669       0      73357aa0e86ee582
-   1267  Polys             -                   Polys72                     0x00340001  1559552+669       0      e303d2903ccebded
-   1268  Polys             -                   Polys122                    0x00340001  1560221+669       0      287bb4c1d573950e
+   1254  Polys             -                   Polys162                    0x00340001  1548303+669       0      e1934f1d385fe4f6
+   1255  Polys             -                   Polys186                    0x00340001  1548972+669       0      c794b074b01ed2f3
+   1256  Polys             -                   Polys46                     0x00070001  1549641+669       0      6ddce9dd802fc8bb
+   1257  Polys             -                   Polys230                    0x00340001  1550310+669       0      1601a03bba522af3
+   1258  Polys             -                   Polys81                     0x00340001  1550979+3537      0      c9e42ae3f2911809
+   1259  Polys             -                   Polys190                    0x00340001  1554516+669       0      bea752a774b07aa7
+   1260  Polys             -                   Polys169                    0x00070001  1555185+1453      0      88a8c0e9c30bc89d
+   1261  Polys             -                   Polys246                    0x00340001  1556638+119       0      86e2b63226c218c7
+   1262  Polys             -                   Polys24                     0x00340001  1556757+119       0      4fa13fc0a319c79a
+   1263  Polys             -                   Polys212                    0x00340001  1556876+669       0      e9b1b2933d2884eb
+   1264  Polys             -                   Polys73                     0x00340001  1557545+669       0      76dce7286b2a3376
+   1265  Polys             -                   Polys67                     0x00340001  1558214+669       0      be5c6bd56602a2ee
+   1266  Polys             -                   Polys119                    0x00340001  1558883+669       0      c579d41ab2c247f7
+   1267  Polys             -                   Polys72                     0x00340001  1559552+669       0      589f1a12013f5009
+   1268  Polys             -                   Polys122                    0x00340001  1560221+669       0      56ae038c350f1c60
    1269  Model             -                   Model120                    0x00340001  1560890+71        0      8ea7683bb3f6df8b
    1270  Model             -                   Model203                    0x00340001  1560961+71        0      6665a6f6c0e46e7a
    1271  Model             -                   Model204                    0x00340001  1561032+71        0      ad1cdb6abed996fb
-   1272  Polys             -                   Polys50                     0x00070001  1561103+669       0      a3d0bbc8b980c805
-   1273  Polys             -                   Polys140                    0x00340001  1561772+119       0      fefc3a2a2076c9d1
+   1272  Polys             -                   Polys50                     0x00070001  1561103+669       0      0bbecde027b98994
+   1273  Polys             -                   Polys140                    0x00340001  1561772+119       0      a502c37a388ec82f
    1274  Trigger           -                   Trigger2                    0x02070001  1561891+85        11     1a6f9782cb943ae6
    1275  Model             -                   Model205                    0x00340001  1561976+71        0      792d50abe2e66314
-   1276  Polys             -                   Polys152                    0x00070001  1562047+1185      0      3b4b58b3a59e7b36
-   1277  Polys             -                   Polys112                    0x00070001  1563232+669       0      5d893abbd036d8b8
-   1278  Polys             -                   Polys146                    0x00340001  1563901+841       0      d65283ff21c99e91
-   1279  Polys             -                   Polys130                    0x00340001  1564742+1845      0      dbe56085e8a7c5ef
+   1276  Polys             -                   Polys152                    0x00070001  1562047+1185      0      ce9d93e2edfdc4bb
+   1277  Polys             -                   Polys112                    0x00070001  1563232+669       0      3392900c1058c0e1
+   1278  Polys             -                   Polys146                    0x00340001  1563901+841       0      ced058ac588efc46
+   1279  Polys             -                   Polys130                    0x00340001  1564742+1845      0      edaccacb090645ab
    1280  Model             -                   Model141                    0x00070001  1566587+71        0      58bfb6d024e9431a
    1281  Model             -                   Model249                    0x00340001  1566658+71        0      b604e6e12664027f
    1282  AmbientSound      -                   AmbientSound23              0x02070001  1566729+98        13     c639826a4da4ad9b
-   1283  Polys             -                   Polys233                    0x00340001  1566827+119       0      9a57da0af551cc54
-   1284  Polys             -                   Polys91                     0x00070001  1566946+669       0      d9770e16f74d41d8
+   1283  Polys             -                   Polys233                    0x00340001  1566827+119       0      86e2b63226c218c7
+   1284  Polys             -                   Polys91                     0x00070001  1566946+669       0      023a84b04383f68f
    1285  Model             -                   Model174                    0x00340001  1567615+71        0      a0384259ee600890
    1286  Model             -                   Model338                    0x00340001  1567686+71        0      6dfcc6ed4d754120
-   1287  Polys             -                   Polys166                    0x00340001  1567757+669       0      908379067dd5848b
+   1287  Polys             -                   Polys166                    0x00340001  1567757+669       0      580577f91a95d522
    1288  TriggeredDeath    -                   TriggeredDeath2             0x02070001  1568426+98        11     12d0f49c1c5e3916
    1289  TriggeredDeath    -                   TriggeredDeath5             0x02070001  1568524+98        11     5fff01c0abcd16a4
    1290  Model             -                   Model325                    0x00070001  1568622+71        0      ea890ec83bc4009b
-   1291  Polys             -                   Polys175                    0x00340001  1568693+119       0      56778ee99ab79a99
+   1291  Polys             -                   Polys175                    0x00340001  1568693+119       0      cd40981da22b1a6a
    1292  Model             -                   Model324                    0x00070001  1568812+71        0      49bdc799f40ebee3
-   1293  Polys             -                   Polys318                    0x00070001  1568883+669       0      aa379236df7a57a1
+   1293  Polys             -                   Polys318                    0x00070001  1568883+669       0      af7181d8dec8ea57
    1294  TriggeredDeath    -                   TriggeredDeath8             0x02070001  1569552+98        11     daaae3e90f7144e2
-   1295  Polys             -                   Polys283                    0x00070001  1569650+2165      0      25b5de10bb68179d
-   1296  Polys             -                   Polys288                    0x00070001  1571815+119       0      3fef372434db0488
-   1297  Polys             -                   Polys350                    0x00340001  1571934+841       0      dfb7380b22f3cc03
+   1295  Polys             -                   Polys283                    0x00070001  1569650+2165      0      0036d07b1d517824
+   1296  Polys             -                   Polys288                    0x00070001  1571815+119       0      c58f86ac90ddea0b
+   1297  Polys             -                   Polys350                    0x00340001  1571934+841       0      256fc032ff292190
    1298  DynamicAmbientSound -                   DynamicAmbientSound6        0x02070001  1572775+104       15     8be4a900ea21b531
    1299  DynamicAmbientSound -                   DynamicAmbientSound5        0x02070001  1572879+104       15     d86a6ae4577d13ff
    1300  DynamicAmbientSound -                   DynamicAmbientSound4        0x02070001  1572983+104       15     f6d23ef118e08224
    1301  DynamicAmbientSound -                   DynamicAmbientSound2        0x02070001  1573087+104       15     e70502af02c04242
    1302  DynamicAmbientSound -                   DynamicAmbientSound3        0x02070001  1573191+104       15     6eab446068c3bc21
    1303  DynamicAmbientSound -                   DynamicAmbientSound7        0x02070001  1573295+104       15     a3ab4524a9848d1c
-   1304  Polys             -                   Polys258                    0x00070001  1573399+669       0      a3d0bbc8b980c805
+   1304  Polys             -                   Polys258                    0x00070001  1573399+669       0      0bbecde027b98994
    1305  Model             -                   Model294                    0x00070001  1574068+71        0      36489039f46e0e97
    1306  Model             -                   Model293                    0x00070001  1574139+71        0      94612fc552b1c364
    1307  Model             -                   Model292                    0x00070001  1574210+71        0      48ad5defb780e6c8
    1308  Model             -                   Model291                    0x00070001  1574281+71        0      f96c3355ec399dd1
-   1309  Polys             -                   Polys297                    0x00070001  1574352+119       0      915086ceb3da9288
-   1310  Polys             -                   Polys196                    0x00340001  1574471+841       0      61f0b845255d0551
+   1309  Polys             -                   Polys297                    0x00070001  1574352+119       0      de09ff70743660b1
+   1310  Polys             -                   Polys196                    0x00340001  1574471+841       0      191b6a88fc00d897
    1311  Model             -                   Model259                    0x00340001  1575312+71        0      45165c4e3aa8cfe0
-   1312  Polys             -                   Polys276                    0x00340001  1575383+669       0      69dc557722e39a04
-   1313  Polys             -                   Polys216                    0x00340001  1576052+669       0      4d4e0accf5d4c714
+   1312  Polys             -                   Polys276                    0x00340001  1575383+669       0      10b96123813643a6
+   1313  Polys             -                   Polys216                    0x00340001  1576052+669       0      a6ced7cbc1a62688
    1314  TriggeredDeath    -                   TriggeredDeath0             0x02070001  1576721+98        11     2aafe31b1c33778a
    1315  TriggeredDeath    -                   TriggeredDeath7             0x02070001  1576819+98        11     10c1057ae0e06d24
    1316  TriggeredDeath    -                   TriggeredDeath6             0x02070001  1576917+98        11     ba10865baf0997f9
    1317  TriggeredDeath    -                   TriggeredDeath1             0x02070001  1577015+98        11     29fb0259bf6011f0
    1318  BlockMonsters     -                   BlockMonsters0              0x02070001  1577113+84        10     7b236de2b276439a
-   1319  Polys             -                   Polys293                    0x00070001  1577197+2165      0      25b5de10bb68179d
-   1320  Polys             -                   Polys248                    0x00340001  1579362+669       0      2298f7f54cb03c90
+   1319  Polys             -                   Polys293                    0x00070001  1577197+2165      0      0036d07b1d517824
+   1320  Polys             -                   Polys248                    0x00340001  1579362+669       0      f94e955831da2b4b
    1321  DynamicAmbientSound -                   DynamicAmbientSound1        0x02070001  1580031+104       15     3b808b4f4c83c16d
    1322  DynamicAmbientSound -                   DynamicAmbientSound0        0x02070001  1580135+104       15     9ffc705350a6d6af
    1323  TriggeredDeath    -                   TriggeredDeath4             0x02070001  1580239+98        11     f38585d272d72b47
    1324  TriggeredDeath    -                   TriggeredDeath3             0x02070001  1580337+98        11     225fe4a70cb6cafc
    1325  Model             -                   Model228                    0x00070001  1580435+71        0      d3f31912d4d820e5
    1326  Model             -                   Model229                    0x00340001  1580506+71        0      972ba75b6661cc41
-   1327  Polys             -                   Polys150                    0x00070001  1580577+1185      0      ef6b6f6cdba9f382
+   1327  Polys             -                   Polys150                    0x00070001  1580577+1185      0      da692b0ed7be1222
    1328  Model             -                   Model132                    0x00340001  1581762+71        0      c57093c247f813a1
-   1329  Polys             -                   Polys264                    0x00340001  1581833+119       0      9a57da0af551cc54
+   1329  Polys             -                   Polys264                    0x00340001  1581833+119       0      86e2b63226c218c7
    1330  Polys             -                   Polys3                      0x00070001  1581952+9         0      b6294486088517bb
-   1331  Polys             -                   Polys262                    0x00070001  1581961+119       0      915086ceb3da9288
-   1332  Polys             -                   Polys244                    0x00340001  1582080+669       0      edf15ebeff865474
-   1333  Polys             -                   Polys177                    0x00340001  1582749+1453      0      58a6272878a5a5f4
+   1331  Polys             -                   Polys262                    0x00070001  1581961+119       0      de09ff70743660b1
+   1332  Polys             -                   Polys244                    0x00340001  1582080+669       0      26be432db13fdd35
+   1333  Polys             -                   Polys177                    0x00340001  1582749+1453      0      ba03ddb814b5f228
    1334  Model             -                   Model337                    0x00340001  1584202+71        0      f60ddce016748d5b
    1335  Camera            -                   Camera5                     0x02340000  1584273+101       13     891494e13d6766d3
    1336  Camera            -                   Camera4                     0x02340000  1584374+101       13     9fab23a04dca0361
