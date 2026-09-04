@@ -99,6 +99,14 @@ export abstract class UObject {
   get uppermostPackageObjectName(): string {
     return this.uppermostPackageObject.objectName;
   }
+
+  isExportTableObject(): this is ExportTableObject {
+    return this.table === "export";
+  }
+
+  isImportTableObject(): this is ImportTableObject {
+    return this.table === "import";
+  }
 }
 
 /**
